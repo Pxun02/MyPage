@@ -30,25 +30,25 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 	</head>
 	<body>
 		<header>
-			<nav class="language-select">日 / <a href={`/blog/en/${currentPage}`}>En</a></nav>
+			<nav class="language-select">日 / <a href={`/MyPage/blog/en/${currentPage}`}>En</a></nav>
 			<h1>南洋豆花探訪記</h1>
-			<a href={`/blog/jp/${currentPage}`}></a>
+			<a href={`/MyPage/blog/jp/${currentPage}`}></a>
 			<ul class="links-head">
 				<li><i class="fa-solid fa-play"></i><a href="../../../">管理人について (アカデミックプロフィール、英語サイト)</a></li>
-				<li><i class="fa-solid fa-play"></i><a href="/blog/jp/records">その他の訪問記録</a></li>
+				<li><i class="fa-solid fa-play"></i><a href="/MyPage/blog/jp/records">その他の訪問記録</a></li>
 			</ul>
 			<nav>
 				<a href="home"><i class="fa-solid fa-house"></i></a>
 			</nav>
 			<nav class="pagination">
 				{currentPage > 1 ? (
-				  <a href={`/blog/jp/${currentPage - 1}`} class="prev-page">
+				  <a href={`/MyPage/blog/jp/${currentPage - 1}`} class="prev-page">
 					<i class="fas fa-chevron-left"></i> Previous
 				  </a>
 				): <span></span>}
 				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 				{currentPage < maxPage ? (
-				   <a href={`/blog/jp/${currentPage + 1}`} class="next-page">
+				   <a href={`/MyPage/blog/jp/${currentPage + 1}`} class="next-page">
 					Next <i class="fas fa-chevron-right"></i>
 				  </a>
 				): <span></span>}
@@ -118,13 +118,13 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 	<footer>
 		<nav class="pagination">
 			{currentPage > 1 ? (
-			  <a href={`/blog/jp/${currentPage - 1}`} class="prev-page">
+			  <a href={`/MyPage/blog/jp/${currentPage - 1}`} class="prev-page">
 				<i class="fas fa-chevron-left"></i> Previous
 			  </a>
 			): <span></span>}
 			<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 			{currentPage < maxPage ? (
-			   <a href={`/blog/jp/${currentPage + 1}`} class="next-page">
+			   <a href={`/MyPage/blog/jp/${currentPage + 1}`} class="next-page">
 				Next <i class="fas fa-chevron-right"></i>
 			  </a>
 			): <span></span>}
