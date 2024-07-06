@@ -6,5 +6,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   site: 'https://Pxun02.github.io',
   base: '/MyPage',
+  build: 'file',
   integrations: [react()]
 });
