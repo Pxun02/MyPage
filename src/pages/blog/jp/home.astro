@@ -48,7 +48,7 @@ const sortedCountries = Object.entries(countryCounts)
                   ※インフレで値上げすることがありますが全ては追えないので、値段も参考程度にとどめてください。
                 </p>
                 <h2>国/地域別訪問店数</h2>
-                <p class="total-shops">トータル: {shopsData.length}</p>
+                <p class="total-shops">計: {shopsData.length}</p>
                 <ul>
                     {sortedCountries.map(country => (
                       <li>{country}: {countryCounts[country]}</li>
