@@ -75,7 +75,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 							<h2>{shop.rank}. {shop.store_name} @ {shop.place}</h2>
 							<h3>{shop.country_en}</h3>
 							<ul>
-								{shop.picture.map((imagePath) => ( <Image src={import(imagePath)} alt="{shop.store_name} Image" width="300" height="400" /> ))}
+								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
 							</ul>
 							<ul>
 							{shop.foods_id.map((foodId) => {
