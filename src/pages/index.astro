@@ -1,0 +1,134 @@
+---
+import '../styles/global.css';
+import localTitleImage from '../images/img_1.jpg';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Profile | Shawn</title>
+	</head>
+	<body>
+		<header>
+			<img src={localTitleImage.src} alt="Website Logo">
+			<h1>Hirashima Shunya (Shawn)</h1>
+			<p>Final Year Undergraduate Student at Nanyang Technological University (NTU), Singapore<br>Major: Computer Science</p>
+			<nav>
+				<a href="https://x.com/hsunPng" target="_blank"><i class="fab fa-x-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://github.com/Pxun02" target="_blank"><i class="fab fa-github"></i></a>
+			</nav>
+		</header>
+
+		<main>
+			<div class="left-column">
+				<section id="statement">
+					<h2>Latest Activity</h2>
+					<p>I am currently committing FYP.</p>
+				</section>
+			
+				<section id="research-interest">
+					<h2>Research Interest</h2>
+					<div class="fields-container">
+						<div class="fundamentals">
+							<h3>Fundamentals</h3>
+							<ul>
+								<li>Evolutionary Game Theory</li>
+								<li>Complex Network</li>
+								<li>Dynamics</li>
+								<li>Multi-Agent Systems</li>
+	
+							<!-- Add more fields as needed -->
+							</ul>
+						</div>
+						<div class="applications">
+							<h3>Applications</h3>
+							<ul>
+								<li>Energy Distributions</li>
+								<li>Urban Social Networks</li>
+								<li>AI</li>
+							<!-- Add more fields as needed -->
+							</ul>
+						</div>
+				</section>
+			
+				<section id="publications">
+					<h2>Publications</h2>
+					<ul>
+						<li>
+							<h3>No Contents Are Found</h3>
+							<p>Unknown author</p>
+							<p>Unknown journal, n.d.</p>
+						</li>
+						<!-- Add more publications as needed -->
+					</ul>
+				</section>
+			
+				<section id="projects">
+					<h2>Projects</h2>
+					<ul>
+						<li>
+							<h3>Exciting Project No.1</h3>
+							<p>In progress!</p>
+						</li>
+						<!-- Add more projects as needed -->
+					</ul>
+				</section>
+			
+				<section id="tidbits">
+					<h2>Tidbits</h2>
+					<ul>
+						<li>Hobbies: readings, strolling around cities, <a href='/blog/en/home'>beancurd/local food hoppings</a></li>
+						<li>Fav Music: C-pop, J-pop</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="line"></div>
+
+			<div class="right-column">
+				<section id="experiences">
+					<h2>Experiences</h2>
+					<ul>
+						<li>
+							<h3>Panasonic R&D Center Singapore</h3>
+							<p>R&D Engineer, Internship, Singapore</p>
+							<p>Aug 2023 - Dec 2023</p>
+							<p>Carried out R&D for the control algorithm for Distributed Energy Resource Management Systems (DERMS)</p>
+						</li>
+						<li>
+							<h3>michibiku</h3>
+							<p>R&D Engineer, Internship, Japan</p>
+							<p>May 2023 - Jul 2023</p>
+							<p>Researched and developed generative AI solutions</p>
+						</li>
+					</ul>
+				</section>
+
+				<section id="education">
+					<h2>Education</h2>
+					<ul>
+						<li>
+							<h3>Bachelor of Computing</h3>
+							<p>Nanyang Technological University (NTU), Singapore</p>
+							<p>Aug 2021 - Present</p>
+						</li>
+						<li>
+							<h3>Term-Time Exchange </h3>
+							<p>The Chinese University of Hong Kong (CUHK), Hong Kong</p>
+							<p>Jan 2024 - May 2024</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+	</body>
+	<footer>
+		<hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+</html>

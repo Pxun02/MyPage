@@ -1,0 +1,131 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+img {
+    margin-right: 1rem; /* Add some space between image and h1 */
+    width: 180px;
+    height: 225px;
+  }
+
+nav a {
+	margin: 0 10px;
+    font-size: 30px;
+	text-decoration: none;
+	color: #0066cc;
+}
+
+h1 {
+    color: #0066cc;
+    font-size: 40px;
+}
+h2, h3 {
+	color: #0066cc;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-column {
+    width: 70%;
+    padding-right: 2%;
+}
+
+.right-column {
+    width: 30%;
+    padding-left: 2%;
+}
+
+.line {
+    width: 1px;
+    background-color: #ccc; /* Change the color to whatever you need */
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+#interested-fields ul,
+#tidbits ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#interested-fields li,
+#tidbits li {
+    margin-bottom: 10px;
+}
+
+.fields-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundamentals, .applications {
+    width: 48%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fundamentals {
+    background-color: #e6f2ff; /* Light blue */
+}
+
+.applications {
+    background-color: #e6ffe6; /* Light green */
+}
+
+#interested-fields h3 {
+    color: #0066cc; /* Match your other headings */
+    margin-bottom: 10px;
+}
+
+#interested-fields ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#interested-fields li {
+    margin-bottom: 8px;
+}
+
+footer {
+    padding: 1rem;
+    text-align: left;
+  }
+
+.footer-content {
+    margin: 0 auto; /* Center the content horizontally */
+    color: #555; /* Gray text color */
+}
+
+.footer-line {
+    border-top: 1px solid #ccc; /* Gray line for the footer */
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    main {
+      flex-direction: column-reverse;
+    }
+    .left-column,
+    .right-column {
+      width: 100%;  /* Remove width limitations on mobile screens */
+    }
+  }

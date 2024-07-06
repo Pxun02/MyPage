@@ -1,0 +1,97 @@
+---
+import '../../../styles/blog.css';
+import shopsData from '../../../jsons/shop.json';
+import foodsData from '../../../jsons/food.json';
+import { Image } from 'astro:assets';
+
+const shops = shopsData;
+const foods = foodsData;
+
+const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Blog | Other Visit Records </title>
+	</head>
+	<body>
+		<header>
+			<nav class="language-select">En / <a href={`/blog/jp/records`}>日</a></nav>
+			<h1>Beancurd Hunting Blog</h1>
+			<a href={`/blog/en/records`}></a>
+            <ul class="links-head">
+				<li><i class="fa-solid fa-play"></i><a href="../../../">About Writer (Academic Profile)</a></li>
+                <li><i class="fa-solid fa-play"></i><a href="/blog/en/1">Beancurd Rankings</a></li>
+			</ul>
+			<nav>
+				<a href="home"><i class="fa-solid fa-house"></i></a>
+			</nav>
+			  <hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+				<h2>Beancurd Other Visit Records</h2>
+				<div class="table-of-contents">
+					<h3>Contents</h3>
+					<ul>
+						{shopsOnThisPage.map((shop) => (
+							<li>
+								<a href={`#shop-${shop.ID}`}>{shop.store_name} @ {shop.place}</a>
+							</li>
+						))}
+					</ul>
+				</div>
+
+				<ul>
+					{shopsOnThisPage.map((shop) => (
+						<a id={`shop-${shop.ID}`}>
+							<h2>{shop.store_name} @ {shop.place}</h2>
+							<h3>{shop.country_en}</h3>
+							<ul>
+								{shop.picture.map((imagePath) => ( <Image src={import(imagePath)} alt="{shop.store_name} Image" width="300" height="400" /> ))}
+							</ul>
+							<ul>
+							{shop.foods_id.map((foodId) => {
+								const foodItem = foods.find((food) => food.ID === foodId);
+								if (foodItem) {
+								return (
+									<li>
+									{foodItem.food_name_en} - {foodItem.currency}{foodItem.price}
+									</li>
+								);
+								} else {
+								return null; // Skip if food item not found
+								}
+							})}
+							</ul>
+							<br />
+							<iframe
+								width="600"
+								height="400"
+								id="frame"
+								src={shop.map_en}
+								frameborder="0"
+								allowfullscreen
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								aria-label="Map of {shop.store_name}"
+								style={{ marginBottom: '4rem' }} 
+								**respponsive**
+								/>
+					</a>
+					))}
+				</ul>
+			</article>
+		</main>
+	</body>
+	<footer>
+		  <hr class="footer-line">
+		  <div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+</html>

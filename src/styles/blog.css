@@ -1,0 +1,276 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+nav a {
+    float: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+	text-decoration: none;
+	color: #0066cc;
+}
+
+header {
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    float: none;
+    margin-top: 0;
+}
+
+
+h2, h3 {
+	color: #0066cc;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-column {
+    width: 70%;
+    padding-right: 2%;
+}
+
+.right-column {
+    width: 30%;
+    padding-left: 2%;
+}
+
+.line {
+    width: 1px;
+    background-color: #ccc; /* Change the color to whatever you need */
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+#interested-fields ul,
+#tidbits ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#interested-fields li,
+#tidbits li {
+    margin-bottom: 10px;
+}
+
+.fields-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundamentals, .applications {
+    width: 48%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.fundamentals {
+    background-color: #e6f2ff; /* Light blue */
+}
+
+.applications {
+    background-color: #e6ffe6; /* Light green */
+}
+
+#interested-fields h3 {
+    color: #0066cc; /* Match your other headings */
+    margin-bottom: 10px;
+}
+
+#interested-fields ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#interested-fields li {
+    margin-bottom: 8px;
+}
+
+footer {
+    padding: 1rem;
+    text-align: left;
+  }
+
+.footer-content {
+    margin: 0 auto; /* Center the content horizontally */
+    color: #555; /* Gray text color */
+}
+
+.header-line {
+    border-top: 1px solid #ccc; /* Gray line for the footer */
+    margin-top: 1rem;
+}
+
+.footer-line {
+    border-top: 1px solid #ccc; /* Gray line for the footer */
+    margin-top: 1rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination a:hover {
+    background-color: #f0f0f0;
+  }
+  
+.current-page {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.next-page{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.next-page i {
+    align-self: top;
+    font-size: 1.0rem;
+}
+
+.prev-page{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.prev-page i {
+    align-self: top;
+    font-size: 1.0rem;
+  }
+
+  .table-of-contents {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.table-of-contents h3 {
+    margin-top: 0;
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 0.5rem;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #333;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
+
+.language-select {
+    font-weight: bold;
+    font-size: 24px;
+    width: fit-content; /* Adjust padding as needed */
+    display: float;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    margin-bottom: 0;
+}
+
+.language-select a {
+    font-size: 20px;
+    color: #0066cc;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.links {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;  /* Remove default padding (optional) */
+    margin: 0; 
+    color: #0066cc;
+}
+
+.links a {
+    text-decoration: none;  /* Remove underline from links */
+    color: inherit;  /* Inherit color from parent */
+    margin-bottom: 10px;  /* Add space between links (optional) */
+  }
+
+.links li {
+    list-style: none;  /* Remove default bullet points */
+    position: relative;  /* Enable relative positioning for icon */
+    padding-left: 20px;  /* Adjust padding for icon space */
+}
+
+.links li i {
+    margin-right: 10px;  /* Add space between icon and link text (optional) */
+}
+
+.links-head {
+    display: flex;  /* Already included for flexbox */
+    list-style: none;  /* Already included to remove bullet points */
+    padding: 0;  /* Already included to remove padding (optional) */
+    justify-content: space-between; /* Distribute items evenly */
+    margin: 0;
+  }
+  
+  .links-head li {
+    margin-right: 1rem;  /* Already included for spacing (optional) */
+  }
+  
+  .links-head li:last-child {  /* Already included to remove margin (optional) */
+    margin-right: 0;
+  }
+  
+.shop img {
+    max-width: 100%;
+  }
+
+.total-shops {
+    font-weight: bold;
+}
+
+  @media (max-width: 768px) {
+    #frame {
+        width: 100%;  /* Set width to 100% on small screens */
+        height: 300px;  /* Adjust height as needed */
+      }
+  }

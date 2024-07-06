@@ -1,0 +1,76 @@
+---
+import '../../../styles/blog.css';
+import shopsData from '../../../jsons/shop.json';
+
+const countries = [...new Set(shopsData.map(item => item.country_jp))];
+
+const countryCounts = countries.reduce((acc, country) => {
+  acc[country] = shopsData.filter(item => item.country_jp === country).length;
+  return acc;
+}, {} as Record<string, number>);
+
+const sortedCountries = Object.entries(countryCounts)
+  .sort((a, b) => b[1] - a[1])
+  .map(([country]) => country);
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>南洋豆花探訪記 | Home </title>
+	</head>
+	<body>
+		<header>
+			<nav class="language-select">日 / <a href={`/blog/en/home`}>En</a></nav>
+			<h1>南洋豆花探訪記</h1>
+			<hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+                <ul class="links">
+                    <li><i class="fa-solid fa-play"></i><a href="../../../">管理人について (アカデミックプロフィール、英語サイト)</a></li>
+                    <li><i class="fa-solid fa-play"></i><a href="/blog/jp/1">豆花ランキング</a></li>
+                    <li><i class="fa-solid fa-play"></i><a href="/blog/jp/records">その他の訪問記録</a></li>
+                </ul>
+                <h2>はじめに</h2>
+                <p>
+                    南洋豆花探訪記へようこそ！ここでは、私の豆花店の訪問記録やランキングをアップロードしていきます。
+                </p>
+                <p>
+                    ※このランキングは管理人の個人的な味覚のもと作られています。参考程度にとどめてください。
+                </p>
+                <p>
+                  ※インフレで値上げすることがありますが全ては追えないので、値段も参考程度にとどめてください。
+                </p>
+                <h2>国/地域別訪問店数</h2>
+                <p class="total-shops">トータル: {shopsData.length}</p>
+                <ul>
+                    {sortedCountries.map(country => (
+                      <li>{country}: {countryCounts[country]}</li>
+                    ))}
+                  </ul>
+                <h2>掲載豆花店</h2>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1SZZ2-RGoaHdaa_6rPurtxPdQB51o-f4&ehbc=2E312F&noprof=1" 								
+                width="600"
+                height="400"
+                id="frame"
+                frameborder="0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                aria-label="Map of {shop.store_name}"
+                **respponsive**
+                />
+			</article>
+		</main>
+	</body>
+	<footer>
+        <hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+</html>

@@ -1,0 +1,632 @@
+[
+    {
+        "ID": "01",
+        "food_name_jp": "\u8c46\u4e73",
+        "food_name_en": "Soya Milk",
+        "price": "1.2",
+        "currency": "SGD"
+    },
+    {
+        "ID": "02",
+        "food_name_jp": "\u8c46\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "1.2",
+        "currency": "SGD"
+    },
+    {
+        "ID": "03",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "16",
+        "currency": "MOP"
+    },
+    {
+        "ID": "04",
+        "food_name_jp": "\u8c46\u4e73",
+        "food_name_en": "Soya Milk",
+        "price": "1.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "05",
+        "food_name_jp": "\u8c46\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "1.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "06",
+        "food_name_jp": "\u674f\u4ec1\u8c46\u82b1",
+        "food_name_en": "Almond Beancurd",
+        "price": "1.6",
+        "currency": "SGD"
+    },
+    {
+        "ID": "07",
+        "food_name_jp": "\u8c46\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "1.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "08",
+        "food_name_jp": "\u4ed9\u8349\u8c46\u82b1",
+        "food_name_en": "Grass Jelly Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "09",
+        "food_name_jp": "\u8c46\u4e73",
+        "food_name_en": "Soya Milk",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "10",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "3.5",
+        "currency": "RM"
+    },
+    {
+        "ID": "11",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "3.9",
+        "currency": "RM"
+    },
+    {
+        "ID": "12",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "3.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "13",
+        "food_name_jp": "\u8c46\u8150\u82b1\u5c0f",
+        "food_name_en": "Beancurd (small)",
+        "price": "10",
+        "currency": "MOP"
+    },
+    {
+        "ID": "14",
+        "food_name_jp": "\u8c46\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "15",
+        "food_name_jp": "\u8c46\u4e73",
+        "food_name_en": "Soya Milk",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "16",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "17",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "18",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "13",
+        "currency": "HKD"
+    },
+    {
+        "ID": "19",
+        "food_name_jp": "\u8c46\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "2.2",
+        "currency": "RM"
+    },
+    {
+        "ID": "20",
+        "food_name_jp": "\u8c46\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "1.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "21",
+        "food_name_jp": "\u4ed9\u8349\u8c46\u82b1",
+        "food_name_en": "Grass Jelly Beancurd",
+        "price": "2.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "22",
+        "food_name_jp": "\u8c46\u8150\u30d7\u30ea\u30f3",
+        "food_name_en": "Pudding Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "23",
+        "food_name_jp": "\u8c46\u4e73",
+        "food_name_en": "Soya Milk",
+        "price": "1.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "24",
+        "food_name_jp": "\u8373\u8150\u82b1",
+        "food_name_en": "Beancurd",
+        "price": "11",
+        "currency": "HKD"
+    },
+    {
+        "ID": "25",
+        "food_name_jp": "\u8373\u8150\u5976\u51cd",
+        "food_name_en": "Tofu Milky Pudding",
+        "price": "18",
+        "currency": "HKD"
+    },
+    {
+        "ID": "26",
+        "food_name_jp": "豆花",
+        "food_name_en": "Traditional Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "27",
+        "food_name_jp": "豆花ゼリー",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "28",
+        "food_name_jp": "黑豆豆腐花",
+        "food_name_en": "Black Bean Beancurd",
+        "price": "15",
+        "currency": "HKD"
+    },
+    {
+        "ID": "29",
+        "food_name_jp": "桂花冰糖豆腐花",
+        "food_name_en": "Osmanthus White Sugar Beancurd",
+        "price": "10",
+        "currency": "HKD"
+    },
+    {
+        "ID": "30",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "31",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "32",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "33",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "34",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "35",
+        "food_name_jp": "桂花冰糖豆花",
+        "food_name_en": "Osmanthus White Sugar Beancurd",
+        "price": "9",
+        "currency": "HKD"
+    },
+    {
+        "ID": "36",
+        "food_name_jp": "冰糖豆腐花",
+        "food_name_en": "White Sugar Beancurd",
+        "price": "11",
+        "currency": "HKD"
+    },
+    {
+        "ID": "37",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "10",
+        "currency": "HKD"
+    },
+    {
+        "ID": "38",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "8",
+        "currency": "HKD"
+    },
+    {
+        "ID": "39",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "3.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "40",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "41",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "2.2",
+        "currency": "RM"
+    },
+    {
+        "ID": "42",
+        "food_name_jp": "原味豆腐花",
+        "food_name_en": "Original Beancurd",
+        "price": "18",
+        "currency": "MOP"
+    },
+    {
+        "ID": "43",
+        "food_name_jp": "冰糖豆腐花",
+        "food_name_en": "White Sugar Beancurd",
+        "price": "20",
+        "currency": "HKD"
+    },
+    {
+        "ID": "44",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "16",
+        "currency": "HKD"
+    },
+    {
+        "ID": "45",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "46",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "47",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "2.5",
+        "currency": "RM"
+    },
+    {
+        "ID": "48",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "16",
+        "currency": "HKD"
+    },
+    {
+        "ID": "49",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "11",
+        "currency": "HKD"
+    },
+    {
+        "ID": "50",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "22",
+        "currency": "HKD"
+    },
+    {
+        "ID": "51",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "3.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "52",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "0.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "53",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "0.9",
+        "currency": "SGD"
+    },
+    {
+        "ID": "54",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.6",
+        "currency": "SGD"
+    },
+    {
+        "ID": "55",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "56",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "57",
+        "food_name_jp": "湯圓豆花",
+        "food_name_en": "Tang Yuan Beancurd",
+        "price": "2.2",
+        "currency": "SGD"
+    },
+    {
+        "ID": "58",
+        "food_name_jp": "原味豆花",
+        "food_name_en": "Original Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "59",
+        "food_name_jp": "杏仁豆花",
+        "food_name_en": "Almond Beancurd",
+        "price": "2.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "60",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "61",
+        "food_name_jp": "豆花プリン",
+        "food_name_en": "Beancurd Pudding",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "62",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "63",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.5",
+        "currency": "SGD"
+    },
+    {
+        "ID": "64",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.5",
+        "currency": "SGD"
+    },    
+    {
+        "ID": "65",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "66",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.2",
+        "currency": "SGD"
+    },
+    {
+        "ID": "67",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "2.1",
+        "currency": "SGD"
+    },
+    {
+        "ID": "68",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.9",
+        "currency": "SGD"
+    },
+    {
+        "ID": "69",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "6.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "70",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "2.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "71",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "2.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "72",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.0",
+        "currency": "SGD"
+    },
+    {
+        "ID": "73",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.8",
+        "currency": "SGD"
+    },
+    {
+        "ID": "74",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.8",
+        "currency": "SGD"
+    },
+    {
+        "ID": "75",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.8",
+        "currency": "SGD"
+    },
+    {
+        "ID": "76",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "77",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.7",
+        "currency": "SGD"
+    },
+    {
+        "ID": "78",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.6",
+        "currency": "SGD"
+    },
+    {
+        "ID": "79",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "80",
+        "food_name_jp": "豆乳",
+        "food_name_en": "Soya Milk",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "81",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.4",
+        "currency": "SGD"
+    },
+    {
+        "ID": "82",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
+    },
+    {
+        "ID": "83",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "9.0",
+        "currency": "HKD"
+    },
+    {
+        "ID": "84",
+        "food_name_jp": "豆腐花薑汁",
+        "food_name_en": "Ginger Syrup Beancurd",
+        "price": "15",
+        "currency": "HKD"
+    },
+    {
+        "ID": "85",
+        "food_name_jp": "薑汁豆腐花",
+        "food_name_en": "Ginger Syrup Beancurd",
+        "price": "20",
+        "currency": "HKD"
+    },
+    {
+        "ID": "86",
+        "food_name_jp": "Soyaccino",
+        "food_name_en": "Soyaccino",
+        "price": "32",
+        "currency": "HKD"
+    },
+    {
+        "ID": "87",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "15",
+        "currency": "HKD"
+    },
+    {
+        "ID": "88",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "15",
+        "currency": "HKD"
+    },
+    {
+        "ID": "89",
+        "food_name_jp": "豆腐花",
+        "food_name_en": "Beancurd",
+        "price": "11",
+        "currency": "HKD"
+    },
+    {
+        "ID": "90",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "760",
+        "currency": "JPY"
+    }
+]
