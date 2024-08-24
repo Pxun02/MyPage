@@ -1593,5 +1593,41 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2z5Y-w5rm-55Sc5ZWG5bqXIOmYquaApeS4ieeVquihl-W6lw!5e0!3m2!1sja!2sjp!4v1720250552792!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2sTaiwan%20Ten%20Caf%C3%A9%20Hankyu%20Sanban%20Gai!5e0!3m2!1sen!2sjp!4v1720250535435!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "67",
+        "rank": -1,
+        "store_name": "Soya Bean & Jelly Drink 歡飲豆花水",
+        "place": "Chong Pang Market & Food Centre",
+        "picture": [
+            "/MyPage/images/blog_images/bc64.jpg"
+        ],
+        "foods_id": [
+            "91"
+        ],
+        "country_jp": "シンガポール",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sja!2ssg!4v1724466011484!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.35601551141!2d103.69104657519621!3d1.3762545550101817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sen!2ssg!4v1724465960633!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "68",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean",
+        "place": "Marine Parade Central Market & Food Centre",
+        "picture": [
+            "/MyPage/images/blog_images/bc63.jpg"
+        ],
+        "foods_id": [
+            "92"
+        ],
+        "country_jp": "シンガポール",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1724466107223!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.33779537179!2d103.69104637252359!3d1.3765949500024182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1724466145932!5m2!1sen!2ssg"
     }
 ]
