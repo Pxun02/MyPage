@@ -45,7 +45,7 @@ const shops = foodsData;
 				<h2>2024年</h2>
 				<div class="table-of-contents">
 					<h3>目次</h3>
-					<ul>
+					<ul class="imgs">
 						{shops.map((shop) => (
 							<li>
 								<a href={`#shop-${shop.rank}`}>{shop.rank}位: {shop.store_name} @ {shop.location}</a>

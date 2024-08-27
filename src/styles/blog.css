@@ -273,7 +273,7 @@ footer {
         width: 100%;  /* Set width to 100% on small screens */
         height: 300px;  /* Adjust height as needed */
       }
-    ul {
+    .imgs{
         padding-left: 0px;
     }
   }

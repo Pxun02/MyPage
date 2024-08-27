@@ -52,7 +52,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 						<a id={`shop-${shop.ID}`}>
 							<h2>{shop.store_name} @ {shop.place}</h2>
 							<h3>{shop.country_en}</h3>
-							<ul>
+							<ul class="imgs">
 								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
 							</ul>
 							<ul>
