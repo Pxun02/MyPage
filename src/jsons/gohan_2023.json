@@ -1,0 +1,152 @@
+[
+    {
+        "ID": "01",
+        "rank": 1,
+        "store_name": "57°",
+        "location": "Paya Lebar",
+        "country": "シンガポール",
+        "food_name": "麻辣香锅",
+        "picture": ["/MyPage/images/food_images/f1.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.718890917288!2d103.87892797526774!3d1.3451004615904851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f18a6dfb25%3A0xb542fd25bfba9147!2s57%CB%9A%20Mala%20Xiang%20Guo%20%40Paya%20Lebar!5e0!3m2!1sja!2ssg!4v1724757415942!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "02",
+        "rank": 2,
+        "store_name": "La Way (辣味)",
+        "location": "Orchard Tower",
+        "country": "シンガポール",
+        "food_name": "麻辣香锅",
+        "picture": ["/MyPage/images/food_images/f2.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7803702216947!2d103.8265684752677!3d1.3069492617116223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19582dcd4055%3A0xca6b5389834bc6b3!2zTGEgV2F5IC0gT3JjaGFyZCDovqPlkbMt5LmM6IqC6Lev5bqXIHwgTWFsYSBIb3Rwb3QgYW5kIENoaW5lc2UgQ3Vpc2luZSDpurvovqPpppnplIXlj4rkuK3ppJA!5e0!3m2!1sja!2ssg!4v1724757474258!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "03",
+        "rank": 3,
+        "store_name": "正宗川味麻辣香锅 Ma La Xiang Guo",
+        "location": "Bedok Interchange Hawker Centre",
+        "country": "シンガポール",
+        "food_name": "麻辣香锅",
+        "picture": ["/MyPage/images/food_images/f3.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.003917287093!2d103.9115506410599!3d1.3253248859695264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da22b36a3ff70d%3A0x1ba9d56513807124!2z5q2j5a6X5bed5ZGz6bq76L6j6aaZ6ZSFIE1hIExhIFhpYW5nIEd1bw!5e0!3m2!1sja!2ssg!4v1724757638894!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "04",
+        "rank": 4,
+        "store_name": "ラーメン海鳴",
+        "location": "博多デイトス",
+        "country": "日本",
+        "food_name": "明太子まぜそば",
+        "picture": ["/MyPage/images/food_images/f5.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.555253215679!2d130.41857687581978!3d33.5908949419497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191c878c3cd39%3A0x2feff41173106a20!2z44Op44O844Oh44Oz5rW36bO0IOWNmuWkmuODh-OCpOODiOOCueW6lw!5e0!3m2!1sja!2ssg!4v1724759159301!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "05",
+        "rank": 5,
+        "store_name": "麺屋はなび",
+        "location": "高畑, 名古屋",
+        "country": "日本",
+        "food_name": "DX台湾まぜそば",
+        "picture": ["/MyPage/images/food_images/f6.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.6193081812467!2d136.8541703758767!3d35.141172559451725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600377a50806a58b%3A0x2e2bd0dac3fb8e52!2z6bq65bGL44Gv44Gq44GzIOmrmOeVkeacrOW6lw!5e0!3m2!1sja!2ssg!4v1724759240233!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "06",
+        "rank": 6,
+        "store_name": "徳記茶餐室 Ipoh Tuck Kee Restaurant",
+        "location": "Ipoh New Town",
+        "country": "マレーシア",
+        "food_name": "月光河",
+        "picture": ["/MyPage/images/food_images/f4.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7954.00136704528!2d101.07864033828602!3d4.593898411402319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec64850b3627%3A0xb786f1426ec600a9!2sIpoh%20Tuck%20Kee%20Restaurant!5e0!3m2!1sja!2ssg!4v1724757764806!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "07",
+        "rank": 7,
+        "store_name": "山下本気うどん",
+        "location": "渋谷、他",
+        "country": "日本",
+        "food_name": "明太クリームうどん",
+        "picture": ["/MyPage/images/food_images/f7.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6934625195786!2d139.69754807589612!3d35.65992333114401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca8180cf5f5%3A0x944b9091c3311266!2z5bGx5LiL5pys5rCX44GG44Gp44KTIOa4i-iwt-OCu-ODs-OCv-ODvOihlw!5e0!3m2!1sja!2ssg!4v1724759389871!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "08",
+        "rank": 8,
+        "store_name": "手打うどん 錦",
+        "location": "名古屋",
+        "country": "日本",
+        "food_name": "カレーうどん",
+        "picture": ["/MyPage/images/food_images/f8.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.440084044576!2d136.90287537587758!3d35.17058235785613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d4579aaaab%3A0x831570ca0c33e363!2z5omL5omT44GG44Gp44KTIOmMpg!5e0!3m2!1sja!2ssg!4v1724759980241!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "09",
+        "rank": 9,
+        "store_name": "滿中滿美食館 Restoran Moon De Moon",
+        "location": "Ipoh",
+        "country": "マレーシア",
+        "food_name": "雞絲粿條湯",
+        "picture": ["/MyPage/images/food_images/f9.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8445676482256!2d101.10293047526604!3d4.6218051423358535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caecdcd5e67cc9%3A0xd961123887ac152a!2sRestoran%20Moon%20De%20Moon!5e0!3m2!1sja!2ssg!4v1724760056192!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "10",
+        "rank": 10,
+        "store_name": "味噌にこみ たから",
+        "location": "大須, 名古屋",
+        "country": "日本",
+        "food_name": "月見味噌煮込みうどん",
+        "picture": ["/MyPage/images/food_images/f10.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.8840790121462!2d136.8990061758773!3d35.15951165845691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037733167acf85%3A0x32dee0f0ace2f109!2z5ZGz5ZmM44Gr44GT44G_IOOBn-OBi-OCiQ!5e0!3m2!1sja!2ssg!4v1724759667982!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "11",
+        "rank": 11,
+        "store_name": "鳥飼総本家",
+        "location": "名古屋",
+        "country": "日本",
+        "food_name": "親子丼",
+        "picture": ["/MyPage/images/food_images/f11.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26090.80911016518!2d136.8397593498229!3d35.17279978016281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376eed7da164f%3A0xddf71991fb7b2ee1!2z6bOl6ZaL57eP5pys5a62IOWQjemnheilv-WPo-W6lw!5e0!3m2!1sja!2ssg!4v1724759736091!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "12",
+        "rank": 12,
+        "store_name": "安記 Ong Kee Restaurant",
+        "location": "Ipoh New Town",
+        "country": "マレーシア",
+        "food_name": "Tauge Ayam",
+        "picture": ["/MyPage/images/food_images/f12.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9624.304359797656!2d101.0840069641109!3d4.593136941334854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec6498d313bd%3A0xdc115e396df1f022!2sOng%20Kee%20Restaurant!5e0!3m2!1sja!2ssg!4v1724760184506!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "13",
+        "rank": 13,
+        "store_name": "川井屋本店",
+        "location": "名古屋",
+        "country": "日本",
+        "food_name": "きしめん",
+        "picture": ["/MyPage/images/food_images/f13.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.0832805599366!2d136.91361409678953!3d35.179476799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003710076510f8d%3A0x81186d320fba070f!2z5bed5LqV5bGL5pys5bqX!5e0!3m2!1sja!2ssg!4v1724759817813!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "14",
+        "rank": 14,
+        "store_name": "L32 Handmade Noodles",
+        "location": "Geylang",
+        "country": "シンガポール",
+        "food_name": "板麺湯",
+        "picture": ["/MyPage/images/food_images/f14.jpg", "/MyPage/images/food_images/f15.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7692454392245!2d103.88441507526774!3d1.3139348616896118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da183c432b9cbb%3A0x714b95ef7e4371ef!2sL32%20Handmade%20Noodles!5e0!3m2!1sja!2ssg!4v1724760252057!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "15",
+        "rank": 15,
+        "store_name": "友富福建麺 You Fu Fried Hokkien Prawn Noodle",
+        "location": "Golden Mile Food Centre",
+        "country": "シンガポール",
+        "food_name": "福建麺",
+        "picture": ["/MyPage/images/food_images/f16.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7860100120142!2d103.8612974752678!3d1.3033935617227899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b2ed561405%3A0x751be28dc8eb4ed3!2sYou%20Fu%20Fried%20Hokkien%20Prawn%20Noodle!5e0!3m2!1sja!2ssg!4v1724760305153!5m2!1sja!2ssg"
+    }
+]

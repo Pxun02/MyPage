@@ -319,7 +319,7 @@ footer {
     .ribbon .menu {
         display: none;
         flex-direction: column;
-        position: absolute;
+        position: relative;
         left: 0;
         right: 0;
         background-color: #0066cc;
@@ -329,6 +329,10 @@ footer {
     }
     .ribbon .menu li {
         margin: 0.5rem 0;
+        text-align: left;
+    }
+    .ribbon .menu li a{
+        padding-left: 0;
     }
 }
 

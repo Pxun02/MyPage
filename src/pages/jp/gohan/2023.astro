@@ -1,0 +1,137 @@
+---
+import '../../../styles/blog.css';
+import foodsData from '../../../jsons/gohan_2023.json';
+import { Image } from 'astro:assets';
+
+const shops = foodsData;
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>年別ご飯ランキング | 2023</title>
+	</head>
+	<body>
+		<header class="ribbon">
+            <h1 class="blog-title">Shawnの徒然</h1>
+            <div class="menu-toggle">☰</div>
+            <ul class="menu">
+				<li><a href="/MyPage/jp">プロフィール</a></li>
+				<li><a href="/MyPage/jp/blog">ブログ</a></li>
+				<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
+				<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
+				<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
+        </header>
+		<header>
+			<h1 style="padding-top: 1.5rem;">年別ご飯ランキング</h1>
+			<nav>
+				<a href="/MyPage/jp/gohan"><i class="fa-solid fa-house"></i></a>
+			</nav>
+			<nav class="pagination">
+                   <p />
+				   <a href={`/MyPage/jp/gohan/2024`} class="next-page">
+					2024  <i class="fas fa-chevron-right"></i>
+				  </a>
+			  </nav>
+			  <hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+				<h2>2023年</h2>
+				<div class="table-of-contents">
+					<h3>目次</h3>
+					<ul>
+						{shops.map((shop) => (
+							<li>
+								<a href={`#shop-${shop.rank}`}>{shop.rank}位: {shop.store_name} @ {shop.location}</a>
+							</li>
+						))}
+					</ul>
+				</div>
+
+				<ul>
+					{shops.map((shop) => (
+						<a id={`shop-${shop.rank}`}>
+							<h2>{shop.rank}位: {shop.store_name} @ {shop.location}</h2>
+							<h3>{shop.country}</h3>
+							<ul>
+								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
+							</ul>
+							<br />
+							<iframe
+								width="600"
+								height="400"
+								id="frame"
+								src={shop.map}
+								frameborder="0"
+								allowfullscreen
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								aria-label="Map of {shop.store_name}"
+								style={{ marginBottom: '4rem' }} 
+								**responsive**
+								/>
+					</a>
+					))}
+				</ul>
+			</article>
+		</main>
+	</body>
+	<footer>
+		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+		<nav class="pagination">
+            <p />
+            <a href={`/MyPage/jp/gohan/2024`} class="next-page">
+                2024  <i class="fas fa-chevron-right"></i>
+            </a>
+           </nav>
+		<hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
+</html>

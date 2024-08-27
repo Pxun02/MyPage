@@ -1,0 +1,83 @@
+---
+import '../../../styles/blog.css';
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>ブログ | Home </title>
+	</head>
+	<body>
+    <header class="ribbon">
+      <h1 class="blog-title">Shawnの徒然</h1>
+      <div class="menu-toggle">☰</div>
+      <ul class="menu">
+		<li><a href="/MyPage/jp">プロフィール</a></li>
+		<li><a href="/MyPage/jp/blog">ブログ</a></li>
+		<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
+		<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
+		<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
+      </ul>
+  </header>
+		<header>
+			<h1 style="padding-top: 1.5rem;">ブログ</h1>
+			<hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+        foo
+			</article>
+		</main>
+	</body>
+	<footer>
+    <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+        <hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
+</html>
