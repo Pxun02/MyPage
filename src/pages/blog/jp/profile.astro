@@ -1,0 +1,133 @@
+---
+import '../../../styles/global.css';
+---
+
+<html lang="jp">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Profile | Shawn</title>
+	</head>
+	<body>
+		<header class="ribbon">
+            <h1 class="blog-title">Shawnの徒然</h1>
+            <div class="menu-toggle">☰</div>
+            <ul class="menu">
+                <li><a href="/MyPage/blog/jp/profile">プロフィール</a></li>
+                <li><a href="/MyPage/blog/jp/blog-1">ブログ</a></li>
+                <li><a href="/MyPage/blog/jp/home">南洋豆花探訪記</a></li>
+                <li><a href="/MyPage/blog/jp/tips">シンガポール生活のTIPS</a></li>
+                <li><a href="/MyPage/blog/jp/gohan">年別ご飯ランキング</a></li>
+            </ul>
+        </header>
+        <header>
+			<h1>平島詢也</h1>
+			<p>Nanyang Technological University (NTU, シンガポール) 学部４年<br>専攻：コンピュータサイエンス</p>
+			<nav>
+				<a href="https://x.com/xunH_sghk" target="_blank" style="color: black;"><i class="fab fa-x-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://github.com/Pxun02" target="_blank" style="color: black;"><i class="fab fa-github"></i></a>
+			</nav>
+		</header>
+
+		<main>
+			<div class="left-column">
+				<section id="statement">
+					<h2>現在の主な活動</h2>
+					<p>FYP(卒業研究)に注力しています。</p>
+				</section>
+			
+				<section id="research-interest">
+					<h2>興味分野</h2>
+					<div class="fields-container">
+						<div class="fundamentals">
+							<h3>基礎</h3>
+							<ul>
+								<li>進化ゲーム理論</li>
+                                <li>進化的アルゴリズム</li>
+								<li>複雑ネットワーク</li>
+								<li>力学系</li>
+	
+							<!-- Add more fields as needed -->
+							</ul>
+						</div>
+						<div class="applications">
+							<h3>応用</h3>
+							<ul>
+								<li>都市社会科学</li>
+								<li>AI</li>
+							<!-- Add more fields as needed -->
+							</ul>
+						</div>
+				</section>
+	
+				<section id="tidbits">
+					<h2>趣味など</h2>
+					<ul>
+                        <li>よく聞く音楽: C-pop(香港や台湾), J-pop</li>
+						<li>趣味: 読書、街散策、 旅行(東南アジア)、<a href='/MyPage/blog/jp/home'>豆花やローカルフードの食べ歩き</a></li>
+                        <li>時間があったら: 認知心理学、社会心理学、分析哲学、言語学、語学(広東語、福建語、マレー語)、東南アジア史、組合せ論、統計力学、情報理論、量子情報、量子ウォーク、システム生物学、投資、システムトレード、競プロ、Kaggle、etc..を常々やりたいと思いながらやれていません。</li>
+                        <li>ゲーム: 昔はいろいろしていました。今はLoL観戦をするくらい。</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="line"></div>
+
+			<div class="right-column">
+				<section id="experiences">
+					<h2>職歴</h2>
+					<ul>
+                        <li>
+							<h3>ミチビク株式会社</h3>
+							<p>R&Dエンジニア インターン(日本)</p>
+							<p>2023年5月 - 2023年7月</p>
+							<p>生成AIの調査やプロンプト調整など</p>
+						</li>
+						<li>
+							<h3>Panasonic R&D Center Singapore</h3>
+							<p>R&Dエンジニア インターン(シンガポール）</p>
+							<p>2023年8月 - 2023年12月</p>
+							<p>DERMSの制御アルゴリズムのテストなど</p>
+						</li>
+					</ul>
+				</section>
+
+				<section id="education">
+					<h2>学歴</h2>
+					<ul>
+						<li>
+							<h3>学士(Computing)</h3>
+							<p>Nanyang Technological University (NTU), シンガポール</p>
+							<p>2021年8月 - 現在</p>
+						</li>
+						<li>
+							<h3>交換留学</h3>
+							<p>The Chinese University of Hong Kong (CUHK), 香港</p>
+							<p>2024年1月 - 2024年5月</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+	</body>
+	<footer>
+		<hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const menuToggle = document.querySelector('.ribbon .menu-toggle');
+        const menu = document.querySelector('.ribbon .menu');
+
+        if (menuToggle && menu) {
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+        }
+    });
+    </script>
+</html>

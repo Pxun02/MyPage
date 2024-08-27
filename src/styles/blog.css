@@ -274,3 +274,88 @@ footer {
         height: 300px;  /* Adjust height as needed */
       }
   }
+
+.ribbon {
+    font-family: Arial, sans-serif;
+    background-color: #0066cc;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+.ribbon .blog-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.ribbon .menu-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+}
+.ribbon .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.ribbon .menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+.ribbon .menu li a:hover {
+    background-color: #555;
+}
+@media (max-width: 768px) {
+    .ribbon .menu-toggle {
+        display: block;
+    }
+    .ribbon .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: #0066cc;
+    }
+    .ribbon .menu.active {
+        display: flex;
+    }
+    .ribbon .menu li {
+        margin: 0.5rem 0;
+    }
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #555;
+  }
+
+  #scrollToTopBtn i {
+    line-height: 0;
+  }

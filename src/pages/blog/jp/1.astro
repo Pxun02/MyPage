@@ -29,11 +29,21 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		<title>南洋豆花探訪記 | Page {currentPage}</title>
 	</head>
 	<body>
+		<header class="ribbon">
+            <h1 class="blog-title">Shawnの徒然</h1>
+            <div class="menu-toggle">☰</div>
+            <ul class="menu">
+                <li><a href="/MyPage/blog/jp/profile">プロフィール</a></li>
+                <li><a href="/MyPage/blog/jp/blog-1">ブログ</a></li>
+                <li><a href="/MyPage/blog/jp/home">南洋豆花探訪記</a></li>
+                <li><a href="/MyPage/blog/jp/tips">シンガポール生活のTIPS</a></li>
+                <li><a href="/MyPage/blog/jp/gohan">年別ご飯ランキング</a></li>
+            </ul>
+        </header>
 		<header>
 			<nav class="language-select">日 / <a href={`/MyPage/blog/en/${currentPage}`}>En</a></nav>
 			<h1>南洋豆花探訪記</h1>
 			<ul class="links-head">
-				<li><i class="fa-solid fa-play"></i><a href="/MyPage">管理人について (アカデミックプロフィール、英語サイト)</a></li>
 				<li><i class="fa-solid fa-play"></i><a href="/MyPage/blog/jp/records">その他の訪問記録</a></li>
 			</ul>
 			<nav>
@@ -115,6 +125,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		</main>
 	</body>
 	<footer>
+		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
 		<nav class="pagination">
 			{currentPage > 1 ? (
 			  <a href={`/MyPage/blog/jp/${currentPage - 1}`} class="prev-page">
@@ -131,4 +142,45 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		<hr class="footer-line">
 		<div class="footer-content"> <p>© 2024 Shawn</p></div>
 	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
 </html>
