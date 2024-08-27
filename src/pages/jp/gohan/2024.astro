@@ -45,7 +45,7 @@ const shops = foodsData;
 				<h2>2024年</h2>
 				<div class="table-of-contents">
 					<h3>目次</h3>
-					<ul class="imgs">
+					<ul>
 						{shops.map((shop) => (
 							<li>
 								<a href={`#shop-${shop.rank}`}>{shop.rank}位: {shop.store_name} @ {shop.location}</a>
@@ -60,7 +60,7 @@ const shops = foodsData;
 							<h2>{shop.rank}位: {shop.store_name} @ {shop.location}</h2>
 							<h3>{shop.country}</h3>
 							<h4>{shop.food_name}</h4>
-							<ul>
+							<ul class="imgs">
 								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
 							</ul>
 							<br />
