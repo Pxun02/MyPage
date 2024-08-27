@@ -59,6 +59,7 @@ const shops = foodsData;
 						<a id={`shop-${shop.rank}`}>
 							<h2>{shop.rank}位: {shop.store_name} @ {shop.location}</h2>
 							<h3>{shop.country}</h3>
+							<h4>{shop.food_name}</h4>
 							<ul>
 								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
 							</ul>
