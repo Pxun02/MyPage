@@ -2,7 +2,7 @@
 
 ## 更新について
 - `json_updater.py`を使えば基本なんとかなるもの
-   - 画像を`public/images/beancurd_images`にアップロード
+   - 画像を`public/MyPage/images/beancurd_images`にアップロード
    - `food.json`と`shop.json`の更新  
 
 - その他
