@@ -33,30 +33,30 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
             <h1 class="blog-title">Shawnの徒然</h1>
             <div class="menu-toggle">☰</div>
             <ul class="menu">
-				<li><a href="/jp">プロフィール</a></li>
-				<li><a href="/jp/blog">ブログ</a></li>
-				<li><a href="/jp/beancurd">南洋豆花探訪記</a></li>
-				<li><a href="/jp/tips">シンガポール生活のTIPS</a></li>
-				<li><a href="/jp/gohan">年別ご飯ランキング</a></li>
+				<li><a href="/MyPage/jp">プロフィール</a></li>
+				<li><a href="/MyPage/jp/blog">ブログ</a></li>
+				<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
+				<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
+				<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
         </header>
 		<header>
-			<nav class="language-select">日 / <a href={`/en/beancurd/${currentPage}`}>En</a></nav>
+			<nav class="language-select">日 / <a href={`/MyPage/en/beancurd/${currentPage}`}>En</a></nav>
 			<h1>南洋豆花探訪記</h1>
 			<ul class="links-head">
-				<li><i class="fa-solid fa-play"></i><a href="/jp/beancurd/records">その他の訪問記録</a></li>
+				<li><i class="fa-solid fa-play"></i><a href="/MyPage/jp/beancurd/records">その他の訪問記録</a></li>
 			</ul>
 			<nav>
-				<a href="/jp/beancurd"><i class="fa-solid fa-house"></i></a>
+				<a href="/MyPage/jp/beancurd"><i class="fa-solid fa-house"></i></a>
 			</nav>
 			<nav class="pagination">
 				{currentPage > 1 ? (
-				  <a href={`/jp/beancurd/${currentPage - 1}`} class="prev-page">
+				  <a href={`/MyPage/jp/beancurd/${currentPage - 1}`} class="prev-page">
 					<i class="fas fa-chevron-left"></i> Previous
 				  </a>
 				): <span></span>}
 				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 				{currentPage < maxPage ? (
-				   <a href={`/jp/beancurd/${currentPage + 1}`} class="next-page">
+				   <a href={`/MyPage/jp/beancurd/${currentPage + 1}`} class="next-page">
 					Next <i class="fas fa-chevron-right"></i>
 				  </a>
 				): <span></span>}
@@ -127,13 +127,13 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
 		<nav class="pagination">
 			{currentPage > 1 ? (
-			  <a href={`/jp/beancurd/${currentPage - 1}`} class="prev-page">
+			  <a href={`/MyPage/jp/beancurd/${currentPage - 1}`} class="prev-page">
 				<i class="fas fa-chevron-left"></i> Previous
 			  </a>
 			): <span></span>}
 			<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 			{currentPage < maxPage ? (
-			   <a href={`/jp/beancurd/${currentPage + 1}`} class="next-page">
+			   <a href={`/MyPage/jp/beancurd/${currentPage + 1}`} class="next-page">
 				Next <i class="fas fa-chevron-right"></i>
 			  </a>
 			): <span></span>}
