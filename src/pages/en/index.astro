@@ -128,7 +128,39 @@ import localTitleImage from '../../images/img_1.jpg';
 		</main>
 	</body>
 	<footer>
+		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
 		<hr class="footer-line">
 		<div class="footer-content"> <p>© 2024 Shawn</p></div>
 	</footer>
+	<script>
+		function setupScrollToTop() {
+				const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+	
+				if (!scrollToTopBtn) return;
+	
+				const scrollFunction = () => {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					scrollToTopBtn.classList.add('show');
+				} else {
+					scrollToTopBtn.classList.remove('show');
+				}
+				};
+	
+				const scrollToTop = () => {
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth'
+				});
+				};
+	
+				window.addEventListener('scroll', scrollFunction);
+				scrollToTopBtn.addEventListener('click', scrollToTop);
+			}
+	
+			// Run setup on initial load
+			setupScrollToTop();
+	
+			// Re-run setup on view transitions
+			document.addEventListener('astro:after-swap', setupScrollToTop);
+		</script>
 </html>
