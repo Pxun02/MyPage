@@ -10,45 +10,34 @@ const foods = foodsData;
 const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 ---
 
-<html lang="ja">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>南洋豆花探訪記 | その他の訪問記録 </title>
+		<title>Blog | Other Visit Records </title>
 	</head>
 	<body>
-		<header class="ribbon">
-            <h1 class="blog-title">Shawnの徒然</h1>
-            <div class="menu-toggle">☰</div>
-            <ul class="menu">
-                <li><a href="/MyPage/blog/jp/profile">プロフィール</a></li>
-                <li><a href="/MyPage/blog/jp/blog-1">ブログ</a></li>
-                <li><a href="/MyPage/blog/jp/home">南洋豆花探訪記</a></li>
-                <li><a href="/MyPage/blog/jp/tips">シンガポール生活のTIPS</a></li>
-                <li><a href="/MyPage/blog/jp/gohan">年別ご飯ランキング</a></li>
-            </ul>
-        </header>
 		<header>
-			<nav class="language-select">日 / <a href={`/MyPage/blog/en/records`}>En</a></nav>
-			<h1>南洋豆花探訪記</h1>
-			<a href={`/MyPage/blog/en/records`}></a>
+			<nav class="language-select">En / <a href={`/jp/beancurd/records`}>日</a></nav>
+			<h1>Beancurd Hunting</h1>
             <ul class="links-head">
-                <li><i class="fa-solid fa-play"></i><a href="/MyPage/blog/jp/1">豆花ランキング</a></li>
+				<li><i class="fa-solid fa-play"></i><a href="/en">About Writer (Academic Profile)</a></li>
+                <li><i class="fa-solid fa-play"></i><a href="/en/beancurd/1">Beancurd Rankings</a></li>
 			</ul>
 			<nav>
-				<a href="/MyPage/blog/jp/home"><i class="fa-solid fa-house"></i></a>
+				<a href="/en/beancurd"><i class="fa-solid fa-house"></i></a>
 			</nav>
 			  <hr class="header-line">
 		</header>
 
 		<main>
 			<article>
-				<h2>その他の訪問記録</h2>
+				<h2>Beancurd Other Visit Records</h2>
 				<div class="table-of-contents">
-					<h3>お店一覧</h3>
+					<h3>Contents</h3>
 					<ul>
 						{shopsOnThisPage.map((shop) => (
 							<li>
@@ -62,7 +51,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 					{shopsOnThisPage.map((shop) => (
 						<a id={`shop-${shop.ID}`}>
 							<h2>{shop.store_name} @ {shop.place}</h2>
-							<h3>{shop.country_jp}</h3>
+							<h3>{shop.country_en}</h3>
 							<ul>
 								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
 							</ul>
@@ -72,7 +61,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 								if (foodItem) {
 								return (
 									<li>
-									{foodItem.food_name_jp} - {foodItem.currency}{foodItem.price}
+									{foodItem.food_name_en} - {foodItem.currency}{foodItem.price}
 									</li>
 								);
 								} else {
@@ -85,7 +74,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 								width="600"
 								height="400"
 								id="frame"
-								src={shop.map_jp}
+								src={shop.map_en}
 								frameborder="0"
 								allowfullscreen
 								loading="lazy"
@@ -106,16 +95,6 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 		  <div class="footer-content"> <p>© 2024 Shawn</p></div>
 	</footer>
 	<script>
-		document.addEventListener('DOMContentLoaded', (event) => {
-			const menuToggle = document.querySelector('.ribbon .menu-toggle');
-			const menu = document.querySelector('.ribbon .menu');
-	
-			if (menuToggle && menu) {
-			menuToggle.addEventListener('click', () => {
-				menu.classList.toggle('active');
-			});
-			}
-		});
 		function setupScrollToTop() {
 			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 

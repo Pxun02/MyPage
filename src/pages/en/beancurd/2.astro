@@ -18,7 +18,7 @@ const maxPage = Math.ceil(totalShops / shopsPerPage)
 const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop.rank < startingRank + shopsPerPage);
 ---
 
-<html lang="ja">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -29,24 +29,24 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 	</head>
 	<body>
 		<header>
-			<nav class="language-select">En / <a href={`/MyPage/blog/jp/${currentPage}`}>日</a></nav>
+			<nav class="language-select">En / <a href={`/jp/beancurd/${currentPage}`}>日</a></nav>
 			<h1>Beancurd Hunting</h1>	
 			<ul class="links-head">
-				<li><i class="fa-solid fa-play"></i><a href="/MyPage">About Writer (Academic Profile)</a></li>
-				<li><i class="fa-solid fa-play"></i><a href="/MyPage/blog/en/records">Other Visit Records</a></li>
+				<li><i class="fa-solid fa-play"></i><a href="/en">About Writer (Academic Profile)</a></li>
+				<li><i class="fa-solid fa-play"></i><a href="/en/beancurd/records">Other Visit Records</a></li>
 			</ul>
 			<nav>
-				<a href="/MyPage/blog/en/home"><i class="fa-solid fa-house"></i></a>
+				<a href="/en/beancurd"><i class="fa-solid fa-house"></i></a>
 			</nav>
 			<nav class="pagination">
 				{currentPage > 1 ? (
-				  <a href={`/MyPage/blog/en/${currentPage - 1}`} class="prev-page">
+				  <a href={`/en/beancurd/${currentPage - 1}`} class="prev-page">
 					<i class="fas fa-chevron-left"></i> Previous
 				  </a>
 				): <span></span>}
 				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 				{currentPage < maxPage ? (
-				   <a href={`/MyPage/blog/en/${currentPage + 1}`} class="next-page">
+				   <a href={`/en/beancurd/${currentPage + 1}`} class="next-page">
 					Next <i class="fas fa-chevron-right"></i>
 				  </a>
 				): <span></span>}
@@ -114,15 +114,16 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		</main>
 	</body>
 	<footer>
+		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
 		<nav class="pagination">
 			{currentPage > 1 ? (
-			  <a href={`/MyPage/blog/en/${currentPage - 1}`} class="prev-page">
+			  <a href={`/en/beancurd/${currentPage - 1}`} class="prev-page">
 				<i class="fas fa-chevron-left"></i> Previous
 			  </a>
 			): <span></span>}
 			<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
 			{currentPage < maxPage ? (
-			   <a href={`/MyPage/blog/en/${currentPage + 1}`} class="next-page">
+			   <a href={`/en/beancurd/${currentPage + 1}`} class="next-page">
 				Next <i class="fas fa-chevron-right"></i>
 			  </a>
 			): <span></span>}
@@ -130,4 +131,35 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 		  <hr class="footer-line">
 		  <div class="footer-content"> <p>© 2024 Shawn</p></div>
 	</footer>
+	<script>
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
 </html>
