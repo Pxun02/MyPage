@@ -1,5 +1,23 @@
 ---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import '../../../styles/blog.css';
+import { basename } from 'path';
+
+let blogEntries: CollectionEntry<'blog'>[] = [];
+
+blogEntries = await getCollection('blog');
+
+const sortedBlogEntries = [...blogEntries].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const currentPage = parseInt(basename(Astro.url.pathname, '.astro').replace('page-', ''));
+
+const entriesPerPage = 10;
+const starting = (currentPage - 1) * entriesPerPage;
+const totalEntries = blogEntries.length;
+const maxPage = Math.ceil(totalEntries / entriesPerPage)
+
+const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPerPage);
 ---
 
 <html lang="ja">
@@ -9,7 +27,7 @@ import '../../../styles/blog.css';
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>年別ご飯ランキング | Home </title>
+		<title>ブログ | Home-2 </title>
 	</head>
 	<body>
     <header class="ribbon">
@@ -24,42 +42,49 @@ import '../../../styles/blog.css';
       </ul>
   </header>
 		<header>
-			<h1 style="padding-top: 1.5rem;">年別ご飯ランキング</h1>
+			<h1 style="padding-top: 1.5rem;">ブログ</h1>
+			<nav class="pagination">
+				{currentPage > 1 ? (
+				  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
+					<i class="fas fa-chevron-left"></i> Previous
+				  </a>
+				): <span></span>}
+				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
+				{currentPage < maxPage ? (
+				   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
+					Next <i class="fas fa-chevron-right"></i>
+				  </a>
+				): <span></span>}
+			  </nav>
 			<hr class="header-line">
 		</header>
-
-		<main>
-			<article>
-                <ul class="links">
-                    <li><i class="fa-solid fa-play"></i><a href="/MyPage/jp/gohan/2023">2023</a></li>
-                    <li><i class="fa-solid fa-play"></i><a href="/MyPage/jp/gohan/2024">2024</a></li>
-                </ul>
-				<h2>概要</h2>
-                <p>
-                    個人的な食べ物ランキングを食べた年別でベスト15まで上げていきます。
-                </p>
-                <p>
-                    ※このランキングは管理人の個人的な味覚のもと作られています。参考程度にとどめてください。
-                </p>
-                <p>
-                    ※基本的に辛いものが好きです。
-                </p>
-                <h2>掲載店</h2>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1bNop92rJ4drBg-h2OvDCqZ1rvMLUQMo&ehbc=2E312F&noprof=1" 								
-                width="600"
-                height="400"
-                id="frame"
-                frameborder="0"
-                allowfullscreen
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                **responsive**
-                />
-			</article>
-		</main>
-	</body>
-	<footer>
+<body>
+    <div class="grid-container">
+        <ul>
+        {entriesOnThisPage.map((post: CollectionEntry<'blog'>) => (
+            <li>
+            <a href={`/MyPage/jp/blog/${post.slug}/`}>{post.data.title}</a>
+            <p>{post.data.date.toLocaleDateString("ja-JP")}</p>
+            </li>
+        ))}
+        </ul>
+    </div>
+</body>
+<footer>
     <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+	<nav class="pagination">
+		{currentPage > 1 ? (
+		  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
+			<i class="fas fa-chevron-left"></i> Previous
+		  </a>
+		): <span></span>}
+		<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
+		{currentPage < maxPage ? (
+		   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
+			Next <i class="fas fa-chevron-right"></i>
+		  </a>
+		): <span></span>}
+	  </nav>
         <hr class="footer-line">
 		<div class="footer-content"> <p>© 2024 Shawn</p></div>
 	</footer>

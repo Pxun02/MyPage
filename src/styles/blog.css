@@ -366,3 +366,18 @@ footer {
   #scrollToTopBtn i {
     line-height: 0;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax values as needed */
+    grid-gap: 10px; /* Adjust gap size between grid boxes */
+  }
+  
+  .grid-container li {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    padding: 15px;
+    border: 1px solid #ddd; /* Gray border */
+    align-items: flex-start; /* Left-align content */
+    background-color: #f5f5f5; /* Light gray background */
+  }
