@@ -60,7 +60,7 @@ const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPe
 		</header>
 <body>
     <div class="grid-container">
-        <ul>
+        <ul style="padding-left: 0px;">
         {entriesOnThisPage.map((post: CollectionEntry<'blog'>) => (
             <li>
             <a href={`/MyPage/jp/blog/${post.slug}/`}>{post.data.title}</a>
