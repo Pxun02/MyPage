@@ -9,7 +9,6 @@ body {
 
 header {
 	text-align: left;
-	margin-bottom: 40px;
 }
 
 img {
@@ -215,3 +214,22 @@ footer {
   #scrollToTopBtn i {
     line-height: 0;
   }
+
+  .language-select {
+    font-weight: bold;
+    font-size: 24px;
+    width: fit-content; /* Adjust padding as needed */
+    display: float;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    margin-bottom: 0;
+}
+
+.language-select a {
+    font-size: 20px;
+    color: #0066cc;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
