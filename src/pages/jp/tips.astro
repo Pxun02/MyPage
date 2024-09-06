@@ -1,5 +1,6 @@
 ---
 import '../../styles/blog.css';
+const h2List = ["日系スーパーや日本のものが買えるお店", "交通について", "日本食でおすすめのお店（低〜中価格帯）", "友達との集まりでおすすめのお店", "その他おすすめの飲食店", "休日のおでかけ案", "NTU内のおすすめ勉強場所", "NTU内ショートカット"];
 ---
 
 <html lang="ja">
@@ -30,7 +31,18 @@ import '../../styles/blog.css';
 
 		<main>
 			<article>
-				<h2>日系スーパーや日本のものが買えるお店</h2>
+				<div class="table-of-contents">
+					<h3>目次</h3>
+					<ul>
+						{h2List.map((content) => (
+							<li>
+								<a href={`#${content}`}>{content}</a>
+							</li>
+						))}
+					</ul>
+				</div>
+
+				<h2 id="日系スーパーや日本のものが買えるお店">日系スーパーや日本のものが買えるお店</h2>
                 <li><b>DON DON DONKI</b>…海外進出版ドンキホーテだが、実態は価格帯低めの日系スーパーである。要所要所に店舗があり、お惣菜なども充実している。賞味期限が近いものは大胆にセールをすることも。</li>
 				<li><b>明治屋</b>…高価格帯スーパー。ものによってはお手頃なものもある。Great WorldとMillenia Walkに店舗がある。</li>
 				<li><b>伊勢丹</b>…デパート・高価格帯スーパー。Orchardの店舗の食料品を取り扱っており、他NEX(Serangoon)とTampinesの店舗はデパートのみ。</li>
@@ -42,14 +54,14 @@ import '../../styles/blog.css';
 				<li><b>無印</b>…服を買うもよし、飲料やレンジ調理キット、お菓子を買うもよし、食器を買うもよし。賞味期限が近いと大胆にセールをする。店舗数はそこまで多くない。Plaza Singapuraの店舗はかなり大きく、品揃えも個性的。</li>
 				<li><b>Lazada/RedMart</b>…当地のオンライン通販。安く手に入るものも多い。</li>
 				<li><b>CS Fresh</b>…おしゃれ系モールに点在するローカル中価格帯スーパー。輸入品も取り扱っているため、日本のものももちろんあるが、コンスタントに在庫償却でとんでもないセールをしている。</li>
-				<li><b>FairPrice Finest/Extra</b>…大手ローカルスーパー。輸入品を取り扱っている。</li>
+				<li><b>FairPrice Finest/Xtra</b>…大手ローカルスーパー。輸入品を取り扱っている。</li>
 				<li><b>BHG/Takashimaya</b>…日本の家電や食器が多く取り扱われている。</li>
 				<li><b>ニトリ</b>…日本の家具や食器を取り扱っている。</li>
 				<li><b>Hands</b>…文具や旅行用品など。</li>
 				<li><b>五穀七福/Pullman Bakery/DONQ/Johan/Asanoya</b>…日系パン屋さんチェーン。とても美味しい。なお、個人経営の日系パン屋さんも多数存在する。</li>
 				<li><b>Four Leaves</b>…ローカルパン屋さんではあるが、山崎が協力しているため、日本のタイプのパンが食べれる（蒸しパンなど）。</li>
 
-				<h2>交通について</h2>
+				<h2 id="交通について">交通について</h2>
 				<ul>
 					<li>MRT・LRT・バスは次の条件を満たすと、１回のtravelとみなされ、合計距離で運賃が計算される。
 					<ul>
@@ -61,6 +73,12 @@ import '../../styles/blog.css';
 						<li>同じ駅で改札の出入りをしない。</li>
 					</ul>
 					</li>
+				</ul>
+				<ul>
+					<li>MRT/LRTについて、朝07:45までに改札に入った場合は、最大$0.50の割引がなされる。</li>
+					<ul>
+						<li>運賃が$0.50以下の場合は無料に、それ以上の場合は$0.50の割引がなされる。</li>
+					</ul>
 				</ul>
 				<ul>
 					<li>MRT/LRTについて、</li>
@@ -120,7 +138,7 @@ import '../../styles/blog.css';
 				<li>車移動はGrab・Gojekなどの配車アプリを使うのが吉。$20 ~ 40ほど。</li>
 				<li>タクシーはComfortDelGroなど。</li>
 
-				<h2>日本食でおすすめのお店（低〜中価格帯）</h2>
+				<h2 id="日本食でおすすめのお店（低〜中価格帯）">日本食でおすすめのお店（低〜中価格帯）</h2>
                 <li>すき家</li>
 				<li>サイゼリヤ</li>
 				<li>焼肉ライク</li>
@@ -154,7 +172,7 @@ import '../../styles/blog.css';
 				<li>もりなが (居酒屋)</li>
 				<li>ばってんよかとお (福岡の料理メインの居酒屋)</li>
 
-				<h2>友達との集まりでおすすめのお店</h2>
+				<h2 id="友達との集まりでおすすめのお店">友達との集まりでおすすめのお店</h2>
 				<h3>カフェ系</h3>
 				<li>PS. Cafe</li>
 				<li>Hoshino Coffee</li>
@@ -188,7 +206,7 @@ import '../../styles/blog.css';
 				<li>Newton Food Centre (サテーとビールを提供しているお店が多い)</li>
 				<li>Lau Pa Sat (半公営のホーカーセンター。道路一面にサテーを扱うお店が並ぶのが圧巻。)</li>
 
-				<h2>その他おすすめの飲食店</h2>
+				<h2 id="その他おすすめの飲食店">その他おすすめの飲食店</h2>
                 <li>A Hot Hideout (麻辣屋さん。NTU内含め島内に３箇所存在。)</li>
 				<li>ホーカーセンターやコーヒーショップにある"拉面小笼包"系のお店 (基本どこでも小籠包や水餃子、麺がすごく美味しい。冷凍餃子を販売しているところも。)</li>
 				<li>Alexandra Food Centre (売られているアボカドジュースが美味しく、前述の小籠包系のストールもある。また、牛肉河粉という料理が非常に美味。)</li>
@@ -211,9 +229,8 @@ import '../../styles/blog.css';
 				<li>Wu Pao Chun (台湾系パン屋さん。お茶とパンの店内飲食が楽しめる。)</li>
 				<li>Munchi Pancake (パンケーキのようなミンジャンクエが楽しめるお店。ホーカーセンターやモール内に点在。)</li>
 				<li>Puffs And Peaks Bakery (Tampinesにある、個人経営の美味しいドーナツ屋さん。)</li>
-				<li><a href="https://innovative-fenugreek-3bd.notion.site/119bf563235d47c08025c9447e88791e" target="_blank">2023年4月までに作成したホーカーセンターやローカルフードリストNotion</a></li>
 
-				<h2>休日のおでかけ案</h2>
+				<h2 id="休日のおでかけ案">休日のおでかけ案</h2>
 				
                 <li>セントーサ島 (USSや水族館はもちろん、セントーサコーブやビーチ、シロソ砦などでゆっくり過ごすのも⚪︎。)</li>
 				<li>動物園やバードパラダイス</li>
@@ -228,7 +245,7 @@ import '../../styles/blog.css';
 				<li>歴史の勉強 (国立博物館や旧フォード工場など)</li>
 				<li>近い国外、Johor BahruやBatam島、Bintan島へ</li>
 
-				<h2>NTU内のおすすめ勉強場所</h2>
+				<h2 id="NTU内のおすすめ勉強場所">NTU内のおすすめ勉強場所</h2>
                 <li><b>N3.2</b>…MAE棟。ファミレスみたいな席。室内でエアコンが効いており、コンセント完備。</li>
 				<li><b>SS B3階の通路</b>…コンセント完備で席数も多く、ファンもよく効いている。</li>
 				<li><b>LWN Library 5階</b>…席数が多いので座れるところがあるはず。</li>
@@ -239,7 +256,7 @@ import '../../styles/blog.css';
 				<li><b>Quad Cafe, Pioneer Canteen</b>…混まない時間帯は結構快適。</li>
 				<li><b>空き教室</b>…言わずもがな。</li>
 
-				<h2>NTU内ショートカット</h2>
+				<h2 id="NTU内ショートカット">NTU内ショートカット</h2>
                 <li>AuditoriumとQuad Cafeの横 - 階段を登って橋を渡ってExperimental Building</li>
 				<li>Hall 2 - Fullerton Healthの裏 - S4 (Humanity棟)</li>
 				<li>Gaia - SPMS - SS</li>
