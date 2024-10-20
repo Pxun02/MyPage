@@ -2,6 +2,16 @@
     {
         "ID": "01",
         "rank": 1,
+        "store_name": "家乡麻辣烫 Jia Xiang Mala Tang",
+        "location": "Chinatown Sta.",
+        "country": "シンガポール",
+        "food_name": "麻辣烫",
+        "picture": ["/MyPage/images/food_images/f28.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8161970557094!2d103.84255399999999!3d1.2841943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1937a9df466d%3A0xe1c0ec9250724109!2sJia%20Xiang%20Mala%20Tang%20People&#39;s%20Park%20Complex!5e0!3m2!1sja!2ssg!4v1729422781929!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "02",
+        "rank": 2,
         "store_name": "THE NEIGHBOURWOK",
         "location": "Bukit Batok",
         "country": "シンガポール",
@@ -10,8 +20,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9821.382764782937!2d103.73600168719955!3d1.3438753947746553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da114f0d996839%3A0x2a41f1091b1776c1!2sTHE%20NEIGHBOURWOK!5e0!3m2!1sja!2ssg!4v1724759020696!5m2!1sja!2ssg"
     },
     {
-        "ID": "02",
-        "rank": 2,
+        "ID": "03",
+        "rank": 3,
         "store_name": "担担麺専門店 ENISHI",
         "location": "神戸市灘区",
         "country": "日本",
@@ -20,8 +30,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13121.098422770636!2d135.1944497116114!3d34.69825310849068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008e9ac4efffff%3A0x3b323f4b06b283f0!2z5ouF5ouF6bq65bCC6ZaA5bqXIEVOSVNISSDnt4_mnKzlupc!5e0!3m2!1sja!2ssg!4v1724760738297!5m2!1sja!2ssg"
     },
     {
-        "ID": "03",
-        "rank": 3,
+        "ID": "04",
+        "rank": 4,
         "store_name": "肆年八月米線",
         "location": "大圍, 新界",
         "country": "香港",
@@ -30,8 +40,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7220747424776!2d114.17165077548712!3d22.364120640578736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404078e89e7ac71%3A0xe513ab5f66a8381c!2z5Zub5bm05YWr5pyI57Gz57ea!5e0!3m2!1sja!2ssg!4v1724760827711!5m2!1sja!2ssg"
     },
     {
-        "ID": "04",
-        "rank": 4,
+        "ID": "05",
+        "rank": 5,
         "store_name": "円山教授。",
         "location": "札幌",
         "country": "日本",
@@ -40,8 +50,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11661.308058216418!2d141.30968126715788!3d43.055589367203616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29ec804867e3%3A0x1edb89ef204e8367!2z5YaG5bGx5pWZ5o6I44CC5YaG5bGx5pys5bqX!5e0!3m2!1sja!2ssg!4v1724760864885!5m2!1sja!2ssg"
     },
     {
-        "ID": "05",
-        "rank": 5,
+        "ID": "06",
+        "rank": 6,
         "store_name": "老闆娘雲南米線",
         "location": "荃灣, 新界",
         "country": "香港",
@@ -50,8 +60,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.4792528457597!2d114.10904647548729!3d22.37328344024565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f8ee2bcec673%3A0xdd1ace09a98b7163!2z6ICB5p2_5aiY6Zuy5Y2X57Gz57ea!5e0!3m2!1sja!2ssg!4v1724760911520!5m2!1sja!2ssg"
     },
     {
-        "ID": "06",
-        "rank": 6,
+        "ID": "07",
+        "rank": 7,
         "store_name": "麻婆まぜそば 麻ぜろう",
         "location": "川崎",
         "country": "日本",
@@ -60,8 +70,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.8725968009117!2d139.70006867589132!3d35.53214593814909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186097e098a36b%3A0x847346b6f6058777!2z6bq75amG44G-44Gc44Gd44GwIOm6u-OBnOOCjeOBhg!5e0!3m2!1sja!2ssg!4v1724761014910!5m2!1sja!2ssg"
     },
     {
-        "ID": "07",
-        "rank": 7,
+        "ID": "08",
+        "rank": 8,
         "store_name": "Otoko Ramen 漢",
         "location": "Alexandra Central Mall",
         "country": "シンガポール",
@@ -70,8 +80,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8110411758!2d103.80241757526777!3d1.2874937617724829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bcc918e2f63%3A0x73c9317cf1b5e8c9!2zT3Rva28gUmFtZW4g5ryi!5e0!3m2!1sja!2ssg!4v1724761075872!5m2!1sja!2ssg"
     },
     {
-        "ID": "08",
-        "rank": 8,
+        "ID": "09",
+        "rank": 9,
         "store_name": "康年餐廳",
         "location": "旺角, 九龍",
         "country": "香港",
@@ -80,8 +90,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.8541377318825!2d114.1675012754862!3d22.321355542131446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c866fbf693%3A0x338a5e89735013ca!2z5bq35bm06aSQ5bqB!5e0!3m2!1sja!2ssg!4v1724761144901!5m2!1sja!2ssg"
     },
     {
-        "ID": "09",
-        "rank": 9,
+        "ID": "10",
+        "rank": 10,
         "store_name": "Fei Fei Roasted Noodle",
         "location": "Yuhua Village Market and Food Centre",
         "country": "シンガポール",
@@ -90,8 +100,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7211716937313!2d103.73510787526766!3d1.3437044615949523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1019ab689665%3A0x3e96b9254cbd5952!2sFei%20Fei%20Roasted%20Noodle!5e0!3m2!1sja!2ssg!4v1726753311367!5m2!1sja!2ssg"
     },
     {
-        "ID": "10",
-        "rank": 10,
+        "ID": "11",
+        "rank": 11,
         "store_name": "King of Fried Rice",
         "location": "チェーン",
         "country": "シンガポール",
@@ -100,8 +110,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7365182960916!2d103.73708687526776!3d1.3342732616251067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da117cb05e3543%3A0x618e07c0db76ff4d!2sKing%20of%20Fried%20Rice%20-%20Jurong%20East!5e0!3m2!1sja!2ssg!4v1726753136000!5m2!1sja!2ssg"
     },
     {
-        "ID": "11",
-        "rank": 11,
+        "ID": "12",
+        "rank": 12,
         "store_name": "銀座 篝",
         "location": "東京、大阪、札幌",
         "country": "日本",
