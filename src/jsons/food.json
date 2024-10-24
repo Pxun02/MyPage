@@ -642,5 +642,12 @@
         "food_name_en": "Beancurd",
         "price": "1.8",
         "currency": "SGD"
+    },
+    {
+        "ID": "93",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.8",
+        "currency": "SGD"
     }
 ]

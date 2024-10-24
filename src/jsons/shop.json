@@ -1629,5 +1629,23 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1724466107223!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.33779537179!2d103.69104637252359!3d1.3765949500024182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1724466145932!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "69",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean",
+        "place": "Ang Mo Kio Central Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc65.jpg"
+        ],
+        "foods_id": [
+            "93"
+        ],
+        "country_jp": "シンガポール",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.674164294741!2d103.84398427526759!3d1.3721894615030088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1729758972103!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.674164230545!2d103.8439843!3d1.3721895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1729761470547!5m2!1sen!2ssg"
     }
 ]
