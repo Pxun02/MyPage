@@ -332,7 +332,7 @@
         "ID": "12",
         "rank": 12,
         "store_name": "Yan Wo Dou Bun Chong \u4eba\u548c\u8373\u54c1\u5ee0",
-        "place": "Mong Kok, 旺角",
+        "place": "Mong Kok, \u65fa\u89d2",
         "picture": [
             "/MyPage/images/beancurd_images/bc13.jpg"
         ],
@@ -427,7 +427,8 @@
         "store_name": "Kung Wo Beancurd Factory \u516c\u548c\u8373\u54c1\u5ee0",
         "place": "Sham Shui Po \u6df1\u6c34\u57d7",
         "picture": [
-            "/MyPage/images/beancurd_images/bc16.jpg", "/MyPage/images/beancurd_images/bc17.jpg"
+            "/MyPage/images/beancurd_images/bc16.jpg",
+            "/MyPage/images/beancurd_images/bc17.jpg"
         ],
         "foods_id": [
             "24",
@@ -449,28 +450,10 @@
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.5963655456612!2d114.16101577548636!3d22.331100041777983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400b4c0482495%3A0xf427590c637af04f!2sKung%20Wo%20Beancurd%20Factory!5e0!3m2!1sen!2sjp!4v1720173342059!5m2!1sen!2sjp"
     },
     {
-        "ID": "16",
-        "rank": -1,
-        "store_name": "House of Soya Beans",
-        "place": "Zion Riverside Food Centre",
-        "picture": [
-        ],
-        "foods_id": [
-            "26",
-            "27"
-        ],
-        "country_jp": "シンガポール",
-        "country_en": "Singapore",
-        "descriptions_jp":[],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032355791925!2d103.82875527526775!3d1.2924728617569747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sja!2sjp!4v1720186507769!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032439564367!2d103.83133023151119!3d1.292467528289856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sen!2sjp!4v1720186467621!5m2!1sen!2sjp"
-    },
-    {
         "ID": "17",
         "rank": 16,
-        "store_name": "Chan's Tofu Fa 陳記自家製豆腐花美食店",
-        "place": "Mong Kok 旺角",
+        "store_name": "Chan's Tofu Fa \u9673\u8a18\u81ea\u5bb6\u88fd\u8c46\u8150\u82b1\u7f8e\u98df\u5e97",
+        "place": "Mong Kok \u65fa\u89d2",
         "picture": [
             "/MyPage/images/beancurd_images/bc18.jpg"
         ],
@@ -481,15 +464,19 @@
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "シロップなどは選べないが、黒糖と生姜の合わさったもので非常に美味しく感じた。"
+                "line": "\u30b7\u30ed\u30c3\u30d7\u306a\u3069\u306f\u9078\u3079\u306a\u3044\u304c\u3001\u9ed2\u7cd6\u3068\u751f\u59dc\u306e\u5408\u308f\u3055\u3063\u305f\u3082\u306e\u3067\u975e\u5e38\u306b\u7f8e\u5473\u3057\u304f\u611f\u3058\u305f\u3002"
             },
             {
-                "line": "生地も美味しい豆花特有の舌触り。おじさまも店員さんもフレンドリーで文句なし。"
+                "line": "\u751f\u5730\u3082\u7f8e\u5473\u3057\u3044\u8c46\u82b1\u7279\u6709\u306e\u820c\u89e6\u308a\u3002\u304a\u3058\u3055\u307e\u3082\u5e97\u54e1\u3055\u3093\u3082\u30d5\u30ec\u30f3\u30c9\u30ea\u30fc\u3067\u6587\u53e5\u306a\u3057\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Although you can't choose the syrup, the combination of brown sugar and ginger was very delicious." },
-            { "line": "The pudding had the unique smooth texture of delicious beancurd. Both the gentleman and the staff were friendly, making it impeccable." }
+            {
+                "line": "Although you can't choose the syrup, the combination of brown sugar and ginger was very delicious."
+            },
+            {
+                "line": "The pudding had the unique smooth texture of delicious beancurd. Both the gentleman and the staff were friendly, making it impeccable."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9232003232496!2d114.1751941!3d22.3187441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c58cd81e79%3A0x1306d7ca9bffc969!2sChan&#39;s%20Tofu%20Fa!5e0!3m2!1sja!2sjp!4v1720239215819!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.9232003232496!2d114.1751941!3d22.3187441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c58cd81e79%3A0x1306d7ca9bffc969!2sChan&#39;s%20Tofu%20Fa!5e0!3m2!1sen!2sjp!4v1720239307106!5m2!1sen!2sjp"
@@ -497,8 +484,8 @@
     {
         "ID": "18",
         "rank": 17,
-        "store_name": "贊和豆品",
-        "place": "Mong Kok 旺角",
+        "store_name": "\u8d0a\u548c\u8c46\u54c1",
+        "place": "Mong Kok \u65fa\u89d2",
         "picture": [
             "/MyPage/images/beancurd_images/bc19.jpg"
         ],
@@ -509,15 +496,19 @@
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "豆腐花は一律10ドルな、アクセスも良い豆腐花屋さん。テイクアウト式だが、器を置くスペースやゴミ袋は存在する。"
+                "line": "\u8c46\u8150\u82b1\u306f\u4e00\u5f8b10\u30c9\u30eb\u306a\u3001\u30a2\u30af\u30bb\u30b9\u3082\u826f\u3044\u8c46\u8150\u82b1\u5c4b\u3055\u3093\u3002\u30c6\u30a4\u30af\u30a2\u30a6\u30c8\u5f0f\u3060\u304c\u3001\u5668\u3092\u7f6e\u304f\u30b9\u30da\u30fc\u30b9\u3084\u30b4\u30df\u888b\u306f\u5b58\u5728\u3059\u308b\u3002"
             },
             {
-                "line": "生地は舌触り系のよくある美味しい生地。優等生タイプで満足できる豆花屋さんである。ここは観光客にもおすすめ。"
+                "line": "\u751f\u5730\u306f\u820c\u89e6\u308a\u7cfb\u306e\u3088\u304f\u3042\u308b\u7f8e\u5473\u3057\u3044\u751f\u5730\u3002\u512a\u7b49\u751f\u30bf\u30a4\u30d7\u3067\u6e80\u8db3\u3067\u304d\u308b\u8c46\u82b1\u5c4b\u3055\u3093\u3067\u3042\u308b\u3002\u3053\u3053\u306f\u89b3\u5149\u5ba2\u306b\u3082\u304a\u3059\u3059\u3081\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A conveniently located beancurd shop where all beancurds are $10. It's takeout-style, but there are spaces to place your containers and garbage bags available." },
-            { "line": "The pudding has the typical smooth texture of delicious beancurd. This is an exemplary beancurd shop that will satisfy you. It's also recommended for tourists." }
+            {
+                "line": "A conveniently located beancurd shop where all beancurds are $10. It's takeout-style, but there are spaces to place your containers and garbage bags available."
+            },
+            {
+                "line": "The pudding has the typical smooth texture of delicious beancurd. This is an exemplary beancurd shop that will satisfy you. It's also recommended for tourists."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14763.324526550146!2d114.16218096977538!3d22.322225399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401f0df388019%3A0xc9a2390a9e832ded!2z6LOb5ZKM6LGG5ZOBICjml7rop5LvvIk!5e0!3m2!1sja!2sjp!4v1720239510327!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14763.324526550146!2d114.16218096977538!3d22.322225399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401f0df388019%3A0xc9a2390a9e832ded!2z6LSK5ZKM6LGG5ZOBICjml7rop5LvvIk!5e0!3m2!1sen!2sjp!4v1720239494391!5m2!1sen!2sjp"
@@ -525,7 +516,7 @@
     {
         "ID": "19",
         "rank": 18,
-        "store_name": "Kedai Minuman Woong Kee 旺記豆腐花",
+        "store_name": "Kedai Minuman Woong Kee \u65fa\u8a18\u8c46\u8150\u82b1",
         "place": "Ipoh Garden East",
         "picture": [
             "/MyPage/images/beancurd_images/bc20.jpg"
@@ -533,15 +524,17 @@
         "foods_id": [
             "30"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "同チェーンの中ではまずまずだったかな…。露店なので暑い中食べなければならないのも難点。"
+                "line": "\u540c\u30c1\u30a7\u30fc\u30f3\u306e\u4e2d\u3067\u306f\u307e\u305a\u307e\u305a\u3060\u3063\u305f\u304b\u306a\u2026\u3002\u9732\u5e97\u306a\u306e\u3067\u6691\u3044\u4e2d\u98df\u3079\u306a\u3051\u308c\u3070\u306a\u3089\u306a\u3044\u306e\u3082\u96e3\u70b9\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "It was decent among the same chain... However, since it's a stall, you have to eat in the heat, which is a downside." }
+            {
+                "line": "It was decent among the same chain... However, since it's a stall, you have to eat in the heat, which is a downside."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66297.08784094643!2d101.07746524444164!3d4.580987265831973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caed237abc1bab%3A0x4af3e2de612dd5fa!2sKedai%20Minuman%20Woong%20Kee!5e0!3m2!1sja!2sjp!4v1720239755539!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63631.251058633854!2d101.0889675!3d4.602405849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caed237abc1bab%3A0x4af3e2de612dd5fa!2sKedai%20Minuman%20Woong%20Kee!5e0!3m2!1sen!2sjp!4v1720239741709!5m2!1sen!2sjp"
@@ -549,23 +542,26 @@
     {
         "ID": "20",
         "rank": 19,
-        "store_name": "Old Rochor Beancurd 老梧槽豆花",
+        "store_name": "Old Rochor Beancurd \u8001\u68a7\u69fd\u8c46\u82b1",
         "place": "Foch Rd",
         "picture": [
             "/MyPage/images/beancurd_images/bc21.jpg"
         ],
         "foods_id": [
-            "31", "32"
+            "31",
+            "32"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "舌触り系豆花。シロップの主張は強くないが、素材の旨みが出ていてとても優しい味。"
+                "line": "\u820c\u89e6\u308a\u7cfb\u8c46\u82b1\u3002\u30b7\u30ed\u30c3\u30d7\u306e\u4e3b\u5f35\u306f\u5f37\u304f\u306a\u3044\u304c\u3001\u7d20\u6750\u306e\u65e8\u307f\u304c\u51fa\u3066\u3044\u3066\u3068\u3066\u3082\u512a\u3057\u3044\u5473\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Smooth textured beancurd. The syrup doesn't have a strong presence, but the flavor of the ingredients stands out, creating a very gentle taste." }
+            {
+                "line": "Smooth textured beancurd. The syrup doesn't have a strong presence, but the flavor of the ingredients stands out, creating a very gentle taste."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3180.553402026871!2d103.85932216795685!3d1.3125513920801741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da103fe1c3c8b9%3A0x7c5b42f2ee3817b0!2zT2xkIFJvY2hvciBCZWFuY3VyZCDogIHmoqfmp73osYboirE!5e0!3m2!1sja!2sjp!4v1720239891641!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7712169467513!2d103.8599433!3d1.3126996000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da103fe1c3c8b9%3A0x7c5b42f2ee3817b0!2zT2xkIFJvY2hvciBCZWFuY3VyZCDogIHmoqfmp73osYboirE!5e0!3m2!1sen!2sjp!4v1720239876407!5m2!1sen!2sjp"
@@ -579,17 +575,20 @@
             "/MyPage/images/beancurd_images/bc22.jpg"
         ],
         "foods_id": [
-            "33", "34"
+            "33",
+            "34"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "シロップが美味しいシンプル豆花。これはデザート感強め。安定した美味しさがここにはあった。周りの美味しい飲食店訪問後の胃休憩にどうぞ。"
+                "line": "\u30b7\u30ed\u30c3\u30d7\u304c\u7f8e\u5473\u3057\u3044\u30b7\u30f3\u30d7\u30eb\u8c46\u82b1\u3002\u3053\u308c\u306f\u30c7\u30b6\u30fc\u30c8\u611f\u5f37\u3081\u3002\u5b89\u5b9a\u3057\u305f\u7f8e\u5473\u3057\u3055\u304c\u3053\u3053\u306b\u306f\u3042\u3063\u305f\u3002\u5468\u308a\u306e\u7f8e\u5473\u3057\u3044\u98f2\u98df\u5e97\u8a2a\u554f\u5f8c\u306e\u80c3\u4f11\u61a9\u306b\u3069\u3046\u305e\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Simple beancurd with delicious syrup. This one has a strong dessert feel. It has a stable deliciousness. Perfect for a stomach break after visiting the delicious eateries around." }
+            {
+                "line": "Simple beancurd with delicious syrup. This one has a strong dessert feel. It has a stable deliciousness. Perfect for a stomach break after visiting the delicious eateries around."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.070749224113!2d103.88164096977538!3d1.314910300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da183d7bd2a529%3A0x725de15faa80fe42!2sRochor%20Beancurd%20House!5e0!3m2!1sja!2sjp!4v1720240080594!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.070749224113!2d103.88164096977538!3d1.314910300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da183d7bd2a529%3A0x725de15faa80fe42!2sRochor%20Beancurd%20House!5e0!3m2!1sen!2sjp!4v1720240066831!5m2!1sen!2sjp"
@@ -597,27 +596,31 @@
     {
         "ID": "22",
         "rank": 21,
-        "store_name": "Beancurd 舊果香林豆腐花",
-        "place": "Tai Po 大埔墟",
+        "store_name": "Beancurd \u820a\u679c\u9999\u6797\u8c46\u8150\u82b1",
+        "place": "Tai Po \u5927\u57d4\u589f",
         "picture": [
             "/MyPage/images/beancurd_images/bc23.jpg"
         ],
         "foods_id": [
             "35"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "桂花醤という味付けを推していたのでこちらを。優しい味付けで甘さはあまり感じない。それでいて生地が崩れやすいながらも美味しく、満足できる味であった。"
+                "line": "\u6842\u82b1\u91a4\u3068\u3044\u3046\u5473\u4ed8\u3051\u3092\u63a8\u3057\u3066\u3044\u305f\u306e\u3067\u3053\u3061\u3089\u3092\u3002\u512a\u3057\u3044\u5473\u4ed8\u3051\u3067\u7518\u3055\u306f\u3042\u307e\u308a\u611f\u3058\u306a\u3044\u3002\u305d\u308c\u3067\u3044\u3066\u751f\u5730\u304c\u5d29\u308c\u3084\u3059\u3044\u306a\u304c\u3089\u3082\u7f8e\u5473\u3057\u304f\u3001\u6e80\u8db3\u3067\u304d\u308b\u5473\u3067\u3042\u3063\u305f\u3002"
             },
             {
-                "line": "店内飲食はできないが、近くにベンチがいくつかとゴミ箱があるので、便利である。"
+                "line": "\u5e97\u5185\u98f2\u98df\u306f\u3067\u304d\u306a\u3044\u304c\u3001\u8fd1\u304f\u306b\u30d9\u30f3\u30c1\u304c\u3044\u304f\u3064\u304b\u3068\u30b4\u30df\u7bb1\u304c\u3042\u308b\u306e\u3067\u3001\u4fbf\u5229\u3067\u3042\u308b\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "They recommended the osmanthus syrup, so I tried it. It had a gentle flavor and wasn't very sweet. Despite the beancurd being somewhat fragile, it was delicious and satisfying." },
-            { "line": "You can't eat inside the shop, but there are a few benches and trash cans nearby, making it convenient." }
+            {
+                "line": "They recommended the osmanthus syrup, so I tried it. It had a gentle flavor and wasn't very sweet. Despite the beancurd being somewhat fragile, it was delicious and satisfying."
+            },
+            {
+                "line": "You can't eat inside the shop, but there are a few benches and trash cans nearby, making it convenient."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.5195572686216!2d114.16585731744384!3d22.447101999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340408409ec89267%3A0xd767cd20ab73f212!2z6LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720240732449!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59000.31484009054!2d114.13716871128933!3d22.447097477928466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340408409ec89267%3A0xd767cd20ab73f212!2z6LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720240720184!5m2!1sen!2sjp"
@@ -625,23 +628,25 @@
     {
         "ID": "23",
         "rank": 22,
-        "store_name": "阿一豆花",
-        "place": "Sham Shui Po 深水埗",
+        "store_name": "\u963f\u4e00\u8c46\u82b1",
+        "place": "Sham Shui Po \u6df1\u6c34\u57d7",
         "picture": [
             "/MyPage/images/beancurd_images/bc24.jpg"
         ],
         "foods_id": [
             "36"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "深水埗站C出口すぐの豆腐花屋さん(イートインあり)。生地は他の店舗とはクセが違い、比較的伝統製法に近いのだが、不思議とくどい苦味はなく、舌触りも良く感じた。"
+                "line": "\u6df1\u6c34\u57d7\u7ad9C\u51fa\u53e3\u3059\u3050\u306e\u8c46\u8150\u82b1\u5c4b\u3055\u3093(\u30a4\u30fc\u30c8\u30a4\u30f3\u3042\u308a)\u3002\u751f\u5730\u306f\u4ed6\u306e\u5e97\u8217\u3068\u306f\u30af\u30bb\u304c\u9055\u3044\u3001\u6bd4\u8f03\u7684\u4f1d\u7d71\u88fd\u6cd5\u306b\u8fd1\u3044\u306e\u3060\u304c\u3001\u4e0d\u601d\u8b70\u3068\u304f\u3069\u3044\u82e6\u5473\u306f\u306a\u304f\u3001\u820c\u89e6\u308a\u3082\u826f\u304f\u611f\u3058\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A beancurd shop right at exit C of Sham Shui Po station (eat-in available). The texture is different from other stores, closer to traditional methods, but without the usual bitterness. It also had a good texture." }
+            {
+                "line": "A beancurd shop right at exit C of Sham Shui Po station (eat-in available). The texture is different from other stores, closer to traditional methods, but without the usual bitterness. It also had a good texture."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.6071695929904!2d114.1616724!3d22.330691699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400b3773f4ba7%3A0xb12e1b57739765bb!2z6Zi_5LiA6LGG6Iqx!5e0!3m2!1sja!2sjp!4v1720240940159!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.6071695929904!2d114.1616724!3d22.330691699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400b3773f4ba7%3A0xb12e1b57739765bb!2z6Zi_5LiA6LGG6Iqx!5e0!3m2!1sen!2sjp!4v1720240954375!5m2!1sen!2sjp"
@@ -649,23 +654,25 @@
     {
         "ID": "24",
         "rank": 23,
-        "store_name": "Bean Sir 豆花店",
-        "place": "新蒲崗 San Po Kong",
+        "store_name": "Bean Sir \u8c46\u82b1\u5e97",
+        "place": "\u65b0\u84b2\u5d17 San Po Kong",
         "picture": [
             "/MyPage/images/beancurd_images/bc25.jpg"
         ],
         "foods_id": [
             "37"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "生地がしっかりめでフレッシュな豆腐花。安いのも良い。"
+                "line": "\u751f\u5730\u304c\u3057\u3063\u304b\u308a\u3081\u3067\u30d5\u30ec\u30c3\u30b7\u30e5\u306a\u8c46\u8150\u82b1\u3002\u5b89\u3044\u306e\u3082\u826f\u3044\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The beancurd has a firm and fresh texture. It's also cheap, which is nice." }
+            {
+                "line": "The beancurd has a firm and fresh texture. It's also cheap, which is nice."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.492060864974!2d114.1976478!3d22.3350419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406d12bb99ebb%3A0x5e66179ee561c945!2zQmVuIFNpcuixhuiKseW6lw!5e0!3m2!1sja!2sjp!4v1720241088637!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.492060864974!2d114.1976478!3d22.3350419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406d12bb99ebb%3A0x5e66179ee561c945!2zQmVuIFNpcuixhuiKseW6lw!5e0!3m2!1sen!2sjp!4v1720241076228!5m2!1sen!2sjp"
@@ -673,23 +680,25 @@
     {
         "ID": "25",
         "rank": 24,
-        "store_name": "Ah Ma Beancurd 阿媽豆腐花",
-        "place": "Mong Kok 旺角",
+        "store_name": "Ah Ma Beancurd \u963f\u5abd\u8c46\u8150\u82b1",
+        "place": "Mong Kok \u65fa\u89d2",
         "picture": [
             "/MyPage/images/beancurd_images/bc26.jpg"
         ],
         "foods_id": [
             "38"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "生地はしっかりめで安定した美味しさ。とても優しい味。"
+                "line": "\u751f\u5730\u306f\u3057\u3063\u304b\u308a\u3081\u3067\u5b89\u5b9a\u3057\u305f\u7f8e\u5473\u3057\u3055\u3002\u3068\u3066\u3082\u512a\u3057\u3044\u5473\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The beancurd has a firm texture and consistent deliciousness. It has a very gentle flavor." }
+            {
+                "line": "The beancurd has a firm texture and consistent deliciousness. It has a very gentle flavor."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118054.5898667499!2d114.09877585000002!3d22.38359280000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c8669f505d%3A0x77364931945e8ddb!2z6Zi_5aq96LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720241225207!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118054.5898667499!2d114.09877585000002!3d22.38359280000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c8669f505d%3A0x77364931945e8ddb!2z6Zi_5aq96LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720241211208!5m2!1sen!2sjp"
@@ -705,15 +714,17 @@
         "foods_id": [
             "39"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "イポーで最も有名な豆腐花屋さん。昼過ぎから行列が絶えない人気店…のはずなのだが、特段飛び抜けて美味しいとは感じられなかった。シロップはかなり薄い部類だが、それを補うような生地の味の強さは特になく、淡白な味付けであった。舌触りこそ良いが、他のイポーの豆腐花に負けず劣らずといった具合。"
+                "line": "\u30a4\u30dd\u30fc\u3067\u6700\u3082\u6709\u540d\u306a\u8c46\u8150\u82b1\u5c4b\u3055\u3093\u3002\u663c\u904e\u304e\u304b\u3089\u884c\u5217\u304c\u7d76\u3048\u306a\u3044\u4eba\u6c17\u5e97\u2026\u306e\u306f\u305a\u306a\u306e\u3060\u304c\u3001\u7279\u6bb5\u98db\u3073\u629c\u3051\u3066\u7f8e\u5473\u3057\u3044\u3068\u306f\u611f\u3058\u3089\u308c\u306a\u304b\u3063\u305f\u3002\u30b7\u30ed\u30c3\u30d7\u306f\u304b\u306a\u308a\u8584\u3044\u90e8\u985e\u3060\u304c\u3001\u305d\u308c\u3092\u88dc\u3046\u3088\u3046\u306a\u751f\u5730\u306e\u5473\u306e\u5f37\u3055\u306f\u7279\u306b\u306a\u304f\u3001\u6de1\u767d\u306a\u5473\u4ed8\u3051\u3067\u3042\u3063\u305f\u3002\u820c\u89e6\u308a\u3053\u305d\u826f\u3044\u304c\u3001\u4ed6\u306e\u30a4\u30dd\u30fc\u306e\u8c46\u8150\u82b1\u306b\u8ca0\u3051\u305a\u52a3\u3089\u305a\u3068\u3044\u3063\u305f\u5177\u5408\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The most famous beancurd shop in Ipoh. It's a popular place with long lines from the afternoon... However, I didn't find it exceptionally delicious. The syrup is quite thin, and the beancurd didn't have a strong enough flavor to make up for it, resulting in a bland taste. The texture was good, but it was comparable to other beancurds in Ipoh." }
+            {
+                "line": "The most famous beancurd shop in Ipoh. It's a popular place with long lines from the afternoon... However, I didn't find it exceptionally delicious. The syrup is quite thin, and the beancurd didn't have a strong enough flavor to make up for it, resulting in a bland taste. The texture was good, but it was comparable to other beancurds in Ipoh."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9954119411746!2d101.0844298!3d4.594843499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec6363e3d48b%3A0x68087b1a4f363361!2sFunny%20Mountain%20Soya%20Beancurd!5e0!3m2!1sja!2sjp!4v1720241386308!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9954119411746!2d101.0844298!3d4.594843499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec6363e3d48b%3A0x68087b1a4f363361!2sFunny%20Mountain%20Soya%20Beancurd!5e0!3m2!1sen!2sjp!4v1720241372888!5m2!1sen!2sjp"
@@ -729,15 +740,17 @@
         "foods_id": [
             "40"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "よくあるイポーの滑らか豆腐花。特筆する点はなし。"
+                "line": "\u3088\u304f\u3042\u308b\u30a4\u30dd\u30fc\u306e\u6ed1\u3089\u304b\u8c46\u8150\u82b1\u3002\u7279\u7b46\u3059\u308b\u70b9\u306f\u306a\u3057\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy." }
+            {
+                "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.012026418617!2d101.08449900000004!3d4.591864200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caed6c66a1673f%3A0x57091ad8b1684619!2sBig%20Mom%20Beancurd!5e0!3m2!1sja!2sjp!4v1720241596370!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.012026418617!2d101.08449900000004!3d4.591864200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caed6c66a1673f%3A0x57091ad8b1684619!2sBig%20Mom%20Beancurd!5e0!3m2!1sen!2sjp!4v1720241581689!5m2!1sen!2sjp"
@@ -745,7 +758,7 @@
     {
         "ID": "28",
         "rank": 27,
-        "store_name": "Lai Kee Soya Bean 黎记豆浆专卖店",
+        "store_name": "Lai Kee Soya Bean \u9ece\u8bb0\u8c46\u6d46\u4e13\u5356\u5e97",
         "place": "Ipoh New Town",
         "picture": [
             "/MyPage/images/beancurd_images/bc29.jpg"
@@ -753,15 +766,17 @@
         "foods_id": [
             "41"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "よくあるイポーの滑らか豆腐花。特筆する点はなし。"
+                "line": "\u3088\u304f\u3042\u308b\u30a4\u30dd\u30fc\u306e\u6ed1\u3089\u304b\u8c46\u8150\u82b1\u3002\u7279\u7b46\u3059\u308b\u70b9\u306f\u306a\u3057\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy." }
+            {
+                "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9982930451883!2d101.08452699999998!3d4.594326999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec636255906f%3A0xc77f692fa3efe86b!2z6buO6K6w6LGG5rWG5LiT5Y2W5bqX!5e0!3m2!1sja!2sjp!4v1720241708317!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9982930451883!2d101.08452699999998!3d4.594326999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec636255906f%3A0xc77f692fa3efe86b!2sLai%20Kee%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720241694840!5m2!1sen!2sjp"
@@ -769,7 +784,7 @@
     {
         "ID": "29",
         "rank": 28,
-        "store_name": "Beancurd 姑媽豆腐花",
+        "store_name": "Beancurd \u59d1\u5abd\u8c46\u8150\u82b1",
         "place": "Macau",
         "picture": [
             "/MyPage/images/beancurd_images/bc30.jpg"
@@ -777,74 +792,134 @@
         "foods_id": [
             "42"
         ],
-        "country_jp": "マカオ",
+        "country_jp": "\u30de\u30ab\u30aa",
         "country_en": "Macau",
         "descriptions_jp": [
             {
-                "line": "甘くてスイーツ感の強い豆腐花であった。観光地近くなので、お気軽に。"
+                "line": "\u7518\u304f\u3066\u30b9\u30a4\u30fc\u30c4\u611f\u306e\u5f37\u3044\u8c46\u8150\u82b1\u3067\u3042\u3063\u305f\u3002\u89b3\u5149\u5730\u8fd1\u304f\u306a\u306e\u3067\u3001\u304a\u6c17\u8efd\u306b\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A sweet beancurd with a strong dessert feel. Since it's near a tourist spot, it's convenient to visit." }
+            {
+                "line": "A sweet beancurd with a strong dessert feel. Since it's near a tourist spot, it's convenient to visit."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5796.773637200765!2d113.53682183436895!3d22.195661800298943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34017ae4dcd5266d%3A0xf4808a2f32d1df36!2z6LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720241814104!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118211.54544796694!2d113.49416566568203!3d22.197895330914683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34017ae4dcd5266d%3A0xf4808a2f32d1df36!2z6LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720241780761!5m2!1sen!2sjp"
     },
     {
-        "ID": "30",
+        "ID": "72",
         "rank": 29,
-        "store_name": "Bean飲邊食-豆腐花專門店",
-        "place": "Shatin Plaza 沙田廣場",
+        "store_name": "MG 83 Cafe \u7cd6\u6c34\u7f8e\u98df\u9986",
+        "place": "Kluang",
+        "picture": [
+            "/MyPage/public/images/beancurd_images/bc72.jpg"
+        ],
+        "foods_id": [
+            "96"
+        ],
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_en": "Malaysia",
+        "descriptions_jp": [
+            {
+                "line": "\u304a\u5e97\u81ea\u4f53\u306f\u4e2d\u83ef\u6599\u7406\u5c4b\u3055\u3093\u3002\u63d0\u4f9b\u3055\u308c\u3066\u3044\u308b\u8c46\u82b1\u306f\u5143\u304b\u3089\u30d1\u30c3\u30ad\u30f3\u30b0\u3055\u308c\u3066\u3044\u308b\u3082\u306e\u3067\u3042\u3063\u305f\u304c\u3001\u305d\u306e\u985e\u306e\u7269\u306e\u4e2d\u3067\u306f\u7279\u306b\u7f8e\u5473\u3057\u3044\u3082\u306e\u3067\u3042\u3063\u305f\u3002\u751f\u5730\u306f\u3057\u3063\u304b\u308a\u3057\u3066\u3044\u3066\u3001\u5473\u306e\u9762\u3067\u3082\u725b\u4e73\u306e\u3088\u3046\u306a\u7518\u307f\u3082\u611f\u3058\u3089\u308c\u305f\u3002"
+            }
+        ],
+        "descriptions_en": [
+            {
+                "line": "The shop itself is a Chinese restaurant. The beancurd they serve comes pre-packaged, but it's particularly delicious among such products. The texture is firm, and there is a milky sweetness to the flavor."
+            }
+        ],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.611663736787!2d103.32232857091691!3d2.0311241736929335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db6f379d0b9%3A0x7b3e156ca7374715!2zTUcgODMgQ2FmZSDns5bmsLTnvo7po5_ppoY!5e0!3m2!1sja!2ssg!4v1729909292999!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2021.4834823374251!2d103.32150070732267!3d2.0332732208687765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db6f379d0b9%3A0x7b3e156ca7374715!2zTUcgODMgQ2FmZSDns5bmsLTnvo7po5_ppoY!5e0!3m2!1sen!2ssg!4v1729909335767!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "30",
+        "rank": 30,
+        "store_name": "Bean\u98f2\u908a\u98df-\u8c46\u8150\u82b1\u5c08\u9580\u5e97",
+        "place": "Shatin Plaza \u6c99\u7530\u5ee3\u5834",
         "picture": [
             "/MyPage/images/beancurd_images/bc31.jpg"
         ],
         "foods_id": [
             "43"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "MTR沙田站に程近いショッピングモールの中にこじんまりとお店を構えている。イートインスペースはなし。"
+                "line": "MTR\u6c99\u7530\u7ad9\u306b\u7a0b\u8fd1\u3044\u30b7\u30e7\u30c3\u30d4\u30f3\u30b0\u30e2\u30fc\u30eb\u306e\u4e2d\u306b\u3053\u3058\u3093\u307e\u308a\u3068\u304a\u5e97\u3092\u69cb\u3048\u3066\u3044\u308b\u3002\u30a4\u30fc\u30c8\u30a4\u30f3\u30b9\u30da\u30fc\u30b9\u306f\u306a\u3057\u3002"
             },
             {
-                "line": "生地もシロップも甘味がかなり強く、デザート感の強い豆花であった。"
+                "line": "\u751f\u5730\u3082\u30b7\u30ed\u30c3\u30d7\u3082\u7518\u5473\u304c\u304b\u306a\u308a\u5f37\u304f\u3001\u30c7\u30b6\u30fc\u30c8\u611f\u306e\u5f37\u3044\u8c46\u82b1\u3067\u3042\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A small shop located in a shopping mall near MTR Sha Tin Station. There is no eat-in space." },
-            { "line": "Both the beancurd and the syrup were very sweet, giving it a strong dessert feel." }
+            {
+                "line": "A small shop located in a shopping mall near MTR Sha Tin Station. There is no eat-in space."
+            },
+            {
+                "line": "Both the beancurd and the syrup were very sweet, giving it a strong dessert feel."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.9787925972573!2d114.18769731032529!3d22.382985417419754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407036b9c44d5%3A0x495233b9dbb87c6c!2zQmVhbumjsumCiumjny3osYbohZDoirHlsIjploDlupc!5e0!3m2!1sja!2sjp!4v1720242170767!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.2188525656193!2d114.18883170000001!3d22.383105600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407036b9c44d5%3A0x495233b9dbb87c6c!2zQmVhbumjsumCiumjny3osYbohZDoirHlsIjploDlupc!5e0!3m2!1sen!2sjp!4v1720242156558!5m2!1sen!2sjp"
     },
     {
         "ID": "31",
-        "rank": 30,
-        "store_name": "Yan Wo Dou Bun Chong 人和荳品廠",
-        "place": "Causeway Bay 銅鑼灣",
+        "rank": 31,
+        "store_name": "Yan Wo Dou Bun Chong \u4eba\u548c\u8373\u54c1\u5ee0",
+        "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
             "/MyPage/images/beancurd_images/bc32.jpg"
         ],
         "foods_id": [
             "44"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "繁華街ど真ん中にひっそりと佇む飲食店。味付けや生地の柔らかさのバランスの取れた豆腐花であった。他の食べ物も提供されているので、人混みに疲れた時にどうぞ。"
+                "line": "\u7e41\u83ef\u8857\u3069\u771f\u3093\u4e2d\u306b\u3072\u3063\u305d\u308a\u3068\u4f47\u3080\u98f2\u98df\u5e97\u3002\u5473\u4ed8\u3051\u3084\u751f\u5730\u306e\u67d4\u3089\u304b\u3055\u306e\u30d0\u30e9\u30f3\u30b9\u306e\u53d6\u308c\u305f\u8c46\u8150\u82b1\u3067\u3042\u3063\u305f\u3002\u4ed6\u306e\u98df\u3079\u7269\u3082\u63d0\u4f9b\u3055\u308c\u3066\u3044\u308b\u306e\u3067\u3001\u4eba\u6df7\u307f\u306b\u75b2\u308c\u305f\u6642\u306b\u3069\u3046\u305e\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A restaurant quietly nestled in the heart of a busy district. The beancurd had a well-balanced flavor and soft texture. They also offer other food, so it's a good place to visit when you're tired of the crowds." }
+            {
+                "line": "A restaurant quietly nestled in the heart of a busy district. The beancurd had a well-balanced flavor and soft texture. They also offer other food, so it's a good place to visit when you're tired of the crowds."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29535.740595924497!2d114.1679262395508!3d22.279218100000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040056a84095a9%3A0x7f45e94467e0881b!2z5Lq65ZKM6I2z5ZOB5bug!5e0!3m2!1sja!2sjp!4v1720242277142!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59071.481191848994!2d114.15041677910153!3d22.279218100000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040056a84095a9%3A0x7f45e94467e0881b!2sYan%20Wo%20Dou%20Bun%20Chong%20(Causeway%20Bay)!5e0!3m2!1sen!2sjp!4v1720242264920!5m2!1sen!2sjp"
     },
     {
+        "ID": "71",
+        "rank": 32,
+        "store_name": "Kedai Minuman Pemborong Air Tahu Ah Wah \u4e09\u677f\u5934\u4e9a\u534e\u8c46\u8150\u6c34",
+        "place": "Kluang",
+        "picture": [
+            "/MyPage/public/images/beancurd_images/bc71.jpg"
+        ],
+        "foods_id": [
+            "95"
+        ],
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_en": "Malaysia",
+        "descriptions_jp": [
+            {
+                "line": "Kluang\u3067\u8c46\u82b1\u5c4b\u3055\u3093\u3068\u3044\u3048\u3070\u3053\u3053\u3089\u3057\u3044\u3002\u751f\u5730\u306f\u6ed1\u3089\u304b\u3067\u4e01\u5be7\u306b\u4f5c\u3063\u3066\u3044\u308b\u611f\u304c\u3042\u308a\u3001\u7121\u96e3\u306b\u7f8e\u5473\u3057\u3044\u3068\u3044\u3046\u611f\u60f3\u3067\u3042\u308b\u3002"
+            }
+        ],
+        "descriptions_en": [
+            {
+                "line": "In Kluang, this seems to be the place for beancurd. The texture is smooth, giving the impression of being carefully made, and the overall impression is that it's reliably delicious."
+            }
+        ],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7974.654235269587!2d103.32174663514043!3d2.024828308145051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db124cacb6d%3A0x4bda507f063ec7f5!2z5LiJ5p2_5aS05Lqa5Y2O6LGG6IWQ5rC0!5e0!3m2!1sja!2ssg!4v1729909060592!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.32732973677!2d103.3216109!3d2.0247421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db124cacb6d%3A0x4bda507f063ec7f5!2z5LiJ5p2_5aS05Lqa5Y2O6LGG6IWQ5rC0!5e0!3m2!1sen!2ssg!4v1729908884907!5m2!1sen!2ssg"
+    },
+    {
         "ID": "32",
-        "rank": 31,
+        "rank": 33,
         "store_name": "Sansui Tau Fu Far",
         "place": "Ipoh New Town",
         "picture": [
@@ -853,22 +928,24 @@
         "foods_id": [
             "45"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "よくあるイポーの滑らか豆腐花。特筆する点はなし。"
+                "line": "\u3088\u304f\u3042\u308b\u30a4\u30dd\u30fc\u306e\u6ed1\u3089\u304b\u8c46\u8150\u82b1\u3002\u7279\u7b46\u3059\u308b\u70b9\u306f\u306a\u3057\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy." }
+            {
+                "line": "A typical smooth beancurd from Ipoh. Nothing noteworthy."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.993916317173!2d101.0834975!3d4.5951116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec634464897d%3A0x38681bfd360b85a3!2sSANSUI%20TAU%20FU%20FAR!5e0!3m2!1sja!2sjp!4v1720243900436!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.993916317173!2d101.0834975!3d4.5951116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caec634464897d%3A0x38681bfd360b85a3!2sSANSUI%20TAU%20FU%20FAR!5e0!3m2!1sen!2sjp!4v1720243914933!5m2!1sen!2sjp"
     },
     {
         "ID": "33",
-        "rank": 32,
+        "rank": 34,
         "store_name": "Whampoa Soya Bean",
         "place": "Eunos",
         "picture": [
@@ -877,22 +954,24 @@
         "foods_id": [
             "46"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "美味しい部類の豆花。生地が滑らかなのがプラスポイント。"
+                "line": "\u7f8e\u5473\u3057\u3044\u90e8\u985e\u306e\u8c46\u82b1\u3002\u751f\u5730\u304c\u6ed1\u3089\u304b\u306a\u306e\u304c\u30d7\u30e9\u30b9\u30dd\u30a4\u30f3\u30c8\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A delicious type of beancurd. The smooth texture of the beancurd is a plus point." }
+            {
+                "line": "A delicious type of beancurd. The smooth texture of the beancurd is a plus point."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7590958023256!2d103.90415809999999!3d1.3202759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19517aa5d1a3%3A0x3b3b2d96841138f6!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720244065773!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084489.3141015815!2d101.66294716249999!3d1.3202759000000064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19517aa5d1a3%3A0x3b3b2d96841138f6!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720244047896!5m2!1sen!2sjp"
     },
     {
         "ID": "34",
-        "rank": 33,
+        "rank": 35,
         "store_name": "Kim Soya Bean",
         "place": "KL Pasar Jalan Petaling",
         "picture": [
@@ -901,106 +980,120 @@
         "foods_id": [
             "47"
         ],
-        "country_jp": "マレーシア",
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
         "country_en": "Malaysia",
         "descriptions_jp": [
             {
-                "line": "中華街にある有名な豆花店。有名さに比するほど美味しいかは疑問だが、無難に満足できる味。"
+                "line": "\u4e2d\u83ef\u8857\u306b\u3042\u308b\u6709\u540d\u306a\u8c46\u82b1\u5e97\u3002\u6709\u540d\u3055\u306b\u6bd4\u3059\u308b\u307b\u3069\u7f8e\u5473\u3057\u3044\u304b\u306f\u7591\u554f\u3060\u304c\u3001\u7121\u96e3\u306b\u6e80\u8db3\u3067\u304d\u308b\u5473\u3002"
             },
             {
-                "line": "露店でテーブルなどないが、そこそこスペースがあるので妥協。"
+                "line": "\u9732\u5e97\u3067\u30c6\u30fc\u30d6\u30eb\u306a\u3069\u306a\u3044\u304c\u3001\u305d\u3053\u305d\u3053\u30b9\u30da\u30fc\u30b9\u304c\u3042\u308b\u306e\u3067\u59a5\u5354\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A famous beancurd shop in Chinatown. It may not be as delicious as its fame suggests, but it's a reliably satisfying taste." },
-            { "line": "It's a stall with no tables, but there's enough space to make do." }
+            {
+                "line": "A famous beancurd shop in Chinatown. It may not be as delicious as its fame suggests, but it's a reliably satisfying taste."
+            },
+            {
+                "line": "It's a stall with no tables, but there's enough space to make do."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8116698577724!2d101.6975678!3d3.144356299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49389e8d30fb%3A0xad08c3fa361c2ffb!2sKim%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720244194824!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8116698577724!2d101.6975678!3d3.144356299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc49389e8d30fb%3A0xad08c3fa361c2ffb!2sKim%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720244181772!5m2!1sen!2sjp"
     },
     {
         "ID": "35",
-        "rank": 34,
-        "store_name": "Tofu Garden (Ah Por Tofu Fa) 建興亞婆豆腐花",
-        "place": "Lamma Island 南丫島",
+        "rank": 36,
+        "store_name": "Tofu Garden (Ah Por Tofu Fa) \u5efa\u8208\u4e9e\u5a46\u8c46\u8150\u82b1",
+        "place": "Lamma Island \u5357\u4e2b\u5cf6",
         "picture": [
             "/MyPage/images/beancurd_images/bc36.jpg"
         ],
         "foods_id": [
             "48"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "香港島のすぐ南部に位置する離島にある豆腐花屋さん。豆の粒が残っているほどの生地は微細な粒子が感じられるような独特の舌触りであった。"
+                "line": "\u9999\u6e2f\u5cf6\u306e\u3059\u3050\u5357\u90e8\u306b\u4f4d\u7f6e\u3059\u308b\u96e2\u5cf6\u306b\u3042\u308b\u8c46\u8150\u82b1\u5c4b\u3055\u3093\u3002\u8c46\u306e\u7c92\u304c\u6b8b\u3063\u3066\u3044\u308b\u307b\u3069\u306e\u751f\u5730\u306f\u5fae\u7d30\u306a\u7c92\u5b50\u304c\u611f\u3058\u3089\u308c\u308b\u3088\u3046\u306a\u72ec\u7279\u306e\u820c\u89e6\u308a\u3067\u3042\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A beancurd shop located on an island just south of Hong Kong Island. The texture was unique, with the beancurd having noticeable bean particles, giving it a finely gritty feel." }
+            {
+                "line": "A beancurd shop located on an island just south of Hong Kong Island. The texture was unique, with the beancurd having noticeable bean particles, giving it a finely gritty feel."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.4653329913895!2d114.1157064!3d22.2224166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34015516556547a3%3A0x13ba95fdcbd1c368!2sTofu%20Garden%20(Ah%20Por%20Tofu%20Fa)!5e0!3m2!1sja!2sjp!4v1720244346254!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.4653329913895!2d114.1157064!3d22.2224166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34015516556547a3%3A0x13ba95fdcbd1c368!2sTofu%20Garden%20(Ah%20Por%20Tofu%20Fa)!5e0!3m2!1sen!2sjp!4v1720244332423!5m2!1sen!2sjp"
     },
     {
         "ID": "36",
-        "rank": 35,
-        "store_name": "Grandma's tofu pudding 亞婆豆腐花",
-        "place": "Tai Po 大埔墟",
+        "rank": 37,
+        "store_name": "Grandma's tofu pudding \u4e9e\u5a46\u8c46\u8150\u82b1",
+        "place": "Tai Po \u5927\u57d4\u589f",
         "picture": [
             "/MyPage/images/beancurd_images/bc37.jpg"
         ],
         "foods_id": [
             "49"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "香港新界界隈では有名な豆腐花屋さん。店員さんも優しめで、かつ店内飲食スペースがあるため、サービスは非常に満足できるものであった。"
+                "line": "\u9999\u6e2f\u65b0\u754c\u754c\u9688\u3067\u306f\u6709\u540d\u306a\u8c46\u8150\u82b1\u5c4b\u3055\u3093\u3002\u5e97\u54e1\u3055\u3093\u3082\u512a\u3057\u3081\u3067\u3001\u304b\u3064\u5e97\u5185\u98f2\u98df\u30b9\u30da\u30fc\u30b9\u304c\u3042\u308b\u305f\u3081\u3001\u30b5\u30fc\u30d3\u30b9\u306f\u975e\u5e38\u306b\u6e80\u8db3\u3067\u304d\u308b\u3082\u306e\u3067\u3042\u3063\u305f\u3002"
             },
             {
-                "line": "豆花は、生地がふわふわで崩れにくいタイプである。満足感はあるが、ものすごく感動するというものでもなく、周辺探索のお供におすすめといった感じだろうか。"
+                "line": "\u8c46\u82b1\u306f\u3001\u751f\u5730\u304c\u3075\u308f\u3075\u308f\u3067\u5d29\u308c\u306b\u304f\u3044\u30bf\u30a4\u30d7\u3067\u3042\u308b\u3002\u6e80\u8db3\u611f\u306f\u3042\u308b\u304c\u3001\u3082\u306e\u3059\u3054\u304f\u611f\u52d5\u3059\u308b\u3068\u3044\u3046\u3082\u306e\u3067\u3082\u306a\u304f\u3001\u5468\u8fba\u63a2\u7d22\u306e\u304a\u4f9b\u306b\u304a\u3059\u3059\u3081\u3068\u3044\u3063\u305f\u611f\u3058\u3060\u308d\u3046\u304b\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A famous beancurd shop in the New Territories of Hong Kong. The staff were kind, and there was a dine-in space, making the service very satisfying." },
-            { "line": "The beancurd had a fluffy texture and was of the type that doesn't easily crumble. It's satisfying, though not overwhelmingly impressive, and it's a good companion for exploring the area." }
+            {
+                "line": "A famous beancurd shop in the New Territories of Hong Kong. The staff were kind, and there was a dine-in space, making the service very satisfying."
+            },
+            {
+                "line": "The beancurd had a fluffy texture and was of the type that doesn't easily crumble. It's satisfying, though not overwhelmingly impressive, and it's a good companion for exploring the area."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118096.20009001627!2d114.14141534999999!3d22.3345056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404083f708358c9%3A0xbc931aa35ed219f0!2z5Lqc5amG6LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720244495779!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236002.11509425277!2d114.02704861640628!3d22.44659460000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404083f708358c9%3A0xbc931aa35ed219f0!2sGrandma&#39;s%20tofu%20pudding!5e0!3m2!1sen!2sjp!4v1720244474630!5m2!1sen!2sjp"
     },
     {
         "ID": "37",
-        "rank": 36,
-        "store_name": "The Soy House 合和荳品",
-        "place": "Causeway Bay 銅鑼灣",
+        "rank": 38,
+        "store_name": "The Soy House \u5408\u548c\u8373\u54c1",
+        "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
             "/MyPage/images/beancurd_images/bc38.jpg"
         ],
         "foods_id": [
             "50"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [
             {
-                "line": "繁華街の中心に位置する豆腐花屋さん（店内飲食レストラン型）。立地も相まって値段が高い。非常にぷるぷるしており、スプーンで掬った時になかなか切れずに塊がそのまま掬えてしまう。味自体はぼちぼち。"
+                "line": "\u7e41\u83ef\u8857\u306e\u4e2d\u5fc3\u306b\u4f4d\u7f6e\u3059\u308b\u8c46\u8150\u82b1\u5c4b\u3055\u3093\uff08\u5e97\u5185\u98f2\u98df\u30ec\u30b9\u30c8\u30e9\u30f3\u578b\uff09\u3002\u7acb\u5730\u3082\u76f8\u307e\u3063\u3066\u5024\u6bb5\u304c\u9ad8\u3044\u3002\u975e\u5e38\u306b\u3077\u308b\u3077\u308b\u3057\u3066\u304a\u308a\u3001\u30b9\u30d7\u30fc\u30f3\u3067\u63ac\u3063\u305f\u6642\u306b\u306a\u304b\u306a\u304b\u5207\u308c\u305a\u306b\u584a\u304c\u305d\u306e\u307e\u307e\u63ac\u3048\u3066\u3057\u307e\u3046\u3002\u5473\u81ea\u4f53\u306f\u307c\u3061\u307c\u3061\u3002"
             },
             {
-                "line": "訪問時は土曜正午過ぎであったが、客はまばらであった。ゆっくりする分には悪くない。"
+                "line": "\u8a2a\u554f\u6642\u306f\u571f\u66dc\u6b63\u5348\u904e\u304e\u3067\u3042\u3063\u305f\u304c\u3001\u5ba2\u306f\u307e\u3070\u3089\u3067\u3042\u3063\u305f\u3002\u3086\u3063\u304f\u308a\u3059\u308b\u5206\u306b\u306f\u60aa\u304f\u306a\u3044\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "A beancurd shop located in the heart of a busy district (restaurant style with dine-in). The prices are high due to its location. The beancurd was very jiggly and didn't easily cut when scooped with a spoon. The taste was average." },
-            { "line": "When I visited on a Saturday just after noon, the place was sparsely populated. It's not bad for a leisurely visit." }
+            {
+                "line": "A beancurd shop located in the heart of a busy district (restaurant style with dine-in). The prices are high due to its location. The beancurd was very jiggly and didn't easily cut when scooped with a spoon. The taste was average."
+            },
+            {
+                "line": "When I visited on a Saturday just after noon, the place was sparsely populated. It's not bad for a leisurely visit."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29530.37542812038!2d114.17451319999998!3d22.304607400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040051242e09e3%3A0xd50e66a0dcb23f2c!2sThe%20Soy%20House!5e0!3m2!1sja!2sjp!4v1720244604909!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29535.972574652762!2d114.1655155395508!3d22.278119700000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040051242e09e3%3A0xd50e66a0dcb23f2c!2sThe%20Soy%20House!5e0!3m2!1sen!2sjp!4v1720244593537!5m2!1sen!2sjp"
     },
     {
         "ID": "38",
-        "rank": 37,
+        "rank": 39,
         "store_name": "Nine Fresh",
         "place": "Islandwide",
         "picture": [
@@ -1009,46 +1102,51 @@
         "foods_id": [
             "51"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "台湾式豆花。モールに売っており、さっと買えてとても良い。ボリュームもあり、クリーマーの味変も楽しめるのでお値段以上の体験が約束される。バリエーションも多く、飽きない。"
+                "line": "\u53f0\u6e7e\u5f0f\u8c46\u82b1\u3002\u30e2\u30fc\u30eb\u306b\u58f2\u3063\u3066\u304a\u308a\u3001\u3055\u3063\u3068\u8cb7\u3048\u3066\u3068\u3066\u3082\u826f\u3044\u3002\u30dc\u30ea\u30e5\u30fc\u30e0\u3082\u3042\u308a\u3001\u30af\u30ea\u30fc\u30de\u30fc\u306e\u5473\u5909\u3082\u697d\u3057\u3081\u308b\u306e\u3067\u304a\u5024\u6bb5\u4ee5\u4e0a\u306e\u4f53\u9a13\u304c\u7d04\u675f\u3055\u308c\u308b\u3002\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f3\u3082\u591a\u304f\u3001\u98fd\u304d\u306a\u3044\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Taiwanese-style beancurd. Sold in a mall, making it convenient for a quick purchase. It's very filling, and with the option to change the flavor with creamer, it promises a value-for-money experience. There are many variations, so it never gets boring." }
+            {
+                "line": "Taiwanese-style beancurd. Sold in a mall, making it convenient for a quick purchase. It's very filling, and with the option to change the flavor with creamer, it promises a value-for-money experience. There are many variations, so it never gets boring."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.728013752824!2d103.70687439999999!3d1.3395078999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f932d4ab9c5%3A0xdbea798be072a2a6!2sNine%20Fresh%20Desserts%20Taiwan!5e0!3m2!1sja!2sjp!4v1720244769048!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.728013752824!2d103.70687439999999!3d1.3395078999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f932d4ab9c5%3A0xdbea798be072a2a6!2sNine%20Fresh%20Desserts%20Taiwan!5e0!3m2!1sen!2sjp!4v1720244789120!5m2!1sen!2sjp"
     },
     {
         "ID": "39",
-        "rank": 38,
+        "rank": 40,
         "store_name": "Bedok Soya Bean Drink",
         "place": "Bedok 216",
         "picture": [
             "/MyPage/images/beancurd_images/bc40.jpg"
         ],
         "foods_id": [
-            "52", "53"
+            "52",
+            "53"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "普通に美味しい豆花。そして安過ぎる。値段を差し引いて味だけでも十分戦えているのが素晴らしい。"
+                "line": "\u666e\u901a\u306b\u7f8e\u5473\u3057\u3044\u8c46\u82b1\u3002\u305d\u3057\u3066\u5b89\u904e\u304e\u308b\u3002\u5024\u6bb5\u3092\u5dee\u3057\u5f15\u3044\u3066\u5473\u3060\u3051\u3067\u3082\u5341\u5206\u6226\u3048\u3066\u3044\u308b\u306e\u304c\u7d20\u6674\u3089\u3057\u3044\u3002"
             }
         ],
         "descriptions_en": [
-           { "line": "Ordinarily delicious beancurd. And extremely cheap. Even considering just the taste, it holds its own, which is remarkable." }
+            {
+                "line": "Ordinarily delicious beancurd. And extremely cheap. Even considering just the taste, it holds its own, which is remarkable."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.747156149897!2d103.93299599999999!3d1.3276964999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d4b13649855%3A0x8534af055e9f3c20!2sBedok%20Soya%20Bean%20Drink!5e0!3m2!1sja!2sjp!4v1720244950182!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7479343588207!2d103.9331907!3d1.3272141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d4b13649855%3A0x8534af055e9f3c20!2sBedok%20Soya%20Bean%20Drink!5e0!3m2!1sen!2sjp!4v1720244936697!5m2!1sen!2sjp"
     },
     {
         "ID": "40",
-        "rank": 39,
+        "rank": 41,
         "store_name": "Woong Kee Traditional Beancurd (Permanently Closed)",
         "place": "People's Park Centre",
         "picture": [
@@ -1057,250 +1155,294 @@
         "foods_id": [
             "54"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "豆花自体は平均より上。シロップに多少パンチが足りなかった。"
+                "line": "\u8c46\u82b1\u81ea\u4f53\u306f\u5e73\u5747\u3088\u308a\u4e0a\u3002\u30b7\u30ed\u30c3\u30d7\u306b\u591a\u5c11\u30d1\u30f3\u30c1\u304c\u8db3\u308a\u306a\u304b\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The beancurd itself was above average. The syrup lacked a bit of punch." }
+            {
+                "line": "The beancurd itself was above average. The syrup lacked a bit of punch."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.254072596945!2d103.8356371!3d1.2859097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1974ceba662d%3A0x5a60e92c167ecdc5!2sWoong%20Kee%20Traditional%20Bean%20Curd!5e0!3m2!1sja!2sjp!4v1720245075472!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.254072596945!2d103.8356370697754!3d1.2859097000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1974ceba662d%3A0x5a60e92c167ecdc5!2sWoong%20Kee%20Traditional%20Bean%20Curd!5e0!3m2!1sen!2sjp!4v1720245051739!5m2!1sen!2sjp"
     },
     {
         "ID": "41",
-        "rank": 40,
+        "rank": 42,
         "store_name": "Whampoa Soya Bean",
         "place": "Chinatown Complex",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
             "55"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "普通に美味しい味だった。"
+                "line": "\u666e\u901a\u306b\u7f8e\u5473\u3057\u3044\u5473\u3060\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "It was ordinarily delicious." }
+            {
+                "line": "It was ordinarily delicious."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8185059371467!2d103.84307009999998!3d1.282714000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19eab9bdf0d9%3A0x5af6147d9fb129b4!2sWhampoa%20Soya%20Bean%20(1968)!5e0!3m2!1sja!2sjp!4v1720245191285!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8185059371467!2d103.84307010000003!3d1.282714000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19eab9bdf0d9%3A0x5af6147d9fb129b4!2sWhampoa%20Soya%20Bean%20(1968)!5e0!3m2!1sen!2sjp!4v1720245202792!5m2!1sen!2sjp"
     },
     {
         "ID": "42",
-        "rank": 41,
+        "rank": 43,
         "store_name": "Soylicious",
         "place": "Bukit Timah Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc42.jpg"
         ],
         "foods_id": [
-            "56", "57"
+            "56",
+            "57"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "台湾式豆花のように様々なトッピングが楽しめる。湯圓と豆花の組み合わせは、優しみのある味で落ち着きたい時におすすめ。"
+                "line": "\u53f0\u6e7e\u5f0f\u8c46\u82b1\u306e\u3088\u3046\u306b\u69d8\u3005\u306a\u30c8\u30c3\u30d4\u30f3\u30b0\u304c\u697d\u3057\u3081\u308b\u3002\u6e6f\u5713\u3068\u8c46\u82b1\u306e\u7d44\u307f\u5408\u308f\u305b\u306f\u3001\u512a\u3057\u307f\u306e\u3042\u308b\u5473\u3067\u843d\u3061\u7740\u304d\u305f\u3044\u6642\u306b\u304a\u3059\u3059\u3081\u3002"
             },
             {
-                "line": "(豆花自体はMr Beanと同じくらいの美味しさだが、スープと湯圓が美味しい)"
+                "line": "(\u8c46\u82b1\u81ea\u4f53\u306fMr Bean\u3068\u540c\u3058\u304f\u3089\u3044\u306e\u7f8e\u5473\u3057\u3055\u3060\u304c\u3001\u30b9\u30fc\u30d7\u3068\u6e6f\u5713\u304c\u7f8e\u5473\u3057\u3044)"
             }
         ],
         "descriptions_en": [
-            { "line": "You can enjoy various toppings like Taiwanese-style beancurd. The combination of tangyuan and beancurd has a gentle flavor, perfect for when you want to relax." },
-            { "line": "(The beancurd itself is as good as Mr Bean's, but the soup and tangyuan are delicious)" }
+            {
+                "line": "You can enjoy various toppings like Taiwanese-style beancurd. The combination of tangyuan and beancurd has a gentle flavor, perfect for when you want to relax."
+            },
+            {
+                "line": "(The beancurd itself is as good as Mr Bean's, but the soup and tangyuan are delicious)"
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127639.30066455093!2d103.7059673582031!3d1.3394267999999963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1089dc56361d%3A0xae00ac5ff6bb4f7c!2sSoylicious!5e0!3m2!1sja!2sjp!4v1720245772919!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7281457672166!2d103.77600520000001!3d1.3394268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1089dc56361d%3A0xae00ac5ff6bb4f7c!2sSoylicious!5e0!3m2!1sen!2sjp!4v1720245758026!5m2!1sen!2sjp"
     },
     {
         "ID": "43",
-        "rank": 42,
-        "store_name": "Lao Ban Soya Beancurd 老伴豆花",
+        "rank": 44,
+        "store_name": "Lao Ban Soya Beancurd \u8001\u4f34\u8c46\u82b1",
         "place": "IslandWide",
         "picture": [
             "/MyPage/images/beancurd_images/bc43.jpg"
         ],
         "foods_id": [
-            "58", "59", "60"
+            "58",
+            "59",
+            "60"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "ニュースタイルの豆花。アーモンド味の方が好きだが、杏仁豆腐で良くないか感も出てしまう。"
+                "line": "\u30cb\u30e5\u30fc\u30b9\u30bf\u30a4\u30eb\u306e\u8c46\u82b1\u3002\u30a2\u30fc\u30e2\u30f3\u30c9\u5473\u306e\u65b9\u304c\u597d\u304d\u3060\u304c\u3001\u674f\u4ec1\u8c46\u8150\u3067\u826f\u304f\u306a\u3044\u304b\u611f\u3082\u51fa\u3066\u3057\u307e\u3046\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "New style beancurd. I prefer the almond flavor, but it feels similar to almond tofu." }
+            {
+                "line": "New style beancurd. I prefer the almond flavor, but it feels similar to almond tofu."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127639.30066455093!2d103.7059673582031!3d1.3394267999999963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1972b2e9a9b1%3A0xa6b21002fc2914ef!2z6ICB5Ly06LGG6Iqx!5e0!3m2!1sja!2sjp!4v1720245973672!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.822190439352!2d103.8445849!3d1.2803482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1972b2e9a9b1%3A0xa6b21002fc2914ef!2sLao%20Ban%20Soya%20Beancurd!5e0!3m2!1sen!2sjp!4v1720245954007!5m2!1sen!2sjp"
     },
     {
         "ID": "44",
-        "rank": 43,
+        "rank": 45,
         "store_name": "Selegie Soyabean",
         "place": "Boon Keng Station",
         "picture": [
             "/MyPage/images/beancurd_images/bc45.jpg"
         ],
         "foods_id": [
-            "61", "62"
+            "61",
+            "62"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "豆花自体はニュースタイル（豆花プリン）に軍配が上がるお店。シロップは両者共に味がしっかりしており美味しい。"
+                "line": "\u8c46\u82b1\u81ea\u4f53\u306f\u30cb\u30e5\u30fc\u30b9\u30bf\u30a4\u30eb\uff08\u8c46\u82b1\u30d7\u30ea\u30f3\uff09\u306b\u8ecd\u914d\u304c\u4e0a\u304c\u308b\u304a\u5e97\u3002\u30b7\u30ed\u30c3\u30d7\u306f\u4e21\u8005\u5171\u306b\u5473\u304c\u3057\u3063\u304b\u308a\u3057\u3066\u304a\u308a\u7f8e\u5473\u3057\u3044\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The new style beancurd (beancurd pudding) is the winner here. The syrup in both styles is flavorful and delicious." }
+            {
+                "line": "The new style beancurd (beancurd pudding) is the winner here. The syrup in both styles is flavorful and delicious."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127642.31009502849!2d103.8445848695113!3d1.2803481805341983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19d15e29e0a1%3A0x3dbbd72c71d216b4!2sSelegie%20Soyabean!5e0!3m2!1sja!2sjp!4v1720246308793!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.03173705592!2d103.85360956192015!3d1.320999636438534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19d15e29e0a1%3A0x3dbbd72c71d216b4!2sSelegie%20Soyabean!5e0!3m2!1sen!2sjp!4v1720246293980!5m2!1sen!2sjp"
     },
     {
         "ID": "45",
-        "rank": 44,
+        "rank": 46,
         "store_name": "Go Go Beanz",
         "place": "Chinatown Complex",
         "picture": [
             "/MyPage/images/beancurd_images/bc46.jpg"
         ],
         "foods_id": [
-            "63", "64"
+            "63",
+            "64"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "シロップは確かに美味しい。しかし、豆花は平均ほどであった。"
+                "line": "\u30b7\u30ed\u30c3\u30d7\u306f\u78ba\u304b\u306b\u7f8e\u5473\u3057\u3044\u3002\u3057\u304b\u3057\u3001\u8c46\u82b1\u306f\u5e73\u5747\u307b\u3069\u3067\u3042\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "The syrup is certainly delicious. However, the beancurd was average." }
+            {
+                "line": "The syrup is certainly delicious. However, the beancurd was average."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8187049910484!2d103.8430923!3d1.2825863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1993750a6907%3A0x77e07d752d5c4675!2sGogo%20Beanz%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720246470713!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8187049910484!2d103.8430923!3d1.2825863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1993750a6907%3A0x77e07d752d5c4675!2sGogo%20Beanz%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720246440425!5m2!1sen!2sjp"
     },
     {
         "ID": "46",
-        "rank": 45,
+        "rank": 47,
         "store_name": "51 Soya Bean",
         "place": "Golden Mile Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc47.jpg"
         ],
         "foods_id": [
-            "65", "66"
+            "65",
+            "66"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "見た目は良いのだが、よくあるニュースタイル系のような味であった。"
+                "line": "\u898b\u305f\u76ee\u306f\u826f\u3044\u306e\u3060\u304c\u3001\u3088\u304f\u3042\u308b\u30cb\u30e5\u30fc\u30b9\u30bf\u30a4\u30eb\u7cfb\u306e\u3088\u3046\u306a\u5473\u3067\u3042\u3063\u305f\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "It looks good, but it tasted like a typical new style beancurd." }
+            {
+                "line": "It looks good, but it tasted like a typical new style beancurd."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.572979041452!2d103.86392990000003!3d1.3030907999999954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b4746728d9%3A0xa4eec25b376c12e3!2s51%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720246653223!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127641.16183676348!2d103.86411749999999!3d1.3032058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b4746728d9%3A0xa4eec25b376c12e3!2s51%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720246640505!5m2!1sen!2sjp"
     },
     {
         "ID": "47",
-        "rank": 46,
+        "rank": 48,
         "store_name": "Mr Bean",
         "place": "Islandwide",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
-            "67", "68"
+            "67",
+            "68"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "利便性第一位。どこにでもある。日常的に買うならここ。豆花は少し苦味を感じるオールドスタイルで落ち着く味。フレーバー豆花も売っている。"
+                "line": "\u5229\u4fbf\u6027\u7b2c\u4e00\u4f4d\u3002\u3069\u3053\u306b\u3067\u3082\u3042\u308b\u3002\u65e5\u5e38\u7684\u306b\u8cb7\u3046\u306a\u3089\u3053\u3053\u3002\u8c46\u82b1\u306f\u5c11\u3057\u82e6\u5473\u3092\u611f\u3058\u308b\u30aa\u30fc\u30eb\u30c9\u30b9\u30bf\u30a4\u30eb\u3067\u843d\u3061\u7740\u304f\u5473\u3002\u30d5\u30ec\u30fc\u30d0\u30fc\u8c46\u82b1\u3082\u58f2\u3063\u3066\u3044\u308b\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Top convenience. Available everywhere. If you're buying daily, this is the place. The beancurd has a slightly bitter, old-style taste that's comforting. They also sell flavored beancurd." }
+            {
+                "line": "Top convenience. Available everywhere. If you're buying daily, this is the place. The beancurd has a slightly bitter, old-style taste that's comforting. They also sell flavored beancurd."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7284014714987!2d103.7051807!3d1.3392697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f933f456a5b%3A0x558578c49bcd46c4!2sMr%20Bean!5e0!3m2!1sja!2sjp!4v1720246794133!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.728401471489!2d103.70518069999997!3d1.339269700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f933f456a5b%3A0x558578c49bcd46c4!2sMr%20Bean!5e0!3m2!1sen!2sjp!4v1720246776838!5m2!1sen!2sjp"
     },
     {
         "ID": "48",
-        "rank": 47,
+        "rank": 49,
         "store_name": "Black Ball",
         "place": "Bugis+",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
             "69"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "とても高い。仙草ゼリーは確かに美味しいが、それは豆花ではないのだ。"
+                "line": "\u3068\u3066\u3082\u9ad8\u3044\u3002\u4ed9\u8349\u30bc\u30ea\u30fc\u306f\u78ba\u304b\u306b\u7f8e\u5473\u3057\u3044\u304c\u3001\u305d\u308c\u306f\u8c46\u82b1\u3067\u306f\u306a\u3044\u306e\u3060\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Very expensive. The grass jelly is indeed delicious, but it's not beancurd." }
+            {
+                "line": "Very expensive. The grass jelly is indeed delicious, but it's not beancurd."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020827.8198777685!2d103.08788625000001!3d1.9069651499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bae59d54c5%3A0x78bc46780951127!2z44OW44Op44OD44Kv44Oc44O844Or!5e0!3m2!1sja!2sjp!4v1720246910492!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.791378303365!2d103.8541667!3d1.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bae59d54c5%3A0x78bc46780951127!2sBlackBall%20-%20Bugis%2B!5e0!3m2!1sen!2sjp!4v1720246926807!5m2!1sen!2sjp"
     },
     {
         "ID": "49",
-        "rank": 48,
+        "rank": 50,
         "store_name": "The Soy Inc",
         "place": "Islandwide",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
-            "70", "71"
+            "70",
+            "71"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [
             {
-                "line": "味がついているニュースタイル系のもう一派(諸事情あり)"
+                "line": "\u5473\u304c\u3064\u3044\u3066\u3044\u308b\u30cb\u30e5\u30fc\u30b9\u30bf\u30a4\u30eb\u7cfb\u306e\u3082\u3046\u4e00\u6d3e(\u8af8\u4e8b\u60c5\u3042\u308a)"
             },
             {
-                "line": "ここはPudDrinkという飲む豆花(チョコなどのフレーバー付き)が美味しいのでそっちを頼むべき。"
+                "line": "\u3053\u3053\u306fPudDrink\u3068\u3044\u3046\u98f2\u3080\u8c46\u82b1(\u30c1\u30e7\u30b3\u306a\u3069\u306e\u30d5\u30ec\u30fc\u30d0\u30fc\u4ed8\u304d)\u304c\u7f8e\u5473\u3057\u3044\u306e\u3067\u305d\u3063\u3061\u3092\u983c\u3080\u3079\u304d\u3002"
             }
         ],
         "descriptions_en": [
-            { "line": "Another type of flavored new style beancurd (due to certain circumstances)." },
-            { "line": "You should try the PudDrink, which is a drinkable beancurd with flavors like chocolate." }
+            {
+                "line": "Another type of flavored new style beancurd (due to certain circumstances)."
+            },
+            {
+                "line": "You should try the PudDrink, which is a drinkable beancurd with flavors like chocolate."
+            }
         ],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021108.9654203269!2d103.15542006562497!3d1.3524184000000028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0fecb62e0085%3A0xe0ff5efb8b636c2a!2sThe%20Soy%20Inc%20%40%20544%20Jurong%20West%20-%20Fresh%20Soy%20Milk%20%26%20Beancurd%20Pudding!5e0!3m2!1sja!2sjp!4v1720247078740!5m2!1sja!2sjp",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.89830864301!2d103.65370956535419!3d1.3083953520459894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0fecb62e0085%3A0xe0ff5efb8b636c2a!2sThe%20Soy%20Inc%20%40%20544%20Jurong%20West%20-%20Fresh%20Soy%20Milk%20%26%20Beancurd%20Pudding!5e0!3m2!1sen!2sjp!4v1720247060284!5m2!1sen!2sjp"
     },
     {
+        "ID": "16",
+        "rank": -1,
+        "store_name": "House of Soya Beans",
+        "place": "Zion Riverside Food Centre",
+        "picture": [],
+        "foods_id": [
+            "26",
+            "27"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032355791925!2d103.82875527526775!3d1.2924728617569747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sja!2sjp!4v1720186507769!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032439564367!2d103.83133023151119!3d1.292467528289856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sen!2sjp!4v1720186467621!5m2!1sen!2sjp"
+    },
+    {
         "ID": "50",
         "rank": -1,
-        "store_name": "Everyday Soya Bean 天天豆浆",
+        "store_name": "Everyday Soya Bean \u5929\u5929\u8c46\u6d46",
         "place": "Haig Road Market & Food Centre",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
             "72"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1312,12 +1454,11 @@
         "rank": -1,
         "store_name": "Whampoa Soya Bean",
         "place": "Clementi 448 Market & Food Centre",
-        "picture": [
-        ],
+        "picture": [],
         "foods_id": [
             "73"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1335,7 +1476,7 @@
         "foods_id": [
             "74"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1345,15 +1486,16 @@
     {
         "ID": "53",
         "rank": -1,
-        "store_name": "Whampoa Soya Bean and Grass Jelly 黄埔豆花水",
+        "store_name": "Whampoa Soya Bean and Grass Jelly \u9ec4\u57d4\u8c46\u82b1\u6c34",
         "place": "Whampoa Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc49.jpg"
         ],
         "foods_id": [
-            "75", "76"
+            "75",
+            "76"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1363,7 +1505,7 @@
     {
         "ID": "54",
         "rank": -1,
-        "store_name": "Pure Soya Bean 纯香豆浆",
+        "store_name": "Pure Soya Bean \u7eaf\u9999\u8c46\u6d46",
         "place": "Toa Payoh West Market & Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc50.jpg"
@@ -1371,7 +1513,7 @@
         "foods_id": [
             "77"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1381,7 +1523,7 @@
     {
         "ID": "55",
         "rank": -1,
-        "store_name": "DDSD 大豆小豆 - Soya Beancurd",
+        "store_name": "DDSD \u5927\u8c46\u5c0f\u8c46 - Soya Beancurd",
         "place": "Hong Lim Market & Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc51.jpg"
@@ -1389,7 +1531,7 @@
         "foods_id": [
             "78"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1405,9 +1547,10 @@
             "/MyPage/images/beancurd_images/bc52.jpg"
         ],
         "foods_id": [
-            "79", "80"
+            "79",
+            "80"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1417,7 +1560,7 @@
     {
         "ID": "57",
         "rank": -1,
-        "store_name": "Healthy Bean （健康豆）",
+        "store_name": "Healthy Bean \uff08\u5065\u5eb7\u8c46\uff09",
         "place": "Maxwell Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc53.jpg"
@@ -1425,7 +1568,7 @@
         "foods_id": [
             "81"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1443,7 +1586,7 @@
         "foods_id": [
             "82"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1453,15 +1596,15 @@
     {
         "ID": "59",
         "rank": -1,
-        "store_name": "河上鄉豆美味豆花團",
-        "place": "Sheung Shui 上水河上郷",
+        "store_name": "\u6cb3\u4e0a\u9109\u8c46\u7f8e\u5473\u8c46\u82b1\u5718",
+        "place": "Sheung Shui \u4e0a\u6c34\u6cb3\u4e0a\u90f7",
         "picture": [
             "/MyPage/images/beancurd_images/bc55.jpg"
         ],
         "foods_id": [
             "83"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1471,15 +1614,15 @@
     {
         "ID": "60",
         "rank": -1,
-        "store_name": "一豆花",
-        "place": "Jordan Station 佐敦站",
+        "store_name": "\u4e00\u8c46\u82b1",
+        "place": "Jordan Station \u4f50\u6566\u7ad9",
         "picture": [
             "/MyPage/images/beancurd_images/bc56.jpg"
         ],
         "foods_id": [
             "84"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1490,14 +1633,14 @@
         "ID": "61",
         "rank": -1,
         "store_name": "SOYmart",
-        "place": "Lok Fu Place 樂富廣場",
+        "place": "Lok Fu Place \u6a02\u5bcc\u5ee3\u5834",
         "picture": [
             "/MyPage/images/beancurd_images/bc57.jpg"
         ],
         "foods_id": [
             "85"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1508,14 +1651,14 @@
         "ID": "62",
         "rank": -1,
         "store_name": "SOYmart",
-        "place": "Sha Tin 沙田",
+        "place": "Sha Tin \u6c99\u7530",
         "picture": [
             "/MyPage/images/beancurd_images/bc58.jpg"
         ],
         "foods_id": [
             "86"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1525,15 +1668,15 @@
     {
         "ID": "63",
         "rank": -1,
-        "store_name": "Tofubucks 豆腐巴克",
-        "place": "Shek Mun Station 石門",
+        "store_name": "Tofubucks \u8c46\u8150\u5df4\u514b",
+        "place": "Shek Mun Station \u77f3\u9580",
         "picture": [
             "/MyPage/images/beancurd_images/bc59.jpg"
         ],
         "foods_id": [
             "87"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1543,15 +1686,15 @@
     {
         "ID": "64",
         "rank": -1,
-        "store_name": "Mum's Tofu Pudding 阿媽荳腐花",
-        "place": "Yuen Long 元朗",
+        "store_name": "Mum's Tofu Pudding \u963f\u5abd\u8373\u8150\u82b1",
+        "place": "Yuen Long \u5143\u6717",
         "picture": [
             "/MyPage/images/beancurd_images/bc60.jpg"
         ],
         "foods_id": [
             "88"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1561,15 +1704,15 @@
     {
         "ID": "65",
         "rank": -1,
-        "store_name": "亞玉豆腐花",
-        "place": "Yuen Long 元朗",
+        "store_name": "\u4e9e\u7389\u8c46\u8150\u82b1",
+        "place": "Yuen Long \u5143\u6717",
         "picture": [
             "/MyPage/images/beancurd_images/bc61.jpg"
         ],
         "foods_id": [
             "89"
         ],
-        "country_jp": "香港",
+        "country_jp": "\u9999\u6e2f",
         "country_en": "Hong Kong",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1579,15 +1722,15 @@
     {
         "ID": "66",
         "rank": -1,
-        "store_name": "Taiwan Ten Café 台湾甜商店",
-        "place": "阪急三番街",
+        "store_name": "Taiwan Ten Caf\u00e9 \u53f0\u6e7e\u751c\u5546\u5e97",
+        "place": "\u962a\u6025\u4e09\u756a\u8857",
         "picture": [
             "/MyPage/images/beancurd_images/bc62.jpg"
         ],
         "foods_id": [
             "90"
         ],
-        "country_jp": "日本",
+        "country_jp": "\u65e5\u672c",
         "country_en": "Japan",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1597,7 +1740,7 @@
     {
         "ID": "67",
         "rank": -1,
-        "store_name": "Soya Bean & Jelly Drink 歡飲豆花水",
+        "store_name": "Soya Bean & Jelly Drink \u6b61\u98f2\u8c46\u82b1\u6c34",
         "place": "Chong Pang Market & Food Centre",
         "picture": [
             "/MyPage/images/beancurd_images/bc64.jpg"
@@ -1605,7 +1748,7 @@
         "foods_id": [
             "91"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1623,7 +1766,7 @@
         "foods_id": [
             "92"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
@@ -1641,11 +1784,29 @@
         "foods_id": [
             "93"
         ],
-        "country_jp": "シンガポール",
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
         "country_en": "Singapore",
         "descriptions_jp": [],
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.674164294741!2d103.84398427526759!3d1.3721894615030088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1729758972103!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.674164230545!2d103.8439843!3d1.3721895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1729761470547!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "70",
+        "rank": -1,
+        "store_name": "Old Alley",
+        "place": "Kluang",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc66.jpg"
+        ],
+        "foods_id": [
+            "94"
+        ],
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_en": "Malaysia",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6366.129633896777!2d103.32244364227765!3d2.0310021594668477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sja!2ssg!4v1729908015663!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.310374262428!2d103.31739107526627!3d2.0316220590046354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sen!2ssg!4v1729908050099!5m2!1sen!2ssg"
     }
 ]

@@ -649,5 +649,26 @@
         "food_name_en": "Beancurd",
         "price": "1.8",
         "currency": "SGD"
+    },
+    {
+        "ID": "94",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "12.8",
+        "currency": "RM"
+    },
+    {
+        "ID": "95",
+        "food_name_jp": "原味豆花",
+        "food_name_en": "Original Beancurd",
+        "price": "3.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "96",
+        "food_name_jp": "原味豆花",
+        "food_name_en": "Original Beancurd",
+        "price": "4.5",
+        "currency": "RM"
     }
 ]

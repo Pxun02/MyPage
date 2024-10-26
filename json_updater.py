@@ -106,7 +106,7 @@ class JSONUpdater(QWidget):
     def handle_image(self, file_path):
         next_id = self.get_next_id()
         new_filename = f'bc{next_id}.jpg'
-        destination = os.path.join('src', 'images', 'blog_images', new_filename)
+        destination = os.path.join('src', 'images', 'public', 'beancurd_images', new_filename)
         shutil.copy(file_path, destination)
         self.image_label.setText(f'Image uploaded: {new_filename}')
 
@@ -160,7 +160,7 @@ class JSONUpdater(QWidget):
                 'rank': new_rank,
                 'store_name': self.shop_name.text(),
                 'place': self.shop_place.text(),
-                'picture': [f"/MyPage/images/beancurd_images/bc{self.get_next_id()}.jpg"],
+                'picture': [f"/MyPage/public/images/beancurd_images/bc{self.get_next_id()}.jpg"],
                 'foods_id': self.selected_foods,
                 'country_jp': self.shop_country_jp.text(),
                 'country_en': self.shop_country_en.text(),
