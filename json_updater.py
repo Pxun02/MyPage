@@ -160,7 +160,7 @@ class JSONUpdater(QWidget):
                 'rank': new_rank,
                 'store_name': self.shop_name.text(),
                 'place': self.shop_place.text(),
-                'picture': [f"/MyPage/public/images/beancurd_images/bc{self.get_next_id()}.jpg"],
+                'picture': [f"/MyPage/images/beancurd_images/bc{self.get_next_id()}.jpg"],
                 'foods_id': self.selected_foods,
                 'country_jp': self.shop_country_jp.text(),
                 'country_en': self.shop_country_en.text(),

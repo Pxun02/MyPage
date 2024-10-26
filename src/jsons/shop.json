@@ -813,7 +813,7 @@
         "store_name": "MG 83 Cafe \u7cd6\u6c34\u7f8e\u98df\u9986",
         "place": "Kluang",
         "picture": [
-            "/MyPage/public/images/beancurd_images/bc68.jpg"
+            "/MyPage/images/beancurd_images/bc68.jpg"
         ],
         "foods_id": [
             "96"
@@ -897,7 +897,7 @@
         "store_name": "Kedai Minuman Pemborong Air Tahu Ah Wah \u4e09\u677f\u5934\u4e9a\u534e\u8c46\u8150\u6c34",
         "place": "Kluang",
         "picture": [
-            "/MyPage/public/images/beancurd_images/bc67.jpg"
+            "/MyPage/images/beancurd_images/bc67.jpg"
         ],
         "foods_id": [
             "95"
