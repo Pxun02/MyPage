@@ -1,31 +1,17 @@
 ---
 import '../../../styles/blog.css';
 import foodsData from '../../../jsons/gohan_2023.json';
+import Head from '../../../components/jp/Head.astro';
+import Header from '../../../components/jp/Header.astro';
 import { Image } from 'astro:assets';
 
 const shops = foodsData;
 ---
 
 <html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>年別ご飯ランキング | 2023</title>
-	</head>
+	<Head pageTitle=`年別ご飯ランキング | 2023`/>
 	<body>
-		<header class="ribbon">
-            <h1 class="blog-title">Shawnの徒然</h1>
-            <div class="menu-toggle">☰</div>
-            <ul class="menu">
-				<li><a href="/MyPage/jp">プロフィール</a></li>
-				<li><a href="/MyPage/jp/blog/page-1">ブログ</a></li>
-				<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
-				<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
-				<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
-        </header>
+		<Header />
 		<header>
 			<h1 style="padding-top: 1.5rem;">年別ご飯ランキング</h1>
 			<nav>

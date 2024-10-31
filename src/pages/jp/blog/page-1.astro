@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import '../../../styles/blog.css';
 import { basename } from 'path';
+import Head from '../../../components/jp/Head.astro';
+import Header from '../../../components/jp/Header.astro';
 
 let blogEntries: CollectionEntry<'blog'>[] = [];
 
@@ -21,26 +23,9 @@ const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPe
 ---
 
 <html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>ブログ | Home-1 </title>
-	</head>
+	<Head pageTitle=`ブログ | Home-1`/>
 	<body>
-    <header class="ribbon">
-      <h1 class="blog-title">Shawnの徒然</h1>
-      <div class="menu-toggle">☰</div>
-      <ul class="menu">
-		<li><a href="/MyPage/jp">プロフィール</a></li>
-		<li><a href="/MyPage/jp/blog/page-1">ブログ</a></li>
-		<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
-		<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
-		<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
-      </ul>
-  </header>
+		<Header />
 		<header>
 			<h1 style="padding-top: 1.5rem;">ブログ</h1>
 			<nav class="pagination">
@@ -63,8 +48,8 @@ const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPe
         <ul style="padding-left: 0px;">
         {entriesOnThisPage.map((post: CollectionEntry<'blog'>) => (
             <li>
-            <a href={`/MyPage/jp/blog/${post.slug}/`}>{post.data.title}</a>
-            <p>{post.data.date.toLocaleDateString("ja-JP")}</p>
+            <a class="blog-entry" href={`/MyPage/jp/blog/${post.slug}/`}>{post.data.title}</a>
+            <p class="blog-date">{post.data.date.toLocaleDateString("ja-JP")}</p>
             </li>
         ))}
         </ul>

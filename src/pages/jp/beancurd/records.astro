@@ -3,6 +3,8 @@ import '../../../styles/blog.css';
 import shopsData from '../../../jsons/shop.json';
 import foodsData from '../../../jsons/food.json';
 import { Image } from 'astro:assets';
+import Head from '../../../components/jp/Head.astro';
+import Header from '../../../components/jp/Header.astro';
 
 const shops = shopsData;
 const foods = foodsData;
@@ -11,26 +13,9 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 ---
 
 <html lang="ja">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>南洋豆花探訪記 | その他の訪問記録 </title>
-	</head>
+	<Head pageTitle=`南洋豆花探訪記 | その他の訪問記録`/>
 	<body>
-		<header class="ribbon">
-            <h1 class="blog-title">Shawnの徒然</h1>
-            <div class="menu-toggle">☰</div>
-            <ul class="menu">
-				<li><a href="/MyPage/jp">プロフィール</a></li>
-				<li><a href="/MyPage/jp/blog/page-1">ブログ</a></li>
-				<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
-				<li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
-				<li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
-            </ul>
-        </header>
+		<Header />
 		<header>
 			<nav class="language-select">日 / <a href={`/MyPage/en/beancurd/records`}>En</a></nav>
 			<h1>南洋豆花探訪記</h1>

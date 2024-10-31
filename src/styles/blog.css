@@ -381,3 +381,26 @@ footer {
     align-items: flex-start; /* Left-align content */
     background-color: #f5f5f5; /* Light gray background */
   }
+
+.blog-title a{
+    text-decoration: none;  /* Remove underline from links */
+    color: inherit;  /* Inherit color from parent */
+    margin-bottom: 10px;  /* Add space between links (optional) */
+}
+
+.blog-entry {
+	color: #0066cc;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+.blog-entry:hover {
+    text-decoration: underline;
+}
+
+.blog-date {
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+}

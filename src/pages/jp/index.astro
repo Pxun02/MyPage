@@ -1,28 +1,13 @@
 ---
 import '../../styles/global.css';
+import Head from '../../components/jp/Head.astro';
+import Header from '../../components/jp/Header.astro';
 ---
 
 <html lang="jp">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>プロフィール | Shawn</title>
-	</head>
+	<Head pageTitle=`プロフィール | Shawn`/>
 	<body>
-		<header class="ribbon">
-            <h1 class="blog-title">Shawnの徒然</h1>
-            <div class="menu-toggle">☰</div>
-            <ul class="menu">
-                <li><a href="/MyPage/jp">プロフィール</a></li>
-                <li><a href="/MyPage/jp/blog/page-1">ブログ</a></li>
-				<li><a href="/MyPage/jp/tips">シンガポール生活のTIPS</a></li>
-                <li><a href="/MyPage/jp/beancurd">南洋豆花探訪記</a></li>
-                <li><a href="/MyPage/jp/gohan">年別ご飯ランキング</a></li>
-            </ul>
-        </header>
+		<Header />
         <header>
 			<nav class="language-select">日 / <a href={`/MyPage/en`}>En</a></nav>
 			<h1>平島詢也</h1>
@@ -38,7 +23,10 @@ import '../../styles/global.css';
 			<div class="left-column">
 				<section id="statement">
 					<h2>現在の主な活動</h2>
-					<p>FYP(卒業研究)に注力しています。</p>
+					<ul>
+						<li>FYP(卒業研究)に注力しています。</li>
+						<li>中国語もぼちぼち勉強しています。</li>
+					</ul>
 				</section>
 			
 				<section id="research-interest">
@@ -48,9 +36,10 @@ import '../../styles/global.css';
 							<h3>基礎</h3>
 							<ul>
 								<li>進化ゲーム理論</li>
-                                <li>進化的アルゴリズム</li>
 								<li>複雑ネットワーク</li>
 								<li>力学系</li>
+								<li>数理最適化</li>
+								<li>ランダムウォーク</li>
 	
 							<!-- Add more fields as needed -->
 							</ul>
@@ -58,11 +47,20 @@ import '../../styles/global.css';
 						<div class="applications">
 							<h3>応用</h3>
 							<ul>
+								<li>AIエージェント</li>
 								<li>都市社会科学</li>
-								<li>AI</li>
 							<!-- Add more fields as needed -->
 							</ul>
 						</div>
+				</section>
+
+				<section id="do-cur">
+					<h2>現在メインに研究している分野</h2>
+					<ul>
+						<li>進化的アルゴリズム</li>
+						<li>組合せ最適化</li>
+						<li>LLM</li>
+					</ul>
 				</section>
 	
 				<section id="tidbits">

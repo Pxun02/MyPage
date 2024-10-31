@@ -233,3 +233,9 @@ footer {
     padding: 0;
     display: inline-block;
 }
+
+.blog-title a{
+    text-decoration: none;  /* Remove underline from links */
+    color: inherit;  /* Inherit color from parent */
+    margin-bottom: 10px;  /* Add space between links (optional) */
+}
