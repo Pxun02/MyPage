@@ -1118,8 +1118,37 @@
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.728013752824!2d103.70687439999999!3d1.3395078999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f932d4ab9c5%3A0xdbea798be072a2a6!2sNine%20Fresh%20Desserts%20Taiwan!5e0!3m2!1sen!2sjp!4v1720244789120!5m2!1sen!2sjp"
     },
     {
-        "ID": "39",
+        "ID": "73",
         "rank": 40,
+        "store_name": "Tian Wang Soya Beancurd",
+        "place": "Junction 10, Bukit Panjang",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc73.jpg"
+        ],
+        "foods_id": [
+            "97"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [
+            {
+                "line": "\u30d1\u30c3\u30b1\u30fc\u30b8\u3055\u308c\u305f\u8c46\u82b1\u3002\u30d1\u30c3\u30b1\u30fc\u30b8\u7cfb\u306b\u7279\u6709\u306e\u51dd\u56fa\u5264\u3092\u4f7f\u3063\u3066\u304a\u308a\u3001\u30bc\u30e9\u30c1\u30f3\u306e\u3088\u3046\u306a\u98df\u3079\u5fdc\u3048\u3002"
+            },
+            {
+                "line": "\u500b\u4eba\u7684\u306b\u306f\u8001\u4f34\u3088\u308a\u3082\u7f8e\u5473\u3057\u304f\u611f\u3058\u305f\u305f\u3081\u3053\u306e\u9806\u4f4d\u3002\u8c46\u306e\u7518\u5473\u304c\u611f\u3058\u3089\u308c\u308b\u3002"
+            }
+        ],
+        "descriptions_en": [
+            {
+                "line": "Packaged beancurd. It uses coagulants typical of packaged products, giving it a gelatin-like texture. Personally, I found it tastier than the traditional type, hence this ranking. You can taste the sweetness of the beans."
+            }
+        ],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8609.368918110384!2d103.76385382057339!3d1.375316867028614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11bc5df9744d%3A0x94b55011eb44a831!2sTian%20Wang%20Soya%20Beancurd!5e0!3m2!1sja!2ssg!4v1730434222155!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.642345215427!2d103.7601697!3d1.3803079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11bc5df9744d%3A0x94b55011eb44a831!2sTian%20Wang%20Soya%20Beancurd!5e0!3m2!1sen!2ssg!4v1730434335281!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "39",
+        "rank": 41,
         "store_name": "Bedok Soya Bean Drink",
         "place": "Bedok 216",
         "picture": [
@@ -1146,7 +1175,7 @@
     },
     {
         "ID": "40",
-        "rank": 41,
+        "rank": 42,
         "store_name": "Woong Kee Traditional Beancurd (Permanently Closed)",
         "place": "People's Park Centre",
         "picture": [
@@ -1172,7 +1201,7 @@
     },
     {
         "ID": "41",
-        "rank": 42,
+        "rank": 43,
         "store_name": "Whampoa Soya Bean",
         "place": "Chinatown Complex",
         "picture": [],
@@ -1196,7 +1225,7 @@
     },
     {
         "ID": "42",
-        "rank": 43,
+        "rank": 44,
         "store_name": "Soylicious",
         "place": "Bukit Timah Food Centre",
         "picture": [
@@ -1229,7 +1258,7 @@
     },
     {
         "ID": "43",
-        "rank": 44,
+        "rank": 45,
         "store_name": "Lao Ban Soya Beancurd \u8001\u4f34\u8c46\u82b1",
         "place": "IslandWide",
         "picture": [
@@ -1257,7 +1286,7 @@
     },
     {
         "ID": "44",
-        "rank": 45,
+        "rank": 46,
         "store_name": "Selegie Soyabean",
         "place": "Boon Keng Station",
         "picture": [
@@ -1284,7 +1313,7 @@
     },
     {
         "ID": "45",
-        "rank": 46,
+        "rank": 47,
         "store_name": "Go Go Beanz",
         "place": "Chinatown Complex",
         "picture": [
@@ -1311,7 +1340,7 @@
     },
     {
         "ID": "46",
-        "rank": 47,
+        "rank": 48,
         "store_name": "51 Soya Bean",
         "place": "Golden Mile Food Centre",
         "picture": [
@@ -1338,7 +1367,7 @@
     },
     {
         "ID": "47",
-        "rank": 48,
+        "rank": 49,
         "store_name": "Mr Bean",
         "place": "Islandwide",
         "picture": [],
@@ -1363,7 +1392,7 @@
     },
     {
         "ID": "48",
-        "rank": 49,
+        "rank": 50,
         "store_name": "Black Ball",
         "place": "Bugis+",
         "picture": [],
@@ -1387,7 +1416,7 @@
     },
     {
         "ID": "49",
-        "rank": 50,
+        "rank": 51,
         "store_name": "The Soy Inc",
         "place": "Islandwide",
         "picture": [],
