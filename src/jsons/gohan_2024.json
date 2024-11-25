@@ -102,6 +102,16 @@
     {
         "ID": "11",
         "rank": 11,
+        "store_name": "MAO MASTER 帽牌货冒菜",
+        "location": "Bugis Junction",
+        "country": "シンガポール",
+        "food_name": "冒菜",
+        "picture": ["/MyPage/images/food_images/f29.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.793377830935!2d103.85033358948886!3d1.2987337339008922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190d0fba1381%3A0xcfa3764c2ef63f2f!2zTUFPIE1BU1RFUiDluL3niYzotKflhpLoj5w!5e0!3m2!1sja!2ssg!4v1732541138967!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "12",
+        "rank": 12,
         "store_name": "King of Fried Rice",
         "location": "チェーン",
         "country": "シンガポール",
@@ -110,8 +120,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7365182960916!2d103.73708687526776!3d1.3342732616251067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da117cb05e3543%3A0x618e07c0db76ff4d!2sKing%20of%20Fried%20Rice%20-%20Jurong%20East!5e0!3m2!1sja!2ssg!4v1726753136000!5m2!1sja!2ssg"
     },
     {
-        "ID": "12",
-        "rank": 12,
+        "ID": "13",
+        "rank": 13,
         "store_name": "銀座 篝",
         "location": "東京、大阪、札幌",
         "country": "日本",
