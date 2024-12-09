@@ -122,11 +122,31 @@
     {
         "ID": "13",
         "rank": 13,
-        "store_name": "銀座 篝",
-        "location": "東京、大阪、札幌",
-        "country": "日本",
-        "food_name": "卵かけ麺",
-        "picture": ["/MyPage/images/food_images/f25.jpg"],
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.42648909846!2d141.34980688797526!3d43.05349691660146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2976a7063a61%3A0xe7bcf3501f16623a!2z6YqA5bqn56-dKOOCruODs-OCtiDjgqvjgqzjg6op5pyt5bmM44GZ44GZ44GN44Gu5bqX!5e0!3m2!1sja!2ssg!4v1724761206812!5m2!1sja!2ssg"
+        "store_name": "Wing Kee 榮記茶餐室",
+        "location": "慈雲山, 新界",
+        "country": "香港",
+        "food_name": "煲仔沙嗲牛肉麵",
+        "picture": ["/MyPage/images/food_images/f30.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14760.687716186618!2d114.19129003367422!3d22.347136127404784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406dd10fef873%3A0x2d1dba70264130d5!2sWing%20Kee!5e0!3m2!1sja!2ssg!4v1733729360050!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "14",
+        "rank": 14,
+        "store_name": "Feng Zhen Lor Mee 鳳珍鹵麵",
+        "location": "Taman Jurong Food Centre",
+        "country": "シンガポール",
+        "food_name": "鹵麵",
+        "picture": ["/MyPage/images/food_images/f32.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7357156735416!2d103.71900147526762!3d1.3347681616235134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0ffb0d82d25f%3A0x7e92430252088e88!2zRmVuZyBaaGVuIExvciBNZWUg6bOz54-N6bm16bq1!5e0!3m2!1sja!2ssg!4v1733729574423!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "15",
+        "rank": 15,
+        "store_name": "Ho Hung Kee 何洪記粥麵專家",
+        "location": "香港國際機場, 新界",
+        "country": "香港",
+        "food_name": "雲呑麺",
+        "picture": ["/MyPage/images/food_images/f31.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44604.472374243276!2d113.90341585044843!3d22.30570079078231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e316c83b9edf%3A0x2b94a9e43d3cc743!2sHo%20Hung%20Kee%20(1946)%20Congee%20%26%20Noodle%20Shop!5e0!3m2!1sja!2ssg!4v1733729719838!5m2!1sja!2ssg"
     }
 ]

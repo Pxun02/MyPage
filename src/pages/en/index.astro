@@ -1,21 +1,14 @@
 ---
-import '../../styles/global.css';
-import localTitleImage from '../../images/img_1.jpg';
+import '../../styles/global_en.css';
+import Head from '../../components/en/Head.astro';
+import Header from '../../components/en/Header.astro';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Profile | Shawn</title>
-	</head>
+	<Head pageTitle=`Profile | Shawn`/>
 	<body>
-		<header>
-			<nav class="language-select">En / <a href={`/MyPage/jp`}>日</a></nav>
-			<img src={localTitleImage.src} alt="Website Logo">
+		<Header />
+        <header>
 			<h1>Hirashima Shunya (Shawn)</h1>
 			<p>Final Year Undergraduate Student at Nanyang Technological University (NTU), Singapore<br>Major: Computer Science</p>
 			<nav>
@@ -41,7 +34,7 @@ import localTitleImage from '../../images/img_1.jpg';
 								<li>Evolutionary Game Theory</li>
 								<li>Complex Network</li>
 								<li>Dynamics</li>
-								<li>Multi-Agent Systems</li>
+								<li>Mathematical Optimization</li>
 	
 							<!-- Add more fields as needed -->
 							</ul>
@@ -49,9 +42,9 @@ import localTitleImage from '../../images/img_1.jpg';
 						<div class="applications">
 							<h3>Applications</h3>
 							<ul>
-								<li>Energy Distributions</li>
-								<li>Urban Social Networks</li>
-								<li>AI</li>
+								<li>AI Agent</li>
+								<li>Social Science</li>
+								<li>Population Genetics</li>
 							<!-- Add more fields as needed -->
 							</ul>
 						</div>
@@ -83,7 +76,8 @@ import localTitleImage from '../../images/img_1.jpg';
 				<section id="tidbits">
 					<h2>Tidbits</h2>
 					<ul>
-						<li>Hobbies: readings, strolling around the city, <a href='/MyPage/en/beancurd'>beancurd/local food hoppings</a></li>
+						<li>Hobbies: readings, travel,</li>
+						<li>Cognitive Psychology, Social Psychology, Analytic Philosophy, Linguistics, Quantum Walk</li>
 						<li>Fav Music: C-pop, J-pop</li>
 					</ul>
 				</section>
