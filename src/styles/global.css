@@ -220,7 +220,7 @@ footer {
   .language-select {
     font-weight: bold;
     color: #333;
-    font-size: 24px;
+    font-size: 16px;
     width: fit-content; /* Adjust padding as needed */
     display: float;
     padding: 5px 10px; /* Adjust padding as needed */
