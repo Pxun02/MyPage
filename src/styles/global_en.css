@@ -160,8 +160,13 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+.ribbon .menu-line h1 {
+    font-size: 22px;
+}
+
 .ribbon .menu li a {
-    color: white;
+    color: rgb(198, 36, 36);
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
