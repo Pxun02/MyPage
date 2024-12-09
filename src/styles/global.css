@@ -223,7 +223,7 @@ footer {
     font-size: 16px;
     width: fit-content; /* Adjust padding as needed */
     display: float;
-    padding: 5px 10px; /* Adjust padding as needed */
+    padding: 5px 5px; /* Adjust padding as needed */
     border: 1px solid #fff; /* Optional border */
     background-color: #fff;
     border-radius: 5px; /* Optional rounded corners */
