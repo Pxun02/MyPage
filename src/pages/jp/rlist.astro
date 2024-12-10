@@ -1,0 +1,95 @@
+---
+import '../../styles/blog.css';
+import Head from '../../components/jp/Head.astro';
+import Header from '../../components/jp/Header.astro';
+---
+
+<html lang="ja">
+	<Head pageTitle=`学部リーディングリスト`/>
+	<body>
+		<Header />
+		<header>
+			<h1 style="padding-top: 1.5rem;">学部リーディングリスト</h1>
+			<hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+				<h2>概要・留意点</h2>
+                <ul>
+                    <li>学部時代にブックマークをした/購入した本や資料についてまとめた。</li>
+                    <li>全ての本を読んだわけではない。また、全ての本がおすすめかと問われるとそうでもない。</li>
+                    <li>本の読み方もまちまち。具体的には、
+                        <ul>
+                            <li>身につけるために精読</li>
+                            <li>「気持ち」を掻っ攫うためにさらっと斜め読み</li>
+                            <li>メタ的に読む</li>
+                            <li>一部の章のみ読む</li>
+                            <li>類似分野の他の本との比較</li>
+                            <li>暇つぶし</li>
+                        </ul>
+                        などが挙げられる。
+                    </li>
+                    <li>特におすすめできる本は赤字で書名を示している。</li>
+                    <li>なお、NTU Lib Onlineと示した書籍は、NTUのライセンスでオンラインで読める本である。</li>
+                </ul>
+                <h2>リスト</h2>
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBW34Xg-vHxT41naDhYwpe507AVtkYEADpKrO45Z0SarBK6tUTyNkflo6eeLsV6m-ipXrZhxltuHEe/pubhtml?widget=true&amp;headers=false"
+                width="800"
+                height="1000"
+                id="frame"
+                frameborder="0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                />
+			</article>
+		</main>
+	</body>
+	<footer>
+    <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+        <hr class="footer-line">
+		<div class="footer-content"> <p>© 2024 Shawn</p></div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
+</html>
