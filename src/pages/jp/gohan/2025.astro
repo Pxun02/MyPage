@@ -1,6 +1,6 @@
 ---
 import '../../../styles/blog.css';
-import foodsData from '../../../jsons/gohan_2024.json';
+import foodsData from '../../../jsons/gohan_2025.json';
 import Head from '../../../components/jp/Head.astro';
 import Header from '../../../components/jp/Header.astro';
 import { Image } from 'astro:assets';
@@ -9,7 +9,7 @@ const shops = foodsData;
 ---
 
 <html lang="ja">
-	<Head pageTitle=`年別ご飯ランキング | 2024`/>
+	<Head pageTitle=`年別ご飯ランキング | 2025`/>
 	<body>
 		<Header />
 		<header>
@@ -18,11 +18,8 @@ const shops = foodsData;
 				<a href="/MyPage/jp/gohan"><i class="fa-solid fa-house"></i></a>
 			</nav>
 			<nav class="pagination">
-				   <a href={`/MyPage/jp/gohan/2023`} class="prev-page">
-					<i class="fas fa-chevron-left"></i> 2023
-				  </a>
-				  <a href={`/MyPage/jp/gohan/2025`} class="next-page">
-					2025  <i class="fas fa-chevron-right"></i>
+				   <a href={`/MyPage/jp/gohan/2024`} class="prev-page">
+					<i class="fas fa-chevron-left"></i> 2024
 				  </a>
                   <p />
 			  </nav>
@@ -75,12 +72,9 @@ const shops = foodsData;
 	<footer>
 		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
         <nav class="pagination">
-            <a href={`/MyPage/jp/gohan/2023`} class="prev-page">
-             <i class="fas fa-chevron-left"></i> 2023
+            <a href={`/MyPage/jp/gohan/2024`} class="prev-page">
+             <i class="fas fa-chevron-left"></i> 2024
            </a>
-		   <a href={`/MyPage/jp/gohan/2025`} class="next-page">
-			2025  <i class="fas fa-chevron-right"></i>
-		</a>
            <p />
        </nav>
 		<hr class="footer-line">
