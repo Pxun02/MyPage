@@ -76,42 +76,46 @@ import Header from '../../components/jp/Header_prof.astro';
 
 			<div class="right-column">
 				<section id="education">
-					<h2>学歴</h2>
-					<ul>
-						<!-- <li>
-							<h3>PhD (Mathematical Science)</h3>
-							<p>Nanyang Technological University (NTU), シンガポール</p>
-							<p>(予定) 2025年8月 -</p>
-						</li> -->
-						<li>
-							<h3>学士 (Computing)</h3>
-							<p>Nanyang Technological University (NTU), シンガポール</p>
-							<p>専攻：コンピュータサイエンス</p>
-							<p>2021年8月 - 現在</p>
-						</li>
-						<li>
-							<h3>交換留学</h3>
-							<p>The Chinese University of Hong Kong (CUHK), 香港</p>
-							<p>2024年1月 - 2024年5月</p>
-						</li>
-					</ul>
+					<details class="collapsible-mobile">
+						<summary><h2>学歴</h2></summary>
+						<ul>
+							<!-- <li>
+								<h3>PhD (Mathematical Science)</h3>
+								<p>Nanyang Technological University (NTU), シンガポール</p>
+								<p>(予定) 2025年8月 -</p>
+							</li> -->
+							<li>
+								<h3>学士 (Computing)</h3>
+								<p>Nanyang Technological University (NTU), シンガポール</p>
+								<p>専攻：コンピュータサイエンス</p>
+								<p>2021年8月 - 現在</p>
+							</li>
+							<li>
+								<h3>交換留学</h3>
+								<p>The Chinese University of Hong Kong (CUHK), 香港</p>
+								<p>2024年1月 - 2024年5月</p>
+							</li>
+						</ul>
+					</details>
 				</section>
 				<section id="experiences">
-					<h2>職歴</h2>
-					<ul>
-                        <li>
-							<h3>ミチビク株式会社</h3>
-							<p>R&Dエンジニア インターン(日本)</p>
-							<p>2023年5月 - 2023年7月</p>
-							<p>生成AIの調査やプロンプト調整など</p>
-						</li>
-						<li>
-							<h3>Panasonic R&D Center Singapore</h3>
-							<p>R&Dエンジニア インターン(シンガポール）</p>
-							<p>2023年8月 - 2023年12月</p>
-							<p>DERMSの制御アルゴリズムのテストなど</p>
-						</li>
-					</ul>
+					<details class="collapsible-mobile">
+						<summary><h2>職歴</h2></summary>
+						<ul>
+							<li>
+								<h3>ミチビク株式会社</h3>
+								<p>R&Dエンジニア インターン(日本)</p>
+								<p>2023年5月 - 2023年7月</p>
+								<p>生成AIの調査やプロンプト調整など</p>
+							</li>
+							<li>
+								<h3>Panasonic R&D Center Singapore</h3>
+								<p>R&Dエンジニア インターン(シンガポール）</p>
+								<p>2023年8月 - 2023年12月</p>
+								<p>DERMSの制御アルゴリズムのテストなど</p>
+							</li>
+						</ul>
+					</details>
 				</section>
 			</div>
 		</main>
@@ -161,5 +165,20 @@ import Header from '../../components/jp/Header_prof.astro';
 
 		// Re-run setup on view transitions
 		document.addEventListener('astro:after-swap', setupScrollToTop);
+
+		function setDetailsOpenState() {
+			
+	const isMobile = window.innerWidth <= 768;
+	const details = document.querySelectorAll('details');
+	
+	details.forEach(detail => {
+		if (!isMobile) {
+		detail.setAttribute('open', '');
+		}
+	});
+	}
+
+	window.addEventListener('load', setDetailsOpenState);
+	window.addEventListener('resize', setDetailsOpenState);
     </script>
 </html>

@@ -1,0 +1,566 @@
+---
+import '../../styles/blog.css';
+import Head from '../../components/jp/Head.astro';
+import Header from '../../components/jp/Header.astro';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履修登録について", "過去問", "図書館のライセンス", "CCA(サークル・課外活動)", "交換留学", "海外インターン(OEP)", "研究経験", "インターンシップ", "Work Study Scheme", "Work-Study Degree", "FGOについて", "ABPについて", "Hallについて", "大学内外の交通について", "他キャンパス", "NTU内のおすすめ勉強場所", "NTU内の図書館", "NTU内ショートカット", "遊ぶ場所", "便利なTelegramグループ", "パソコン周辺部品は", "英語の訛り", "中国語について", "イベントとかコンペとか", "就活", "院進"];
+---
+
+<html lang="ja">
+	<Head pageTitle=`NTU TIPS`/>
+	<body>
+		<Header />
+		<header>
+			<h1 style="padding-top: 1.5rem;">NTU TIPS</h1>
+			<hr class="header-line">
+		</header>
+
+		<main>
+			<article>
+				<div class="table-of-contents">
+					<h3>目次</h3>
+					<ul>
+						{h2List.map((content) => (
+							<li>
+								<a href={`#${content}`}>{content}</a>
+							</li>
+						))}
+					</ul>
+				</div>
+                
+                <p>学部時代の私のリーディングリストは<a href="/MyPage/jp/rlist">学部リーディングリスト</a>にて紹介しています。</p>
+
+                <details>
+                    <summary><h2 id="略称など">略称など</h2></summary>
+                    <h3>学部など</h3>
+                    <ul>
+                        <li><b>CoS</b>: College of Science</li>
+                        <ul>
+                            <li><b>ASE</b>: The Asian School of the Environment</li>
+                            <ul>
+                                <li><b>SPMS</b>: School of Physical and Mathematical Sciences</li>
+                                <ul>
+                                    <li><b>MACS</b>: Mathematical and Computer Sciences</li>
+                                    <li><b>PHMS</b>: Physics and Mathematical Sciences</li>
+                                </ul>
+                            </ul>
+
+                            <li><b>SBS</b>: School of Biological Science</li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>CoE</b>: College of Engineering</li>
+                        <ul>
+                            <ul>
+                                <li><b>CEE</b>: School of Civil and Environmental Engineering</li>
+                                <ul>
+                                    <li><b>CEE</b>: Civil and Environmental Engineering</li>
+                                    <li><b>ENE</b>: Environmental Engineering</li>
+                                    <li><b>MS</b>: Maritime Studies</li>
+                                </ul>
+                            </ul>
+                            <ul>
+                                <li><b>EEE</b>: School of Electrical and Electronic Engineering</li>
+                                <ul>
+                                    <li><b>EEE</b>: Electrical and Electronic Engineering</li>
+                                    <li><b>IEM</b>: Information Engineering and Media</li>
+                                </ul>
+                            </ul>
+                            
+                            <li><b>MAE</b>: School of Mechanical and Aerospace Engineering</li>
+                            <li><b>MSE</b>: School of Materials Science and Engineering</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li><b>CoHASS</b>: College of Humanities, Arts and Social Sciences</li>
+                        <ul>
+                            <li><b>ADM</b>: School of Art, Design and Media</li>
+                            <li><b>SOH</b>: School of Humanities</li>
+                            <li><b>SSS</b>: School of Social Sciences</li>
+                            <li><b>WKWSCI</b>: Wee Kim Wee School of Communication and Information</li>
+                        </ul>
+                    </ul>
+                    <ul>
+                        <li><b>CCEB</b>: School of Chemistry, Chemical Engineering and Biotechnology</li>
+                        <ul>
+                            <li><b>CBE</b>: Chemical and Biomolecular Engineering</li>
+                            <li><b>BIE</b>: Bioengineering</li>
+                            <li><b>CBC</b>: Chemistry and Biological Chemistry</li>
+                        </ul>
+                    </ul>
+                    
+                    <ul>
+                        <li><b>CCDS</b>: College of Computing and Data Science</li>
+                        <ul>
+                            <li><b>CSC</b>: Computer Science</li>
+                            <li><b>CE</b>: Computer Engineering</li>
+                            <li><b>DSAI</b>: Data Science and Artificial Intelligence</li>
+                            <li><b>BCE</b>: Business and Computer Engineering</li>
+                            <li><b>BCG</b>: Business and Computer Science</li>
+                        </ul>
+                    </ul>
+                    <li><b>NBS</b>: Nanyang Business School</li>
+                    <li><b>NIE</b>: National Institute of Education</li>
+                    <li><b>LKCMedicine</b>: Lee Kong Chian School of Medicine</li>
+
+                    <ul>
+                        <li>Premier Scholars Programs</li>
+                        <ul>
+                            <li><b>REP</b>: Renaissance Engineering Programme</li>
+                            <li><b>CNYSP</b>: CN Yang Scholars Program</li>
+                            <li><b>USP</b>: University Scholars Programme</li>
+                            <li><b>TAISP</b>: Turing AI Scholars Programme</li>
+                            <li><b>NGL</b>: NBS Global Leaders Programme</li>
+                            <li><b>TSP</b>: NTU-NIE Teaching Scholars Programme </li>
+                        </ul>
+                    </ul>
+                    
+                    <h3>単位関係</h3>
+                    <li><b>ICC</b>: Interdisciplinary Collaborative Core - 一般教養単位。<s>悪名高い</s></li>
+                    <li><b>Core</b>: 必修単位。</li>
+                    <li><b>MPE</b>: Major Prescribe Elective - 選択専門必修単位。</li>
+                    <li><b>BDE</b>: Broadening and Deepening Electives - 選択科目単位。</li>   
+                    <li><b>FGO</b>: Flexible Grading Option - GPAの計算に入れない選択科目を選べる制度。<a href=/MyPage/jp/ntu_tips#FGO>FGOについて</a>参照。</li>
+                    <li><b>AU</b>: Academic Unit - 学術単位。</li>
+                    <li><b>GPA</b>: Grade Point Average - 最大5.0。累積GPAは<b>cGPA</b>、学期GPAは<b>sGPA</b>と呼ばれる。</li>
+                    <li><b>LOA</b>: Leave of Absence - 休学。忌引き等で短期の休学も可能。</li>
+                    <li><b>Dabao</b>: MC(Medical Certificate - 病気証明)を取って病欠扱いで試験を休むことで、成績証明書にはLOAと記載される(制度の穴抜け)手段。原義は当地の中国語で飲食物の持ち帰り(打包)。</li>
+
+                    <details>
+                        <summary><h4>GPA換算表</h4></summary>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Letter Grade</th>
+                                    <th>Grade Point</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>A+/A</td>
+                                    <td>5.0</td>
+                                </tr>
+                                <tr>
+                                    <td>A-</td>
+                                    <td>4.5</td>
+                                </tr>
+                                <tr>
+                                    <td>B+</td>
+                                    <td>4.0</td>
+                                </tr>
+                                <tr>
+                                    <td>B</td>
+                                    <td>3.5</td>
+                                </tr>
+                                <tr>
+                                    <td>B-</td>
+                                    <td>3.0</td>
+                                </tr>
+                                <tr>
+                                    <td>C+</td>
+                                    <td>2.5</td>
+                                </tr>
+                                <tr>
+                                    <td>C</td>
+                                    <td>2.0</td>
+                                </tr>
+                                <tr>
+                                    <td>D+</td>
+                                    <td>1.5</td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>
+                                    <td>1.0</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+
+                    <details>
+                        <summary><h4>GPA Classification</h4></summary>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>cGPA Range</th>
+                                    <th>Classification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Honours (Highest Distinction) - 通称FCH (First Class Honours)</td>
+                                    <td>5.00 - 4.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Honours (Distinction) - 通称SCU (Second Class (Upper) Honours)</td>
+                                    <td>4.49 - 4.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Honours (Merit)</td>
+                                    <td>3.99 - 3.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Honours</td>
+                                    <td>3.49 - 3.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Pass</td>
+                                    <td>2.99 - 2.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </details>
+
+
+                    <h3>その他</h3>
+                    <li><b>PI</b>: Professional Internship - 1学期間インターン。</li>
+                    <li><b>PA</b>: Professional Attachment - Special Term中のインターン。</li>
+                    <li><b>FYP</b>: Final Years Program - 卒業研究。</li>
+                    <li><b>NS</b>: North Spine または National Service (兵役など)</li>
+                    <li><b>SS</b>: South Spine</li>
+                    <li><b>URECA</b>: (Undergraduate Research Experience on CAmpus) - 学部生研究プログラム。<a href=/MyPage/jp/ntu_tips#研究経験>研究経験</a>参照。</li>
+                    <li><b>ABP</b>: Accelerated Bachelor Program - 3.5年で卒業できるプログラム。<a href=/MyPage/jp/ntu_tips#ABP>ABPについて</a>参照。</li>
+                    <li><b>STARS</b>: Student Automated Registration System - 履修登録システム。<a href=/MyPage/jp/ntu_tips#STARS>履修登録について</a>参照。</li>
+                    <li><b>Degree Audit</b>: 取得単位やGPAなどの情報が一挙に見られるポータル。</li>
+                    <li><b>OEP</b>: Overseas Entrepreneuship Programme - 海外インターン制度。</li>
+                    <li><b>CCA</b>: Co-curricular Activities - 課外活動。</li>
+                </details>
+
+                
+				<h2 id="各種URL">各種URL</h2>
+                <li><a href="https://entuedu.sharepoint.com/sites/student">Student Intranet</a>: 履修登録やその他申請などの各種リンクに飛べるハブのようなサイト。</li>
+                <li><a href="https://ntuadminonestop.service-now.com/ntussp">One Stop Portal</a>: 学費の支払いや成績証明書、在学証明書などを申請できるサイト。</li>
+                <li><a href="https://ntulearn.ntu.edu.sg/ultra/institution-page">NTU Learn</a>: 履修している授業ごとの総合ページ。</li>
+                <li><a href="https://libguides.ntu.edu.sg/full-text-tools/libbookmark">Full Text Tool</a>: 論文や教科書に大学のライセンスでログインする時に使えるURLのブックマークの仕方を教えてくれるページ。<a href=/MyPage/jp/ntu_tips#図書館のライセンス>図書館のライセンス</a>参照。</li>
+                <li><a href="https://maps.ntu.edu.sg/">NTU Map</a>: NTU内の地図。施設名を入れて検索可能。</li>
+                <li><a href="https://ntu-sp.primo.exlibrisgroup.com/">NTU Library Exlibris</a>: NTU図書館の総合検索サイト。オンライン上でアクセス可能ならその旨とURLが、物理本として存在するなら、蔵書の場所が示される。検索の精度はあんまり良く無いので、あらかじめオンラインで読めることが分かる本(Springerなど)は、検索エンジンで書名を検索してからFull Text Toolを使うと良い。</li>
+                <li><a href="https://library.nie.edu.sg/">NIE Library Exlibris</a>: NIE図書館の総合検索サイト。NTUのアカウントでそのままログイン可能。NTUでアクセスできない本でもこっちでならアクセスできることがある(経験上、入門的/一般向けな読み物系が多め)。</li>
+                <li><a href="https://libguides.ntu.edu.sg/oreilly">O'Reilly Online Platform</a>: O'Reillyの本が読み放題(日本語も含む)。</li>
+                <li><a href="https://gem.ntu.edu.sg/">GEM Mobility Portal</a>: 提携大学や要項などが見られる。</li>
+                <li><a href="https://careeraxis.ntu.edu.sg/students/jobs/search">Career Axis</a>: 大学側に寄せられた、インターン/フルタイムポジションのリスティングポータル。給与が明記されている。</li>
+                <li><a href="https://www.reddit.com/r/NTU/new/">Reddit (r/NTU)</a>: RedditのNTU subreddit。そこそこ情報が集まる。</li>
+                <li><a href="https://forums.hardwarezone.com.sg/">HardWareZone Forums</a>: 比較的アクティブな掲示板。</li>
+
+                <p>また、義務インターンシップ(PI/PA)が近づくと、<b>Inplace Portal</b>なるものにアクセスできるようになります。</p>
+                <p>加えて、Industry Interest Groupsなる、各種業界ごとのイベント/コンペ/コネクション/インターン/新卒募集などの定期情報が降りてくるMS Teamsのチャンネルもありますが、これはメールでURLが来たらアクセスしてください…</p>
+
+                <h2 id="各種アプリ">各種アプリ</h2>
+                <li><b>NTU Pass</b>: NTUの電子学生証。QRコードをかざすことで、図書館や教室の入室が可能。</li>
+                <li><b>NTU Omnibus</b>: NTU内の巡回バスおよび公共バスのタイミングを追跡できるアプリ。バスに関しては、<a href=/MyPage/jp/ntu_tips#大学内外の交通について>大学内外の交通について</a>参照。</li>
+                <li><b>Cates</b>: 大学内の飲食店の予約注文 + デリバリー注文が可能。デリバリーに関しては、昼食・夕食・夜食の指定のタイミングに、指定の配達スペースにのみ配達となる代わりに、送料がほとんどかからない。</li>
+                <li><b>Blackboard</b>: NTU Learnのアプリ版。通知がかなり便利。</li>
+                <li><b>Office Outlook</b>: 大学のメール管理。</li>
+                <li><b>Authenticator</b>: 大学のMSアカウントのログイン用。</li>
+                <li><b>MS Teams</b>: 授業やその他定期購読チャンネル用。</li>
+                <li><b>Zoom</b>: 授業やその他グループワーク時のミーティング用。</li>
+                <li><b>Telegram</b>: 最も頻繁に使うであろうチャットアプリ。大学側も情報発信のチャンネルを使っている。</li>
+                <li><b>Instagram</b>: 基本グループメイトと繋がる場合はこれ。</li>
+                <li><b>LinkedIn</b>: プロフェッショナルSNSとでも言うべきか。履歴書のようなプロフィールを構築し、ネットワーキングができる他、達成したことや役職の変更を投稿してお知らせできる。</li>
+                <li><b>WeChat</b>: 個人的には使ったことはないが、中国本土学生/TA/教授との連絡では好まれるかも。</li>
+                <li><b>Libby, Bookshelf</b>: モバイル端末で使える、NTU/NIE図書館のライセンスで読める本の一部を読めるリーダー。
+
+                <h2 id="学期">学期</h2>
+                <p>2学期制。Sem 1は8月上/中旬から12月上/中旬、Sem 2は1月上/中旬から5月上/中旬まで。Sem 2と次年度のSem 1間はSpecial Termと扱われ、一部授業が開講されている(AU毎の課金式)。授業によっては、Sem 2 + Special Termのような開講形態を取っているものもある。</p>
+
+                <h2 id="履修登録について">履修登録について</h2>
+                <p>STARSと呼ばれるシステム上で履修登録を行う。一言で言い表せば、早い者勝ち。各々専攻ごとに時間が割り振られるので、その時間ぴったりに履修登録を行うこと。でないと、必修授業すらも取れないことに(Admin..)。</p>
+                <p>事前にプランを立てられるので、有効活用するとよい。</p>
+                <p>なお、LectureやTutorial、Final Examの時間が被っている場合、Prerequisiteを満たしていない場合はシステム上では処理できないので、別でAdmin側に申請が必要。</p>
+
+				<h2 id="過去問">過去問</h2>
+                <p>期末試験の過去問は図書館によって、学生有志による解答は、各SchoolのClubが管理しています。年単位でURLが変わるので、随時送られてくるメールを参考に。</p>
+
+				<h2 id="図書館のライセンス">図書館のライセンス</h2>
+                <p>シンガポールでは、本は基本高額である。日本の本を購入するなら、Kindleや紀伊國屋の海外向けE-bookがお勧め。</p>  
+                <p>Springer (数学系)やO'Reilly (情報系)をはじめとした教科書がオンラインで無料で読める他、かなり幅広い論文へのアクセス権もある。<a href="https://libguides.ntu.edu.sg/full-text-tools/libbookmark">Full Text Tool</a>を参考に、アクセス用のボタンをブックマークするのがよい。</p>
+                <p>私的には、これこそが真の学生特権だと思っています！読み物系の本もそれなりに読めるので、いっぱい本を読みましょう！ (モバイル向けにLibbyとBookshelfというアプリがあります。インストールしておきましょう)</p>
+                <p><s>他の大学の方がアクセス権が広いことがあるので、もしもNTUでアクセスできない本でどうしても読みたい本があるなら、交換留学を考えるのも大きな手。</s></p>
+
+                <h2 id="CCA(サークル・課外活動)">CCA(サークル・課外活動)</h2>
+                <p>CCAと呼ばれる、サークルのような課外活動に参加することができる。これに参加することで、CCAポイントがもらえ、翌年のHallの応募時に優遇される。CCAポイントは、各団体の規模・性質や団体内におけるポジションによって獲得ポイントが上下する。</p>
+                <p>GarageEEE (EEEの団体。機械学習やAI系の活動が多め)やWelfare Services Club (WSC)が人気で活発か。</p>
+
+				<h2 id="交換留学">交換留学</h2>
+                <p>かなり枠がある。夏/冬の短期留学 (GEM Discover)や、1学期期間の長期留学 (GEM Explorer)があり、それぞれ違う枠で選考される。</p>
+                <p>また、シンガポール内の別の大学に行くことができるSUSEPというものもあるが、これはかなり競争率が高いので注意(GPA4.8以上推奨)。</p>
+                <p>交換留学中に取得した単位は、卒業単位に含めることができ、GPA計算に含まれない合格(Pass)として扱われる。</p>
+
+                <h2 id="海外インターン(OEP)">海外インターン(OEP)</h2>
+                <p>欧米アジア太平洋地域にてインターンができる。学期中のインターンの場合はその間休学扱いとなる。大学から新しい応募のお知らせが随時届く。</p>
+                <p>自腹のポジションもあるので要確認。</p>
+
+				<h2 id="研究経験">研究経験</h2>
+                <p>早くから研究する機会を持てるのは良いことだが、時間も同時に奪われるので注意が必要。自らのキャリア、他の授業との兼ね合い、インターン向けのスキル構築、自習etcと天秤にかけて参加すること。</p>
+                <li><b>URECA</b>: 2学期間にわたって研究をする、4AU相当の選択科目(2, 3年生対象)。cGPAが4.0/4.5 (専攻による)で招待が来て、事前に設定されたプロジェクトに参加するか、自らプロジェクトを持ち込むことでメンターおよび研究テーマとのマッチングがなされる。人気のテーマには選考プロセスが必要。</li>
+                <li><b>UROP</b>: 専攻によっては開講している、URECAの短期間版。</li>
+                <li><b>FYP</b>: 卒業研究。専攻によっては必須。AU換算あり。</li>
+                <li><b>FYP-URECA</b>: URECAを取った学生が、その延長としてFYPの研究テーマを引き継げる制度。研究補助金が増えるなどのボーナスがある。</li>
+                <li><b>Premier Scholars</b>: REPなどのプログラムには、パッケージとして海外研究がついていることがある。</li>
+                <li><b>インターン</b>: 5~7月にA*STARやNTU/NUS/他研究機関でインターンができる他、学期中にもラボに自ら申しつけて研究のお手伝いをすることが可能。</li>
+                <li><b>OEP</b>: 前述の<a href="OEP">海外インターン(OEP)</a>の通り、海外インターンで海外の大学や研究機関で研究をすることも可能。</li>
+                <li><b>Work-Study Degree/Work Study Scheme</b>: 専攻によってはWork-Study Degreeとしてプログラム化しており、R&Dに参画可能。その他、Student Intranetのポータルから応募可能。</li>
+
+                <h2 id="インターンシップ">インターンシップ</h2>
+                <p>5~7月にインターンシップをすることは一般的。LinkedInやJobStreetといったポスティングサイトから応募する(10~1月ほどに応募)。企業によっては選考突破は困難。</p>
+
+                <h2 id="Work Study Scheme">Work Study Scheme</h2>
+                <p>キャンパス内のイベント補助や研究アシスタントなど、大学内の様々なポジションが応募されており、単発から長期までのミニバイトができる。給与はそこそこ。</p>
+                
+                <h2 id="Work-Study Degree">Work-Study Degree</h2>
+                <p>専攻によってはWork-study Degreeという制度があり、学期/Special Termにインターンが何度か可能。インターンはBDEとして換算される。</p>
+
+                <h2 id="FGOについて">FGOについて</h2>
+                <p>BDEに関して、GPA計算に含めず合否(Pass/Fail)のみを成績証明書に記載できるオプション。どの学期に取った単位でも、後からFGOを適用可能。基本的に12AUまで使え、その組み合わせも各学期自由に交換可能。</p>
+
+                <h2 id="MOOCについて">MOOCについて</h2>
+                <p>Courseraなどで、NTUから認定されているコースを単位互換できる。最大12AUまで。<a href="https://www.ntu.edu.sg/admissions/matriculation/mooc">Massive Open Online Course (MOOC) for NTU Students</a>参照。</p>
+
+                <h2 id="ABPについて">ABPについて</h2>
+                <p>1年生の終わりに、cGPA4.0または4.5以上(専攻ごとに異なる)を獲得していた場合、ABPの招待が来る。ABPに進むと、1学期間にとる授業数が多くなる代わりに、3.5年間で卒業できることになる。なお、途中で4年卒業に切り替えることも可能。</p>
+                <p>STARSがABP枠になるなど、若干得になる要素もある。</p>
+
+                <h2 id="Hallについて">Hallについて</h2>
+                <p>HallはCCAポイントの高い人からアサインされていく。留学生は優先度高めではあるが、0ポイントでは学期期間中の2次選考のようなタイミングでしかアサインされなかった(経験談)。</p>
+                <p>留学生は2年生までは確定で入れる。そのあとは、大学の外で家を探すのも手。<s>暮らし自体は、たとえBoon Layだろうが大学の外の方が快適で楽しい。</s></p>
+
+                <h2 id="大学内外の交通について">大学内外の交通について</h2>
+                <h3>大学内</h3>
+                <p>平時は無料のバスが3つ走っている。</p>
+                <li>Red: 反時計回り。Hall 2に停まり、Hall 6には停まらない。</li>
+                <li>Blue: 時計回り。Hall 6に停まり、Hall 2には停まらない。</li>
+                <li>Campus Rider (CR): キャンパス内外を行き来するバスだが、Hall 1/2と病院/NSとSSの間の講堂近くを行き来するのに使える。</li>
+                <p>NS - SS間は屋根付きで移動できるので、徒歩で移動するのも手。</p>
+
+                <h3>大学外へ向かう時</h3>
+                <p>大学の内外を行き来する公共交通は、<b>179/179A, 199</b>のバスおよび<b>キャンパスライダー(CR)</b>が基本。179はPioneer駅経由でBoon Lay駅まで。179Aはラッシュアワー時のみ走っており、179と同経路だが大学外はBoon Lay駅以外スキップ。199は別ルートだがBoon Lay駅まで。CRはPioneer駅まで向かう。</p>
+                <p>その他Grabなどの配車/タクシーを使うこともできるが、NTUで車を捕まえるのが難しいこともある。</p>
+                <p>その他、頭の片隅にでも入れておくとよい経路</p>
+                <li>199でバス停 Westwood Sec Schで下り、対岸のOpp Westwood Sec Schから974に乗車するとChoa Chu Kang駅まで高速道路を通り最短15分。</li>
+                <li>Pioneer駅から運動場側に行ったところのバス停 Blk 978から502/502Aに乗ると、Orchardまでノンストップ。ただ遅い。</li>
+                <li>Yunnan Garden近くの連結橋から外に出ると、99のバスに乗れる。99のバスは、Joo Koon方向・Clementi方向があり、Clementi方向のバスに乗れば、Jurong地域の複数のホーカーセンターに一本で行くことができる。Joo Koonへは、Pioneer駅からEWLの方が早い。</li>
+
+                <p>さらに、Heartland Shuttleというものもある。これは、通学通勤者用のサービスで、NTU外のいくつかの駅までの直行バスである。</p>
+                <p>また、Novena Shuttleなる、Novenaにある医学部キャンパスへの直行バスもある。こちらは往復便が日に複数本出ており、Novenaのキャンパスまで45分程度で無料で送ってくれる。しかし、Novenaキャンパスは駅から少し離れている他、近くに目ぼしいバス停もないので注意。</p>
+
+                <h2 id="他キャンパス">他キャンパス</h2>
+                <p>基本機会がなければ立ち入ることはないだろう。</p>
+                <li><b>Novenaキャンパス</b>: Novena駅から少し歩いたところにある、医学部のキャンパス。タワーの20階にMedical Libraryがあり、立ち入ることが可能。</li>
+                <li><b>NTU @One North</b>: Buona Vista駅付近にある小さいキャンパス。アルムナイ向けのスペースやがある他、試験期間前には学生向けに自習室が開放されることもある。</li>
+
+                <h2 id="NTU内のおすすめ勉強場所">NTU内のおすすめ勉強場所</h2>
+                <li><b>N3.2</b>…MAE棟。ファミレスみたいな席。室内でエアコンが効いており、コンセント完備。</li>
+                <li><b>SS B3階の通路</b>…コンセント完備で席数も多く、ファンもよく効いている。</li>
+                <li><b>LWN Library 5階</b>…席数が多いので座れるところがあるはず。</li>
+                <li><b>Arc/Hive/Gaia</b>…ファンもあってか室外の席もそれなりに暑くない。</li>
+                <li><b>Library Outpost @Hive</b>…意外と混まない。席はVIP級。</li>
+                <li><b>NIE Library</b>…とても穴場。図書館の外にも椅子が多いので座れるはず。</li>
+                <li><b>SPMS, SBS, Experimental Buildingの椅子</b>…クーラーガンガンなので暑がりにはおすすめ。SPMSの2階は椅子の数が多いのでよりおすすめ。</li>
+                <li><b>Quad Cafe, Pioneer Canteen</b>…混まない時間帯は結構快適。</li>
+                <li><b>空き教室</b>…言わずもがな。</li>
+
+                <h2 id="NTU内の図書館">NTU内の図書館</h2>
+                <li><b>LWN Library</b>… North Spineの2~5階に位置する、大学内で一番大きな図書館。主に理工学系の本を取り揃えている。2階にはプリンターやスキャナ、各種会議室など。5階の自習スペースにはかなり多くの席がある。</li>
+                <li><b>Business Library</b>… North Spine、N2のB2~B5階。経営・経済系の本が多い。</li>
+                <li><b>ADM Library</b>… North Spine側、ADMの棟に位置する、芸術系の図書館。Hallによってはアクセスしやすい図書館かもしれないが、場所は辺鄙ではあるので人は少なめ。席数も少ないが、机が以上に大きい他、映像関係の設備があるなど特徴的な図書館である。</li>
+                <li><b>NIE Library</b>… North Spine側、NIEに位置する図書館。とても穴場。ほぼオールジャンル取り揃えている他、席数も多く、そして窓が大きく開放的(陽のささない席も十分にある)。</li>
+                <li><b>Humanities & Social Science Library</b>… South Spine、S4のB3にある人文・社会科学系の図書館。比較的狭めだが、椅子がフカフカで人も少なく、ゆったりとはできる(ただし机は少ない)。エアコンがとても効いている。</li>
+                <li><b>Chinese Library</b>… South Spine、S3.2のB5階。HiveのB5階の道路とは反対方向の出口から出ると辿り着ける、奥まった場所にある。中国関係(文化、言語、歴史、政治)の本が中心。エアコンがとても効いている。</li>
+                <li><b>Communication & Information Library</b>… South Spine側の、WKWSCIに位置する図書館。コミュニケーション学などの本が中心の小さい図書館。</li>
+                <li><b>Library Outpost</b>… South Spine側、Hiveの1階に位置する図書館。席数は少数だが、とてもゆったりできる席や雰囲気である。授業の教科書類が置かれているらしいが、蔵書棚から本を取って読むという場所でも無いような気もする。</li>
+                <li>(<b>Wang Gungwu Library</b>… South Spine、CoHASSの隣に位置する図書館。蔵書が古く価値のあるものなので、かなり厳かな雰囲気である。)</li>
+
+                
+                <details>
+                    <summary><h4>開館時間</h4></summary>
+                        <Tabs>
+                            <TabItem label="Semester">
+                            <!-- Semester opening hours table -->
+                            <table>
+                                <caption>Semester Period</caption>
+                                <thead>
+                                <tr>
+                                    <th>Library</th>
+                                    <th>Monday - Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td style="text-align: left">Art, Design & Media Library<br>Business Library<br>Chinese Library<br>Humanities & Social Sciences Library<br>LWN Library<br>Library Outpost</td>
+                                    <td>8:30am - 9:30pm</td>
+                                    <td>8:30am - 5:00pm</td>
+                                    <td>Closed</td> 
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">Communication & Information Library</td>
+                                    <td>8:30am - 9:30pm</td>
+                                    <td>8:30am - 1:00pm</td>
+                                    <td>Closed</td> 
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">NIE Library</td>
+                                    <td>8:30am - 8:00pm</td>
+                                    <td>8:30am - 5:00pm</td>
+                                    <td>Closed</td> 
+                                </tr>
+                                </tbody>
+                            </table>
+                            </TabItem>
+                            <TabItem label="Extended Hours">
+                            <table>
+                                <caption>Extended Hours</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Library</th>
+                                        <th>Monday - Friday</th>
+                                        <th>Saturday</th>
+                                        <th>Sunday</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                <tr>
+                                    <td style="text-align: left">LWN Library</td>
+                                    <td>8:30am - 11:30pm</td>
+                                    <td>8:30am - 7:00pm</td>
+                                    <td>9:30am - 7:00pm</td> 
+                                </tr>
+                            </table>
+                            </TabItem>
+                            <TabItem label="Vacation">
+                            <table>
+                                <caption>Vacation Period</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Library</th>
+                                        <th>Monday - Friday</th>
+                                        <th>Saturday</th>
+                                        <th>Sunday</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                <tr>
+                                    <td style="text-align: left">Business Library<br>Chinese Library<br>Humanities & Social Sciences Library<br>LWN Library<br>Library Outpost</td>
+                                    <td>8:30am - 7:00pm</td>
+                                    <td>8:30am - 5:00pm</td>
+                                    <td>Closed</td> 
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">Art, Design & Media Library<br>Communication & Information Library</td>
+                                    <td>8:30am - 5:00pm</td>
+                                    <td>Closed</td>
+                                    <td>Closed</td> 
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left">NIE Library</td>
+                                    <td>8:30am - 5:15pm</td>
+                                    <td>8:30am - 1:00pm</td>
+                                    <td>Closed</td> 
+                                </tr>
+                            </table>
+                            </TabItem>
+                        </Tabs>
+                    </details>
+
+                <h2 id="NTU内ショートカット">NTU内ショートカット</h2>
+                <li>AuditoriumとQuad Cafeの横 - 階段を登って橋を渡ってExperimental Building</li>
+                <li>Hall 2 - Fullerton Healthの裏 - S4 (Humanity棟)</li>
+                <li>Gaia - SPMS - SS</li>
+                <li>Hive - S3 - S3.1/S3.2 - S4</li>
+                <li>Canteen 1 - Tan Lark Sye Walk - CoHASS</li>
+                <li>Yunnan Garden - 外への連結橋 - NTI Food Court</li>
+
+                <h2 id="遊ぶ場所">遊ぶ場所</h2>
+                <p>あまりにも辺境の地なので、Grabを使わない限りは行き帰りに時間がかかってしまう。</p>
+                <p>近くで軽く遊ぶなら、Boon Lay駅, Jurong East駅, Clementi駅(NUSの学生との合流地点にできる)周辺が無難。</p>
+                <p>休日に街まで出て遊ぶなら:</p>
+                <li><b>Bugis駅周辺</b>: EWL一本で行ける。カフェや飲食店、その他各種お店が揃っていて買い物も楽しい。アラブストリートやAlbert CentreやSim Lim Squareが近く、様々な雰囲気が楽しめる。</li>
+                <li><b>Tanjong Pagar駅周辺</b>: EWL一本で行ける。日本食店や韓国料理店が多く、それ目的で行くことがほとんど。</li>
+                <li><b>Orchard Road</b>: 買い物目的中心。Orchard駅付近のいかがわしい建物として知られるOrchard Towerの辣味の麻辣香鍋はとても美味しく有名。その他、Far East SquareのKopi屋さんやLucky Plazaのチキンライス屋さんも美味しい。</li>
+                <li><b>Chinatown</b>: 雰囲気とご飯。そして安価な掘り出し雑貨・食器を探せる。</li>
+                <li><b>Alexandra</b>: ホーカーセンターにはアボカドジュースをはじめ、安価で美味しいものが豊富にある。他、IKEAやショッピングセンターがあり、買い物も捗る。さらに、おしゃれなカフェや美味しいラーメン屋さんもあり、目的地として困らない。</li>
+
+                <h2 id="便利なTelegramグループ">便利なTelegramグループ</h2>
+                <p>落とし物を共有するグループや、不用品を取引するグループ、大量一括注文を呼びかけて安く注文をするようなグループなどがある。随時更新される可能性があるためURLは貼らないが、各自Reddit等で簡単に見つけられると思うので、好きなグループに入ってみるのがおすすめ。</p>
+
+                <h2 id="パソコン周辺部品は">パソコン周辺部品は</h2>
+                <p>コードなどを買うならSim Lim Squareがおすすめ。そして、NTUのすぐ近くにPCパーツ屋さんが存在しているらしい(未探訪)。</p>
+
+				<h2 id="英語の訛り">英語の訛り</h2>
+				<p>いわゆるシングリッシュをはじめ、大学内の人間の数だけ英語の訛りがある。シングリッシュ以外でよく耳にするのは中国系の訛りとインド系の訛りです(専攻によって大きく差あり)。一朝一夕で慣れるものではないので、ゆっくり適応していくのが吉。</p>
+                <p>YouTube等々で耳を鳴らすのもあり(<a href="https://www.youtube.com/@CNAInsider">CNA Insider(現地メディアのドキュメンタリーチャンネル)</a>, <a href="https://www.youtube.com/@OGS.Official">OGS(ドキュメンタリー)</a>, <a href="https://www.youtube.com/@TheDailyKetchupPodcast">Daily Ketchup(現地のPodcastの一つ)</a>)</p>
+                <p>自分の訛りがあったとしても自信を持ちましょう！周りはあなたの英語力ではなく、あなたの意見が知りたいんです！</p>
+
+				<h2 id="中国語について">中国語について</h2>
+				<p>生活のあらゆる場面で、中国語を耳にしたり、中国語で話しかけられたりすることがあるだろう。相手も悪気がないので、英語でもう一度説明してくれるように優しく促すのが吉。</p>
+                <p>もちろん、中国語を学べば、こうした場面も直接捌けるようになるし、<s>マレーシアを旅行する時にかなり役に立つし、</s>より世界が広がることは間違い無い。訛りとしては中国南部や台湾のものに近しく、発音も比較的平易である。</p>
+                <p>なお、福建語や潮州語などが、もともと華人グループの中では主要な言語であった。政府のキャンペーンを介して、現在ではいわゆる華語/中文/普通話がメインに使われるが、年配の方はこうした中国語における方言を使うこともある。また、地名やシングリッシュにもこれら言語の単語が組み込まれていることもある。</p>
+                <p>基本英語ができれば生活は問題なくできますが、言語を学ぶことは新たな世界を知るきっかけにもなるので、興味があるなら臆せず挑戦しましょう。機会は豊富にあります！（もちろんマレー語やタミル語も、学ぶことでかなり広い世界を見られるようになりますよ）</p>
+
+                <h2 id="イベントとかコンペとか">イベントとかコンペとか</h2>
+				<p>大学の内外のいろいろな催しがメールでお知らせされる。コンペ類は賞金やネットワーキング付きのことがほとんど。こういう類のものは、学生特権であるので、時間と熱量が許すのであれば、進んで参加するのも良いだろう。</p>
+
+                <h2 id="就活">就活</h2>
+                <p>基本的には最終学年になってから応募を始めれば問題ない。さらに、卒業学期でなければ早過ぎて断れらるケースもある。それまでにインターンシップをきちんと行っていれば道はあるはず(しかしビザスポンサーが必要なため外国人は不利)。Tuition Grantをもらっていない場合はさらに困難である。</p>
+                <p>一部銀行などは3年生のうちにインターンに参加しなければならないことがある。</p>
+                <p>日系企業に就職するのも手。そちらは言語や文化理解アドバンテージがある。</p>
+
+                <h2 id="院進">院進</h2>
+                <p>Tuition Grantをもらっている場合は、延期申請が必要。海外の大学院に行く場合は、Tuition Grant補助額 * 1.nのお金を保証金として銀行に預け入れなければならない。(シンガポール国内なら20%)。そのお金は労働開始時に引き出せるようになる。</p>
+                <p>研究修士や博士なら、研究インターンやURECAをした上で、必要ならGREといったテストスコアと推薦書を集めて応募するのがセオリー。コースワークに応募するなら、研究経験はさほど重視されない。いずれにせよ、GPAは非常に大事。</p>
+                <p>なお、シンガポール国内のコースワーク修士は高額。高額だが、金融関係の修士を取得すればすぐ取り返せるという考えもできる。</p>
+
+			</article>
+		</main>
+	</body>
+	<footer>
+    <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+        <hr class="footer-line">
+		<div class="footer-content"> <p>© 2025 Shawn</p></div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
+</html>

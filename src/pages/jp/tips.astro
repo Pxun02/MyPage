@@ -2,15 +2,15 @@
 import '../../styles/blog.css';
 import Head from '../../components/jp/Head.astro';
 import Header from '../../components/jp/Header.astro';
-const h2List = ["日系スーパーや日本のものが買えるお店", "交通について", "日本食でおすすめのお店（低〜中価格帯）", "友達との集まりでおすすめのお店", "その他おすすめの飲食店", "休日のおでかけ案", "NTU内のおすすめ勉強場所", "NTU内ショートカット"];
+const h2List = ["日系スーパーや日本のものが買えるお店", "交通について", "日本食でおすすめのお店（低〜中価格帯）", "友達との集まりでおすすめのお店", "その他おすすめの飲食店", "休日のおでかけ案", "小旅行案", "〇〇人街", "特徴的なショッピングモール"];
 ---
 
 <html lang="ja">
-	<Head pageTitle=`シンガポール生活のTIPS`/>
+	<Head pageTitle=`シンガポール生活TIPS`/>
 	<body>
 		<Header />
 		<header>
-			<h1 style="padding-top: 1.5rem;">シンガポール生活のTIPS</h1>
+			<h1 style="padding-top: 1.5rem;">シンガポール生活TIPS</h1>
 			<hr class="header-line">
 		</header>
 
@@ -231,24 +231,51 @@ const h2List = ["日系スーパーや日本のものが買えるお店", "交�
 				<li>歴史の勉強 (国立博物館や旧フォード工場など)</li>
 				<li>近い国外、Johor BahruやBatam島、Bintan島へ</li>
 
-				<h2 id="NTU内のおすすめ勉強場所">NTU内のおすすめ勉強場所</h2>
-                <li><b>N3.2</b>…MAE棟。ファミレスみたいな席。室内でエアコンが効いており、コンセント完備。</li>
-				<li><b>SS B3階の通路</b>…コンセント完備で席数も多く、ファンもよく効いている。</li>
-				<li><b>LWN Library 5階</b>…席数が多いので座れるところがあるはず。</li>
-				<li><b>Arc/Hive/Gaia</b>…ファンもあってか室外の席もそれなりに暑くない。</li>
-				<li><b>Library Outpost @Hive</b>…意外と混まない。席はVIP級。</li>
-				<li><b>NIE Library</b>…とても穴場。図書館の外にも椅子が多いので座れるはず。</li>
-				<li><b>SPMS, SBS, Experimental Buildingの椅子</b>…クーラーガンガンなので暑がりにはおすすめ。SPMSの2階は椅子の数が多いのでよりおすすめ。</li>
-				<li><b>Quad Cafe, Pioneer Canteen</b>…混まない時間帯は結構快適。</li>
-				<li><b>空き教室</b>…言わずもがな。</li>
+				<h2 id="小旅行案">小旅行案</h2>
+				<h3>日帰り編</h3>
+				<li><b>Johor Bahru (JB)</b>: マレーシアにある、シンガポール国境沿いの都市。シンガポールよりも安く過ごしたい場合に行くと良い場所。シンガポールの西側の地域にはForest Cityと呼ばれる新興開発地域がある。</li>
+				<li><b>Kluang</b>: マレーシアにある、Rail Coffeeというお店が有名な街。綺麗に舗装されながらもマレーシアらしさが楽しめておすすめ。JB Sentralから鉄道で行くことができる。</li>
+				<li><b>Batu Pahat</b>: マレーシア、JB (Larkin Sentral)からバスで2時間ほどでたどり着ける、日本人と少しゆかりのある小さな街。コアなファンがいる。</li>
+				<li><b>Batam/Bintan</b>: インドネシアの離島部で、シンガポールTanah Merah港から船で行くことができる。安くリゾート観光できる。</li>
 
-				<h2 id="NTU内ショートカット">NTU内ショートカット</h2>
-                <li>AuditoriumとQuad Cafeの横 - 階段を登って橋を渡ってExperimental Building</li>
-				<li>Hall 2 - Fullerton Healthの裏 - S4 (Humanity棟)</li>
-				<li>Gaia - SPMS - SS</li>
-				<li>Hive - S3 - S3.1/S3.2 - S4</li>
-				<li>Canteen 1 - Tan Lark Sye Walk - CoHASS</li>
-				<li>Yunnan Garden - 外への連結橋 - NTI Food Court</li>
+				<h3>1, 2泊編</h3>
+				<li><b>Malacca</b>: 言わずと知れた、マレーシアの観光歴史都市。金土日に行くとナイトマーケットが賑わっておりおすすめ。</li>
+				<li><b>Kuala Lumpur (KL)</b>: マレーシアの首都。エリアは広く、広東系の食事や世界各国の食事が楽しめる。公共交通も使いやすく、快適な都市観光ができるであろう。</li>
+				<li><b>Penang (Georgetown)</b>: マレーシアの北部に位置する、観光歴史都市。食事が美味しいと言われがち。島となっており、船か車で橋を渡ることで半島部と行き来する。ビーチも街並みも綺麗な上、大きなショッピングモールも複数あり、快適さを保ちながらゆっくり観光できる。</li>
+				<li><b>Ipoh</b>: KLとPenangの間に位置する、かつて錫の採掘で栄えた都市。水が綺麗で美食の街と呼ばれており、もやし(!)や豆腐花が有名。さらに、マレーシア全土に展開するチェーン店Old Town White Coffeeの発祥の地であり、White Coffeeはあらゆる茶餐室で飲んでも絶品。Kinta川を挟んで旧市街と新市街に分かれており、どちらの街並みも非常に印象的。ショッピングモールも新市街にあり、快適さも健在。非常におすすめ。</li>
+				<li><b>Jakarta</b>: インドネシアの最大都市。フライトは安価で、物価も安く都市観光ができる。</li>
+				<li><b>Bali</b>: インドネシアの観光都市。だがオーバーツーリズム気味。</li>
+				<li><b>Bangkok</b>: タイの首都で最大都市。食も観光も魅力が多く、世界中から人を惹きつける都市。公共交通も便利。</li>
+				<li><b>Phuket</b>: タイのリゾート的観光街。文化的な側面でも面白い点は多くある。</li>
+				
+				<h2 id="〇〇人街">〇〇人街</h2>
+				<p>シンガポールには、各民族の集まるショッピングモールがいくつか存在する。休日に訪れて異文化を体感するのも楽しいだろう。</p>
+				<li><b>Little India (インド)</b>: 説明不要であろう。</li>
+				<li><b>Desker Road (バングラデシュ)</b>: Little India内のこの通りにはバングラデシュ料理屋がひしめき合っている。</li>
+				<li><b>Geylang Serai Market (マレー)</b>: Paya Lebar駅近くの再開発された建物で、ラマダンバザーなどのイベント時はよく賑わう。</li>
+				<li><b>Chinatown (華人)</b>: 説明不要。</li>
+				<li><b>Jalan Besar (点心屋さん)</b>: エリアとしてはLittle India付近だが、点心屋さんが集まっている。</li>
+				<li><b>Lucky Plaza (フィリピン)</b>: Orchard Roadにあるショッピングモール。日曜日には特に休みのフィリピン人メイドが集う。</li>
+				<li><b>Peninsula Plaza (ミャンマー)</b>: City Hall駅前のショッピングモール。食品店やレストランがありビルマ文化が気軽に楽しめる。なお、コピー屋さんもあり、プリントアウトなど各種サービスを取り揃えている。</li>
+				<li><b>Clementi Blk 328 (ミャンマー)</b>: 小規模だが、レストランや食品店がある。</li>
+				<li><b>City Plaza (インドネシア)</b>: Paya Lebar駅近くのショッピングモール。フードコートのMee Hoon Kuayが美味しい。(これはインドネシア関係ない)</li>
+				<li><b>City Gate (タイ)</b>: タイ系のお店はかつてはGolden Mile Complexという建物に集まっていたのだが、開発により離散してしまった。そのうちの多くのお店の移転先がCity Gateであった。Nicoll Highway駅前に位置している。なお、タイスーパーマーケットは、その近くLavender駅付近のAperia Mallにある。</li>
+				<li><b>Tanjong Pagar Road (日本, 韓国)</b>: 日本食店や韓国料理屋さんが多くある通り。しかし日本人や韓国人が溢れているわけでもない。</li>
+				<li><b>Great World City (日本)</b>: 日本人駐在員家族が週末を過ごす場所として人気。日本語が絶えず聞こえる。沖縄料理や日系スーパーマーケットがあるのが主な要因か。</li>
+				<li><b>Cuppage Plaza (日本)</b>: Orchard Road, Somerset駅付近のこの建物こそ、日本人が集う建物である。カラオケ店や焼肉屋、キャバクラなどが集まっている。</li>
+				
+				<h2 id="特徴的なショッピングモール">特徴的なショッピングモール</h2>
+				<li><b>Sim Lim Square</b>: パソコン周辺機器を取り扱うお店の集まり。</li>
+				<li><b>Sim Lim Tower</b>: Sim Lim Squareの向かい側にある。こちらは電子部品の取り扱いが多め。</li>
+				<li><b>Bras Basah Complex</b>: 古本屋や書店が点在。</li>
+				<li><b>Vivo City</b>: シンガポール最大のショッピングモール。セントーサ島の入り口拠点でもある。</li>
+				<li><b>Suntec City</b>: 展示スペースで様々な催しをする、大規模なショッピングモール兼オフィスタワー。周辺MRTの駅やショッピングモールと繋がっている。</li>
+				<li><b>Mustafa Centre</b>: Little Indiaにあり、ありとあらゆるものが売っているショッピングモール。</li>
+				<li><b>The Shoppes at Marina Bay Sands</b>: ブランドショップ多めの豪華絢爛なショッピングモール。</li>
+				<li><b>One Holland Village</b>: 再開発により誕生した、ペットフレンドリーで開放的なショッピングクラスター。</li>
+				<li><b>Funan</b>: ボルタリングが特徴的なショッピングモール。フリーで座れるスペースが多め。</li>
+				<li><b>IMM/Changi City Point</b>: アウトレットモール。</li>
+
 			</article>
 		</main>
 	</body>

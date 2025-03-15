@@ -251,3 +251,64 @@ footer {
 .menu-line{
     display: flex;
 }
+
+/* Base styles for the details/summary elements */
+details > summary {
+    list-style-type: none; /* Remove default triangle */
+    cursor: pointer;
+    display: flex; /* Use flex to align content and arrow */
+    align-items: center; /* Vertically center items */
+  }
+  
+  details > summary::after {
+    content: "▼";
+    margin-left: 8px;
+    font-size: 0.8em;
+    display: inline-block; /* Ensure the triangle is inline with text */
+  }
+  
+  details[open] > summary::after {
+    content: "▲";
+    margin-left: 8px;
+    font-size: 0.8em;
+  }
+  
+  /* Desktop styles (screen wider than 768px) */
+  @media screen and (min-width: 769px) {
+    /* Hide the triangle on desktop */
+    details > summary::after {
+      display: none;
+    }
+    
+    /* Make the summary look less like a clickable element */
+    details > summary {
+      cursor: default;
+      pointer-events: none; /* Prevents clicking */
+    }
+    
+    /* Always show the content on desktop */
+    details {
+      display: block; /* Changed from inline-block for better content flow */
+    }
+    
+    details > *:not(summary) {
+      display: block; /* Changed to ensure content displays properly */
+    }
+    
+    /* Force details to be open on desktop */
+    details:not([open]) {
+      display: block;
+    }
+    
+    details:not([open]) > *:not(summary) {
+      display: block; /* Show content even when not open on desktop */
+    }
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    /* Keep default collapsible behavior on mobile */
+    details:not([open]) > *:not(summary) {
+      display: none;
+    }
+  }
