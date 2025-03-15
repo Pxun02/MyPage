@@ -521,9 +521,9 @@ details[open] summary h4::after {
   }
 
   @media (max-width: 768px) {
-    TabItem[label="Extended Hours"] table {
-      padding-right: 16px; /* Adjust as needed */
-      display: block; /* Ensures proper padding */
-      overflow-x: auto; /* Prevents content from getting cut off */
+    .table-container {
+      padding-right: 16px; /* Add space on the right */
+      overflow-x: auto; /* Allow horizontal scrolling */
     }
   }
+  
