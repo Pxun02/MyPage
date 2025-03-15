@@ -320,3 +320,8 @@ details > summary {
       display: none;
     }
   }
+
+summary::-webkit-details-marker {
+  display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
+  }
+    
