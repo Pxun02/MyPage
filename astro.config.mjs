@@ -8,5 +8,5 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   site: 'https://Pxun02.github.io',
   base: "/MyPage",
-  integrations: [react(), mdx()]
+  integrations: [react(), mdx(), expressiveCode()]
 });
