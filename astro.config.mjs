@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import expressiveCode from 'astro-expressive-code';
 
 import react from "@astrojs/react";
 import mdx from '@astrojs/mdx';
