@@ -285,6 +285,14 @@ details > summary {
       cursor: default;
       pointer-events: none; /* Prevents clicking */
     }
+
+    details > summary::before {
+      content: none;
+    }
+  
+    details[open] > summary::before {
+      content: none;
+    }
     
     /* Always show the content on desktop */
     details {
