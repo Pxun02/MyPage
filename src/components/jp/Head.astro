@@ -11,5 +11,15 @@ const {pageTitle} = Astro.props;
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content={pageTitle} />
 		<title>{pageTitle}</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<style>
+		html {
+			text-size-adjust: none;
+			-webkit-text-size-adjust: none;
+			-moz-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+		}
+		</style>
 	</head>
 </html>
