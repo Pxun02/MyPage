@@ -533,3 +533,32 @@ details[open] summary h4::after {
       }
   }
   
+
+  .table-container {
+    overflow: hidden;
+    transition: none;
+  }
+  
+  .table-container[open] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Prevent padding changes */
+  .table-container, 
+  .table-container[open],
+  .table-container > summary,
+  .table-container > div {
+    padding: inherit;
+    margin: inherit;
+  }
+  
+  /* Prevent font size changes */
+  .table-container,
+  .table-container *,
+  .table-container[open],
+  .table-container[open] * {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
