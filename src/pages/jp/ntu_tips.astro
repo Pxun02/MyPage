@@ -3,7 +3,7 @@ import '../../styles/blog.css';
 import Head from '../../components/jp/Head.astro';
 import Header from '../../components/jp/Header.astro';
 import { Tabs, TabItem } from '@astrojs/starlight/components';
-const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履修登録について", "過去問", "図書館のライセンス", "CCA(サークル・課外活動)", "交換留学", "海外インターン(OEP)", "研究経験", "インターンシップ", "Work Study Scheme", "Work-Study Degree", "FGOについて", "ABPについて", "Hallについて", "大学内外の交通について", "他キャンパス", "NTU内のおすすめ勉強場所", "NTU内の図書館", "NTU内ショートカット", "遊ぶ場所", "便利なTelegramグループ", "パソコン周辺部品は", "英語の訛り", "中国語について", "イベントとかコンペとか", "就活", "院進"];
+const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履修登録について", "過去問", "図書館のライセンス", "CCA(サークル・課外活動)", "交換留学", "海外インターン(OEP)", "研究経験", "アルバイト", "インターンシップ", "Work Study Scheme", "Work-Study Degree", "FGOについて", "ABPについて", "Hallについて", "大学内の施設概略", "大学内外の交通について", "他キャンパス", "NTU内のおすすめ勉強場所", "NTU内の図書館", "NTU内ショートカット", "大学内のごはん", "大学内の買い物", "遊ぶ場所", "便利なTelegramグループ", "英語の訛り", "中国語について", "イベントとかコンペとか", "就活", "院進"];
 ---
 
 <html lang="ja">
@@ -125,7 +125,7 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                     <li><b>AU</b>: Academic Unit - 学術単位。</li>
                     <li><b>GPA</b>: Grade Point Average - 最大5.0。累積GPAは<b>cGPA</b>、学期GPAは<b>sGPA</b>と呼ばれる。</li>
                     <li><b>LOA</b>: Leave of Absence - 休学。忌引き等で短期の休学も可能。</li>
-                    <li><b>Dabao</b>: MC(Medical Certificate - 病気証明)を取って病欠扱いで試験を休むことで、成績証明書にはLOAと記載される(制度の穴抜け)手段。原義は当地の中国語で飲食物の持ち帰り(打包)。</li>
+                    <li><b>Dabao</b>: MC(Medical Certificate - 病気証明)を取って病欠扱いで試験を休むことで、成績証明書にはLOAと記載される(制度の穴抜け)手段。最終試験以外の出来が芳しくない時に次学期以降再履修するための有効手段(落単とは記載されないため)。原義は当地の中国語で飲食物の持ち帰り(打包)。</li>
 
                     <details>
                         <summary><h4>GPA換算表</h4></summary>
@@ -307,6 +307,9 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                 <h2 id="インターンシップ">インターンシップ</h2>
                 <p>5~7月にインターンシップをすることは一般的。LinkedInやJobStreetといったポスティングサイトから応募する(10~1月ほどに応募)。企業によっては選考突破は困難。</p>
 
+                <h2 id="アルバイト">アルバイト</h2>
+                <p>シンガポールでは、学生ビザ保持者でも労働行為を行うことが可能。なお、学期期間中は週16時間までの時間制限あり。実際に当地の日系塾やその他飲食店でアルバイトをしている日本人学生が存在する。</p>
+
                 <h2 id="Work Study Scheme">Work Study Scheme</h2>
                 <p>キャンパス内のイベント補助や研究アシスタントなど、大学内の様々なポジションが応募されており、単発から長期までのミニバイトができる。給与はそこそこ。</p>
                 
@@ -326,6 +329,12 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                 <h2 id="Hallについて">Hallについて</h2>
                 <p>HallはCCAポイントの高い人からアサインされていく。留学生は優先度高めではあるが、0ポイントでは学期期間中の2次選考のようなタイミングでしかアサインされなかった(経験談)。</p>
                 <p>留学生は2年生までは確定で入れる。そのあとは、大学の外で家を探すのも手。<s>暮らし自体は、たとえBoon Layだろうが大学の外の方が快適で楽しい。</s></p>
+
+                <h2 id="大学内の施設概略">大学内の施設概略</h2>
+                <p>メインキャンパスはNorth SpineとSouth Spine。これらは屋根付きで繋がっており、歩いて行き来可能。メインの幹線のような道にはLecture RoomおよびTutorial Roomが点在している。この幹線は左右方向に枝分かれしており、それぞれ各School(例えばEEE)の建物となっている。</p>
+                <p>その他の建物としては、The Arc (North Spine)、The Hive、Gaia (South Spine)が挙げられる。The ArcとThe Hiveは円形の机と教室となっており、セミナー系の授業で使われる。GaiaはNBSの校舎。</p>
+                <p>また、North SpineのCCDSの校舎の隣にFullerton Healthという小さい病院がある。</p>
+                <p>買い物については<a href="大学内の買い物">大学内の買い物</a>、食事については<a href="大学内のごはん">大学内のごはん</a>参照。</p>
 
                 <h2 id="大学内外の交通について">大学内外の交通について</h2>
                 <h3>大学内</h3>
@@ -373,7 +382,9 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                 <li><b>Communication & Information Library</b>… South Spine側の、WKWSCIに位置する図書館。コミュニケーション学などの本が中心の小さい図書館。</li>
                 <li><b>Library Outpost</b>… South Spine側、Hiveの1階に位置する図書館。席数は少数だが、とてもゆったりできる席や雰囲気である。授業の教科書類が置かれているらしいが、蔵書棚から本を取って読むという場所でも無いような気もする。</li>
                 <li>(<b>Wang Gungwu Library</b>… South Spine、CoHASSの隣に位置する図書館。蔵書が古く価値のあるものなので、かなり厳かな雰囲気である。)</li>
+                <li>(<b>Medical Library</b>… Novenaキャンパスの20階に位置する図書館。眺めがとても綺麗。)</li>
 
+                <p>開館時間は<a href="https://www.ntu.edu.sg/education/libraries">NTU Library Singapore</a>参照。</p>
                 
                 <!-- <details class="table-container">
                     <summary><h4>開館時間</h4></summary>
@@ -474,12 +485,21 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                 <li>Canteen 1 - Tan Lark Sye Walk - CoHASS</li>
                 <li>Yunnan Garden - 外への連結橋 - NTI Food Court</li>
 
+                <h2 id="大学内のごはん">大学内のごはん</h2>
+                <p>North Spineエリアにはマクドナルドやスターバックスをはじめ、Koufuというフードコート、24時間営業無人シャトレーゼ、パスタ屋などがあり、授業の合間に気軽に立ち寄れる。South Spine側にも同様にフードコートがある。</p>
+                <p>その他、Connect Cafe 71, Coop Cafe, Quad Cafe, June Breath Cafeなどカフェが各地に点在している他(NTU Map参照)、各HallにもCanteenが付いている場合が多い。中華料理が多いが、インド、マレー、日本、韓国、洋食、タイなど幅広く抑えられている。Canteen 11/14の日本食屋さんのカレーやラーメンはちゃんと美味しい。</p>
+
+                <h2 id="大学内の買い物">大学内の買い物</h2>
+                <p>North SpineにはPrimeというスーパーマーケットや薬局があり、South SpineにはCheersというコンビニがある。また、Hall 2にもPrimeスーパーマーケットと7-11があり、North HillのHallにも商店がある。</p>
+                <p>足りないものは大学の外で買う他ない。Boon Lay駅のJurong Pointでも、家電はHarvey Norman、食品や食器などはFairPrice Xtra、調理器具や日用品は"日本の家"、日本食はドンキ、お菓子類はValu$などで買い求められる。</p>
+                <p>なお、コードなどを買うならSim Lim Squareがおすすめ。そして、NTUのすぐ近くにPCパーツ屋さんが存在しているらしい(未探訪)。</p>
+
                 <h2 id="遊ぶ場所">遊ぶ場所</h2>
                 <p>あまりにも辺境の地なので、Grabを使わない限りは行き帰りに時間がかかってしまう。</p>
                 <p>近くで軽く遊ぶなら、Boon Lay駅, Jurong East駅, Clementi駅(NUSの学生との合流地点にできる)周辺が無難。</p>
                 <p>休日に街まで出て遊ぶなら:</p>
                 <li><b>Bugis駅周辺</b>: EWL一本で行ける。カフェや飲食店、その他各種お店が揃っていて買い物も楽しい。アラブストリートやAlbert CentreやSim Lim Squareが近く、様々な雰囲気が楽しめる。</li>
-                <li><b>Tanjong Pagar駅周辺</b>: EWL一本で行ける。日本食店や韓国料理店が多く、それ目的で行くことがほとんど。</li>
+                <li><b>Tanjong Pagar駅周辺</b>: EWL一本で行ける。日本食屋や韓国料理店が多く、それ目的で行くことがほとんど。</li>
                 <li><b>Orchard Road</b>: 買い物目的中心。Orchard駅付近のいかがわしい建物として知られるOrchard Towerの辣味の麻辣香鍋はとても美味しく有名。その他、Far East SquareのKopi屋さんやLucky Plazaのチキンライス屋さんも美味しい。</li>
                 <li><b>Chinatown</b>: 雰囲気とご飯。そして安価な掘り出し雑貨・食器を探せる。</li>
                 <li><b>Alexandra</b>: ホーカーセンターにはアボカドジュースをはじめ、安価で美味しいものが豊富にある。他、IKEAやショッピングセンターがあり、買い物も捗る。さらに、おしゃれなカフェや美味しいラーメン屋さんもあり、目的地として困らない。</li>
@@ -487,8 +507,6 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
                 <h2 id="便利なTelegramグループ">便利なTelegramグループ</h2>
                 <p>落とし物を共有するグループや、不用品を取引するグループ、大量一括注文を呼びかけて安く注文をするようなグループなどがある。随時更新される可能性があるためURLは貼らないが、各自Reddit等で簡単に見つけられると思うので、好きなグループに入ってみるのがおすすめ。</p>
 
-                <h2 id="パソコン周辺部品は">パソコン周辺部品は</h2>
-                <p>コードなどを買うならSim Lim Squareがおすすめ。そして、NTUのすぐ近くにPCパーツ屋さんが存在しているらしい(未探訪)。</p>
 
 				<h2 id="英語の訛り">英語の訛り</h2>
 				<p>いわゆるシングリッシュをはじめ、大学内の人間の数だけ英語の訛りがある。シングリッシュ以外でよく耳にするのは中国系の訛りとインド系の訛りです(専攻によって大きく差あり)。一朝一夕で慣れるものではないので、ゆっくり適応していくのが吉。</p>
