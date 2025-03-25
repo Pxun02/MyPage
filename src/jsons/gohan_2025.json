@@ -12,6 +12,16 @@
     {
         "ID": "02",
         "rank": 2,
+        "store_name": "Warming Rice Noodle 无名缘米粉",
+        "location": "Chinatown",
+        "country": "シンガポール",
+        "food_name": "肉沫米粉",
+        "picture": ["/MyPage/images/food_images/f36.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.817610339273!2d103.8460856!3d1.2832884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b6ac29e5d3%3A0xa8218ccef5de16d7!2zV2FybWluZyBSaWNlIE5vb2RsZSBTaW5nYXBvcmUg5peg5ZCN57yY57Gz57KJ5paw5Yqg5Z2h5oC75bqX!5e0!3m2!1sja!2ssg!4v1742883279818!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "03",
+        "rank": 3,
         "store_name": "Founder Bak Kut Teh",
         "location": "Balestier Rd",
         "country": "シンガポール",
@@ -20,8 +30,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7521661339533!2d103.84819872526779!3d1.3245878116559162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19d8d6c42e0b%3A0x9498cd445a639e43!2z44OV44Kh44Km44Oz44OA44O844O744OQ44Kv44OG44O8!5e0!3m2!1sja!2ssg!4v1740880610802!5m2!1sja!2ssg"
     },
     {
-        "ID": "03",
-        "rank": 3,
+        "ID": "04",
+        "rank": 4,
         "store_name": "Eden",
         "location": "Chinese Garden",
         "country": "シンガポール",

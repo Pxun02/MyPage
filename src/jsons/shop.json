@@ -1837,5 +1837,23 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6366.129633896777!2d103.32244364227765!3d2.0310021594668477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sja!2ssg!4v1729908015663!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.310374262428!2d103.31739107526627!3d2.0316220590046354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sen!2ssg!4v1729908050099!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "71",
+        "rank": -1,
+        "store_name": "One Soy 一豆",
+        "place": "Maxwell Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc70.jpg"
+        ],
+        "foods_id": [
+            "98"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82220926845!2d103.84219207496564!3d1.2803360987074903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sen!2ssg!4v1742883188627!5m2!1sen!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8220580223365!2d103.84489520000001!3d1.2804332999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sja!2ssg!4v1742883138862!5m2!1sja!2ssg"
     }
 ]

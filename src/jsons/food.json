@@ -677,5 +677,12 @@
         "food_name_en": "Original Beancurd",
         "price": "2.0",
         "currency": "SGD"
+    },
+    {
+        "ID": "98",
+        "food_name_jp": "伝統豆花",
+        "food_name_en": "Traditional Beancurd",
+        "price": "2.0",
+        "currency": "SGD"
     }
 ]
