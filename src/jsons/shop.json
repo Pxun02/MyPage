@@ -1,5 +1,416 @@
 [
     {
+        "ID": "16",
+        "rank": -1,
+        "store_name": "House of Soya Beans",
+        "place": "Zion Riverside Food Centre",
+        "picture": [],
+        "foods_id": [
+            "26",
+            "27"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032355791925!2d103.82875527526775!3d1.2924728617569747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sja!2sjp!4v1720186507769!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032439564367!2d103.83133023151119!3d1.292467528289856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sen!2sjp!4v1720186467621!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "50",
+        "rank": -1,
+        "store_name": "Everyday Soya Bean \u5929\u5929\u8c46\u6d46",
+        "place": "Haig Road Market & Food Centre",
+        "picture": [],
+        "foods_id": [
+            "72"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.766931814665!2d103.89548099999999!3d1.315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18171803cd5b%3A0xf0de7648680d983c!2z5aSp5aSp6LGG5rWGIChFdmVyeWRheSBTb3lhIEJlYW4p!5e0!3m2!1sja!2sjp!4v1720247868383!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.766931814665!2d103.89548099999999!3d1.315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18171803cd5b%3A0xf0de7648680d983c!2z5aSp5aSp6LGG5rWGIChFdmVyeWRheSBTb3lhIEJlYW4p!5e0!3m2!1sen!2sjp!4v1720247855043!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "51",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean",
+        "place": "Clementi 448 Market & Food Centre",
+        "picture": [],
+        "foods_id": [
+            "73"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7702480725534!2d103.76449!3d1.3133067999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bdeadc3ea4b%3A0x97c48091d0314ede!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720248001814!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7702480725534!2d103.76449!3d1.3133067999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bdeadc3ea4b%3A0x97c48091d0314ede!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720247972648!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "52",
+        "rank": -1,
+        "store_name": "69 Cold Soya Beancurd",
+        "place": "Haig Road Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc48.jpg"
+        ],
+        "foods_id": [
+            "74"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.328424535437!2d103.8638433!3d1.300205849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1817166711e7%3A0x37e379116be9ed78!2s69%20Cold%20Soya%20Beancurd!5e0!3m2!1sja!2sjp!4v1720248100960!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.5781891712!2d103.8638433!3d1.303313500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1817166711e7%3A0x37e379116be9ed78!2s69%20Cold%20Soya%20Beancurd!5e0!3m2!1sen!2sjp!4v1720248078765!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "53",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean and Grass Jelly \u9ec4\u57d4\u8c46\u82b1\u6c34",
+        "place": "Whampoa Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc49.jpg"
+        ],
+        "foods_id": [
+            "75",
+            "76"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.017784902047!2d103.8455659697754!3d1.3231706000000096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19230d26694d%3A0xb1582c292acf009e!2zV2hhbXBvYSBTb3lhIEJlYW4gYW5kIEdyYXNzIEplbGx5IOm7hOWflOixhuiKseawtA!5e0!3m2!1sja!2sjp!4v1720248228103!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.07113960819!2d103.81930177910158!3d1.3231706000000096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19230d26694d%3A0xb1582c292acf009e!2zV2hhbXBvYSBTb3lhIEJlYW4gYW5kIEdyYXNzIEplbGx5IOm7hOWflOixhuiKseawtA!5e0!3m2!1sen!2sjp!4v1720248206965!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "54",
+        "rank": -1,
+        "store_name": "Pure Soya Bean \u7eaf\u9999\u8c46\u6d46",
+        "place": "Toa Payoh West Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc50.jpg"
+        ],
+        "foods_id": [
+            "77"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.921079679918!2d103.83597476977536!3d1.3381212000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17067b447f63%3A0x8b09991d831a1dc9!2zUHVyZSBTb3lhIEJlYW4g57qv6aaZ6LGG5rWG!5e0!3m2!1sja!2sjp!4v1720248384519!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.921079679918!2d103.83597476977542!3d1.3381212000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17067b447f63%3A0x8b09991d831a1dc9!2zUHVyZSBTb3lhIEJlYW4g57qv6aaZ6LGG5rWG!5e0!3m2!1sen!2sjp!4v1720248360118!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "55",
+        "rank": -1,
+        "store_name": "DDSD \u5927\u8c46\u5c0f\u8c46 - Soya Beancurd",
+        "place": "Hong Lim Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc51.jpg"
+        ],
+        "foods_id": [
+            "78"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81468485158!2d103.84597529999998!3d1.2851629000000069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da193e9b513e2b%3A0xef9e17e6895247e4!2zRERTRCDlpKfosYblsI_osYYgLSBTb3lhIEJlYW5jdXJk!5e0!3m2!1sja!2sjp!4v1720248496194!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81468485158!2d103.84597529999998!3d1.2851629000000069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da193e9b513e2b%3A0xef9e17e6895247e4!2zRERTRCDlpKfosYblsI_osYYgLSBTb3lhIEJlYW5jdXJk!5e0!3m2!1sen!2sjp!4v1720248482529!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "56",
+        "rank": -1,
+        "store_name": "Beano",
+        "place": "Everton Park",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc52.jpg"
+        ],
+        "foods_id": [
+            "79",
+            "80"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.827986822019!2d103.83852780000004!3d1.2766174999999933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19f13034392b%3A0x77a8e82b938080f!2sBeano!5e0!3m2!1sja!2sjp!4v1720248621072!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.827986822019!2d103.83852780000004!3d1.2766174999999933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19f13034392b%3A0x77a8e82b938080f!2sBeano!5e0!3m2!1sen!2sjp!4v1720248609539!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "57",
+        "rank": -1,
+        "store_name": "Healthy Bean \uff08\u5065\u5eb7\u8c46\uff09",
+        "place": "Maxwell Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc53.jpg"
+        ],
+        "foods_id": [
+            "81"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82235583156!2d103.84490579999996!3d1.2802419000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19be6145caad%3A0xdd3786027c97b88d!2zSGVhbHRoeSBCZWFuIO-8iOWBpeW6t-ixhu-8iQ!5e0!3m2!1sja!2sjp!4v1720248714797!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82235583156!2d103.84490579999996!3d1.2802419000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19be6145caad%3A0xdd3786027c97b88d!2zSGVhbHRoeSBCZWFuIO-8iOWBpeW6t-ixhu-8iQ!5e0!3m2!1sen!2sjp!4v1720248701241!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "58",
+        "rank": -1,
+        "store_name": "Tong Cheng Yuan Soya Bean",
+        "place": "Albert Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc54.jpg"
+        ],
+        "foods_id": [
+            "82"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.789815560561!2d103.85409849999999!3d1.3009887999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bb18e8bc33%3A0x4cbb87bcc974dfe!2sTong%20Cheng%20Yuan%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720248870903!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.789815560561!2d103.85409849999999!3d1.3009887999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bb18e8bc33%3A0x4cbb87bcc974dfe!2sTong%20Cheng%20Yuan%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720248857096!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "59",
+        "rank": -1,
+        "store_name": "\u6cb3\u4e0a\u9109\u8c46\u7f8e\u5473\u8c46\u82b1\u5718",
+        "place": "Sheung Shui \u4e0a\u6c34\u6cb3\u4e0a\u90f7",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc55.jpg"
+        ],
+        "foods_id": [
+            "83"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8233291236097!2d114.11029239999999!3d22.510810799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f6705860292f%3A0xaabba2f1ca64ed7c!2z5rKz5LiK6YSJ6LGG576O5ZGz6LGG6Iqx5ZyY!5e0!3m2!1sja!2sjp!4v1720249464234!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8233291236097!2d114.11029239999999!3d22.510810799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f6705860292f%3A0xaabba2f1ca64ed7c!2z5rKz5LiK6YSJ6LGG576O5ZGz6LGG6Iqx5ZyY!5e0!3m2!1sen!2sjp!4v1720249450433!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "60",
+        "rank": -1,
+        "store_name": "\u4e00\u8c46\u82b1",
+        "place": "Jordan Station \u4f50\u6566\u7ad9",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc56.jpg"
+        ],
+        "foods_id": [
+            "84"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.314865474072!2d114.1707493!3d22.3039287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040125430fe25b%3A0x4aa6db9e9068f47c!2z5LiA6LGG6Iqx!5e0!3m2!1sja!2sjp!4v1720249615740!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.314865474072!2d114.1707493!3d22.3039287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040125430fe25b%3A0x4aa6db9e9068f47c!2z5LiA6LGG6Iqx!5e0!3m2!1sen!2sjp!4v1720249597895!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "61",
+        "rank": -1,
+        "store_name": "SOYmart",
+        "place": "Lok Fu Place \u6a02\u5bcc\u5ee3\u5834",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc57.jpg"
+        ],
+        "foods_id": [
+            "85"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59061.037847585154!2d114.17074930000001!3d22.303928700000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404079262381fa1%3A0x3fc801081843cb9c!2zU09ZbWFydCBieSDosYbkubPni4Lkuro!5e0!3m2!1sja!2sjp!4v1720249849885!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.417692735354!2d114.1867137!3d22.337851999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404079262381fa1%3A0x3fc801081843cb9c!2sSOYmart!5e0!3m2!1sen!2sjp!4v1720249823306!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "62",
+        "rank": -1,
+        "store_name": "SOYmart",
+        "place": "Sha Tin \u6c99\u7530",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc58.jpg"
+        ],
+        "foods_id": [
+            "86"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59039.58284093502!2d114.15791886708891!3d22.354613298180073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407ce2655f099%3A0xd1e25d724be0ff26!2sSOYmart!5e0!3m2!1sja!2sjp!4v1720250004994!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14757.063599841715!2d114.18680416977537!3d22.381331299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407ce2655f099%3A0xd1e25d724be0ff26!2sSOYmart!5e0!3m2!1sen!2sjp!4v1720249995823!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "63",
+        "rank": -1,
+        "store_name": "Tofubucks \u8c46\u8150\u5df4\u514b",
+        "place": "Shek Mun Station \u77f3\u9580",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc59.jpg"
+        ],
+        "foods_id": [
+            "87"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.0795828941564!2d114.20812210000001!3d22.388357099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040646c0fb31c1%3A0x6d96b6586f7bc9cd!2sTofubucks!5e0!3m2!1sja!2sjp!4v1720250165300!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.0795828941564!2d114.20812210000001!3d22.388357099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040646c0fb31c1%3A0x6d96b6586f7bc9cd!2sTofubucks!5e0!3m2!1sen!2sjp!4v1720250150970!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "64",
+        "rank": -1,
+        "store_name": "Mum's Tofu Pudding \u963f\u5abd\u8373\u8150\u82b1",
+        "place": "Yuen Long \u5143\u6717",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc60.jpg"
+        ],
+        "foods_id": [
+            "88"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.550851662548!2d114.02508331744384!3d22.445925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a1ad5dea49%3A0xd6cb982a3b59c68b!2z6Zi_5aq96I2z6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720250319227!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118001.62725320154!2d113.95723415820312!3d22.445925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a1ad5dea49%3A0xd6cb982a3b59c68b!2z6Zi_5aq96I2z6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720250306842!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "65",
+        "rank": -1,
+        "store_name": "\u4e9e\u7389\u8c46\u8150\u82b1",
+        "place": "Yuen Long \u5143\u6717",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc61.jpg"
+        ],
+        "foods_id": [
+            "89"
+        ],
+        "country_jp": "\u9999\u6e2f",
+        "country_en": "Hong Kong",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59001.63066258079!2d113.99589537910157!3d22.444004299999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a0ca5fa2a3%3A0xa7a83ebc53c48958!2z5Lqc546J6LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720250394976!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153551.0354993304!2d113.93768068651282!3d22.454434884165007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a0ca5fa2a3%3A0xa7a83ebc53c48958!2z5Lqe546J6LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720250380292!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "66",
+        "rank": -1,
+        "store_name": "Taiwan Ten Caf\u00e9 \u53f0\u6e7e\u751c\u5546\u5e97",
+        "place": "\u962a\u6025\u4e09\u756a\u8857",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc62.jpg"
+        ],
+        "foods_id": [
+            "90"
+        ],
+        "country_jp": "\u65e5\u672c",
+        "country_en": "Japan",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2z5Y-w5rm-55Sc5ZWG5bqXIOmYquaApeS4ieeVquihl-W6lw!5e0!3m2!1sja!2sjp!4v1720250552792!5m2!1sja!2sjp",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2sTaiwan%20Ten%20Caf%C3%A9%20Hankyu%20Sanban%20Gai!5e0!3m2!1sen!2sjp!4v1720250535435!5m2!1sen!2sjp"
+    },
+    {
+        "ID": "67",
+        "rank": -1,
+        "store_name": "Soya Bean & Jelly Drink \u6b61\u98f2\u8c46\u82b1\u6c34",
+        "place": "Chong Pang Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc64.jpg"
+        ],
+        "foods_id": [
+            "91"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sja!2ssg!4v1724466011484!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.35601551141!2d103.69104657519621!3d1.3762545550101817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sen!2ssg!4v1724465960633!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "68",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean",
+        "place": "Marine Parade Central Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc63.jpg"
+        ],
+        "foods_id": [
+            "92"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1724466107223!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.33779537179!2d103.69104637252359!3d1.3765949500024182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1724466145932!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "69",
+        "rank": -1,
+        "store_name": "Whampoa Soya Bean",
+        "place": "Ang Mo Kio Central Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc65.jpg"
+        ],
+        "foods_id": [
+            "93"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.674164294741!2d103.84398427526759!3d1.3721894615030088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1729758972103!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.674164230545!2d103.8439843!3d1.3721895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1729761470547!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "70",
+        "rank": -1,
+        "store_name": "Old Alley",
+        "place": "Kluang",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc66.jpg"
+        ],
+        "foods_id": [
+            "94"
+        ],
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_en": "Malaysia",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6366.129633896777!2d103.32244364227765!3d2.0310021594668477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sja!2ssg!4v1729908015663!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.310374262428!2d103.31739107526627!3d2.0316220590046354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sen!2ssg!4v1729908050099!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "71",
+        "rank": -1,
+        "store_name": "One Soy \u4e00\u8c46",
+        "place": "Maxwell Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc70.jpg"
+        ],
+        "foods_id": [
+            "98"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82220926845!2d103.84219207496564!3d1.2803360987074903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sen!2ssg!4v1742883188627!5m2!1sen!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8220580223365!2d103.84489520000001!3d1.2804332999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sja!2ssg!4v1742883138862!5m2!1sja!2ssg"
+    },
+    {
         "ID": "01",
         "rank": 1,
         "store_name": "Teck Seng Soya Bean Milk (\u5fb3\u76db\u8c46\u82b1\u6c34)",
@@ -626,8 +1037,34 @@
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59000.31484009054!2d114.13716871128933!3d22.447097477928466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340408409ec89267%3A0xd767cd20ab73f212!2z6LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720240720184!5m2!1sen!2sjp"
     },
     {
-        "ID": "23",
+        "ID": "74",
         "rank": 22,
+        "store_name": "\u5c0f\u9c9c\u8c46\u8c46\u82b1 bachang \u5206\u884c",
+        "place": "Jalan Gajah Berang, Malacca",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc71.jpg"
+        ],
+        "foods_id": [
+            "99"
+        ],
+        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_en": "Malaysia",
+        "descriptions_jp": [
+            {
+                "line": "\u7126\u304c\u3057\u30ad\u30e3\u30e9\u30e1\u30eb\u306e\u4e57\u3063\u305f\u8c46\u82b1\u3092\u3044\u305f\u3060\u3044\u305f\u3002\u3053\u306e\u30ad\u30e3\u30e9\u30e1\u30eb\u306e\u56fa\u3055\u3068\u8c46\u82b1\u306e\u67d4\u3089\u304b\u3055\u304c\u3061\u3087\u3046\u3069\u826f\u3044\u5869\u6885\u3092\u751f\u3093\u3067\u3044\u3066\u65b0\u9bae\u5473\u3092\u611f\u3058\u305f\u3002\u3061\u3083\u3093\u3068\u8c46\u82b1\u306e\u751f\u5730\u3082\u30b7\u30eb\u30ad\u30fc\u3067\u7f8e\u5473\u3057\u3044\u611f\u3058\u3067\u3042\u3063\u305f\u3002"
+            }
+        ],
+        "descriptions_en": [
+            {
+                "line": "I had beancurd topped with burnt caramel. The firmness of the caramel and the softness of the beancurd created a perfect balance, which felt novel. The beancurd itself also had a properly silky and delicious texture."
+            }
+        ],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20669.379170465774!2d102.24412761907527!3d2.203129504415359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1b7dd514e29%3A0x67c24dc4d79c9178!2z5bCP6bKc6LGG6LGG6IqxIGJhY2hhbmcg5YiG6KGM!5e0!3m2!1sja!2ssg!4v1743918522726!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8565522330273!2d102.24015957496789!3d2.2078189977726663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1b7dd514e29%3A0x67c24dc4d79c9178!2z5bCP6bKc6LGG6LGG6IqxIGJhY2hhbmcg5YiG6KGM!5e0!3m2!1sen!2ssg!4v1743918802199!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "23",
+        "rank": 23,
         "store_name": "\u963f\u4e00\u8c46\u82b1",
         "place": "Sham Shui Po \u6df1\u6c34\u57d7",
         "picture": [
@@ -653,7 +1090,7 @@
     },
     {
         "ID": "24",
-        "rank": 23,
+        "rank": 24,
         "store_name": "Bean Sir \u8c46\u82b1\u5e97",
         "place": "\u65b0\u84b2\u5d17 San Po Kong",
         "picture": [
@@ -679,7 +1116,7 @@
     },
     {
         "ID": "25",
-        "rank": 24,
+        "rank": 25,
         "store_name": "Ah Ma Beancurd \u963f\u5abd\u8c46\u8150\u82b1",
         "place": "Mong Kok \u65fa\u89d2",
         "picture": [
@@ -705,7 +1142,7 @@
     },
     {
         "ID": "26",
-        "rank": 25,
+        "rank": 26,
         "store_name": "Funny Mountain Tau Fu Far",
         "place": "Ipoh New Town",
         "picture": [
@@ -731,7 +1168,7 @@
     },
     {
         "ID": "27",
-        "rank": 26,
+        "rank": 27,
         "store_name": "Kedai Soya Tau Fu Fah Big Mom",
         "place": "Ipoh New Town",
         "picture": [
@@ -757,7 +1194,7 @@
     },
     {
         "ID": "28",
-        "rank": 27,
+        "rank": 28,
         "store_name": "Lai Kee Soya Bean \u9ece\u8bb0\u8c46\u6d46\u4e13\u5356\u5e97",
         "place": "Ipoh New Town",
         "picture": [
@@ -783,7 +1220,7 @@
     },
     {
         "ID": "29",
-        "rank": 28,
+        "rank": 29,
         "store_name": "Beancurd \u59d1\u5abd\u8c46\u8150\u82b1",
         "place": "Macau",
         "picture": [
@@ -809,7 +1246,7 @@
     },
     {
         "ID": "72",
-        "rank": 29,
+        "rank": 30,
         "store_name": "MG 83 Cafe \u7cd6\u6c34\u7f8e\u98df\u9986",
         "place": "Kluang",
         "picture": [
@@ -835,7 +1272,7 @@
     },
     {
         "ID": "30",
-        "rank": 30,
+        "rank": 31,
         "store_name": "Bean\u98f2\u908a\u98df-\u8c46\u8150\u82b1\u5c08\u9580\u5e97",
         "place": "Shatin Plaza \u6c99\u7530\u5ee3\u5834",
         "picture": [
@@ -867,7 +1304,7 @@
     },
     {
         "ID": "31",
-        "rank": 31,
+        "rank": 32,
         "store_name": "Yan Wo Dou Bun Chong \u4eba\u548c\u8373\u54c1\u5ee0",
         "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
@@ -893,7 +1330,7 @@
     },
     {
         "ID": "71",
-        "rank": 32,
+        "rank": 33,
         "store_name": "Kedai Minuman Pemborong Air Tahu Ah Wah \u4e09\u677f\u5934\u4e9a\u534e\u8c46\u8150\u6c34",
         "place": "Kluang",
         "picture": [
@@ -919,7 +1356,7 @@
     },
     {
         "ID": "32",
-        "rank": 33,
+        "rank": 34,
         "store_name": "Sansui Tau Fu Far",
         "place": "Ipoh New Town",
         "picture": [
@@ -945,7 +1382,7 @@
     },
     {
         "ID": "33",
-        "rank": 34,
+        "rank": 35,
         "store_name": "Whampoa Soya Bean",
         "place": "Eunos",
         "picture": [
@@ -971,7 +1408,7 @@
     },
     {
         "ID": "34",
-        "rank": 35,
+        "rank": 36,
         "store_name": "Kim Soya Bean",
         "place": "KL Pasar Jalan Petaling",
         "picture": [
@@ -1003,7 +1440,7 @@
     },
     {
         "ID": "35",
-        "rank": 36,
+        "rank": 37,
         "store_name": "Tofu Garden (Ah Por Tofu Fa) \u5efa\u8208\u4e9e\u5a46\u8c46\u8150\u82b1",
         "place": "Lamma Island \u5357\u4e2b\u5cf6",
         "picture": [
@@ -1029,7 +1466,7 @@
     },
     {
         "ID": "36",
-        "rank": 37,
+        "rank": 38,
         "store_name": "Grandma's tofu pudding \u4e9e\u5a46\u8c46\u8150\u82b1",
         "place": "Tai Po \u5927\u57d4\u589f",
         "picture": [
@@ -1061,7 +1498,7 @@
     },
     {
         "ID": "37",
-        "rank": 38,
+        "rank": 39,
         "store_name": "The Soy House \u5408\u548c\u8373\u54c1",
         "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
@@ -1093,7 +1530,7 @@
     },
     {
         "ID": "38",
-        "rank": 39,
+        "rank": 40,
         "store_name": "Nine Fresh",
         "place": "Islandwide",
         "picture": [
@@ -1119,7 +1556,7 @@
     },
     {
         "ID": "73",
-        "rank": 40,
+        "rank": 41,
         "store_name": "Tian Wang Soya Beancurd",
         "place": "Junction 10, Bukit Panjang",
         "picture": [
@@ -1148,7 +1585,7 @@
     },
     {
         "ID": "39",
-        "rank": 41,
+        "rank": 42,
         "store_name": "Bedok Soya Bean Drink",
         "place": "Bedok 216",
         "picture": [
@@ -1175,7 +1612,7 @@
     },
     {
         "ID": "40",
-        "rank": 42,
+        "rank": 43,
         "store_name": "Woong Kee Traditional Beancurd (Permanently Closed)",
         "place": "People's Park Centre",
         "picture": [
@@ -1201,7 +1638,7 @@
     },
     {
         "ID": "41",
-        "rank": 43,
+        "rank": 44,
         "store_name": "Whampoa Soya Bean",
         "place": "Chinatown Complex",
         "picture": [],
@@ -1225,7 +1662,7 @@
     },
     {
         "ID": "42",
-        "rank": 44,
+        "rank": 45,
         "store_name": "Soylicious",
         "place": "Bukit Timah Food Centre",
         "picture": [
@@ -1258,7 +1695,7 @@
     },
     {
         "ID": "43",
-        "rank": 45,
+        "rank": 46,
         "store_name": "Lao Ban Soya Beancurd \u8001\u4f34\u8c46\u82b1",
         "place": "IslandWide",
         "picture": [
@@ -1286,7 +1723,7 @@
     },
     {
         "ID": "44",
-        "rank": 46,
+        "rank": 47,
         "store_name": "Selegie Soyabean",
         "place": "Boon Keng Station",
         "picture": [
@@ -1313,7 +1750,7 @@
     },
     {
         "ID": "45",
-        "rank": 47,
+        "rank": 48,
         "store_name": "Go Go Beanz",
         "place": "Chinatown Complex",
         "picture": [
@@ -1340,7 +1777,7 @@
     },
     {
         "ID": "46",
-        "rank": 48,
+        "rank": 49,
         "store_name": "51 Soya Bean",
         "place": "Golden Mile Food Centre",
         "picture": [
@@ -1367,7 +1804,7 @@
     },
     {
         "ID": "47",
-        "rank": 49,
+        "rank": 50,
         "store_name": "Mr Bean",
         "place": "Islandwide",
         "picture": [],
@@ -1392,7 +1829,7 @@
     },
     {
         "ID": "48",
-        "rank": 50,
+        "rank": 51,
         "store_name": "Black Ball",
         "place": "Bugis+",
         "picture": [],
@@ -1416,7 +1853,7 @@
     },
     {
         "ID": "49",
-        "rank": 51,
+        "rank": 52,
         "store_name": "The Soy Inc",
         "place": "Islandwide",
         "picture": [],
@@ -1446,414 +1883,39 @@
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.89830864301!2d103.65370956535419!3d1.3083953520459894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0fecb62e0085%3A0xe0ff5efb8b636c2a!2sThe%20Soy%20Inc%20%40%20544%20Jurong%20West%20-%20Fresh%20Soy%20Milk%20%26%20Beancurd%20Pudding!5e0!3m2!1sen!2sjp!4v1720247060284!5m2!1sen!2sjp"
     },
     {
-        "ID": "16",
+        "ID": "75",
         "rank": -1,
-        "store_name": "House of Soya Beans",
-        "place": "Zion Riverside Food Centre",
-        "picture": [],
-        "foods_id": [
-            "26",
-            "27"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032355791925!2d103.82875527526775!3d1.2924728617569747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sja!2sjp!4v1720186507769!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8032439564367!2d103.83133023151119!3d1.292467528289856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1983119acb0d%3A0xa668b2621c75231c!2sHouse%20of%20Soya%20Beans!5e0!3m2!1sen!2sjp!4v1720186467621!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "50",
-        "rank": -1,
-        "store_name": "Everyday Soya Bean \u5929\u5929\u8c46\u6d46",
-        "place": "Haig Road Market & Food Centre",
-        "picture": [],
-        "foods_id": [
-            "72"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.766931814665!2d103.89548099999999!3d1.315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18171803cd5b%3A0xf0de7648680d983c!2z5aSp5aSp6LGG5rWGIChFdmVyeWRheSBTb3lhIEJlYW4p!5e0!3m2!1sja!2sjp!4v1720247868383!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.766931814665!2d103.89548099999999!3d1.315383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da18171803cd5b%3A0xf0de7648680d983c!2z5aSp5aSp6LGG5rWGIChFdmVyeWRheSBTb3lhIEJlYW4p!5e0!3m2!1sen!2sjp!4v1720247855043!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "51",
-        "rank": -1,
-        "store_name": "Whampoa Soya Bean",
-        "place": "Clementi 448 Market & Food Centre",
-        "picture": [],
-        "foods_id": [
-            "73"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7702480725534!2d103.76449!3d1.3133067999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bdeadc3ea4b%3A0x97c48091d0314ede!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720248001814!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7702480725534!2d103.76449!3d1.3133067999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bdeadc3ea4b%3A0x97c48091d0314ede!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720247972648!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "52",
-        "rank": -1,
-        "store_name": "69 Cold Soya Beancurd",
-        "place": "Haig Road Market & Food Centre",
+        "store_name": "Q Bean (豆奶，豆花，豆腐)",
+        "place": "Malacca",
         "picture": [
-            "/MyPage/images/beancurd_images/bc48.jpg"
+            "/MyPage/images/beancurd_images/bc72.jpg"
         ],
         "foods_id": [
-            "74"
+            "100"
         ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.328424535437!2d103.8638433!3d1.300205849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1817166711e7%3A0x37e379116be9ed78!2s69%20Cold%20Soya%20Beancurd!5e0!3m2!1sja!2sjp!4v1720248100960!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.5781891712!2d103.8638433!3d1.303313500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1817166711e7%3A0x37e379116be9ed78!2s69%20Cold%20Soya%20Beancurd!5e0!3m2!1sen!2sjp!4v1720248078765!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "53",
-        "rank": -1,
-        "store_name": "Whampoa Soya Bean and Grass Jelly \u9ec4\u57d4\u8c46\u82b1\u6c34",
-        "place": "Whampoa Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc49.jpg"
-        ],
-        "foods_id": [
-            "75",
-            "76"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.017784902047!2d103.8455659697754!3d1.3231706000000096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19230d26694d%3A0xb1582c292acf009e!2zV2hhbXBvYSBTb3lhIEJlYW4gYW5kIEdyYXNzIEplbGx5IOm7hOWflOixhuiKseawtA!5e0!3m2!1sja!2sjp!4v1720248228103!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63820.07113960819!2d103.81930177910158!3d1.3231706000000096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19230d26694d%3A0xb1582c292acf009e!2zV2hhbXBvYSBTb3lhIEJlYW4gYW5kIEdyYXNzIEplbGx5IOm7hOWflOixhuiKseawtA!5e0!3m2!1sen!2sjp!4v1720248206965!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "54",
-        "rank": -1,
-        "store_name": "Pure Soya Bean \u7eaf\u9999\u8c46\u6d46",
-        "place": "Toa Payoh West Market & Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc50.jpg"
-        ],
-        "foods_id": [
-            "77"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.921079679918!2d103.83597476977536!3d1.3381212000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17067b447f63%3A0x8b09991d831a1dc9!2zUHVyZSBTb3lhIEJlYW4g57qv6aaZ6LGG5rWG!5e0!3m2!1sja!2sjp!4v1720248384519!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.921079679918!2d103.83597476977542!3d1.3381212000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17067b447f63%3A0x8b09991d831a1dc9!2zUHVyZSBTb3lhIEJlYW4g57qv6aaZ6LGG5rWG!5e0!3m2!1sen!2sjp!4v1720248360118!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "55",
-        "rank": -1,
-        "store_name": "DDSD \u5927\u8c46\u5c0f\u8c46 - Soya Beancurd",
-        "place": "Hong Lim Market & Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc51.jpg"
-        ],
-        "foods_id": [
-            "78"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81468485158!2d103.84597529999998!3d1.2851629000000069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da193e9b513e2b%3A0xef9e17e6895247e4!2zRERTRCDlpKfosYblsI_osYYgLSBTb3lhIEJlYW5jdXJk!5e0!3m2!1sja!2sjp!4v1720248496194!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81468485158!2d103.84597529999998!3d1.2851629000000069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da193e9b513e2b%3A0xef9e17e6895247e4!2zRERTRCDlpKfosYblsI_osYYgLSBTb3lhIEJlYW5jdXJk!5e0!3m2!1sen!2sjp!4v1720248482529!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "56",
-        "rank": -1,
-        "store_name": "Beano",
-        "place": "Everton Park",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc52.jpg"
-        ],
-        "foods_id": [
-            "79",
-            "80"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.827986822019!2d103.83852780000004!3d1.2766174999999933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19f13034392b%3A0x77a8e82b938080f!2sBeano!5e0!3m2!1sja!2sjp!4v1720248621072!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.827986822019!2d103.83852780000004!3d1.2766174999999933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19f13034392b%3A0x77a8e82b938080f!2sBeano!5e0!3m2!1sen!2sjp!4v1720248609539!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "57",
-        "rank": -1,
-        "store_name": "Healthy Bean \uff08\u5065\u5eb7\u8c46\uff09",
-        "place": "Maxwell Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc53.jpg"
-        ],
-        "foods_id": [
-            "81"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82235583156!2d103.84490579999996!3d1.2802419000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19be6145caad%3A0xdd3786027c97b88d!2zSGVhbHRoeSBCZWFuIO-8iOWBpeW6t-ixhu-8iQ!5e0!3m2!1sja!2sjp!4v1720248714797!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82235583156!2d103.84490579999996!3d1.2802419000000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19be6145caad%3A0xdd3786027c97b88d!2zSGVhbHRoeSBCZWFuIO-8iOWBpeW6t-ixhu-8iQ!5e0!3m2!1sen!2sjp!4v1720248701241!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "58",
-        "rank": -1,
-        "store_name": "Tong Cheng Yuan Soya Bean",
-        "place": "Albert Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc54.jpg"
-        ],
-        "foods_id": [
-            "82"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.789815560561!2d103.85409849999999!3d1.3009887999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bb18e8bc33%3A0x4cbb87bcc974dfe!2sTong%20Cheng%20Yuan%20Soya%20Bean!5e0!3m2!1sja!2sjp!4v1720248870903!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.789815560561!2d103.85409849999999!3d1.3009887999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19bb18e8bc33%3A0x4cbb87bcc974dfe!2sTong%20Cheng%20Yuan%20Soya%20Bean!5e0!3m2!1sen!2sjp!4v1720248857096!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "59",
-        "rank": -1,
-        "store_name": "\u6cb3\u4e0a\u9109\u8c46\u7f8e\u5473\u8c46\u82b1\u5718",
-        "place": "Sheung Shui \u4e0a\u6c34\u6cb3\u4e0a\u90f7",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc55.jpg"
-        ],
-        "foods_id": [
-            "83"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8233291236097!2d114.11029239999999!3d22.510810799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f6705860292f%3A0xaabba2f1ca64ed7c!2z5rKz5LiK6YSJ6LGG576O5ZGz6LGG6Iqx5ZyY!5e0!3m2!1sja!2sjp!4v1720249464234!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.8233291236097!2d114.11029239999999!3d22.510810799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f6705860292f%3A0xaabba2f1ca64ed7c!2z5rKz5LiK6YSJ6LGG576O5ZGz6LGG6Iqx5ZyY!5e0!3m2!1sen!2sjp!4v1720249450433!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "60",
-        "rank": -1,
-        "store_name": "\u4e00\u8c46\u82b1",
-        "place": "Jordan Station \u4f50\u6566\u7ad9",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc56.jpg"
-        ],
-        "foods_id": [
-            "84"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.314865474072!2d114.1707493!3d22.3039287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040125430fe25b%3A0x4aa6db9e9068f47c!2z5LiA6LGG6Iqx!5e0!3m2!1sja!2sjp!4v1720249615740!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.314865474072!2d114.1707493!3d22.3039287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040125430fe25b%3A0x4aa6db9e9068f47c!2z5LiA6LGG6Iqx!5e0!3m2!1sen!2sjp!4v1720249597895!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "61",
-        "rank": -1,
-        "store_name": "SOYmart",
-        "place": "Lok Fu Place \u6a02\u5bcc\u5ee3\u5834",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc57.jpg"
-        ],
-        "foods_id": [
-            "85"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59061.037847585154!2d114.17074930000001!3d22.303928700000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404079262381fa1%3A0x3fc801081843cb9c!2zU09ZbWFydCBieSDosYbkubPni4Lkuro!5e0!3m2!1sja!2sjp!4v1720249849885!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.417692735354!2d114.1867137!3d22.337851999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404079262381fa1%3A0x3fc801081843cb9c!2sSOYmart!5e0!3m2!1sen!2sjp!4v1720249823306!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "62",
-        "rank": -1,
-        "store_name": "SOYmart",
-        "place": "Sha Tin \u6c99\u7530",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc58.jpg"
-        ],
-        "foods_id": [
-            "86"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59039.58284093502!2d114.15791886708891!3d22.354613298180073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407ce2655f099%3A0xd1e25d724be0ff26!2sSOYmart!5e0!3m2!1sja!2sjp!4v1720250004994!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14757.063599841715!2d114.18680416977537!3d22.381331299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340407ce2655f099%3A0xd1e25d724be0ff26!2sSOYmart!5e0!3m2!1sen!2sjp!4v1720249995823!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "63",
-        "rank": -1,
-        "store_name": "Tofubucks \u8c46\u8150\u5df4\u514b",
-        "place": "Shek Mun Station \u77f3\u9580",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc59.jpg"
-        ],
-        "foods_id": [
-            "87"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.0795828941564!2d114.20812210000001!3d22.388357099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040646c0fb31c1%3A0x6d96b6586f7bc9cd!2sTofubucks!5e0!3m2!1sja!2sjp!4v1720250165300!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.0795828941564!2d114.20812210000001!3d22.388357099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040646c0fb31c1%3A0x6d96b6586f7bc9cd!2sTofubucks!5e0!3m2!1sen!2sjp!4v1720250150970!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "64",
-        "rank": -1,
-        "store_name": "Mum's Tofu Pudding \u963f\u5abd\u8373\u8150\u82b1",
-        "place": "Yuen Long \u5143\u6717",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc60.jpg"
-        ],
-        "foods_id": [
-            "88"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.550851662548!2d114.02508331744384!3d22.445925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a1ad5dea49%3A0xd6cb982a3b59c68b!2z6Zi_5aq96I2z6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720250319227!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118001.62725320154!2d113.95723415820312!3d22.445925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a1ad5dea49%3A0xd6cb982a3b59c68b!2z6Zi_5aq96I2z6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720250306842!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "65",
-        "rank": -1,
-        "store_name": "\u4e9e\u7389\u8c46\u8150\u82b1",
-        "place": "Yuen Long \u5143\u6717",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc61.jpg"
-        ],
-        "foods_id": [
-            "89"
-        ],
-        "country_jp": "\u9999\u6e2f",
-        "country_en": "Hong Kong",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59001.63066258079!2d113.99589537910157!3d22.444004299999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a0ca5fa2a3%3A0xa7a83ebc53c48958!2z5Lqc546J6LGG6IWQ6Iqx!5e0!3m2!1sja!2sjp!4v1720250394976!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153551.0354993304!2d113.93768068651282!3d22.454434884165007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f0a0ca5fa2a3%3A0xa7a83ebc53c48958!2z5Lqe546J6LGG6IWQ6Iqx!5e0!3m2!1sen!2sjp!4v1720250380292!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "66",
-        "rank": -1,
-        "store_name": "Taiwan Ten Caf\u00e9 \u53f0\u6e7e\u751c\u5546\u5e97",
-        "place": "\u962a\u6025\u4e09\u756a\u8857",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc62.jpg"
-        ],
-        "foods_id": [
-            "90"
-        ],
-        "country_jp": "\u65e5\u672c",
-        "country_en": "Japan",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2z5Y-w5rm-55Sc5ZWG5bqXIOmYquaApeS4ieeVquihl-W6lw!5e0!3m2!1sja!2sjp!4v1720250552792!5m2!1sja!2sjp",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.996282717823!2d135.49872600000003!3d34.7052737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69189e21619%3A0x5d9ff3a1daa449!2sTaiwan%20Ten%20Caf%C3%A9%20Hankyu%20Sanban%20Gai!5e0!3m2!1sen!2sjp!4v1720250535435!5m2!1sen!2sjp"
-    },
-    {
-        "ID": "67",
-        "rank": -1,
-        "store_name": "Soya Bean & Jelly Drink \u6b61\u98f2\u8c46\u82b1\u6c34",
-        "place": "Chong Pang Market & Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc64.jpg"
-        ],
-        "foods_id": [
-            "91"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sja!2ssg!4v1724466011484!5m2!1sja!2ssg",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.35601551141!2d103.69104657519621!3d1.3762545550101817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da15c32485b18d%3A0xad1384443620d257!2zU295YSBCZWFuICYgSmVsbHkgRHJpbmsg5q2h6aOy6LGG6Iqx5rC0!5e0!3m2!1sen!2ssg!4v1724465960633!5m2!1sen!2ssg"
-    },
-    {
-        "ID": "68",
-        "rank": -1,
-        "store_name": "Whampoa Soya Bean",
-        "place": "Marine Parade Central Market & Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc63.jpg"
-        ],
-        "foods_id": [
-            "92"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127637.35601310337!2d103.6910466!3d1.3762546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1724466107223!5m2!1sja!2ssg",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127637.33779537179!2d103.69104637252359!3d1.3765949500024182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da192517b18b41%3A0xa759c05012907c3c!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1724466145932!5m2!1sen!2ssg"
-    },
-    {
-        "ID": "69",
-        "rank": -1,
-        "store_name": "Whampoa Soya Bean",
-        "place": "Ang Mo Kio Central Market & Food Centre",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc65.jpg"
-        ],
-        "foods_id": [
-            "93"
-        ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
-        "descriptions_jp": [],
-        "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.674164294741!2d103.84398427526759!3d1.3721894615030088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1729758972103!5m2!1sja!2ssg",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.674164230545!2d103.8439843!3d1.3721895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da17f262642901%3A0x1f67f4bd5149aa3d!2sWhampoa%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1729761470547!5m2!1sen!2ssg"
-    },
-    {
-        "ID": "70",
-        "rank": -1,
-        "store_name": "Old Alley",
-        "place": "Kluang",
-        "picture": [
-            "/MyPage/images/beancurd_images/bc66.jpg"
-        ],
-        "foods_id": [
-            "94"
-        ],
-        "country_jp": "\u30de\u30ec\u30fc\u30b7\u30a2",
+        "country_jp": "マレーシア",
         "country_en": "Malaysia",
         "descriptions_jp": [],
         "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6366.129633896777!2d103.32244364227765!3d2.0310021594668477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sja!2ssg!4v1729908015663!5m2!1sja!2ssg",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.310374262428!2d103.31739107526627!3d2.0316220590046354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d06db5eb65b6c5%3A0x102e88f3156368d1!2sOld%20Alley!5e0!3m2!1sen!2ssg!4v1729908050099!5m2!1sen!2ssg"
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15947.428886783742!2d102.2440555091027!3d2.207569430740177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1d211bff0bd%3A0x70415d20bf95702!2zUSBCZWFuICjosYblpbbvvIzosYboirHvvIzosYbohZAp!5e0!3m2!1sja!2ssg!4v1743919260456!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8565522330273!2d102.24015957496789!3d2.2078189977726663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1d211bff0bd%3A0x70415d20bf95702!2zUSBCZWFuICjosYblpbbvvIzosYboirHvvIzosYbohZAp!5e0!3m2!1sen!2ssg!4v1743919282188!5m2!1sen!2ssg"
     },
     {
-        "ID": "71",
+        "ID": "76",
         "rank": -1,
-        "store_name": "One Soy 一豆",
-        "place": "Maxwell Food Centre",
+        "store_name": "MAMA BEANCURD 嬷嬷豆花",
+        "place": "Muar",
         "picture": [
-            "/MyPage/images/beancurd_images/bc70.jpg"
+            "/MyPage/images/beancurd_images/bc73.jpg"
         ],
         "foods_id": [
-            "98"
+            "101"
         ],
-        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
-        "country_en": "Singapore",
+        "country_jp": "マレーシア",
+        "country_en": "Malaysia",
         "descriptions_jp": [],
         "descriptions_en": [],
-        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.82220926845!2d103.84219207496564!3d1.2803360987074903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sen!2ssg!4v1742883188627!5m2!1sen!2ssg",
-        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8220580223365!2d103.84489520000001!3d1.2804332999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190054dbaba5%3A0x6b09374ad2d0a25d!2zT25lIFNveSDkuIDosYY!5e0!3m2!1sja!2ssg!4v1742883138862!5m2!1sja!2ssg"
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38932.51195828323!2d102.58488957214902!3d2.0453991212564717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1b9afb230ab15%3A0xc2b84ac7a5847726!2zTUFNQSBCRUFOQ1VSRCDlrLflrLfosYboirE!5e0!3m2!1sja!2ssg!4v1743919335040!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.2710360998294!2d102.58252137543563!3d2.0474951589353916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1b9afb230ab15%3A0xc2b84ac7a5847726!2zTUFNQSBCRUFOQ1VSRCDlrLflrLfosYboirE!5e0!3m2!1sen!2ssg!4v1743919359419!5m2!1sen!2ssg"
     }
 ]

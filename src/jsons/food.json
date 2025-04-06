@@ -684,5 +684,26 @@
         "food_name_en": "Traditional Beancurd",
         "price": "2.0",
         "currency": "SGD"
+    },
+    {
+        "ID": "99",
+        "food_name_jp": "炙烤豆花",
+        "food_name_en": "Grilled Caramel Beancurd",
+        "price": "5.9",
+        "currency": "RM"
+    },
+    {
+        "ID": "100",
+        "food_name_jp": "纯豆花",
+        "food_name_en": "Pure Taufu Fa",
+        "price": "3.0",
+        "currency": "RM"
+    },
+    {
+        "ID": "101",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "6.0",
+        "currency": "RM"
     }
 ]
