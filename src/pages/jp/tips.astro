@@ -2,7 +2,7 @@
 import '../../styles/blog.css';
 import Head from '../../components/jp/Head.astro';
 import Header from '../../components/jp/Header.astro';
-const h2List = ["日系スーパーや日本のものが買えるお店", "交通について", "日本食でおすすめのお店（低〜中価格帯）", "友達との集まりでおすすめのお店", "その他おすすめの飲食店", "休日のおでかけ案", "小旅行案", "〇〇人街", "特徴的なショッピングモール"];
+const h2List = ["日系スーパーや日本のものが買えるお店", "交通について", "集まりでおすすめのお店（地図、低〜中価格帯）", "日本食でおすすめのお店（低〜中価格帯）", "友達との集まりでおすすめのお店", "その他おすすめの飲食店", "休日のおでかけ案", "小旅行案", "〇〇人街", "特徴的なショッピングモール"];
 ---
 
 <html lang="ja">
@@ -123,6 +123,19 @@ const h2List = ["日系スーパーや日本のものが買えるお店", "交�
 				</ul>
 				<li>車移動はGrab・Gojekなどの配車アプリを使うのが吉。$20 ~ 40ほど。</li>
 				<li>タクシーはComfortDelGroなど。</li>
+
+				<h2 id="集まりでおすすめのお店（地図、低〜中価格帯）">集まりでおすすめのお店（地図、低〜中価格帯）</h2>
+				<iframe src="https://www.google.com/maps/d/embed?mid=1t7VgHUuL8zGpk7TXRX57usqJXll7AVk&ehbc=2E312F"								
+                width="600"
+                height="400"
+                id="frame"
+                frameborder="0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                **responsive**
+                />
+
 
 				<h2 id="日本食でおすすめのお店（低〜中価格帯）">日本食でおすすめのお店（低〜中価格帯）</h2>
                 <li>すき家</li>
