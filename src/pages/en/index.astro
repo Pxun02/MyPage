@@ -6,11 +6,12 @@ import Header from '../../components/en/Header.astro';
 
 <html lang="en">
 	<Head pageTitle=`Profile | Shawn`/>
-	<body>
+	<body style="background-color: #f5f5f5;">
 		<Header />
         <header>
 			<h1>Hirashima Shunya (Shawn)</h1>
-			<p>PhD Student at School of Physical and Mathematical Sciences (SPMS), Nanyang Technological University (NTU), Singapore<br>Mathamatical Sciences</p>
+			<p>PhD Student at School of Physical and Mathematical Sciences (<a href="https://www.ntu.edu.sg/spms" style="color: #6799B9">SPMS</a>), Nanyang Technological University (<a href="https://www.ntu.edu.sg" style="color: #6799B9">NTU</a>), Singapore</p>
+			<p><b>Research Interest</b>: Evolutionary Game Theory, Agent-based Model, Cooperative Game, Social Physics, AI</p>
 			<nav>
 				<a href="https://x.com/hsunPng" target="_blank" style="color: black;"><i class="fab fa-x-twitter"></i></a>
 				<a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -20,46 +21,25 @@ import Header from '../../components/en/Header.astro';
 
 		<main>
 			<div class="left-column">
-				<section id="research-interest">
-					<h2>Research Interest</h2>
-					<div class="fields-container">
-						<div class="fundamentals">
-							<h3>Fundamentals</h3>
-							<ul>
-								<li>Cooperative Game</li>
-								<li>Evolutionary Game Theory</li>
-								<li>Complex Systems</li>
-	
-							<!-- Add more fields as needed -->
-							</ul>
-						</div>
-						<div class="applications">
-							<h3>Applications</h3>
-							<ul>
-								<li>Social Physics</li>
-								<li>AI</li>
-							<!-- Add more fields as needed -->
-							</ul>
-						</div>
-				</section>
-			
+				<!-- <section id="research-statement">
+					<h2>Research Statement</h2>
+				</section> -->
 				<section id="publications">
 					<h2>Publications</h2>
 					<ul>
 						<li>
 							<h3>No Contents Are Found</h3>
-							<p>Unknown author</p>
-							<p>Unknown journal, n.d.</p>
+							<p>Unknown author<br>Unknown journal, n.d.</p>
 						</li>
 						<!-- Add more publications as needed -->
 					</ul>
 				</section>
 			
-				<section id="tidbits">
-					<h2>Tidbits</h2>
+				<section id="misc">
+					<h2>Misc</h2>
 					<ul>
-						<li>Hobbies: readings, travel,</li>
-						<li>Cognitive Psychology, Social Psychology, Analytic Philosophy, Linguistics, Quantum Walk</li>
+						<li>Hobbies: readings, travel, foodie (incl. ☕️🍨🍺), linguistics</li>
+						<li>Language: Japanese (Native), English, (Mandarin, Cantonese)</li>
 						<li>Fav Music: C-pop, J-pop</li>
 					</ul>
 				</section>
@@ -69,41 +49,40 @@ import Header from '../../components/en/Header.astro';
 
 			<div class="right-column">
 				<section id="education">
-					<h2>Education</h2>
-					<ul>
-						<li>
-							<h3>PhD (Mathematical Sciences)</h3>
-							<p>Nanyang Technological University (NTU), Singapore</p>
-							<p>Aug 2025 - </p>
-						</li>
-						<li>
-							<h3>Bachelor of Computing</h3>
-							<p>Nanyang Technological University (NTU), Singapore</p>
-							<p>Aug 2021 - Present</p>
-						</li>
-						<li>
-							<h3>Term-Time Exchange </h3>
-							<p>The Chinese University of Hong Kong (CUHK), Hong Kong</p>
-							<p>Jan 2024 - May 2024</p>
-						</li>
-					</ul>
+					<details class="collapsible-mobile">
+						<summary><h2>Education</h2></summary>
+						<ul>
+							<li>
+								<h3>PhD (Mathematical Sciences)</h3>
+								<p>Nanyang Technological University (NTU), Singapore<br>Aug 2025 - </p>
+							</li>
+							<li>
+								<h3>Bachelor of Computing</h3>
+								<p>Nanyang Technological University (NTU), Singapore<br>Aug 2021 - May 2025</p>
+							</li>
+							<li>
+								<h3>Term-Time Exchange </h3>
+								<p>The Chinese University of Hong Kong (CUHK), Hong Kong<br>Jan 2024 - May 2024</p>
+							</li>
+						</ul>
+					</details>
 				</section>
 				<section id="experiences">
-					<h2>Experiences</h2>
-					<ul>
-						<li>
-							<h3>Panasonic R&D Center Singapore</h3>
-							<p>R&D Engineer, Internship, Singapore</p>
-							<p>Aug 2023 - Dec 2023</p>
-							<p>Carried out R&D for the control algorithm for Distributed Energy Resource Management Systems (DERMS)</p>
-						</li>
-						<li>
-							<h3>michibiku</h3>
-							<p>R&D Engineer, Internship, Japan</p>
-							<p>May 2023 - Jul 2023</p>
-							<p>Researched and developed generative AI solutions</p>
-						</li>
-					</ul>
+					<details class="collapsible-mobile">
+					<summary><h2>Experiences</h2></summary>
+						<ul>
+							<li>
+								<h3>Panasonic R&D Center Singapore</h3>
+								<p>R&D Engineer, Internship, Singapore<br>Aug 2023 - Dec 2023</p>
+								<p>Carried out R&D for the control algorithm for Distributed Energy Resource Management Systems (DERMS)</p>
+							</li>
+							<li>
+								<h3>michibiku</h3>
+								<p>R&D Engineer, Internship, Japan<br>May 2023 - Jul 2023</p>
+								<p>Researched and developed generative AI solutions</p>
+							</li>
+						</ul>
+					</details>
 				</section>
 			</div>
 		</main>
@@ -143,5 +122,19 @@ import Header from '../../components/en/Header.astro';
 	
 			// Re-run setup on view transitions
 			document.addEventListener('astro:after-swap', setupScrollToTop);
+		function setDetailsOpenState() {
+			
+			const isMobile = window.innerWidth <= 768;
+			const details = document.querySelectorAll('details');
+			
+			details.forEach(detail => {
+				if (!isMobile) {
+				detail.setAttribute('open', '');
+				}
+			});
+			}
+		
+			window.addEventListener('load', setDetailsOpenState);
+			window.addEventListener('resize', setDetailsOpenState);
 		</script>
 </html>

@@ -1,204 +1,239 @@
-body {
-	font-family: Arial, sans-serif;
-	line-height: 1.6;
-	color: #333;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
-}
-
-header {
-	text-align: left;
-}
-
-img {
-    margin-right: 1rem; /* Add some space between image and h1 */
+/* Define AcademicPages-inspired color variables */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+    --brand-color: #0066cc; /* AcademicPages default brand color (purple/magenta) */
+    --text-color: #555; /* Very dark grey for main content */
+    --secondary-text-color: #555; /* Medium grey for secondary elements */
+    --border-color: #ccc; /* Light grey for borders */
+    --background-light: #f5f5f5; /* Very light grey for backgrounds */
+  }
+  
+  /* Body: Use system fonts, dark grey text, and AcademicPages-inspired typography */
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em; /* Base font size for scalability */
+    line-height: 1.6;
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Clean white background */
+  }
+  
+  header {
+    text-align: left;
+  }
+  
+  img {
+    margin-right: 1rem;
     width: 180px;
     height: 225px;
   }
+  
+  /* Navigation: Use brand color for links */
+  nav a {
+    margin: 0 10px;
+    font-size: 1.875em; /* ~30px, scaled relative to body */
+    text-decoration: none;
+    color: var(--brand-color);
+  }
+  
+  nav a:hover {
+    color: var(--secondary-text-color); /* Darker grey on hover for contrast */
+  }
+  
+  /* Headings: Use brand color and scalable sizes */
+  h1 {
+    color: var(--brand-color);
+    font-size: 2.5em; /* ~40px, proportional */
+  }
+  
+  h2 {
+    color: var(--brand-color);
+    font-size: 1.75em; /* Scaled for hierarchy */
+  }
 
-nav a {
-	margin: 0 10px;
-    font-size: 30px;
-	text-decoration: none;
-	color: #0066cc;
-}
-
-h1 {
-    color: #0066cc;
-    font-size: 40px;
-}
-h2, h3 {
-	color: #0066cc;
-}
-
-main {
-	display: flex;
-	justify-content: space-between;
-}
-
-.left-column {
-    width: 70%;
-    padding-right: 2%;
-}
-
-.right-column {
-    width: 30%;
-    padding-left: 2%;
-}
-
-.line {
-    width: 1px;
-    background-color: #ccc; /* Change the color to whatever you need */
-}
-
-section {
-	margin-bottom: 40px;
-}
-
-ul {
-	padding-left: 20px;
-}
-
-#interested-fields ul,
-#tidbits ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#interested-fields li,
-#tidbits li {
-    margin-bottom: 10px;
-}
-
-.fields-container {
+  h3 {
+    color: var(--brand-color);
+    font-size: 1.25em; /* Scaled for hierarchy */
+  }
+  
+  main {
     display: flex;
     justify-content: space-between;
-}
-
-.fundamentals, .applications {
+  }
+  
+  .left-column {
+    width: 70%;
+    padding-right: 2%;
+  }
+  
+  .right-column {
+    width: 30%;
+    padding-left: 2%;
+  }
+  
+  .line {
+    width: 1px;
+    background-color: var(--border-color); /* Light grey border */
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  #interested-fields ul,
+  #tidbits ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #interested-fields li,
+  #tidbits li {
+    margin-bottom: 10px;
+  }
+  
+  .fields-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fundamentals, .applications {
     width: 48%;
     padding: 15px;
     border-radius: 5px;
-}
-
-.fundamentals {
-    background-color: #e6f2ff; /* Light blue */
-}
-
-.applications {
-    background-color: #e6ffe6; /* Light green */
-}
-
-#interested-fields h3 {
-    color: #0066cc; /* Match your other headings */
+  }
+  
+  /* Subtle grey backgrounds to align with AcademicPages */
+  .fundamentals {
+    background-color: #e6f2ff; /* Light grey instead of blue */
+  }
+  
+  .applications {
+    background-color: #e6ffe6; /* Slightly lighter grey for contrast */
+  }
+  
+  #interested-fields h3 {
+    color: var(--brand-color);
     margin-bottom: 10px;
-}
-
-#interested-fields ul {
+  }
+  
+  #interested-fields ul {
     list-style-type: none;
     padding-left: 0;
-}
-
-#interested-fields li {
+  }
+  
+  #interested-fields li {
     margin-bottom: 8px;
-}
-
-footer {
+  }
+  
+  footer {
     padding: 1rem 0;
     text-align: left;
   }
-
-.footer-content {
-    margin: 0 auto; /* Center the content horizontally */
-    color: #555; /* Gray text color */
-}
-
-.footer-line {
-    border-top: 1px solid #ccc; /* Gray line for the footer */
+  
+  .footer-content {
+    margin: 0 auto;
+    color: var(--secondary-text-color); /* Medium grey for footer text */
+  }
+  
+  .footer-line {
+    border-top: 1px solid var(--border-color); /* Light grey line */
     margin-top: 1rem;
-}
-
-@media (max-width: 768px) {
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
     main {
       flex-direction: column-reverse;
     }
-    .left-column,
-    .right-column {
-      width: 100%;  /* Remove width limitations on mobile screens */
+    .right-column,
+    .left-column {
+      width: 100%;
     }
   }
-
-.ribbon {
-    background-color: #0066cc;
+  
+  /* Ribbon: Use brand color for background */
+  .ribbon {
+    background-color: var(--brand-color);
     color: white;
     padding: 1rem;
     position: relative;
-}
-.ribbon .blog-title {
+  }
+  
+  .ribbon .blog-title {
     margin: 0;
     font-size: 1.5rem;
     color: white;
-    position: absolute; /* Position nav absolutely within the parent */
-    left: 50%; /* Move it 50% from the left of the parent */
-    transform: translateX(-50%); /* Center it horizontally */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-}
-
-.ribbon .menu-toggle {
+  }
+  
+  .ribbon .menu-toggle {
     position: absolute;
     right: 1rem;
     top: 1rem;
     cursor: pointer;
     display: none;
     font-size: 1.5rem;
-}
-.ribbon .menu {
+    color: white; /* White for visibility */
+  }
+  
+  .ribbon .menu {
     list-style-type: none;
     padding: 0;
     margin: 1rem 0 0;
     display: flex;
     justify-content: space-around;
-}
-
-.ribbon .menu-line h1 {
-    font-size: 22px;
-}
-
-.ribbon .menu li a {
-    color: rgb(198, 36, 36);
+  }
+  
+  .ribbon .menu-line h1 {
+    font-size: 1.375em; /* ~22px, proportional */
+  }
+  
+  .ribbon .menu li a {
+    color: white; /* White for contrast against brand color background */
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
-}
-.ribbon .menu li a:hover {
-    background-color: #555;
-}
-@media (max-width: 768px) {
+  }
+  
+  .ribbon .menu li a:hover {
+    background-color: var(--secondary-text-color); /* Grey on hover */
+  }
+  
+  @media (max-width: 768px) {
     .ribbon .menu-toggle {
-        display: block;
+      display: block;
     }
     .ribbon .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: #0066cc;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-color: var(--brand-color);
     }
     .ribbon .menu.active {
-        display: flex;
+      display: flex;
     }
     .ribbon .menu li {
-        margin: 0.5rem 0;
+      margin: 0.5rem 0;
     }
-}
-
-#scrollToTopBtn {
+  }
+  
+  /* Scroll to Top Button */
+  #scrollToTopBtn {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #333;
+    background-color: var(--text-color); /* Dark grey */
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -215,39 +250,117 @@ footer {
   }
   
   #scrollToTopBtn:hover {
-    background-color: #555;
+    background-color: var(--secondary-text-color); /* Lighter grey on hover */
   }
-
+  
   #scrollToTopBtn i {
     line-height: 0;
   }
-
+  
+  /* Language Select */
   .language-select {
     font-weight: bold;
-    color: #333;
+    color: var(--text-color); /* Dark grey */
     font-size: 16px;
-    width: fit-content; /* Adjust padding as needed */
-    display: float;
-    padding: 5px 5px; /* Adjust padding as needed */
-    border: 1px solid #fff; /* Optional border */
+    width: fit-content;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 1px solid var(--border-color); /* Light grey border */
     background-color: #fff;
-    border-radius: 5px; /* Optional rounded corners */
+    border-radius: 5px;
     margin-bottom: 0;
-}
-
-.language-select a {
+  }
+  
+  .language-select a {
     font-size: 20px;
-    color: #0066cc;
+    color: var(--brand-color); /* Brand color for links */
     margin: 0;
     padding: 0;
     display: inline-block;
-}
-
-.blog-title a{
-    text-decoration: none;  /* Remove underline from links */
-    color: inherit;  /* Inherit color from parent */
-}
-
-.menu-line{
+  }
+  
+  .language-select a:hover {
+    color: var(--secondary-text-color); /* Grey on hover */
+  }
+  
+  .blog-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .menu-line {
     display: flex;
-}
+  }
+
+  /* Base styles for the details/summary elements */
+details > summary {
+    list-style-type: none; /* Remove default triangle */
+    cursor: pointer;
+    display: flex; /* Use flex to align content and arrow */
+    align-items: center; /* Vertically center items */
+  }
+  
+  details > summary::after {
+    content: "▼";
+    margin-left: 8px;
+    font-size: 0.8em;
+    display: inline-block; /* Ensure the triangle is inline with text */
+  }
+  
+  details[open] > summary::after {
+    content: "▲";
+    margin-left: 8px;
+    font-size: 0.8em;
+  }
+  
+  /* Desktop styles (screen wider than 768px) */
+  @media screen and (min-width: 769px) {
+    /* Hide the triangle on desktop */
+    details > summary::after {
+      display: none;
+    }
+    
+    /* Make the summary look less like a clickable element */
+    details > summary {
+      cursor: default;
+      pointer-events: none; /* Prevents clicking */
+    }
+
+    details > summary::before {
+      content: none;
+    }
+  
+    details[open] > summary::before {
+      content: none;
+    }
+    
+    /* Always show the content on desktop */
+    details {
+      display: block; /* Changed from inline-block for better content flow */
+    }
+    
+    details > *:not(summary) {
+      display: block; /* Changed to ensure content displays properly */
+    }
+    
+    /* Force details to be open on desktop */
+    details:not([open]) {
+      display: block;
+    }
+    
+    details:not([open]) > *:not(summary) {
+      display: block; /* Show content even when not open on desktop */
+    }
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    /* Keep default collapsible behavior on mobile */
+    details:not([open]) > *:not(summary) {
+      display: none;
+    }
+  }
+
+summary::-webkit-details-marker {
+  display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
+  }
