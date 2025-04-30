@@ -1,5 +1,5 @@
 /* Define AcademicPages-inspired color variables */
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
 :root {
     --brand-color: #0066cc; /* AcademicPages default brand color (purple/magenta) */
     --text-color: #555; /* Very dark grey for main content */
@@ -10,8 +10,9 @@
   
   /* Body: Use system fonts, dark grey text, and AcademicPages-inspired typography */
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.1em; /* Base font size for scalability */
+    font-weight: 400;
     line-height: 1.6;
     color: var(--text-color);
     max-width: 1200px;
@@ -46,16 +47,19 @@
   h1 {
     color: var(--brand-color);
     font-size: 2.5em; /* ~40px, proportional */
+    font-weight: 700; 
   }
   
   h2 {
     color: var(--brand-color);
     font-size: 1.75em; /* Scaled for hierarchy */
+    font-weight: 700; 
   }
 
   h3 {
     color: var(--brand-color);
     font-size: 1.25em; /* Scaled for hierarchy */
+    font-weight: 700; 
   }
   
   main {
@@ -291,76 +295,76 @@
   .menu-line {
     display: flex;
   }
-
-  /* Base styles for the details/summary elements */
+  
 details > summary {
-    list-style-type: none; /* Remove default triangle */
-    cursor: pointer;
-    display: flex; /* Use flex to align content and arrow */
-    align-items: center; /* Vertically center items */
-  }
-  
-  details > summary::after {
-    content: "▼";
-    margin-left: 8px;
-    font-size: 0.8em;
-    display: inline-block; /* Ensure the triangle is inline with text */
-  }
-  
-  details[open] > summary::after {
-    content: "▲";
-    margin-left: 8px;
-    font-size: 0.8em;
-  }
-  
-  /* Desktop styles (screen wider than 768px) */
-  @media screen and (min-width: 769px) {
-    /* Hide the triangle on desktop */
-    details > summary::after {
-      display: none;
-    }
-    
-    /* Make the summary look less like a clickable element */
-    details > summary {
-      cursor: default;
-      pointer-events: none; /* Prevents clicking */
-    }
+  list-style-type: none; /* Remove default triangle */
+  cursor: pointer;
+  display: flex; /* Use flex to align content and arrow */
+  align-items: center; /* Vertically center items */
+}
 
-    details > summary::before {
-      content: none;
-    }
-  
-    details[open] > summary::before {
-      content: none;
-    }
-    
-    /* Always show the content on desktop */
-    details {
-      display: block; /* Changed from inline-block for better content flow */
-    }
-    
-    details > *:not(summary) {
-      display: block; /* Changed to ensure content displays properly */
-    }
-    
-    /* Force details to be open on desktop */
-    details:not([open]) {
-      display: block;
-    }
-    
-    details:not([open]) > *:not(summary) {
-      display: block; /* Show content even when not open on desktop */
-    }
+details > summary::after {
+  content: "▼";
+  margin-left: 8px;
+  font-size: 0.8em;
+  display: inline-block; /* Ensure the triangle is inline with text */
+}
+
+details[open] > summary::after {
+  content: "▲";
+  margin-left: 8px;
+  font-size: 0.8em;
+}
+
+/* Desktop styles (screen wider than 768px) */
+@media screen and (min-width: 769px) {
+  /* Hide the triangle on desktop */
+  details > summary::after {
+    display: none;
   }
   
-  /* Mobile styles */
-  @media screen and (max-width: 768px) {
-    /* Keep default collapsible behavior on mobile */
-    details:not([open]) > *:not(summary) {
-      display: none;
-    }
+  /* Make the summary look less like a clickable element */
+  details > summary {
+    cursor: default;
+    pointer-events: none; /* Prevents clicking */
   }
+
+  details > summary::before {
+    content: none;
+  }
+
+  details[open] > summary::before {
+    content: none;
+  }
+  
+  /* Always show the content on desktop */
+  details {
+    display: block; /* Changed from inline-block for better content flow */
+  }
+  
+  details > *:not(summary) {
+    display: block; /* Changed to ensure content displays properly */
+  }
+  
+  /* Force details to be open on desktop */
+  details:not([open]) {
+    display: block;
+  }
+  
+  details:not([open]) > *:not(summary) {
+    display: block; /* Show content even when not open on desktop */
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  /* Keep default collapsible behavior on mobile */
+  details:not([open]) > *:not(summary) {
+    display: none;
+  }
+}
 
 summary::-webkit-details-marker {
-  display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
-  }
+display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
+}
+  
