@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import '../../../styles/blog.css';
+import { basename } from 'path';
+import Head from '../../../components/jp/Head.astro';
+import Header from '../../../components/jp/Header.astro';
+
+let blogEntries: CollectionEntry<'blog'>[] = [];
+
+blogEntries = await getCollection('blog');
+
+const sortedBlogEntries = [...blogEntries].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const currentPage = parseInt(basename(Astro.url.pathname, '.astro').replace('page-', ''));
+
+const entriesPerPage = 10;
+const starting = (currentPage - 1) * entriesPerPage;
+const totalEntries = blogEntries.length;
+const maxPage = Math.ceil(totalEntries / entriesPerPage)
+
+const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPerPage);
+---
+
+<html lang="ja">
+	<Head pageTitle=`ブログ | Home-3`/>
+	<body>
+		<Header />
+		<header>
+			<h1 style="padding-top: 1.5rem;">ブログ</h1>
+			<nav class="pagination">
+				{currentPage > 1 ? (
+				  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
+					<i class="fas fa-chevron-left"></i> Previous
+				  </a>
+				): <span></span>}
+				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
+				{currentPage < maxPage ? (
+				   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
+					Next <i class="fas fa-chevron-right"></i>
+				  </a>
+				): <span></span>}
+			  </nav>
+			<hr class="header-line">
+		</header>
+<body>
+    <div class="grid-container">
+        <ul style="padding-left: 0px;">
+        {entriesOnThisPage.map((post: CollectionEntry<'blog'>) => (
+            <li>
+            <a class="blog-entry" href={`/MyPage/jp/blog/${post.slug}/`}>{post.data.title}</a>
+            <p class="blog-date">{post.data.date.toLocaleDateString("ja-JP")}</p>
+            </li>
+        ))}
+        </ul>
+    </div>
+</body>
+<footer>
+    <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+	<nav class="pagination">
+		{currentPage > 1 ? (
+		  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
+			<i class="fas fa-chevron-left"></i> Previous
+		  </a>
+		): <span></span>}
+		<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
+		{currentPage < maxPage ? (
+		   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
+			Next <i class="fas fa-chevron-right"></i>
+		  </a>
+		): <span></span>}
+	  </nav>
+        <hr class="footer-line">
+		<div class="footer-content"> <p>© 2025 Shawn</p></div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			const menuToggle = document.querySelector('.ribbon .menu-toggle');
+			const menu = document.querySelector('.ribbon .menu');
+	
+			if (menuToggle && menu) {
+			menuToggle.addEventListener('click', () => {
+				menu.classList.toggle('active');
+			});
+			}
+		});
+		function setupScrollToTop() {
+			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+			if (!scrollToTopBtn) return;
+
+			const scrollFunction = () => {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				scrollToTopBtn.classList.add('show');
+			} else {
+				scrollToTopBtn.classList.remove('show');
+			}
+			};
+
+			const scrollToTop = () => {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			});
+			};
+
+			window.addEventListener('scroll', scrollFunction);
+			scrollToTopBtn.addEventListener('click', scrollToTop);
+		}
+
+		// Run setup on initial load
+		setupScrollToTop();
+
+		// Re-run setup on view transitions
+		document.addEventListener('astro:after-swap', setupScrollToTop);
+	</script>
+</html>
