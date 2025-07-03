@@ -705,5 +705,26 @@
         "food_name_en": "Beancurd",
         "price": "6.0",
         "currency": "RM"
+    },
+    {
+        "ID": "102",
+        "food_name_jp": "仙草豆花",
+        "food_name_en": "Beancurd with Grass Jelly",
+        "price": "35.0",
+        "currency": "THB"
+    },
+    {
+        "ID": "103",
+        "food_name_jp": "姜水加豆花",
+        "food_name_en": "Ginger Soup with Soft Tofu",
+        "price": "35.0",
+        "currency": "THB"
+    },
+    {
+        "ID": "104",
+        "food_name_jp": "云南豆花米线",
+        "food_name_en": "Dou Hua Mi Xian",
+        "price": "85.0",
+        "currency": "THB"
     }
 ]

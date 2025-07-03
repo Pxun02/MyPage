@@ -1917,5 +1917,59 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38932.51195828323!2d102.58488957214902!3d2.0453991212564717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1b9afb230ab15%3A0xc2b84ac7a5847726!2zTUFNQSBCRUFOQ1VSRCDlrLflrLfosYboirE!5e0!3m2!1sja!2ssg!4v1743919335040!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.2710360998294!2d102.58252137543563!3d2.0474951589353916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1b9afb230ab15%3A0xc2b84ac7a5847726!2zTUFNQSBCRUFOQ1VSRCDlrLflrLfosYboirE!5e0!3m2!1sen!2ssg!4v1743919359419!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "77",
+        "rank": -1,
+        "store_name": "น้ำเต้าหู้ ナムタオフー",
+        "place": "Bangkok",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc74.jpg"
+        ],
+        "foods_id": [
+            "102"
+        ],
+        "country_jp": "タイ",
+        "country_en": "Thailand",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31005.642114270988!2d100.49834603361762!3d13.736285735147394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994405a4f625%3A0xfa0ec954fd118eb0!2z44OK44Og44K_44Kq44OV44O8!5e0!3m2!1sja!2ssg!4v1751520033641!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8089503.898379331!2d96.88320344892237!3d8.10626069132289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2994405a4f625%3A0xfa0ec954fd118eb0!2sNam%20Dao%20Huu!5e0!3m2!1sen!2ssg!4v1751520052559!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "78",
+        "rank": -1,
+        "store_name": "โต้ว​ สาขาเพรชอุทัย DOU' 荳 Petchuthai",
+        "place": "Bangkok",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc75.jpg"
+        ],
+        "foods_id": [
+            "103"
+        ],
+        "country_jp": "タイ",
+        "country_en": "Thailand",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31005.553879701558!2d100.53851479582463!3d13.736952740912853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fb66f672623%3A0xbe9b09e4db3fd5ea!2sDOU&#39;%20%E8%8D%B3%20Petchuthai!5e0!3m2!1sja!2ssg!4v1751520105642!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.500445774213!2d100.56563557533174!3d13.7486670973656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fb66f672623%3A0xbe9b09e4db3fd5ea!2sDOU&#39;%20%E8%8D%B3%20Petchuthai!5e0!3m2!1sen!2ssg!4v1751520134131!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "79",
+        "rank": -1,
+        "store_name": "เต้าฮวย อะพอลโล 阿波羅豆花",
+        "place": "Bangkok",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc76.jpg"
+        ],
+        "foods_id": [
+            "104"
+        ],
+        "country_jp": "タイ",
+        "country_en": "Thailand",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.213889545668!2d100.5361115365482!3d13.73034513145505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29996b15ec9cf%3A0x820f8ae20dc94ff4!2z44Ki44Od44Ot!5e0!3m2!1sja!2ssg!4v1751520179493!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.870222216177!2d100.52905097533144!3d13.726305997882776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29996b15ec9cf%3A0x820f8ae20dc94ff4!2sApollo!5e0!3m2!1sen!2ssg!4v1751520212904!5m2!1sen!2ssg"
     }
 ]
