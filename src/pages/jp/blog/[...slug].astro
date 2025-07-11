@@ -22,52 +22,131 @@ const { Content } = await entry.render();
 const currentPage = parseInt(basename(Astro.url.pathname));
 const currentTopPage = Math.floor((totalEntries - currentPage) / entriesPerPage) + 1;
 
+// Retrieve the password from the blog post's frontmatter.
+// If no password is set, postPassword will be null.
+const postPassword = entry.data.password || null;
 ---
 
 <html lang="ja">
-  <Head pageTitle=`ブログ | ${entry.data.title}`/>
-	<body>
-		<Header />
-		<header>
-			<h1 style="padding-top: 1.5rem;">ブログ</h1>
+  <Head pageTitle={`ブログ | ${entry.data.title}`}/>
+  <body>
+    <Header />
+    <header>
+      <h1 style="padding-top: 1.5rem;">ブログ</h1>
       <nav>
-				<a href=`/MyPage/jp/blog/page-${currentTopPage}`><i class="fa-solid fa-house"></i></a>
-			</nav>
+        <a href={`/MyPage/jp/blog/page-${currentTopPage}`}><i class="fa-solid fa-house"></i></a>
+      </nav>
       <nav class="pagination">
-				{currentPage < totalEntries ? (
-				  <a href={`/MyPage/jp/blog/${currentPage + 1}`} class="prev-page">
-					<i class="fas fa-chevron-left"></i> 次の記事
-				  </a>
-				): <span></span>}
-				{currentPage > 1 ? (
-				   <a href={`/MyPage/jp/blog/${currentPage - 1}`} class="next-page">
-					前の記事 <i class="fas fa-chevron-right"></i>
-				  </a>
-				): <span></span>}
-			  </nav>
-			<hr class="header-line">
-		</header>
+        {currentPage < totalEntries ? (
+          <a href={`/MyPage/jp/blog/${currentPage + 1}`} class="prev-page">
+          <i class="fas fa-chevron-left"></i> 次の記事
+          </a>
+        ): <span></span>}
+        {currentPage > 1 ? (
+           <a href={`/MyPage/jp/blog/${currentPage - 1}`} class="next-page">
+          前の記事 <i class="fas fa-chevron-right"></i>
+          </a>
+        ): <span></span>}
+        </nav>
+      <hr class="header-line">
+    </header>
 <body>
   <h1>{entry.data.title}</h1>
   <p>投稿日: {entry.data.date.toLocaleDateString("ja-JP")}</p>
-  <Content />
+
+  {postPassword ? (
+    <!-- If a password is set in the frontmatter, display the password form -->
+    <div id="password-protected-content">
+      <div id="password-form-container" style="text-align: center; margin-top: 2rem; padding: 1rem; border: 1px solid #ddd; border-radius: 0.75rem; max-width: 400px; margin-left: auto; margin-right: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <p style="margin-bottom: 1rem; font-size: 1.1rem; color: #333;">この投稿はパスワードで保護されています。</p>
+        <input
+          type="password"
+          id="post-password-input"
+          placeholder="パスワードを入力"
+          style="padding: 0.75rem; border-radius: 0.5rem; border: 1px solid #ccc; margin-right: 0.5rem; width: calc(100% - 100px); max-width: 250px; box-sizing: border-box;"
+        />
+        <button
+          id="submit-password-btn"
+          style="padding: 0.75rem 1.25rem; border-radius: 0.5rem; background-color: #007bff; color: white; border: none; cursor: pointer; font-weight: bold; transition: background-color 0.2s ease-in-out;"
+          onmouseover="this.style.backgroundColor='#0056b3'"
+          onmouseout="this.style.backgroundColor='#007bff'"
+        >
+          解除
+        </button>
+        <p id="password-error-message" style="color: red; margin-top: 0.75rem; font-size: 0.9rem;"></p>
+      </div>
+      <div id="blog-content" style="display: none;">
+        <Content />
+      </div>
+    </div>
+  ) : (
+    <!-- If no password is set, display the content directly -->
+    <div id="blog-content">
+      <Content />
+    </div>
+  )}
 </body>
 <footer>
   <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
       <hr class="footer-line">
   <div class="footer-content"> <p>© 2025 Shawn</p></div>
 </footer>
-<script>
+<script define:vars={{ postPassword, slug: entry.slug }}>
+  // This script handles the client-side logic for password protection and scroll-to-top.
   document.addEventListener('DOMContentLoaded', (event) => {
+    // --- Existing menu toggle logic ---
     const menuToggle = document.querySelector('.ribbon .menu-toggle');
     const menu = document.querySelector('.ribbon .menu');
 
     if (menuToggle && menu) {
-    menuToggle.addEventListener('click', () => {
-      menu.classList.toggle('active');
-    });
+      menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+      });
+    }
+
+    // --- Password protection logic ---
+    const passwordFormContainer = document.getElementById('password-form-container');
+    const blogContent = document.getElementById('blog-content');
+    const passwordInput = document.getElementById('post-password-input');
+    const submitPasswordBtn = document.getElementById('submit-password-btn');
+    const passwordErrorMessage = document.getElementById('password-error-message');
+
+    // Only execute password protection logic if a password is defined for this post
+    if (postPassword && passwordFormContainer && blogContent && passwordInput && submitPasswordBtn && passwordErrorMessage) {
+      // Create a unique key for localStorage for this specific blog post
+      const storageKey = `unlocked_${slug}`;
+
+      // Check if the post has already been unlocked in the current session (using localStorage)
+      if (localStorage.getItem(storageKey) === 'true') {
+        passwordFormContainer.style.display = 'none'; // Hide the password form
+        blogContent.style.display = 'block'; // Show the blog content
+      }
+
+      // Function to check the entered password against the stored password
+      const checkPassword = () => {
+        if (passwordInput.value === postPassword) {
+          passwordFormContainer.style.display = 'none'; // Hide the form
+          blogContent.style.display = 'block'; // Show the content
+          passwordErrorMessage.textContent = ''; // Clear any error messages
+          localStorage.setItem(storageKey, 'true'); // Mark as unlocked in localStorage
+        } else {
+          passwordErrorMessage.textContent = 'パスワードが間違っています。'; // Display error message
+        }
+      };
+
+      // Add event listener for button click
+      submitPasswordBtn.addEventListener('click', checkPassword);
+
+      // Add event listener for 'Enter' key press in the password input field
+      passwordInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          checkPassword();
+        }
+      });
     }
   });
+
+  // --- Existing scroll-to-top logic ---
   function setupScrollToTop() {
     const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
