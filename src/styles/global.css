@@ -325,3 +325,128 @@ summary::-webkit-details-marker {
   display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
   }
     
+
+/* Container for the tags */
+.research-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between tags */
+  margin-top: 15px;
+}
+
+/* Base style for all tags */
+.research-tag {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 20px; /* Makes it pill-shaped */
+  cursor: default;
+  display: inline-block;
+  border: 1px solid transparent; /* Base border */
+}
+
+/* Color themes adapted from old CSS */
+
+/* Indigo -> Main Blue Theme (from .fundamentals) */
+.research-tag-indigo {
+  background-color: #e6f2ff;
+  color: #0066cc;
+  border-color: #b3d9ff;
+}
+
+/* Teal -> Green Theme (from .applications) */
+.research-tag-teal {
+  background-color: #e6ffe6;
+  color: #004d00;
+  border-color: #b3ffb3;
+}
+
+/* Gray -> Neutral Theme */
+.research-tag-gray {
+  background-color: #eeeeee;
+  color: #333;
+  border-color: #cccccc;
+}
+
+/* Rose -> New Philosophy Theme */
+.research-tag-rose {
+  background-color: #fff0f0;
+  color: #800000;
+  border-color: #ffcccc;
+}
+
+
+/* --- Tooltip Styles --- */
+
+/* Tooltip container */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* The tooltip text (hidden by default) */
+.tooltip-text {
+  visibility: hidden;
+  width: 280px;
+  /* Light-mode styling */
+  background-color: #ffffff;
+  color: #333;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Hiragino Sans, sans-serif; /* Match body font */
+  line-height: 1.6;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 10;
+  bottom: 125%; /* Position above the tag */
+  left: 50%;
+  margin-left: -140px; /* Use half of the width to center */
+  
+  /* Fade in animation */
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateY(10px) scale(0.95);
+  pointer-events: none;
+}
+
+/* Show the tooltip on hover */
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Optional: Style for the <strong> tag inside tooltip */
+.tooltip-text strong {
+  color: #0066cc;
+  font-weight: 700;
+}
+
+/* Style for the philosophical core blockquote */
+.philosophical-quote {
+  background-color: #e6f2ff; /* Light blue, matching .fundamentals */
+  border-left: 4px solid #0066cc; /* Main blue color */
+  padding: 15px 20px;
+  margin: 15px 0 0 10px; /* Top margin, Left margin */
+  border-radius: 5px;
+}
+
+.philosophical-quote p {
+  font-style: italic;
+  color: #333; /* Standard text color */
+  margin: 0;
+  padding: 0;
+  line-height: 1.7; /* Slightly more spacing for italic text */
+}
+
+/* Make sure the '*' in the quote renders nicely */
+.philosophical-quote p * {
+  font-style: italic; /* Keep italic style for emphasized words */
+  font-weight: bold; /* Make emphasized words bold */
+}

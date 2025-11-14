@@ -5,114 +5,155 @@ import Header from '../../components/jp/Header_prof.astro';
 ---
 
 <html lang="jp">
-	<Head pageTitle=`プロフィール | Shawn`/>
-	<body>
-		<Header />
+    <Head pageTitle=`プロフィール | Shawn`/>
+    <body>
+        <Header />
         <header>
 
-			<h1>平島詢也</h1>
-			<p>Nanyang Technological University (NTU, シンガポール) PhD Student (2025.08~)<br>所属: School of Mathematical and Physical Sciences (SPMS)</p>
-			<nav>
-				<a href="https://x.com/xunH_sghk" target="_blank" style="color: black;"><i class="fab fa-x-twitter"></i></a>
-				<a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
-				<a href="https://github.com/Pxun02" target="_blank" style="color: black;"><i class="fab fa-github"></i></a>
-			</nav>
-		</header>
+            <h1>平島詢也</h1>
+            <p>Nanyang Technological University (NTU, シンガポール) PhD Student (2025.08~)<br>所属: School of Mathematical and Physical Sciences (SPMS - 数学科)</p>
+			<p>応用数学・計算論的社会科学を志しています。学部進学時にシンガポールに来ました（+香港に半年交換留学）。</p>
+            <nav>
+                <a href="https://x.com/xunH_sghk" target="_blank" style="color: black;"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Pxun02" target="_blank" style="color: black;"><i class="fab fa-github"></i></a>
+            </nav>
+        </header>
 
-		<main>
-			<div class="left-column">
-				<section id="statement">
-					<h2>現在の主な活動</h2>
-					<ul>
-						<li>8月より博士課程学生となります。</li>
-					</ul>
-				</section>
-			
-				<section id="research-interest">
-					<h2>興味分野</h2>
-					<div class="fields-container">
-						<div class="fundamentals">
-							<h3>基礎</h3>
-							<ul>
-								<li>進化ゲーム</li>
-								<li>複雑システム</li>
-							</ul>
-						</div>
-						<div class="applications">
-							<h3>応用</h3>
-							<ul>
-								<li>個体群動態論</li>
-								<li>社会物理学</li>
-								<li>AI for Science</li>
-							</ul>
-						</div>
-				</section>
-	
-				<section id="tidbits">
-					<h2>趣味など</h2>
-					<ul>
+        <main>
+            <div class="left-column">
+                <!-- <section id="statement">
+                    <h2>現在の主な活動</h2>
+                    <ul>
+                        <li>博士課程学生です。。</li>
+                    </ul>
+                </section> -->
+
+                <section id="research-interest">
+                    <h2>興味分野</h2>
+                    <div class="research-tags-container">
+                        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-indigo">
+                                進化ゲーム理論 (EGT)
+                            </span>
+                        </div>
+                        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-indigo">
+                                生成エージェントベースモデル (GABM)
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-teal">
+                                AI Safety
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-teal">
+                                人間拡張 (HA)
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-teal">
+                                DAO
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-gray">
+                                人工生命 (ALife)
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-gray">
+                                Social Dynamics
+                            </span>
+                        </div>
+
+						<div class="tooltip-container">
+                            <span class="research-tag research-tag-gray">
+                                認知科学
+                            </span>
+                        </div>
+        
+                        <div class="tooltip-container">
+                            <span class="research-tag research-tag-gray">
+                                記号創発システム理論
+                            </span>
+                        </div>
+        
+                    </div>
+                </section>
+                <section id="tidbits">
+                    <h2>趣味など</h2>
+                    <ul>
                         <li>よく聞く音楽: C-pop(香港や台湾), J-pop</li>
-						<li>趣味: <b>知的好奇心の刺激。</b>読書、街散策、 旅行(華人街中心)、<a href='/MyPage/jp/beancurd'>豆花やローカルフードの食べ歩き</a></li>
-                        <li>認知心理学、社会心理学、分析哲学、言語学、語学(広東語、福建語、マレー語)</li>
-					</ul>
-				</section>
-			</div>
+                        <li>趣味: 読書、旅行(華人街中心)、<a href='/MyPage/jp/beancurd'>豆花やローカルフードの食べ歩き</a></li>
+						<li>朝型。娯楽よりかはカフェや飲み屋でゆったり話したい派です。</li>
+                    </ul>
+                </section>
+            </div>
 
-			<div class="line"></div>
+            <div class="line"></div>
 
-			<div class="right-column">
-				<section id="education">
-					<details class="collapsible-mobile">
-						<summary><h2>学歴</h2></summary>
-						<ul>
-							<li>
-								<h3>PhD (Mathematical Sciences)</h3>
-								<p>Nanyang Technological University (NTU), シンガポール</p>
-								<p>指導教官: Assoc. Prof Cheong Kang Hao</p>
-								<p>2025年8月 -</p>
-							</li>
-							<li>
-								<h3>学士 (Computing)</h3>
-								<p>Nanyang Technological University (NTU), シンガポール</p>
-								<p>専攻：コンピュータサイエンス</p>
-								<p>FYP指導教官: Assoc. Prof Cheong Kang Hao</p>
-								<p>2021年8月 - 2025年5月</p>
-							</li>
-							<li>
-								<h3>交換留学</h3>
-								<p>香港中文大學 (CUHK), 香港</p>
-								<p>2024年1月 - 2024年5月</p>
-							</li>
-						</ul>
-					</details>
-				</section>
-				<section id="experiences">
-					<details class="collapsible-mobile">
-						<summary><h2>経歴</h2></summary>
-						<ul>
-							<li>
-								<h3>Panasonic R&D Center Singapore</h3>
-								<p>R&Dエンジニア インターン(シンガポール）</p>
-								<p>2023年8月 - 2023年12月</p>
-								<p>DERMSの制御アルゴリズムのテストなど</p>
-							</li>
-							<li>
-								<h3>ミチビク株式会社</h3>
-								<p>R&Dエンジニア インターン(日本)</p>
-								<p>2023年5月 - 2023年7月</p>
-								<p>生成AIの調査やプロンプト調整など</p>
-							</li>
-						</ul>
-					</details>
-				</section>
-			</div>
-		</main>
-	</body>
-	<footer>
-		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-		<hr class="footer-line">
-		<div class="footer-content"> <p>© 2025 Shawn</p></div>
-	</footer>
+            <div class="right-column">
+                <section id="education">
+                    <details class="collapsible-mobile">
+                        <summary><h2>学歴</h2></summary>
+                        <ul>
+                            <li>
+                                <h3>PhD (Mathematical Sciences)</h3>
+                                <p>Nanyang Technological University (NTU), シンガポール</p>
+                                <p>指導教官: <a href="https://scholar.google.com/citations?user=neaUULMAAAAJ&hl=en">Prof Cheong Kang Hao</a></p>
+                                <p>2025年8月 -</p>
+                            </li>
+                            <li>
+                                <h3>学士 (Computing)</h3>
+                                <p>Nanyang Technological University (NTU), シンガポール</p>
+                                <p>専攻：コンピュータサイエンス</p>
+                                <p>FYP指導教官: <a href="https://scholar.google.com/citations?user=neaUULMAAAAJ&hl=en">Prof Cheong Kang Hao</a></p>
+                                <p>2021年8月 - 2025年5月</p>
+                            </li>
+                            <li>
+                                <h3>交換留学</h3>
+                                <p>香港中文大學 (CUHK), 香港</p>
+                                <p>2024年1月 - 2024年5月</p>
+                            </li>
+                        </ul>
+                    </details>
+                </section>
+                <section id="experiences">
+                    <details class="collapsible-mobile">
+                        <summary><h2>経歴</h2></summary>
+                        <ul>
+                            <li>
+                                <h3>Panasonic R&D Center Singapore</h3>
+                                <p>R&Dエンジニア インターン(シンガポール）</p>
+                                <p>2023年8月 - 2023年12月</p>
+                                <p>DERMSの制御アルゴリズムのテストなど</p>
+                            </li>
+                            <li>
+                                <h3>ミチビク株式会社</h3>
+                                <p>R&Dエンジニア インターン(日本)</p>
+                                <p>2023年5月 - 2023年7月</p>
+                                <p>生成AIの調査やプロンプト調整など</p>
+                            </li>
+                        </ul>
+                    </details>
+                </section>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+        <hr class="footer-line">
+        <div class="footer-content"> <p>© 2025 Shawn</p></div>
+    </footer>
     <script>
     document.addEventListener('DOMContentLoaded', (event) => {
         const menuToggle = document.querySelector('.ribbon .menu-toggle');
@@ -124,49 +165,49 @@ import Header from '../../components/jp/Header_prof.astro';
         });
         }
     });
-	function setupScrollToTop() {
-			const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    function setupScrollToTop() {
+            const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
-			if (!scrollToTopBtn) return;
+            if (!scrollToTopBtn) return;
 
-			const scrollFunction = () => {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				scrollToTopBtn.classList.add('show');
-			} else {
-				scrollToTopBtn.classList.remove('show');
-			}
-			};
+            const scrollFunction = () => {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.classList.add('show');
+            } else {
+                scrollToTopBtn.classList.remove('show');
+            }
+            };
 
-			const scrollToTop = () => {
-			window.scrollTo({
-				top: 0,
-				behavior: 'smooth'
-			});
-			};
+            const scrollToTop = () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            };
 
-			window.addEventListener('scroll', scrollFunction);
-			scrollToTopBtn.addEventListener('click', scrollToTop);
-		}
+            window.addEventListener('scroll', scrollFunction);
+            scrollToTopBtn.addEventListener('click', scrollToTop);
+        }
 
-		// Run setup on initial load
-		setupScrollToTop();
+        // Run setup on initial load
+        setupScrollToTop();
 
-		// Re-run setup on view transitions
-		document.addEventListener('astro:after-swap', setupScrollToTop);
+        // Re-run setup on view transitions
+        document.addEventListener('astro:after-swap', setupScrollToTop);
 
-		function setDetailsOpenState() {
-			
-	const isMobile = window.innerWidth <= 768;
-	const details = document.querySelectorAll('details');
-	
-	details.forEach(detail => {
-		if (!isMobile) {
-		detail.setAttribute('open', '');
-		}
-	});
-	}
+        function setDetailsOpenState() {
+            
+    const isMobile = window.innerWidth <= 768;
+    const details = document.querySelectorAll('details');
+    
+    details.forEach(detail => {
+        if (!isMobile) {
+        detail.setAttribute('open', '');
+        }
+    });
+    }
 
-	window.addEventListener('load', setDetailsOpenState);
-	window.addEventListener('resize', setDetailsOpenState);
+    window.addEventListener('load', setDetailsOpenState);
+    window.addEventListener('resize', setDetailsOpenState);
     </script>
 </html>
