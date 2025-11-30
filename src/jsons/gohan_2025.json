@@ -9,9 +9,19 @@
         "picture": ["/MyPage/images/food_images/f38.jpg"],
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7973.703679259766!2d102.24259756203183!3d2.209574997483654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f03d43fba867%3A0x21e5b3f48bdf4702!2sHing%20Loong%20Taiwanese%20Noodle!5e0!3m2!1sja!2ssg!4v1743919923487!5m2!1sja!2ssg"
     },
-    {
+        {
         "ID": "02",
         "rank": 2,
+        "store_name": "Yulek Wan Tan Mee",
+        "location": "Kuala Lumpur",
+        "country": "マレーシア",
+        "food_name": "Char Siew Wanton Mee",
+        "picture": ["/MyPage/images/food_images/f45.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15936.101189725325!2d101.73077465205206!3d3.087921526855792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35d0257f4763%3A0x33c9c28945cf15b4!2sYulek%20Wan%20Tan%20Mee!5e0!3m2!1sja!2ssg!4v1764513188731!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "03",
+        "rank": 3,
         "store_name": "133 Penang Authentic",
         "location": "Bukit Timah Wet Market & Food Centre (Interim)",
         "country": "シンガポール",
@@ -20,8 +30,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63818.75570528496!2d103.73224876721136!3d1.3733479827700172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1089dc56361d%3A0xe25a445a09f8ecfa!2s133%20Penang%20Authentic!5e0!3m2!1sja!2ssg!4v1740880358764!5m2!1sja!2ssg"
     },
     {
-        "ID": "03",
-        "rank": 3,
+        "ID": "04",
+        "rank": 4,
         "store_name": "Warming Rice Noodle 无名缘米粉",
         "location": "Chinatown",
         "country": "シンガポール",
@@ -30,8 +40,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.817610339273!2d103.8460856!3d1.2832884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b6ac29e5d3%3A0xa8218ccef5de16d7!2zV2FybWluZyBSaWNlIE5vb2RsZSBTaW5nYXBvcmUg5peg5ZCN57yY57Gz57KJ5paw5Yqg5Z2h5oC75bqX!5e0!3m2!1sja!2ssg!4v1742883279818!5m2!1sja!2ssg"
     },
     {
-        "ID": "04",
-        "rank": 4,
+        "ID": "05",
+        "rank": 5,
         "store_name": "Western Mahua 西部马华中华第一面",
         "location": "Bugis Sta./Paya Lebar Sta./Vivo City",
         "country": "シンガポール",
@@ -40,8 +50,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127643.1400372895!2d103.66880519726563!3d1.2635696999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19000690d135%3A0x6981194a50548512!2zV2VzdGVybiBNYWh1YSDopb_pg6jpqazljY7kuK3ljY7nrKzkuIDpnaI!5e0!3m2!1sja!2ssg!4v1743919802282!5m2!1sja!2ssg"
     },
     {
-        "ID": "05",
-        "rank": 5,
+        "ID": "06",
+        "rank": 6,
         "store_name": "鶴うどん",
         "location": "Si Lom (他), Bangkok",
         "country": "タイ",
@@ -50,8 +60,18 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.807057873678!2d100.53058317533151!3d13.730128197794404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29faf6351c8ab%3A0x5adce4661415a073!2z6ba044GG44Gp44KT!5e0!3m2!1sja!2ssg!4v1751520997652!5m2!1sja!2ssg"
     },
     {
-        "ID": "06",
-        "rank": 6,
+        "ID": "07",
+        "rank": 7,
+        "store_name": "Mitsumori",
+        "location": "Isetan (Lot 10), Kuala Lumpur",
+        "country": "マレーシア",
+        "food_name": "天せいろ蕎麦",
+        "picture": ["/MyPage/images/food_images/f46.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039708.181171674!2d101.7115309!3d3.1460912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37e5fcec44c3%3A0xf04f26052e8fb2ad!2sMitsumori!5e0!3m2!1sja!2ssg!4v1764513737527!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "08",
+        "rank": 8,
         "store_name": "Fujiyama 55",
         "location": "Soi Sukhumvit 39, Bangkok",
         "country": "タイ",
@@ -60,8 +80,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62011.739025702795!2d100.52943132315951!3d13.734566578057136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29effc9111cfd%3A0xac90c5d80c6f610b!2z4LiX4Liq4Li24LmA4LiE4LmA4Lih4LiZIOC5guC4geC5guC4gQ!5e0!3m2!1sja!2ssg!4v1751521089638!5m2!1sja!2ssg"
     },
     {
-        "ID": "07",
-        "rank": 7,
+        "ID": "09",
+        "rank": 9,
         "store_name": "เต้าฮวย อะพอลโล : 阿波羅豆花",
         "location": "Si Lom, Bangkok",
         "country": "タイ",
@@ -70,8 +90,18 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.213889545668!2d100.5361115365482!3d13.73034513145505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29996b15ec9cf%3A0x820f8ae20dc94ff4!2z44Ki44Od44Ot!5e0!3m2!1sja!2ssg!4v1751520179493!5m2!1sja!2ssg"
     },
     {
-        "ID": "08",
-        "rank": 8,
+        "ID": "10",
+        "rank": 10,
+        "store_name": "Tonkatsu by Ma Maison",
+        "location": "Mid Valley Southkey (チェーン), JB",
+        "country": "マレーシア",
+        "food_name": "味噌カツ定食",
+        "picture": ["/MyPage/images/food_images/f42.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4508143716052!2d103.7760940752674!3d1.5001617610736466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6d7c8f265b97%3A0xf5caa615412bab25!2sTonkatsu%20by%20Ma%20Maison%20-%20The%20Mall%20Mid%20Valley%20Southkey!5e0!3m2!1sja!2ssg!4v1764513618549!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "11",
+        "rank": 11,
         "store_name": "Founder Bak Kut Teh",
         "location": "Balestier Rd",
         "country": "シンガポール",
@@ -80,8 +110,28 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7521661339533!2d103.84819872526779!3d1.3245878116559162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19d8d6c42e0b%3A0x9498cd445a639e43!2z44OV44Kh44Km44Oz44OA44O844O744OQ44Kv44OG44O8!5e0!3m2!1sja!2ssg!4v1740880610802!5m2!1sja!2ssg"
     },
     {
-        "ID": "09",
-        "rank": 9,
+        "ID": "12",
+        "rank": 12,
+        "store_name": "Ramen Soshiji",
+        "location": "Orchard Plaza",
+        "country": "シンガポール",
+        "food_name": "新潟長岡生姜醤油らぁ麺",
+        "picture": ["/MyPage/images/food_images/f44.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7894625435492!2d103.83858217526785!3d1.3012120617296352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da195416040bc7%3A0x12c78ef544610a8c!2zUmFtZW4gU29zaGlqaSDjgonjg7zjgoHjgpMg44Gd44GX44GY!5e0!3m2!1sja!2ssg!4v1764513328090!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "13",
+        "rank": 13,
+        "store_name": "Liu Lang Mian Noodle Bar",
+        "location": "Alexandra Central",
+        "country": "シンガポール",
+        "food_name": "Grilled Duck Soba",
+        "picture": ["/MyPage/images/food_images/f43.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d298.53228333871107!2d103.8051023026437!3d1.287182858338275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b8f2330122b%3A0xeb2e8d241c9917de!2sLiu%20Lang%20Mian%20Noodle%20Bar!5e0!3m2!1sja!2ssg!4v1764513479572!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "14",
+        "rank": 14,
         "store_name": "Eden",
         "location": "Chinese Garden",
         "country": "シンガポール",
