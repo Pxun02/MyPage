@@ -726,5 +726,12 @@
         "food_name_en": "Dou Hua Mi Xian",
         "price": "85.0",
         "currency": "THB"
+    },
+    {
+        "ID": "105",
+        "food_name_jp": "豆花",
+        "food_name_en": "Beancurd",
+        "price": "1.3",
+        "currency": "SGD"
     }
 ]

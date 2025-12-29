@@ -1971,5 +1971,23 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15503.213889545668!2d100.5361115365482!3d13.73034513145505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29996b15ec9cf%3A0x820f8ae20dc94ff4!2z44Ki44Od44Ot!5e0!3m2!1sja!2ssg!4v1751520179493!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.870222216177!2d100.52905097533144!3d13.726305997882776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29996b15ec9cf%3A0x820f8ae20dc94ff4!2sApollo!5e0!3m2!1sen!2ssg!4v1751520212904!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "80",
+        "rank": -1,
+        "store_name": "Holland Village Homemade Soya Bean",
+        "place": "Holland Village Market & Food Centre",
+        "picture": [
+            "/MyPage/images/beancurd_images/bc77.jpg"
+        ],
+        "foods_id": [
+            "105"
+        ],
+        "country_jp": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
+        "country_en": "Singapore",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7737814337333!2d103.7912198380913!3d1.3110910617021332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a6ba513cf19%3A0x79fae8bf82581963!2sHolland%20Village%20Homemade%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1766985621879!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7736048865054!2d103.79238157528843!3d1.3112018616981873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a6ba513cf19%3A0x79fae8bf82581963!2sHolland%20Village%20Homemade%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1766985640572!5m2!1sen!2ssg"
     }
 ]
