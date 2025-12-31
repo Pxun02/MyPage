@@ -2,7 +2,7 @@
     {
         "ID": "01",
         "rank": 1,
-        "store_name": "57°",
+        "store_name": "57°(他分店あり)",
         "location": "Paya Lebar",
         "country": "シンガポール",
         "food_name": "麻辣香锅",
@@ -142,7 +142,7 @@
     {
         "ID": "15",
         "rank": 15,
-        "store_name": "友富福建麺 You Fu Fried Hokkien Prawn Noodle",
+        "store_name": "友富福建麺 You Fu Fried Hokkien Prawn Noodle(Chinatown Complexへ移転)",
         "location": "Golden Mile Food Centre",
         "country": "シンガポール",
         "food_name": "福建麺",

@@ -2,7 +2,7 @@
     {
         "ID": "01",
         "rank": 1,
-        "store_name": "家乡麻辣烫 Jia Xiang Mala Tang",
+        "store_name": "家乡麻辣烫 Jia Xiang Mala Tang(移転？)",
         "location": "Chinatown Sta.",
         "country": "シンガポール",
         "food_name": "麻辣烫",
@@ -32,7 +32,7 @@
     {
         "ID": "04",
         "rank": 4,
-        "store_name": "肆年八月米線",
+        "store_name": "肆年八月米線(閉業)",
         "location": "大圍, 新界",
         "country": "香港",
         "food_name": "酸辣米線",
@@ -102,7 +102,7 @@
     {
         "ID": "11",
         "rank": 11,
-        "store_name": "MAO MASTER 帽牌货冒菜",
+        "store_name": "MAO MASTER 帽牌货冒菜(閉業)",
         "location": "Bugis Junction",
         "country": "シンガポール",
         "food_name": "冒菜",
