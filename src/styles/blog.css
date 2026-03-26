@@ -36,6 +36,10 @@ img {
   height: 225px;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 /* ── Top navigation ribbon ─────────────────────────────────── */
 .ribbon {
   background: var(--bg);
@@ -231,8 +235,8 @@ section {
 }
 
 ul {
-  padding-left: 1.2rem;
-  margin: 0;
+  padding-left: 1.5rem;
+  margin: 0 0 0 0.5rem;
 }
 
 li {
@@ -659,6 +663,7 @@ footer {
 @media (max-width: 768px) {
   body {
     padding: 0 16px 40px;
+    overflow-x: hidden;
   }
 
   main {
