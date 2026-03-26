@@ -1,452 +1,567 @@
-body {
-	font-family: Hiragino Sans, sans-serif;
-	line-height: 1.6;
-	color: #333;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
+:root {
+  --accent: #2563eb;
+  --accent-2: #7c3aed;
+  --accent-light: #eff6ff;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border: #e5e7eb;
+  --bg: #ffffff;
+  --bg-subtle: #f9fafb;
 }
 
-header {
-	text-align: left;
+/* ── Base ─────────────────────────────────────────────────── */
+body {
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-size: 0.97rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-primary);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 28px 60px;
+  background-color: var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 img {
-    margin-right: 1rem; /* Add some space between image and h1 */
-    width: 180px;
-    height: 225px;
-  }
+  margin-right: 1rem;
+  width: 180px;
+  height: 225px;
+}
 
-nav a {
-	margin: 0 10px;
-    font-size: 30px;
-	text-decoration: none;
-	color: #0066cc;
+/* ── Top navigation ribbon ─────────────────────────────────── */
+.ribbon {
+  background: var(--bg);
+  color: var(--text-primary);
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+  border-top: 3px solid;
+  border-image: linear-gradient(90deg, var(--accent), var(--accent-2)) 1;
+  position: relative;
+}
+
+.menu-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ribbon .blog-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ribbon .blog-title a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.ribbon .blog-title a:hover {
+  color: var(--accent);
+}
+
+/* Language switcher pill */
+.language-select {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px 10px;
+  background: transparent;
+  margin-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.language-select a {
+  font-size: inherit;
+  color: var(--accent);
+  margin: 0;
+  padding: 0;
+}
+
+.language-select a:hover {
+  text-decoration: underline;
+}
+
+/* Ribbon nav menu */
+.ribbon .menu-toggle {
+  cursor: pointer;
+  display: none;
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-left: auto;
+  padding-left: 0.75rem;
+  user-select: none;
+}
+
+.ribbon .menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.6rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.ribbon .menu-line h1 {
+  font-size: 0.95rem;
+}
+
+.ribbon .menu li a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: color 0.2s, background-color 0.2s;
+  display: block;
+}
+
+.ribbon .menu li a:hover {
+  color: var(--accent);
+  background-color: var(--accent-light);
+  text-decoration: none;
+}
+
+/* ── Profile header ────────────────────────────────────────── */
+header {
+  text-align: left;
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
 }
 
 h1 {
-    color: #0066cc;
-    font-size: 40px;
-}
-h2, h3 {
-	color: #0066cc;
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.6rem;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
+/* Social icon links */
+nav a {
+  margin: 0 8px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  transition: color 0.2s, transform 0.2s;
+  display: inline-block;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ── Section headings ──────────────────────────────────────── */
+h2 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0.35rem 0.7rem;
+  background: linear-gradient(90deg, var(--accent-light), transparent);
+  border-left: 3px solid var(--accent);
+  color: var(--accent);
+  border-radius: 0 4px 4px 0;
+}
+
+h3 {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.2rem;
+}
+
+/* ── Main two-column layout ────────────────────────────────── */
 main {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-column {
-    width: 70%;
-    padding-right: 2%;
+  width: 68%;
+  padding-right: 3%;
 }
 
 .right-column {
-    width: 30%;
-    padding-left: 2%;
+  width: 28%;
 }
 
 .line {
-    width: 1px;
-    background-color: #ccc; /* Change the color to whatever you need */
+  width: 1px;
+  flex-shrink: 0;
+  background-color: var(--border);
 }
 
 section {
-	margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 ul {
-	padding-left: 20px;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* Education & experience list items */
+#education li,
+#experiences li {
+  list-style: none;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+#education li:last-child,
+#experiences li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#education ul,
+#experiences ul {
+  padding-left: 0;
+}
+
+#education p,
+#experiences p {
+  margin: 0.1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+/* ── Research tags ─────────────────────────────────────────── */
+.research-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 0.75rem;
+}
+
+.research-tag {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 13px;
+  border-radius: 20px;
+  cursor: default;
+  display: inline-block;
+  border: 1px solid transparent;
+  line-height: 1.6;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.research-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.research-tag-indigo {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-color: #93c5fd;
+}
+
+.research-tag-teal {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #6ee7b7;
+}
+
+.research-tag-gray {
+  background-color: #e5e7eb;
+  color: #374151;
+  border-color: #9ca3af;
+}
+
+.research-tag-rose {
+  background-color: #ffe4e6;
+  color: #9f1239;
+  border-color: #fca5a5;
+}
+
+/* ── Misc sections ─────────────────────────────────────────── */
+.fields-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.fundamentals,
+.applications {
+  width: 48%;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.fundamentals {
+  background-color: #eff6ff;
+}
+
+.applications {
+  background-color: #f0fdf4;
+}
+
+#interested-fields h3 {
+  color: var(--accent);
+  margin-bottom: 8px;
 }
 
 #interested-fields ul,
 #tidbits ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 #interested-fields li,
 #tidbits li {
-    margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
-.fields-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.fundamentals, .applications {
-    width: 48%;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.fundamentals {
-    background-color: #e6f2ff; /* Light blue */
-}
-
-.applications {
-    background-color: #e6ffe6; /* Light green */
-}
-
-#interested-fields h3 {
-    color: #0066cc; /* Match your other headings */
-    margin-bottom: 10px;
-}
-
-#interested-fields ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-#interested-fields li {
-    margin-bottom: 8px;
-}
-
+/* ── Footer ────────────────────────────────────────────────── */
 footer {
-    padding: 1rem 0;
-    text-align: left;
-  }
-
-.footer-content {
-    margin: 0 auto; /* Center the content horizontally */
-    color: #555; /* Gray text color */
+  padding: 1rem 0 0;
+  text-align: left;
 }
 
 .footer-line {
-    border-top: 1px solid #ccc; /* Gray line for the footer */
-    margin-top: 1rem;
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0 0 0.75rem;
 }
 
-@media (max-width: 768px) {
-    main {
-      flex-direction: column;
-    }
-    .left-column,
-    .right-column {
-      width: 100%;  /* Remove width limitations on mobile screens */
-    }
-  }
-
-.ribbon {
-    background-color: #0066cc;
-    color: white;
-    padding: 1rem;
-    position: relative;
-}
-.ribbon .blog-title {
-    margin: 0;
-    font-size: 1.5rem;
-    color: white;
-    position: absolute; /* Position nav absolutely within the parent */
-    left: 50%; /* Move it 50% from the left of the parent */
-    transform: translateX(-50%); /* Center it horizontally */
-    display: flex;
+.footer-content {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
 }
 
-.ribbon .menu-toggle {
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    cursor: pointer;
-    display: none;
-    font-size: 1.5rem;
-}
-.ribbon .menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 1rem 0 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-.ribbon .menu-line h1 {
-    font-size: 22px;
-}
-
-.ribbon .menu li a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s;
-}
-.ribbon .menu li a:hover {
-    background-color: #555;
-}
-@media (max-width: 768px) {
-    .ribbon .menu-toggle {
-        display: block;
-    }
-    .ribbon .menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: #0066cc;
-    }
-    .ribbon .menu.active {
-        display: flex;
-    }
-    .ribbon .menu li {
-        margin: 0.5rem 0;
-    }
-}
-
+/* ── Scroll to top button ──────────────────────────────────── */
 #scrollToTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  #scrollToTopBtn:hover {
-    background-color: #555;
-  }
-
-  #scrollToTopBtn i {
-    line-height: 0;
-  }
-
-  .language-select {
-    font-weight: bold;
-    color: #333;
-    font-size: 16px;
-    width: fit-content; /* Adjust padding as needed */
-    display: float;
-    padding: 5px 5px; /* Adjust padding as needed */
-    border: 1px solid #fff; /* Optional border */
-    background-color: #fff;
-    border-radius: 5px; /* Optional rounded corners */
-    margin-bottom: 0;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s, background-color 0.2s;
 }
 
-.language-select a {
-    font-size: 20px;
-    color: #0066cc;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+#scrollToTopBtn.show {
+  opacity: 1;
+  visibility: visible;
 }
 
-.blog-title a{
-    text-decoration: none;  /* Remove underline from links */
-    color: inherit;  /* Inherit color from parent */
+#scrollToTopBtn:hover {
+  background: linear-gradient(135deg, #1d4ed8, #6d28d9);
 }
 
-.menu-line{
-    display: flex;
+#scrollToTopBtn i {
+  line-height: 0;
 }
 
-/* Base styles for the details/summary elements */
+/* ── Details / collapsible (mobile) ───────────────────────── */
 details > summary {
-    list-style-type: none; /* Remove default triangle */
-    cursor: pointer;
-    display: flex; /* Use flex to align content and arrow */
-    align-items: center; /* Vertically center items */
-  }
-  
-  details > summary::after {
-    content: "▼";
-    margin-left: 8px;
-    font-size: 0.8em;
-    display: inline-block; /* Ensure the triangle is inline with text */
-  }
-  
-  details[open] > summary::after {
-    content: "▲";
-    margin-left: 8px;
-    font-size: 0.8em;
-  }
-  
-  /* Desktop styles (screen wider than 768px) */
-  @media screen and (min-width: 769px) {
-    /* Hide the triangle on desktop */
-    details > summary::after {
-      display: none;
-    }
-    
-    /* Make the summary look less like a clickable element */
-    details > summary {
-      cursor: default;
-      pointer-events: none; /* Prevents clicking */
-    }
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
 
-    details > summary::before {
-      content: none;
-    }
-  
-    details[open] > summary::before {
-      content: none;
-    }
-    
-    /* Always show the content on desktop */
-    details {
-      display: block; /* Changed from inline-block for better content flow */
-    }
-    
-    details > *:not(summary) {
-      display: block; /* Changed to ensure content displays properly */
-    }
-    
-    /* Force details to be open on desktop */
-    details:not([open]) {
-      display: block;
-    }
-    
-    details:not([open]) > *:not(summary) {
-      display: block; /* Show content even when not open on desktop */
-    }
-  }
-  
-  /* Mobile styles */
-  @media screen and (max-width: 768px) {
-    /* Keep default collapsible behavior on mobile */
-    details:not([open]) > *:not(summary) {
-      display: none;
-    }
-  }
+details > summary h2 {
+  margin-bottom: 0;
+}
+
+details > summary::after {
+  content: "▼";
+  margin-left: 8px;
+  font-size: 0.7em;
+  display: inline-block;
+  color: var(--text-secondary);
+}
+
+details[open] > summary::after {
+  content: "▲";
+}
 
 summary::-webkit-details-marker {
-  display: none; /* Hides the disclosure triangle in WebKit-based browsers like Chrome and Safari */
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  details > summary::after {
+    display: none;
   }
-    
-
-/* Container for the tags */
-.research-tags-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Spacing between tags */
-  margin-top: 15px;
+  details > summary {
+    cursor: default;
+    pointer-events: none;
+  }
+  details > summary::before,
+  details[open] > summary::before {
+    content: none;
+  }
+  details {
+    display: block;
+  }
+  details > *:not(summary) {
+    display: block;
+  }
+  details:not([open]) {
+    display: block;
+  }
+  details:not([open]) > *:not(summary) {
+    display: block;
+  }
 }
 
-/* Base style for all tags */
-.research-tag {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 6px 14px;
-  border-radius: 20px; /* Makes it pill-shaped */
-  cursor: default;
-  display: inline-block;
-  border: 1px solid transparent; /* Base border */
+@media screen and (max-width: 768px) {
+  details:not([open]) > *:not(summary) {
+    display: none;
+  }
 }
 
-/* Color themes adapted from old CSS */
-
-/* Indigo -> Main Blue Theme (from .fundamentals) */
-.research-tag-indigo {
-  background-color: #e6f2ff;
-  color: #0066cc;
-  border-color: #b3d9ff;
-}
-
-/* Teal -> Green Theme (from .applications) */
-.research-tag-teal {
-  background-color: #e6ffe6;
-  color: #004d00;
-  border-color: #b3ffb3;
-}
-
-/* Gray -> Neutral Theme */
-.research-tag-gray {
-  background-color: #eeeeee;
-  color: #333;
-  border-color: #cccccc;
-}
-
-/* Rose -> New Philosophy Theme */
-.research-tag-rose {
-  background-color: #fff0f0;
-  color: #800000;
-  border-color: #ffcccc;
-}
-
-
-/* --- Tooltip Styles --- */
-
-/* Tooltip container */
+/* ── Tooltip ───────────────────────────────────────────────── */
 .tooltip-container {
   position: relative;
   display: inline-block;
 }
 
-/* The tooltip text (hidden by default) */
 .tooltip-text {
   visibility: hidden;
   width: 280px;
-  /* Light-mode styling */
-  background-color: #ffffff;
-  color: #333;
+  background-color: var(--bg);
+  color: var(--text-primary);
   text-align: left;
-  font-size: 14px;
+  font-size: 0.83rem;
   font-weight: 400;
-  font-family: Hiragino Sans, sans-serif; /* Match body font */
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
   line-height: 1.6;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   padding: 12px;
   border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  
-  /* Position the tooltip */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   position: absolute;
   z-index: 10;
-  bottom: 125%; /* Position above the tag */
+  bottom: 125%;
   left: 50%;
-  margin-left: -140px; /* Use half of the width to center */
-  
-  /* Fade in animation */
+  margin-left: -140px;
   opacity: 0;
-  transition: opacity 0.3s, transform 0.3s;
-  transform: translateY(10px) scale(0.95);
+  transition: opacity 0.2s, transform 0.2s;
+  transform: translateY(6px);
   pointer-events: none;
 }
 
-/* Show the tooltip on hover */
 .tooltip-container:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
-  transform: translateY(0) scale(1);
+  transform: translateY(0);
 }
 
-/* Optional: Style for the <strong> tag inside tooltip */
 .tooltip-text strong {
-  color: #0066cc;
-  font-weight: 700;
+  color: var(--accent);
+  font-weight: 600;
 }
 
-/* Style for the philosophical core blockquote */
+/* ── Philosophical quote block ─────────────────────────────── */
 .philosophical-quote {
-  background-color: #e6f2ff; /* Light blue, matching .fundamentals */
-  border-left: 4px solid #0066cc; /* Main blue color */
-  padding: 15px 20px;
-  margin: 15px 0 0 10px; /* Top margin, Left margin */
-  border-radius: 5px;
+  background-color: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  padding: 14px 18px;
+  margin: 12px 0 0;
+  border-radius: 0 6px 6px 0;
 }
 
 .philosophical-quote p {
   font-style: italic;
-  color: #333; /* Standard text color */
+  color: var(--text-secondary);
   margin: 0;
-  padding: 0;
-  line-height: 1.7; /* Slightly more spacing for italic text */
+  line-height: 1.7;
 }
 
-/* Make sure the '*' in the quote renders nicely */
 .philosophical-quote p * {
-  font-style: italic; /* Keep italic style for emphasized words */
-  font-weight: bold; /* Make emphasized words bold */
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* ── Mobile ────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  body {
+    padding: 0 16px 40px;
+  }
+
+  main {
+    flex-direction: column-reverse;
+  }
+
+  .right-column,
+  .left-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .ribbon .menu-toggle {
+    display: block;
+  }
+
+  .ribbon .menu {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--bg);
+    border-top: 1px solid var(--border);
+    padding: 0.25rem 0;
+  }
+
+  .ribbon .menu.active {
+    display: flex;
+  }
+
+  .ribbon .menu li {
+    margin: 0.4rem 0;
+  }
 }
