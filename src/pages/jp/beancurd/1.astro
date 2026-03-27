@@ -7,6 +7,8 @@ import { basename } from 'path';
 import Head from '../../../components/jp/Head.astro';
 import Header from '../../../components/jp/Header.astro';
 
+const allBeancurdImages = import.meta.glob('../../../images/beancurd_images/*.jpg', { eager: true });
+
 const currentPage = parseInt(basename(Astro.url.pathname, '.astro'));
 
 const shops = shopsData;
@@ -68,7 +70,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 							<h2>{shop.rank}位: {shop.store_name} @ {shop.place}</h2>
 							<h3>{shop.country_jp}</h3>
 							<ul class="imgs">
-								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
+								{shop.picture.map((imagePath) => { const img = (allBeancurdImages[`../../../images/${imagePath}`] as any)?.default; return <Image src={img} alt={`${shop.store_name} Image`} width="300" height="400" />; })}
 							</ul>
 							<ul>
 							{shop.foods_id.map((foodId) => {

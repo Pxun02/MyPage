@@ -6,6 +6,7 @@ import Header from '../../../components/jp/Header.astro';
 import { Image } from 'astro:assets';
 
 const shops = foodsData;
+const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { eager: true });
 ---
 
 <html lang="ja">
@@ -49,7 +50,7 @@ const shops = foodsData;
 							<h3>{shop.country}</h3>
 							<h4>{shop.food_name}</h4>
 							<ul class="imgs">
-								{shop.picture.map((imagePath) => ( <Image src={imagePath} alt="{shop.store_name} Image" width="300" height="400" /> ))}
+								{shop.picture.map((imagePath) => { const img = (allFoodImages[`../../../images/${imagePath}`] as any)?.default; return <Image src={img} alt={`${shop.store_name} Image`} width="300" height="400" />; })}
 							</ul>
 							<br />
 							<iframe

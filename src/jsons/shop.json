@@ -54,7 +54,7 @@
         "store_name": "69 Cold Soya Beancurd",
         "place": "Haig Road Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc48.jpg"
+            "beancurd_images/bc48.jpg"
         ],
         "foods_id": [
             "74"
@@ -72,7 +72,7 @@
         "store_name": "Whampoa Soya Bean and Grass Jelly \u9ec4\u57d4\u8c46\u82b1\u6c34",
         "place": "Whampoa Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc49.jpg"
+            "beancurd_images/bc49.jpg"
         ],
         "foods_id": [
             "75",
@@ -91,7 +91,7 @@
         "store_name": "Pure Soya Bean \u7eaf\u9999\u8c46\u6d46",
         "place": "Toa Payoh West Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc50.jpg"
+            "beancurd_images/bc50.jpg"
         ],
         "foods_id": [
             "77"
@@ -109,7 +109,7 @@
         "store_name": "DDSD \u5927\u8c46\u5c0f\u8c46 - Soya Beancurd",
         "place": "Hong Lim Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc51.jpg"
+            "beancurd_images/bc51.jpg"
         ],
         "foods_id": [
             "78"
@@ -127,7 +127,7 @@
         "store_name": "Beano",
         "place": "Everton Park",
         "picture": [
-            "/MyPage/images/beancurd_images/bc52.jpg"
+            "beancurd_images/bc52.jpg"
         ],
         "foods_id": [
             "79",
@@ -146,7 +146,7 @@
         "store_name": "Healthy Bean \uff08\u5065\u5eb7\u8c46\uff09",
         "place": "Maxwell Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc53.jpg"
+            "beancurd_images/bc53.jpg"
         ],
         "foods_id": [
             "81"
@@ -164,7 +164,7 @@
         "store_name": "Tong Cheng Yuan Soya Bean",
         "place": "Albert Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc54.jpg"
+            "beancurd_images/bc54.jpg"
         ],
         "foods_id": [
             "82"
@@ -182,7 +182,7 @@
         "store_name": "\u6cb3\u4e0a\u9109\u8c46\u7f8e\u5473\u8c46\u82b1\u5718",
         "place": "Sheung Shui \u4e0a\u6c34\u6cb3\u4e0a\u90f7",
         "picture": [
-            "/MyPage/images/beancurd_images/bc55.jpg"
+            "beancurd_images/bc55.jpg"
         ],
         "foods_id": [
             "83"
@@ -200,7 +200,7 @@
         "store_name": "\u4e00\u8c46\u82b1",
         "place": "Jordan Station \u4f50\u6566\u7ad9",
         "picture": [
-            "/MyPage/images/beancurd_images/bc56.jpg"
+            "beancurd_images/bc56.jpg"
         ],
         "foods_id": [
             "84"
@@ -218,7 +218,7 @@
         "store_name": "SOYmart",
         "place": "Lok Fu Place \u6a02\u5bcc\u5ee3\u5834",
         "picture": [
-            "/MyPage/images/beancurd_images/bc57.jpg"
+            "beancurd_images/bc57.jpg"
         ],
         "foods_id": [
             "85"
@@ -236,7 +236,7 @@
         "store_name": "SOYmart",
         "place": "Sha Tin \u6c99\u7530",
         "picture": [
-            "/MyPage/images/beancurd_images/bc58.jpg"
+            "beancurd_images/bc58.jpg"
         ],
         "foods_id": [
             "86"
@@ -254,7 +254,7 @@
         "store_name": "Tofubucks \u8c46\u8150\u5df4\u514b",
         "place": "Shek Mun Station \u77f3\u9580",
         "picture": [
-            "/MyPage/images/beancurd_images/bc59.jpg"
+            "beancurd_images/bc59.jpg"
         ],
         "foods_id": [
             "87"
@@ -272,7 +272,7 @@
         "store_name": "Mum's Tofu Pudding \u963f\u5abd\u8373\u8150\u82b1",
         "place": "Yuen Long \u5143\u6717",
         "picture": [
-            "/MyPage/images/beancurd_images/bc60.jpg"
+            "beancurd_images/bc60.jpg"
         ],
         "foods_id": [
             "88"
@@ -290,7 +290,7 @@
         "store_name": "\u4e9e\u7389\u8c46\u8150\u82b1",
         "place": "Yuen Long \u5143\u6717",
         "picture": [
-            "/MyPage/images/beancurd_images/bc61.jpg"
+            "beancurd_images/bc61.jpg"
         ],
         "foods_id": [
             "89"
@@ -308,7 +308,7 @@
         "store_name": "Taiwan Ten Caf\u00e9 \u53f0\u6e7e\u751c\u5546\u5e97",
         "place": "\u962a\u6025\u4e09\u756a\u8857",
         "picture": [
-            "/MyPage/images/beancurd_images/bc62.jpg"
+            "beancurd_images/bc62.jpg"
         ],
         "foods_id": [
             "90"
@@ -326,7 +326,7 @@
         "store_name": "Soya Bean & Jelly Drink \u6b61\u98f2\u8c46\u82b1\u6c34",
         "place": "Chong Pang Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc64.jpg"
+            "beancurd_images/bc64.jpg"
         ],
         "foods_id": [
             "91"
@@ -344,7 +344,7 @@
         "store_name": "Whampoa Soya Bean",
         "place": "Marine Parade Central Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc63.jpg"
+            "beancurd_images/bc63.jpg"
         ],
         "foods_id": [
             "92"
@@ -362,7 +362,7 @@
         "store_name": "Whampoa Soya Bean",
         "place": "Ang Mo Kio Central Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc65.jpg"
+            "beancurd_images/bc65.jpg"
         ],
         "foods_id": [
             "93"
@@ -380,7 +380,7 @@
         "store_name": "Old Alley",
         "place": "Kluang",
         "picture": [
-            "/MyPage/images/beancurd_images/bc66.jpg"
+            "beancurd_images/bc66.jpg"
         ],
         "foods_id": [
             "94"
@@ -398,7 +398,7 @@
         "store_name": "One Soy \u4e00\u8c46",
         "place": "Maxwell Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc70.jpg"
+            "beancurd_images/bc70.jpg"
         ],
         "foods_id": [
             "98"
@@ -416,7 +416,7 @@
         "store_name": "Teck Seng Soya Bean Milk (\u5fb3\u76db\u8c46\u82b1\u6c34)",
         "place": "Tiong Bahru Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc1.jpg"
+            "beancurd_images/bc1.jpg"
         ],
         "foods_id": [
             "01",
@@ -443,7 +443,7 @@
         "store_name": "Funkei Toufu(\u5bec\u8a18\u8c46\u8150\u82b1)",
         "place": "Macau R. do Gamboa",
         "picture": [
-            "/MyPage/images/beancurd_images/bc2.jpg"
+            "beancurd_images/bc2.jpg"
         ],
         "foods_id": [
             "03"
@@ -481,8 +481,8 @@
         "store_name": "Fu Hua Soya Bean",
         "place": "Beo Crescent",
         "picture": [
-            "/MyPage/images/beancurd_images/bc3.jpg",
-            "/MyPage/images/beancurd_images/bc4.jpg"
+            "beancurd_images/bc3.jpg",
+            "beancurd_images/bc4.jpg"
         ],
         "foods_id": [
             "04",
@@ -510,7 +510,7 @@
         "store_name": "Whampoa Soya Bean",
         "place": "Boon Lay PI",
         "picture": [
-            "/MyPage/images/beancurd_images/bc5.jpg"
+            "beancurd_images/bc5.jpg"
         ],
         "foods_id": [
             "07",
@@ -538,7 +538,7 @@
         "store_name": "Ding Feng",
         "place": "Ipoh Old Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc6.jpg"
+            "beancurd_images/bc6.jpg"
         ],
         "foods_id": [
             "10"
@@ -570,7 +570,7 @@
         "store_name": "Ipoh Bean Bar \u6021\u4fdd\u8c46\u9738",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc7.jpg"
+            "beancurd_images/bc7.jpg"
         ],
         "foods_id": [
             "11"
@@ -596,7 +596,7 @@
         "store_name": "Fujiwara Tofa Shop \u85e4\u539f\u8c46\u8150\u82b1\u5e97",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc8.jpg"
+            "beancurd_images/bc8.jpg"
         ],
         "foods_id": [
             "12"
@@ -634,7 +634,7 @@
         "store_name": "Funkei Toufu(\u5bec\u8a18\u8c46\u8150\u82b1)",
         "place": "Macau R. de Joao Lecaros",
         "picture": [
-            "/MyPage/images/beancurd_images/bc9.jpg"
+            "beancurd_images/bc9.jpg"
         ],
         "foods_id": [
             "13"
@@ -660,7 +660,7 @@
         "store_name": "Tauhuay.SG",
         "place": "Joo Chiat Rd",
         "picture": [
-            "/MyPage/images/beancurd_images/bc10.jpg"
+            "beancurd_images/bc10.jpg"
         ],
         "foods_id": [
             "14",
@@ -693,7 +693,7 @@
         "store_name": "Woong Kee BeanCurd - Bercham",
         "place": "Ipoh Lebuh Bercham",
         "picture": [
-            "/MyPage/images/beancurd_images/bc11.jpg"
+            "beancurd_images/bc11.jpg"
         ],
         "foods_id": [
             "16"
@@ -719,7 +719,7 @@
         "store_name": "Woong Kee BeanCurd - New Town",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc12.jpg"
+            "beancurd_images/bc12.jpg"
         ],
         "foods_id": [
             "17"
@@ -745,7 +745,7 @@
         "store_name": "Yan Wo Dou Bun Chong \u4eba\u548c\u8373\u54c1\u5ee0",
         "place": "Mong Kok, \u65fa\u89d2",
         "picture": [
-            "/MyPage/images/beancurd_images/bc13.jpg"
+            "beancurd_images/bc13.jpg"
         ],
         "foods_id": [
             "18"
@@ -783,7 +783,7 @@
         "store_name": "Rochor Original Beancurd",
         "place": "Bugis",
         "picture": [
-            "/MyPage/images/beancurd_images/bc15.jpg"
+            "beancurd_images/bc15.jpg"
         ],
         "foods_id": [
             "20",
@@ -812,7 +812,7 @@
         "store_name": "Woong Kee Beancurd \u65fa\u8a18\u8c46\u8150\u82b1",
         "place": "Georgetown, Penang",
         "picture": [
-            "/MyPage/images/beancurd_images/bc14.jpg"
+            "beancurd_images/bc14.jpg"
         ],
         "foods_id": [
             "19"
@@ -838,8 +838,8 @@
         "store_name": "Kung Wo Beancurd Factory \u516c\u548c\u8373\u54c1\u5ee0",
         "place": "Sham Shui Po \u6df1\u6c34\u57d7",
         "picture": [
-            "/MyPage/images/beancurd_images/bc16.jpg",
-            "/MyPage/images/beancurd_images/bc17.jpg"
+            "beancurd_images/bc16.jpg",
+            "beancurd_images/bc17.jpg"
         ],
         "foods_id": [
             "24",
@@ -866,7 +866,7 @@
         "store_name": "Chan's Tofu Fa \u9673\u8a18\u81ea\u5bb6\u88fd\u8c46\u8150\u82b1\u7f8e\u98df\u5e97",
         "place": "Mong Kok \u65fa\u89d2",
         "picture": [
-            "/MyPage/images/beancurd_images/bc18.jpg"
+            "beancurd_images/bc18.jpg"
         ],
         "foods_id": [
             "28"
@@ -898,7 +898,7 @@
         "store_name": "\u8d0a\u548c\u8c46\u54c1",
         "place": "Mong Kok \u65fa\u89d2",
         "picture": [
-            "/MyPage/images/beancurd_images/bc19.jpg"
+            "beancurd_images/bc19.jpg"
         ],
         "foods_id": [
             "29"
@@ -930,7 +930,7 @@
         "store_name": "Kedai Minuman Woong Kee \u65fa\u8a18\u8c46\u8150\u82b1",
         "place": "Ipoh Garden East",
         "picture": [
-            "/MyPage/images/beancurd_images/bc20.jpg"
+            "beancurd_images/bc20.jpg"
         ],
         "foods_id": [
             "30"
@@ -956,7 +956,7 @@
         "store_name": "Old Rochor Beancurd \u8001\u68a7\u69fd\u8c46\u82b1",
         "place": "Foch Rd",
         "picture": [
-            "/MyPage/images/beancurd_images/bc21.jpg"
+            "beancurd_images/bc21.jpg"
         ],
         "foods_id": [
             "31",
@@ -983,7 +983,7 @@
         "store_name": "Rochor Beancurd House",
         "place": "Geylang Rd",
         "picture": [
-            "/MyPage/images/beancurd_images/bc22.jpg"
+            "beancurd_images/bc22.jpg"
         ],
         "foods_id": [
             "33",
@@ -1010,7 +1010,7 @@
         "store_name": "Beancurd \u820a\u679c\u9999\u6797\u8c46\u8150\u82b1",
         "place": "Tai Po \u5927\u57d4\u589f",
         "picture": [
-            "/MyPage/images/beancurd_images/bc23.jpg"
+            "beancurd_images/bc23.jpg"
         ],
         "foods_id": [
             "35"
@@ -1042,7 +1042,7 @@
         "store_name": "\u5c0f\u9c9c\u8c46\u8c46\u82b1 bachang \u5206\u884c",
         "place": "Jalan Gajah Berang, Malacca",
         "picture": [
-            "/MyPage/images/beancurd_images/bc71.jpg"
+            "beancurd_images/bc71.jpg"
         ],
         "foods_id": [
             "99"
@@ -1068,7 +1068,7 @@
         "store_name": "\u963f\u4e00\u8c46\u82b1",
         "place": "Sham Shui Po \u6df1\u6c34\u57d7",
         "picture": [
-            "/MyPage/images/beancurd_images/bc24.jpg"
+            "beancurd_images/bc24.jpg"
         ],
         "foods_id": [
             "36"
@@ -1094,7 +1094,7 @@
         "store_name": "Bean Sir \u8c46\u82b1\u5e97",
         "place": "\u65b0\u84b2\u5d17 San Po Kong",
         "picture": [
-            "/MyPage/images/beancurd_images/bc25.jpg"
+            "beancurd_images/bc25.jpg"
         ],
         "foods_id": [
             "37"
@@ -1120,7 +1120,7 @@
         "store_name": "Ah Ma Beancurd \u963f\u5abd\u8c46\u8150\u82b1",
         "place": "Mong Kok \u65fa\u89d2",
         "picture": [
-            "/MyPage/images/beancurd_images/bc26.jpg"
+            "beancurd_images/bc26.jpg"
         ],
         "foods_id": [
             "38"
@@ -1146,7 +1146,7 @@
         "store_name": "Funny Mountain Tau Fu Far",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc27.jpg"
+            "beancurd_images/bc27.jpg"
         ],
         "foods_id": [
             "39"
@@ -1172,7 +1172,7 @@
         "store_name": "Kedai Soya Tau Fu Fah Big Mom",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc28.jpg"
+            "beancurd_images/bc28.jpg"
         ],
         "foods_id": [
             "40"
@@ -1198,7 +1198,7 @@
         "store_name": "Lai Kee Soya Bean \u9ece\u8bb0\u8c46\u6d46\u4e13\u5356\u5e97",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc29.jpg"
+            "beancurd_images/bc29.jpg"
         ],
         "foods_id": [
             "41"
@@ -1224,7 +1224,7 @@
         "store_name": "Beancurd \u59d1\u5abd\u8c46\u8150\u82b1",
         "place": "Macau",
         "picture": [
-            "/MyPage/images/beancurd_images/bc30.jpg"
+            "beancurd_images/bc30.jpg"
         ],
         "foods_id": [
             "42"
@@ -1250,7 +1250,7 @@
         "store_name": "MG 83 Cafe \u7cd6\u6c34\u7f8e\u98df\u9986",
         "place": "Kluang",
         "picture": [
-            "/MyPage/images/beancurd_images/bc68.jpg"
+            "beancurd_images/bc68.jpg"
         ],
         "foods_id": [
             "96"
@@ -1276,7 +1276,7 @@
         "store_name": "Bean\u98f2\u908a\u98df-\u8c46\u8150\u82b1\u5c08\u9580\u5e97",
         "place": "Shatin Plaza \u6c99\u7530\u5ee3\u5834",
         "picture": [
-            "/MyPage/images/beancurd_images/bc31.jpg"
+            "beancurd_images/bc31.jpg"
         ],
         "foods_id": [
             "43"
@@ -1308,7 +1308,7 @@
         "store_name": "Yan Wo Dou Bun Chong \u4eba\u548c\u8373\u54c1\u5ee0",
         "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
-            "/MyPage/images/beancurd_images/bc32.jpg"
+            "beancurd_images/bc32.jpg"
         ],
         "foods_id": [
             "44"
@@ -1334,7 +1334,7 @@
         "store_name": "Kedai Minuman Pemborong Air Tahu Ah Wah \u4e09\u677f\u5934\u4e9a\u534e\u8c46\u8150\u6c34",
         "place": "Kluang",
         "picture": [
-            "/MyPage/images/beancurd_images/bc67.jpg"
+            "beancurd_images/bc67.jpg"
         ],
         "foods_id": [
             "95"
@@ -1360,7 +1360,7 @@
         "store_name": "Sansui Tau Fu Far",
         "place": "Ipoh New Town",
         "picture": [
-            "/MyPage/images/beancurd_images/bc33.jpg"
+            "beancurd_images/bc33.jpg"
         ],
         "foods_id": [
             "45"
@@ -1386,7 +1386,7 @@
         "store_name": "Whampoa Soya Bean",
         "place": "Eunos",
         "picture": [
-            "/MyPage/images/beancurd_images/bc34.jpg"
+            "beancurd_images/bc34.jpg"
         ],
         "foods_id": [
             "46"
@@ -1412,7 +1412,7 @@
         "store_name": "Kim Soya Bean",
         "place": "KL Pasar Jalan Petaling",
         "picture": [
-            "/MyPage/images/beancurd_images/bc35.jpg"
+            "beancurd_images/bc35.jpg"
         ],
         "foods_id": [
             "47"
@@ -1444,7 +1444,7 @@
         "store_name": "Tofu Garden (Ah Por Tofu Fa) \u5efa\u8208\u4e9e\u5a46\u8c46\u8150\u82b1",
         "place": "Lamma Island \u5357\u4e2b\u5cf6",
         "picture": [
-            "/MyPage/images/beancurd_images/bc36.jpg"
+            "beancurd_images/bc36.jpg"
         ],
         "foods_id": [
             "48"
@@ -1470,7 +1470,7 @@
         "store_name": "Grandma's tofu pudding \u4e9e\u5a46\u8c46\u8150\u82b1",
         "place": "Tai Po \u5927\u57d4\u589f",
         "picture": [
-            "/MyPage/images/beancurd_images/bc37.jpg"
+            "beancurd_images/bc37.jpg"
         ],
         "foods_id": [
             "49"
@@ -1502,7 +1502,7 @@
         "store_name": "The Soy House \u5408\u548c\u8373\u54c1",
         "place": "Causeway Bay \u9285\u947c\u7063",
         "picture": [
-            "/MyPage/images/beancurd_images/bc38.jpg"
+            "beancurd_images/bc38.jpg"
         ],
         "foods_id": [
             "50"
@@ -1534,7 +1534,7 @@
         "store_name": "Nine Fresh",
         "place": "Islandwide",
         "picture": [
-            "/MyPage/images/beancurd_images/bc39.jpg"
+            "beancurd_images/bc39.jpg"
         ],
         "foods_id": [
             "51"
@@ -1560,7 +1560,7 @@
         "store_name": "Tian Wang Soya Beancurd",
         "place": "Junction 10, Bukit Panjang",
         "picture": [
-            "/MyPage/images/beancurd_images/bc69.jpg"
+            "beancurd_images/bc69.jpg"
         ],
         "foods_id": [
             "97"
@@ -1589,7 +1589,7 @@
         "store_name": "Bedok Soya Bean Drink",
         "place": "Bedok 216",
         "picture": [
-            "/MyPage/images/beancurd_images/bc40.jpg"
+            "beancurd_images/bc40.jpg"
         ],
         "foods_id": [
             "52",
@@ -1616,7 +1616,7 @@
         "store_name": "Woong Kee Traditional Beancurd (Permanently Closed)",
         "place": "People's Park Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc41.jpg"
+            "beancurd_images/bc41.jpg"
         ],
         "foods_id": [
             "54"
@@ -1666,7 +1666,7 @@
         "store_name": "Soylicious",
         "place": "Bukit Timah Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc42.jpg"
+            "beancurd_images/bc42.jpg"
         ],
         "foods_id": [
             "56",
@@ -1699,7 +1699,7 @@
         "store_name": "Lao Ban Soya Beancurd \u8001\u4f34\u8c46\u82b1",
         "place": "IslandWide",
         "picture": [
-            "/MyPage/images/beancurd_images/bc43.jpg"
+            "beancurd_images/bc43.jpg"
         ],
         "foods_id": [
             "58",
@@ -1727,7 +1727,7 @@
         "store_name": "Selegie Soyabean",
         "place": "Boon Keng Station",
         "picture": [
-            "/MyPage/images/beancurd_images/bc45.jpg"
+            "beancurd_images/bc45.jpg"
         ],
         "foods_id": [
             "61",
@@ -1754,7 +1754,7 @@
         "store_name": "Go Go Beanz",
         "place": "Chinatown Complex",
         "picture": [
-            "/MyPage/images/beancurd_images/bc46.jpg"
+            "beancurd_images/bc46.jpg"
         ],
         "foods_id": [
             "63",
@@ -1781,7 +1781,7 @@
         "store_name": "51 Soya Bean",
         "place": "Golden Mile Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc47.jpg"
+            "beancurd_images/bc47.jpg"
         ],
         "foods_id": [
             "65",
@@ -1888,7 +1888,7 @@
         "store_name": "Q Bean (豆奶，豆花，豆腐)",
         "place": "Malacca",
         "picture": [
-            "/MyPage/images/beancurd_images/bc72.jpg"
+            "beancurd_images/bc72.jpg"
         ],
         "foods_id": [
             "100"
@@ -1906,7 +1906,7 @@
         "store_name": "MAMA BEANCURD 嬷嬷豆花",
         "place": "Muar",
         "picture": [
-            "/MyPage/images/beancurd_images/bc73.jpg"
+            "beancurd_images/bc73.jpg"
         ],
         "foods_id": [
             "101"
@@ -1924,7 +1924,7 @@
         "store_name": "น้ำเต้าหู้ ナムタオフー",
         "place": "Bangkok",
         "picture": [
-            "/MyPage/images/beancurd_images/bc74.jpg"
+            "beancurd_images/bc74.jpg"
         ],
         "foods_id": [
             "102"
@@ -1942,7 +1942,7 @@
         "store_name": "โต้ว​ สาขาเพรชอุทัย DOU' 荳 Petchuthai",
         "place": "Bangkok",
         "picture": [
-            "/MyPage/images/beancurd_images/bc75.jpg"
+            "beancurd_images/bc75.jpg"
         ],
         "foods_id": [
             "103"
@@ -1960,7 +1960,7 @@
         "store_name": "เต้าฮวย อะพอลโล 阿波羅豆花",
         "place": "Bangkok",
         "picture": [
-            "/MyPage/images/beancurd_images/bc76.jpg"
+            "beancurd_images/bc76.jpg"
         ],
         "foods_id": [
             "104"
@@ -1978,7 +1978,7 @@
         "store_name": "Holland Village Homemade Soya Bean",
         "place": "Holland Village Market & Food Centre",
         "picture": [
-            "/MyPage/images/beancurd_images/bc77.jpg"
+            "beancurd_images/bc77.jpg"
         ],
         "foods_id": [
             "105"
