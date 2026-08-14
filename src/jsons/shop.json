@@ -1989,5 +1989,41 @@
         "descriptions_en": [],
         "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7737814337333!2d103.7912198380913!3d1.3110910617021332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a6ba513cf19%3A0x79fae8bf82581963!2sHolland%20Village%20Homemade%20Soya%20Bean!5e0!3m2!1sja!2ssg!4v1766985621879!5m2!1sja!2ssg",
         "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7736048865054!2d103.79238157528843!3d1.3112018616981873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a6ba513cf19%3A0x79fae8bf82581963!2sHolland%20Village%20Homemade%20Soya%20Bean!5e0!3m2!1sen!2ssg!4v1766985640572!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "81",
+        "rank": -1,
+        "store_name": "本願豆花店西門町 中華店 Origin Tofu Pudding",
+        "place": "貴陽街, 台北",
+        "picture": [
+            "beancurd_images/bc78.jpg"
+        ],
+        "foods_id": [
+            "106"
+        ],
+        "country_jp": "台湾",
+        "country_en": "Taiwan",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d400.23911815938004!2d121.50656597083142!3d25.039307510258453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9c8286d65ed%3A0xa3164c48a7973f86!2z5pys6aGY6LGG6Iqx5bqX6KW_6ZaA55S6IOS4reiPr-W6lyBPcmlnaW4gVG9mdSBQdWRkaW5n!5e0!3m2!1sja!2ssg!4v1786692254452!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8434797105433!2d121.5069747!3d25.0393853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9c8286d65ed%3A0xa3164c48a7973f86!2z5pys6aGY6LGG6Iqx5bqXLeilv-mWgOeUuiDkuK3oj6_lupcgT3JpZ2luIFRvZnUgUHVkZGluZw!5e0!3m2!1sen!2ssg!4v1786692294962!5m2!1sen!2ssg"
+    },
+    {
+        "ID": "82",
+        "rank": -1,
+        "store_name": "Mollie Makes",
+        "place": "Jalan Dhoby, Johor Bahru",
+        "picture": [
+            "beancurd_images/bc79.jpg"
+        ],
+        "foods_id": [
+            "107"
+        ],
+        "country_jp": "マレーシア",
+        "country_en": "Malaysia",
+        "descriptions_jp": [],
+        "descriptions_en": [],
+        "map_jp": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7340.375442649993!2d103.76243823518004!3d1.461176974787179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da130a200001df%3A0xdfb96824748b8d13!2sMollie%20Makes!5e0!3m2!1sja!2ssg!4v1786692364644!5m2!1sja!2ssg",
+        "map_en": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.1320680741757!2d103.76249827444555!3d1.4570542279783971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da130a200001df%3A0xdfb96824748b8d13!2sMollie%20Makes!5e0!3m2!1sen!2ssg!4v1786692435835!5m2!1sen!2ssg"
     }
 ]

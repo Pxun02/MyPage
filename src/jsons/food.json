@@ -733,5 +733,19 @@
         "food_name_en": "Beancurd",
         "price": "1.3",
         "currency": "SGD"
+    },
+    {
+        "ID": "106",
+        "food_name_jp": "招牌豆花",
+        "food_name_en": "Signature Tofu Pudding",
+        "price": "69",
+        "currency": "TWD"
+    },
+    {
+        "ID": "107",
+        "food_name_jp": "豆花・開心果糊",
+        "food_name_en": "Soy Bean Curd w/ Happy Pistachio Paste",
+        "price": "11.9",
+        "currency": "MYR"
     }
 ]

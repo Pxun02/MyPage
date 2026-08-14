@@ -1,0 +1,152 @@
+[
+    {
+        "ID": "01",
+        "rank": 1,
+        "store_name": "富宏牛肉麵",
+        "location": "西門町, 台北",
+        "country": "台湾",
+        "food_name": "牛肉麵",
+        "picture": ["food_images/f50.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.650188309694!2d121.50654489919735!3d25.047619700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90e87e6d60b%3A0x2a5448854fda3233!2z5a-M5a6P54mb6IKJ6bq1!5e0!3m2!1sja!2ssg!4v1786689255572!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "02",
+        "rank": 2,
+        "store_name": "Nimmies Pastry Cafe",
+        "location": "Taman Melodies, Johor Bahru",
+        "country": "マレーシア",
+        "food_name": "Truffled Field Mushroom Tagliatelle",
+        "picture": ["food_images/f51.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127631.00329690133!2d103.766071!3d1.4902341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6d6e1e1b6e27%3A0x1411466d949d0e1a!2sNimmies%20Pastry%20Cafe!5e0!3m2!1sja!2ssg!4v1786689497731!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "03",
+        "rank": 3,
+        "store_name": "88 Hong Kong Roast Meat Specialist",
+        "location": "Lavender St.",
+        "country": "シンガポール",
+        "food_name": "Wanton Mee (雲吞麵)",
+        "picture": ["food_images/f52.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7674113202447!2d103.8596135!3d1.315083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19c93a106849%3A0x6538717f3cc55569!2s88%20Hong%20Kong%20Roast%20Meat%20Specialist!5e0!3m2!1sja!2ssg!4v1786689715567!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "04",
+        "rank": 4,
+        "store_name": "Otoko Ramen 漢",
+        "location": "Alexandra Central Mall",
+        "country": "シンガポール",
+        "food_name": "特製煮干しラーメン",
+        "picture": ["food_images/f53.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8110411758!2d103.80241757526777!3d1.2874937617724829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bcc918e2f63%3A0x73c9317cf1b5e8c9!2zT3Rva28gUmFtZW4g5ryi!5e0!3m2!1sja!2ssg!4v1724761075872!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "05",
+        "rank": 5,
+        "store_name": "大師兄銷魂面舗",
+        "location": "中山, 台北",
+        "country": "台湾",
+        "food_name": "麻辣牛肉片+銷魂麵",
+        "picture": ["food_images/f54.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.1962351262353!2d121.52083549999998!3d25.0546836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a96971914e63%3A0x1e35fa60164691fa!2z5aSn5bir5YWE6Yq36a2C6Z2i6IiX5Lit5bGx5bqX!5e0!3m2!1sja!2ssg!4v1786689419549!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "06",
+        "rank": 6,
+        "store_name": "阿宗麺線",
+        "location": "西門町, 台北",
+        "country": "台湾",
+        "food_name": "麺線",
+        "picture": ["food_images/f55.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.451620879634!2d121.50775!3d25.0433775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90968b57c41%3A0xb19c4276746146ed!2z6Zi_5a6X6bq657ea!5e0!3m2!1sja!2ssg!4v1786689163934!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "07",
+        "rank": 7,
+        "store_name": "三宝亭",
+        "location": "Orchard Road, 他",
+        "country": "シンガポール",
+        "food_name": "濃厚煮干しつけ麺",
+        "picture": ["food_images/f56.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.20544920613!2d103.81586551666264!3d1.3098982176212979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da198d0cf7aff5%3A0x4d141baa1e6dbf32!2z5LiJ5a6d5LqtIOOCt-ODp-ODvOODu-ODj-OCpuOCueW6lw!5e0!3m2!1sja!2ssg!4v1786689814057!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "08",
+        "rank": 8,
+        "store_name": "Driftwood 臺虎西門",
+        "location": "西門町, 台北",
+        "country": "台湾",
+        "food_name": "牛肉湯餃",
+        "picture": ["food_images/f57.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.6242026048394!2d121.5024984614418!3d25.046824299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a90f275a74bb%3A0x29954039ef1af9de!2z5Y-w6JmO6KW_6ZaA!5e0!3m2!1sja!2ssg!4v1786690014813!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "09",
+        "rank": 9,
+        "store_name": "Lantingxu Lanzhou Beef Noodles",
+        "location": "Somerset, 他",
+        "country": "シンガポール",
+        "food_name": "牛肉麺",
+        "picture": ["food_images/f58.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.582224169271!2d103.83472027529919!3d1.3001684986874915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da194e771c3d8f%3A0x189b1321c01a0556!2sLantingxu%20Lanzhou%20Beef%20Noodles!5e0!3m2!1sja!2ssg!4v1786690234310!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "10",
+        "rank": 10,
+        "store_name": "八雲拉面",
+        "location": "Taman Sentosa, Johor Bahru",
+        "country": "マレーシア",
+        "food_name": "特製雲呑拉麺(白)",
+        "picture": ["food_images/f59.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4624278364604!2d103.7728155752995!3d1.4937777984922045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6da8c49e990d%3A0x3ebed6ae001a58a6!2zWWFrdW1vIFJhbWVuIOWFq-mbsuaLiemdoiDvvIhNYWxheXNpYSk!5e0!3m2!1sja!2ssg!4v1786690134864!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "11",
+        "rank": 11,
+        "store_name": "TORASHO RAMEN 寅しょうらーめん",
+        "location": "Takashimaya Shopping Centre",
+        "country": "シンガポール",
+        "food_name": "ワンタン麺",
+        "picture": ["food_images/f60.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.331208287844!2d103.82184423225847!3d1.2999856107596508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da193b1ed7d70b%3A0xf4043b62d26db779!2zVE9SQVNITyBSQU1FTiDlr4XjgZfjgofjgYbjgonjg7zjgoHjgpM!5e0!3m2!1sja!2ssg!4v1786690419942!5m2!1sja!2ssg" 
+    },
+    {
+        "ID": "12",
+        "rank": 12,
+        "store_name": "HK FEI GUO RICE NOODLE",
+        "location": "Chinatown",
+        "country": "シンガポール",
+        "food_name": "招牌炸酱米线",
+        "picture": ["food_images/f61.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8169274593474!2d103.84312507529916!3d1.283726198704082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19fa43a5a879%3A0x5d710cd392333806!2sHK%20FEI%20GUO%20RICE%20NOODLE!5e0!3m2!1sja!2ssg!4v1786690595468!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "13",
+        "rank": 13,
+        "store_name": "Sarawak Delicacy Laksa & Kolo Mee",
+        "location": "Kai Xiang Food Centre (Chinese Garden MRT)",
+        "country": "シンガポール",
+        "food_name": "Sarawak Laksa",
+        "picture": ["food_images/f62.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7198137454184!2d103.72898667529925!3d1.3445357986427346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da115acd2d8b9d%3A0xcf8195afc1a602bb!2sSarawak%20Delicacy%20Laksa%20%26%20Kolo%20Mee!5e0!3m2!1sja!2ssg!4v1786690711492!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "14",
+        "rank": 14,
+        "store_name": "豚麺処 官兵衛 KANBE RAMEN JB",
+        "location": "Aeon Mall Tebrau City, Johor Bahru",
+        "country": "マレーシア",
+        "food_name": "豚骨ラーメン（白兵衛）",
+        "picture": ["food_images/f63.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3601651425756!2d103.79205117529956!3d1.5490882984364303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da6d00766eb3bf%3A0x86b519be8452d39a!2z6LGa6bq65YemIOWumOWFteihmyBLQU5CRSBSQU1FTiBKQg!5e0!3m2!1sja!2ssg!4v1786690875842!5m2!1sja!2ssg"
+    },
+    {
+        "ID": "15",
+        "rank": 15,
+        "store_name": "Bao Er Cafe",
+        "location": "Holland Village, 他",
+        "country": "シンガポール",
+        "food_name": "Hokkien Mee",
+        "picture": ["food_images/f64.jpg"],
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28858.799160181592!2d103.8110000850016!3d1.321495142860977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1b00605b2839%3A0x6caea6aa9426d5d7!2sBao%20Er%20Cafe!5e0!3m2!1sja!2ssg!4v1786690826796!5m2!1sja!2ssg"
+    }
+]
