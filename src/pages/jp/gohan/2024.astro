@@ -1,4 +1,5 @@
 ---
+import FloatingContents from '../../../components/FloatingContents.astro';
 import '../../../styles/blog.css';
 import foodsData from '../../../jsons/gohan_2024.json';
 import Head from '../../../components/jp/Head.astro';
@@ -67,7 +68,7 @@ const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { ea
 		</main>
 	</body>
 	<footer>
-		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+		<FloatingContents />
         <RankingPagination kind="gohan" current={2024} />
 		<hr class="footer-line">
 		<div class="footer-content"> <p>© 2026 Shawn</p></div>

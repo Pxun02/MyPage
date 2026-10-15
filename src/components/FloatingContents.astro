@@ -1,0 +1,254 @@
+---
+interface Props { lang?: 'ja' | 'en' }
+const { lang = 'ja' } = Astro.props;
+const english = lang === 'en';
+---
+
+<floating-contents hidden>
+    <button class="contents-toggle" type="button" aria-expanded="false" aria-controls="floating-contents-panel">
+        {english ? 'Contents' : '目次'}
+        <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+            <path d="M2 8L6 4L10 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+    <nav id="floating-contents-panel" class="contents-panel" aria-label={english ? 'On this page' : 'このページの目次'} hidden>
+        <ul>
+            <li class="contents-top"><a href="#" data-contents-top>{english ? 'Back to top' : 'ページ先頭'}</a></li>
+        </ul>
+    </nav>
+</floating-contents>
+
+<script>
+    type Entry = { target: HTMLElement; label: string };
+
+    class FloatingContents extends HTMLElement {
+        private button!: HTMLButtonElement;
+        private panel!: HTMLElement;
+        private entries: Entry[] = [];
+
+        connectedCallback() {
+            this.button = this.querySelector('button')!;
+            this.panel = this.querySelector('nav')!;
+            this.button.addEventListener('click', this.togglePanel);
+            this.panel.addEventListener('click', this.followLink);
+            document.addEventListener('pointerdown', this.outsideTap);
+            document.addEventListener('keydown', this.escapeKey);
+            document.addEventListener('toggle', this.siteMenuToggle, true);
+            window.addEventListener('resize', this.updateVisibility);
+            window.addEventListener('load', this.updateVisibility);
+            this.buildContents();
+
+        }
+
+        disconnectedCallback() {
+            this.button.removeEventListener('click', this.togglePanel);
+            this.panel.removeEventListener('click', this.followLink);
+            document.removeEventListener('pointerdown', this.outsideTap);
+            document.removeEventListener('keydown', this.escapeKey);
+            document.removeEventListener('toggle', this.siteMenuToggle, true);
+            window.removeEventListener('resize', this.updateVisibility);
+            window.removeEventListener('load', this.updateVisibility);
+        }
+
+        private available(target: HTMLElement) {
+            for (let element: HTMLElement | null = target; element; element = element.parentElement) {
+                if (element.hidden || getComputedStyle(element).display === 'none') return false;
+            }
+            return true;
+        }
+
+        private buildContents() {
+            this.close();
+            const entries: Entry[] = [];
+            const seen = new Set<HTMLElement>();
+            document.querySelectorAll<HTMLAnchorElement>('.table-of-contents a[href^="#"]').forEach((link) => {
+                let id: string;
+                try { id = decodeURIComponent(link.hash.slice(1)); } catch { return; }
+                const target = document.getElementById(id);
+                if (target && this.available(target) && !seen.has(target)) {
+                    entries.push({ target, label: link.textContent?.trim() || '' });
+                    seen.add(target);
+                }
+            });
+
+            this.entries = entries.filter((entry) => entry.label);
+            this.panel.querySelectorAll('[data-contents-entry]').forEach((item) => item.remove());
+            const list = this.panel.querySelector('ul')!;
+            this.entries.forEach(({ target, label }) => {
+                const item = document.createElement('li');
+                item.dataset.contentsEntry = '';
+                const link = document.createElement('a');
+                link.href = `#${encodeURIComponent(target.id)}`;
+                link.dataset.headingId = target.id;
+                link.textContent = label.replace(/\s+/g, ' ');
+                item.append(link);
+                list.append(item);
+            });
+            this.updateVisibility();
+        }
+
+        private updateVisibility = () => {
+            this.hidden = !this.entries.length || document.documentElement.scrollHeight <= window.innerHeight + 80;
+            if (this.hidden) this.close();
+        };
+
+        private close(focus = false) {
+            this.panel.hidden = true;
+            this.button.setAttribute('aria-expanded', 'false');
+            if (focus) this.button.focus({ preventScroll: true });
+        }
+
+        private togglePanel = () => {
+            if (!this.panel.hidden) { this.close(); return; }
+            document.querySelectorAll<HTMLDetailsElement>('[data-mobile-navigation][open]').forEach((menu) => menu.open = false);
+            this.panel.hidden = false;
+            this.button.setAttribute('aria-expanded', 'true');
+        };
+
+        private followLink = (event: MouseEvent) => {
+            const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a') : null;
+            if (!link) return;
+            const top = link.hasAttribute('data-contents-top');
+            const target = top ? null : document.getElementById(link.dataset.headingId || '');
+            if (!top && !target) return;
+            event.preventDefault();
+            this.close();
+            const behavior = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+            if (top) {
+                if (location.hash) history.pushState(null, '', location.pathname + location.search);
+                window.scrollTo({ top: 0, behavior });
+                this.button.focus({ preventScroll: true });
+            } else if (target) {
+                for (let parent = target.parentElement; parent; parent = parent.parentElement) {
+                    if (parent instanceof HTMLDetailsElement) parent.open = true;
+                }
+                if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+                if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+                target.focus({ preventScroll: true });
+                target.scrollIntoView({ behavior, block: 'start' });
+            }
+        };
+
+        private outsideTap = (event: PointerEvent) => {
+            if (event.target instanceof Node && !this.contains(event.target)) this.close();
+        };
+
+        private escapeKey = (event: KeyboardEvent) => {
+            if (event.key === 'Escape' && !this.panel.hidden) this.close(true);
+        };
+
+        private siteMenuToggle = (event: Event) => {
+            if (event.target instanceof HTMLDetailsElement && event.target.matches('[data-mobile-navigation][open]')) this.close();
+        };
+    }
+
+    if (!customElements.get('floating-contents')) customElements.define('floating-contents', FloatingContents);
+</script>
+
+<style>
+    floating-contents {
+        display: block;
+        position: fixed;
+        right: 16px;
+        bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+        z-index: 1100;
+        text-align: left;
+    }
+
+    floating-contents[hidden],
+    .contents-panel[hidden] {
+        display: none !important;
+    }
+
+    .contents-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-height: 44px;
+        padding: 0 14px;
+        border: 1px solid rgb(148 163 184 / 45%);
+        border-radius: 24px;
+        background: rgb(255 255 255 / 82%);
+        color: var(--accent);
+        box-shadow: 0 2px 12px rgb(15 23 42 / 12%);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        font: inherit;
+        font-size: 0.85rem;
+        font-weight: 600;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+
+    .contents-toggle[aria-expanded="true"] svg {
+        transform: rotate(180deg);
+    }
+
+    .contents-panel {
+        position: absolute;
+        right: 0;
+        bottom: calc(100% + 8px);
+        box-sizing: border-box;
+        width: min(21rem, calc(100vw - 32px));
+        max-height: 65vh;
+        max-height: min(65dvh, calc(100dvh - 6rem - env(safe-area-inset-bottom, 0px)));
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        padding: 6px;
+        border: 1px solid rgb(148 163 184 / 45%);
+        border-radius: 12px;
+        background: rgb(255 255 255 / 90%);
+        -webkit-backdrop-filter: blur(16px);
+        backdrop-filter: blur(16px);
+        box-shadow: 0 4px 24px rgb(15 23 42 / 15%);
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .contents-panel ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contents-panel :global(li) {
+        margin: 0;
+    }
+
+    .contents-panel :global(a) {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 8px 12px;
+        border-radius: 7px;
+        color: var(--text-primary);
+        font-size: 0.85rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-decoration: none;
+        overflow-wrap: anywhere;
+        transform: none;
+    }
+
+    .contents-panel .contents-top {
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .contents-panel :global(a:hover) {
+        background: var(--accent-light);
+        color: var(--accent);
+        text-decoration: none;
+        transform: none;
+    }
+
+    .contents-toggle:focus-visible,
+    .contents-panel :global(a:focus-visible) {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+</style>

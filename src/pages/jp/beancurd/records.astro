@@ -1,4 +1,5 @@
 ---
+import FloatingContents from '../../../components/FloatingContents.astro';
 import '../../../styles/blog.css';
 import shopsData from '../../../jsons/shop.json';
 import foodsData from '../../../jsons/food.json';
@@ -86,7 +87,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 		</main>
 	</body>
 	<footer>
-		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+		<FloatingContents />
 		  <hr class="footer-line">
 		  <div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>
