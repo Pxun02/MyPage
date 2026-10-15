@@ -3,6 +3,7 @@ import '../../../styles/blog.css';
 import foodsData from '../../../jsons/gohan_2023.json';
 import Head from '../../../components/jp/Head.astro';
 import Header from '../../../components/jp/Header.astro';
+import RankingPagination from '../../../components/RankingPagination.astro';
 import { Image } from 'astro:assets';
 
 const shops = foodsData;
@@ -18,12 +19,7 @@ const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { ea
 			<nav>
 				<a href="/MyPage/jp/gohan"><i class="fa-solid fa-house"></i></a>
 			</nav>
-			<nav class="pagination">
-                   <p />
-				   <a href={`/MyPage/jp/gohan/2024`} class="next-page">
-					2024  <i class="fas fa-chevron-right"></i>
-				  </a>
-			  </nav>
+			<RankingPagination kind="gohan" current={2023} />
 			  <hr class="header-line">
 		</header>
 
@@ -72,12 +68,7 @@ const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { ea
 	</body>
 	<footer>
 		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-		<nav class="pagination">
-            <p />
-            <a href={`/MyPage/jp/gohan/2024`} class="next-page">
-                2024  <i class="fas fa-chevron-right"></i>
-            </a>
-           </nav>
+		<RankingPagination kind="gohan" current={2023} />
 		<hr class="footer-line">
 		<div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>

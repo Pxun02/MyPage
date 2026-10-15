@@ -1,0 +1,89 @@
+---
+interface Props {
+    lang: 'ja' | 'en';
+}
+
+const { lang } = Astro.props;
+const copy = {
+    ja: {
+        title: '興味分野',
+        introduction: '複雑系・情報理論・AIに関心があります。特に、単独では有効性の限られる情報やプロセスが、相互作用や組合せ、順序によってどのような集団的効果を生むのかを探究しています。',
+        headings: ['数理・理論', '集団システム', '応用'],
+    },
+    en: {
+        title: 'Research Interests',
+        introduction: 'My research interests lie at the intersection of complex systems, information theory, and artificial intelligence. I explore how information and processes with limited effectiveness in isolation can produce collective effects through interaction, combination, and temporal ordering.',
+        headings: ['Mathematical Foundations', 'Collective Systems', 'Applications'],
+    },
+}[lang];
+
+const groups = [
+    {
+        color: 'indigo',
+        fields: [
+            { ja: 'Switching Dynamics', en: 'Switching Dynamics' },
+            { ja: '情報理論・Information Synergy', en: 'Information Theory & Information Synergy' },
+            { ja: '進化ゲーム理論・複雑系', en: 'Evolutionary Game Theory & Complex Systems' },
+        ],
+    },
+    {
+        color: 'teal',
+        fields: [
+            { ja: '集団知能', en: 'Collective Intelligence' },
+            { ja: 'LLMマルチエージェントシステム', en: 'LLM-based Multi-Agent Systems' },
+            { ja: '社会ダイナミクス', en: 'Social Dynamics' },
+        ],
+    },
+    {
+        color: 'gray',
+        fields: [
+            { ja: '進化的計算・AI for Science', en: 'Evolutionary Computation & AI for Science' },
+            { ja: 'AI Safety & Human-AI Collaboration', en: 'AI Safety & Human-AI Collaboration' },
+        ],
+    },
+];
+---
+
+<section id="research-interest">
+    <h2>{copy.title}</h2>
+    <p class="research-introduction">{copy.introduction}</p>
+    {groups.map((group, index) => (
+        <div class="research-group">
+            <h3>{copy.headings[index]}</h3>
+            <ul class="research-tags-container">
+                {group.fields.map((field) => (
+                    <li class={`research-tag research-tag-${group.color}`}>
+                        {field[lang]}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    ))}
+</section>
+
+<style>
+    .research-introduction {
+        margin: 0 0 1.5rem;
+        line-height: 1.8;
+    }
+
+    .research-group + .research-group {
+        margin-top: 1.25rem;
+    }
+
+    .research-group h3 {
+        font-size: 0.85rem;
+    }
+
+    .research-tags-container {
+        list-style: none;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .research-tag {
+        margin: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+</style>

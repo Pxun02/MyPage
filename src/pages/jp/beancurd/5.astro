@@ -6,6 +6,7 @@ import { Image } from 'astro:assets';
 import { basename } from 'path';
 import Head from '../../../components/jp/Head.astro';
 import Header from '../../../components/jp/Header.astro';
+import RankingPagination from '../../../components/RankingPagination.astro';
 
 const allBeancurdImages = import.meta.glob('../../../images/beancurd_images/*.jpg', { eager: true });
 
@@ -17,7 +18,6 @@ const foods = foodsData;
 const shopsPerPage = 10;
 const startingRank = (currentPage - 1) * shopsPerPage + 1;
 const totalShops = shops.filter(shop => shop.rank !== -1).length;
-const maxPage = Math.ceil(totalShops / shopsPerPage)
 
 const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop.rank < startingRank + shopsPerPage);
 
@@ -35,19 +35,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 			<nav>
 				<a href="/MyPage/jp/beancurd"><i class="fa-solid fa-house"></i></a>
 			</nav>
-			<nav class="pagination">
-				{currentPage > 1 ? (
-				  <a href={`/MyPage/jp/beancurd/${currentPage - 1}`} class="prev-page">
-					<i class="fas fa-chevron-left"></i> Previous
-				  </a>
-				): <span></span>}
-				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
-				{currentPage < maxPage ? (
-				   <a href={`/MyPage/jp/beancurd/${currentPage + 1}`} class="next-page">
-					Next <i class="fas fa-chevron-right"></i>
-				  </a>
-				): <span></span>}
-			  </nav>
+			<RankingPagination kind="beancurd" current={currentPage} totalItems={totalShops} pageSize={shopsPerPage} />
 			  <hr class="header-line">
 		</header>
 
@@ -112,19 +100,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank >= startingRank && shop
 	</body>
 	<footer>
 		<button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-		<nav class="pagination">
-			{currentPage > 1 ? (
-			  <a href={`/MyPage/jp/beancurd/${currentPage - 1}`} class="prev-page">
-				<i class="fas fa-chevron-left"></i> Previous
-			  </a>
-			): <span></span>}
-			<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
-			{currentPage < maxPage ? (
-			   <a href={`/MyPage/jp/beancurd/${currentPage + 1}`} class="next-page">
-				Next <i class="fas fa-chevron-right"></i>
-			  </a>
-			): <span></span>}
-		  </nav>
+		<RankingPagination kind="beancurd" current={currentPage} totalItems={totalShops} pageSize={shopsPerPage} />
 		<hr class="footer-line">
 		<div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>

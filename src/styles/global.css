@@ -141,9 +141,9 @@ img {
 }
 
 /* ── Profile header ────────────────────────────────────────── */
-header {
+header:not(.ribbon) {
   text-align: left;
-  padding: 2.5rem 0 2rem;
+  padding: 1.25rem 0 2rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 2.5rem;
 }
