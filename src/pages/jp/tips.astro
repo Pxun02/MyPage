@@ -17,16 +17,6 @@ const h2List = ["日系スーパーや日本のものが買えるお店", "交�
 
 		<main>
 			<article>
-				<details class="table-of-contents">
-					<summary>目次</summary>
-					<ul>
-						{h2List.map((content) => (
-							<li>
-								<a href={`#${content}`}>{content}</a>
-							</li>
-						))}
-					</ul>
-				</details>
 
 				<h2 id="日系スーパーや日本のものが買えるお店">日系スーパーや日本のものが買えるお店</h2>
 				<ul>
@@ -335,7 +325,7 @@ const h2List = ["日系スーパーや日本のものが買えるお店", "交�
 		</main>
 	</body>
 	<footer>
-    <FloatingContents />
+    <FloatingContents entries={h2List.map((heading) => ({ id: heading, label: heading }))} />
         <hr class="footer-line">
 		<div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>

@@ -1,6 +1,9 @@
 ---
-interface Props { lang?: 'ja' | 'en' }
-const { lang = 'ja' } = Astro.props;
+interface Props {
+    entries: { id: string; label: string }[];
+    lang?: 'ja' | 'en';
+}
+const { entries, lang = 'ja' } = Astro.props;
 const english = lang === 'en';
 ---
 
@@ -14,17 +17,18 @@ const english = lang === 'en';
     <nav id="floating-contents-panel" class="contents-panel" aria-label={english ? 'On this page' : 'このページの目次'} hidden>
         <ul>
             <li class="contents-top"><a href="#" data-contents-top>{english ? 'Back to top' : 'ページ先頭'}</a></li>
+            {entries.map((entry) => (
+                <li><a href={`#${encodeURIComponent(entry.id)}`} data-heading-id={entry.id}>{entry.label}</a></li>
+            ))}
         </ul>
     </nav>
 </floating-contents>
 
 <script>
-    type Entry = { target: HTMLElement; label: string };
-
     class FloatingContents extends HTMLElement {
         private button!: HTMLButtonElement;
         private panel!: HTMLElement;
-        private entries: Entry[] = [];
+        private entryCount = 0;
 
         connectedCallback() {
             this.button = this.querySelector('button')!;
@@ -37,7 +41,6 @@ const english = lang === 'en';
             window.addEventListener('resize', this.updateVisibility);
             window.addEventListener('load', this.updateVisibility);
             this.buildContents();
-
         }
 
         disconnectedCallback() {
@@ -59,36 +62,22 @@ const english = lang === 'en';
 
         private buildContents() {
             this.close();
-            const entries: Entry[] = [];
+            this.entryCount = 0;
             const seen = new Set<HTMLElement>();
-            document.querySelectorAll<HTMLAnchorElement>('.table-of-contents a[href^="#"]').forEach((link) => {
-                let id: string;
-                try { id = decodeURIComponent(link.hash.slice(1)); } catch { return; }
-                const target = document.getElementById(id);
+            this.panel.querySelectorAll<HTMLAnchorElement>('a[data-heading-id]').forEach((link) => {
+                const target = document.getElementById(link.dataset.headingId || '');
                 if (target && this.available(target) && !seen.has(target)) {
-                    entries.push({ target, label: link.textContent?.trim() || '' });
+                    this.entryCount++;
                     seen.add(target);
+                } else {
+                    link.closest('li')?.remove();
                 }
-            });
-
-            this.entries = entries.filter((entry) => entry.label);
-            this.panel.querySelectorAll('[data-contents-entry]').forEach((item) => item.remove());
-            const list = this.panel.querySelector('ul')!;
-            this.entries.forEach(({ target, label }) => {
-                const item = document.createElement('li');
-                item.dataset.contentsEntry = '';
-                const link = document.createElement('a');
-                link.href = `#${encodeURIComponent(target.id)}`;
-                link.dataset.headingId = target.id;
-                link.textContent = label.replace(/\s+/g, ' ');
-                item.append(link);
-                list.append(item);
             });
             this.updateVisibility();
         }
 
         private updateVisibility = () => {
-            this.hidden = !this.entries.length || document.documentElement.scrollHeight <= window.innerHeight + 80;
+            this.hidden = !this.entryCount || document.documentElement.scrollHeight <= window.innerHeight + 80;
             if (this.hidden) this.close();
         };
 
@@ -167,11 +156,11 @@ const english = lang === 'en';
         gap: 8px;
         min-height: 44px;
         padding: 0 14px;
-        border: 1px solid rgb(148 163 184 / 45%);
+        border: 1px solid rgb(29 78 216 / 65%);
         border-radius: 24px;
-        background: rgb(255 255 255 / 82%);
-        color: var(--accent);
-        box-shadow: 0 2px 12px rgb(15 23 42 / 12%);
+        background: rgb(37 99 235 / 94%);
+        color: #fff;
+        box-shadow: 0 2px 12px rgb(15 23 42 / 18%);
         -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
         font: inherit;

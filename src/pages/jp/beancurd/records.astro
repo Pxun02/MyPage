@@ -33,16 +33,6 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 		<main>
 			<article>
 				<h2>その他の訪問記録</h2>
-				<details class="table-of-contents">
-					<summary>目次</summary>
-					<ul>
-						{shopsOnThisPage.map((shop) => (
-							<li>
-								<a href={`#shop-${shop.ID}`}>{shop.store_name} @ {shop.place}</a>
-							</li>
-						))}
-					</ul>
-				</details>
 
 				<ul>
 					{shopsOnThisPage.map((shop) => (
@@ -87,7 +77,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 		</main>
 	</body>
 	<footer>
-		<FloatingContents />
+		<FloatingContents entries={shopsOnThisPage.map((shop) => ({ id: `shop-${shop.ID}`, label: `${shop.store_name} @ ${shop.place}` }))} />
 		  <hr class="footer-line">
 		  <div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>
