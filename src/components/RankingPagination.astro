@@ -1,5 +1,5 @@
 ---
-type Props = { current: number } & (
+type Props = { current: number; variant?: 'navigation' | 'selector' } & (
     | { kind: 'gohan' }
     | { kind: 'beancurd'; totalItems: number; pageSize: number }
 );
@@ -20,6 +20,18 @@ const basePath = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/jp/${props.kind
 const isYear = props.kind === 'gohan';
 ---
 
+{props.variant === 'selector' ? (
+<div class="ranking-selector">
+    {!isYear && <span>豆花ランキング</span>}
+    <select class="page-picker" data-ranking-page-select aria-label={isYear ? '年を選択' : '順位を選択'}>
+        {pages.map((page) => (
+            <option value={`${basePath}/${page}`} selected={page === props.current}>
+                {props.kind === 'gohan' ? `${page}年` : `${(page - 1) * props.pageSize + 1}〜${Math.min(page * props.pageSize, props.totalItems)}位`}
+            </option>
+        ))}
+    </select>
+</div>
+) : (
 <nav class="pagination ranking-pagination" aria-label={isYear ? 'ご飯ランキングの年切り替え' : '豆花ランキングの順位切り替え'}>
     {previous !== undefined ? (
         <a href={`${basePath}/${previous}`} class="prev-page">
@@ -28,14 +40,6 @@ const isYear = props.kind === 'gohan';
         </a>
     ) : <span aria-hidden="true"></span>}
 
-    <select class="page-picker" data-ranking-page-select aria-label={isYear ? '年を選択' : '順位を選択'}>
-        {pages.map((page) => (
-            <option value={`${basePath}/${page}`} selected={page === props.current}>
-                {props.kind === 'gohan' ? page : `${(page - 1) * props.pageSize + 1}〜${Math.min(page * props.pageSize, props.totalItems)}位`}
-            </option>
-        ))}
-    </select>
-
     {next !== undefined ? (
         <a href={`${basePath}/${next}`} class="next-page">
             {isYear ? next : 'Next'}
@@ -43,6 +47,7 @@ const isYear = props.kind === 'gohan';
         </a>
     ) : <span aria-hidden="true"></span>}
 </nav>
+)}
 
 <script>
     document.addEventListener('change', (event) => {
@@ -56,8 +61,24 @@ const isYear = props.kind === 'gohan';
 <style>
     .ranking-pagination {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 0.5rem;
+    }
+
+    .ranking-selector {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin-bottom: 1rem;
+        padding: 0.35rem 0.7rem;
+        background: linear-gradient(90deg, var(--accent-light), transparent);
+        border-left: 3px solid var(--accent);
+        border-radius: 0 4px 4px 0;
+        color: var(--accent);
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
     }
 
     .prev-page {
@@ -80,8 +101,8 @@ const isYear = props.kind === 'gohan';
         padding: 0.2rem 0.45rem;
         border: 1px solid var(--border);
         border-radius: 6px;
-        background-color: var(--bg);
-        color: var(--text-primary);
+        background-color: transparent;
+        color: var(--accent);
         font: inherit;
         font-size: 0.85rem;
         line-height: 1.5;

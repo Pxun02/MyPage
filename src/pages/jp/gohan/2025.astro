@@ -24,10 +24,10 @@ const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { ea
 		</header>
 
 		<main>
-			<article>
-				<h2>2025年</h2>
-				<div class="table-of-contents">
-					<h3>目次</h3>
+			<article class="ranking-article">
+				<RankingPagination kind="gohan" current={2025} variant="selector" />
+				<details class="table-of-contents">
+					<summary>目次</summary>
 					<ul>
 						{shops.map((shop) => (
 							<li>
@@ -35,7 +35,7 @@ const allFoodImages = import.meta.glob('../../../images/food_images/*.jpg', { ea
 							</li>
 						))}
 					</ul>
-				</div>
+				</details>
 
 				<ul>
 					{shops.map((shop) => (

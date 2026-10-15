@@ -17,8 +17,8 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
 
 		<main>
 			<article>
-				<div class="table-of-contents">
-					<h3>目次</h3>
+				<details class="table-of-contents">
+					<summary>目次</summary>
 					<ul>
 						{h2List.map((content) => (
 							<li>
@@ -26,7 +26,7 @@ const h2List = ["略称など", "各種URL", "各種アプリ", "学期", "履�
 							</li>
 						))}
 					</ul>
-				</div>
+				</details>
                 
                 <p>学部時代の私のリーディングリストは<a href="/MyPage/jp/rlist">学部リーディングリスト</a>にて紹介しています。</p>
 

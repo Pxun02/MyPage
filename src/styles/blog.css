@@ -212,6 +212,11 @@ main {
   justify-content: space-between;
 }
 
+main > .ranking-article {
+  width: 100%;
+  min-width: 0;
+}
+
 .left-column {
   width: 68%;
   padding-right: 3%;
@@ -352,6 +357,37 @@ header nav:not(.pagination) {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+details.table-of-contents {
+  padding: 0.7rem 0.9rem;
+}
+
+.table-of-contents > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.table-of-contents > summary::after {
+  content: '▸';
+  display: inline-block;
+}
+
+.table-of-contents[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.table-of-contents > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.table-of-contents[open] > ul {
+  margin-top: 0.75rem;
 }
 
 .table-of-contents ul {

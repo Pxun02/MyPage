@@ -32,8 +32,8 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 		<main>
 			<article>
 				<h2>その他の訪問記録</h2>
-				<div class="table-of-contents">
-					<h3>お店一覧</h3>
+				<details class="table-of-contents">
+					<summary>目次</summary>
 					<ul>
 						{shopsOnThisPage.map((shop) => (
 							<li>
@@ -41,7 +41,7 @@ const shopsOnThisPage = shops.filter((shop) => shop.rank === -1);
 							</li>
 						))}
 					</ul>
-				</div>
+				</details>
 
 				<ul>
 					{shopsOnThisPage.map((shop) => (
