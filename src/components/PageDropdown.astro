@@ -1,0 +1,50 @@
+---
+interface Props {
+    options: { label: string; href: string }[];
+    current: string;
+    label: string;
+}
+
+const { options, current, label } = Astro.props;
+---
+
+<select class="page-picker" data-page-dropdown aria-label={label}>
+    {options.map((option) => (
+        <option value={option.href} selected={option.href === current}>{option.label}</option>
+    ))}
+</select>
+
+<script>
+    document.addEventListener('change', (event) => {
+        const select = event.target;
+        if (select instanceof HTMLSelectElement && select.matches('[data-page-dropdown]')) {
+            window.location.assign(select.value);
+        }
+    });
+</script>
+
+<style>
+    .page-picker {
+        min-height: 2rem;
+        max-width: 100%;
+        padding: 0.2rem 0.45rem;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background-color: transparent;
+        color: var(--accent);
+        font: inherit;
+        font-size: 0.85rem;
+        line-height: 1.5;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .page-picker:hover {
+        border-color: var(--accent);
+    }
+
+    .page-picker:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+</style>

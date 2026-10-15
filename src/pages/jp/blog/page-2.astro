@@ -5,6 +5,7 @@ import '../../../styles/blog.css';
 import { basename } from 'path';
 import Head from '../../../components/jp/Head.astro';
 import Header from '../../../components/jp/Header.astro';
+import BlogPagination from '../../../components/BlogPagination.astro';
 
 let blogEntries: CollectionEntry<'blog'>[] = [];
 
@@ -28,19 +29,7 @@ const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPe
 		<Header />
 		<header>
 			<h1 style="padding-top: 1.5rem;">ブログ</h1>
-			<nav class="pagination">
-				{currentPage > 1 ? (
-				  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
-					<i class="fas fa-chevron-left"></i> Previous
-				  </a>
-				): <span></span>}
-				<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
-				{currentPage < maxPage ? (
-				   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
-					Next <i class="fas fa-chevron-right"></i>
-				  </a>
-				): <span></span>}
-			  </nav>
+			<BlogPagination current={currentPage} totalPages={maxPage} />
 			<hr class="header-line">
 		</header>
 <body>
@@ -57,19 +46,7 @@ const entriesOnThisPage = sortedBlogEntries.slice(starting, starting + entriesPe
 </body>
 <footer>
     <button id="scrollToTopBtn" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-	<nav class="pagination">
-		{currentPage > 1 ? (
-		  <a href={`/MyPage/jp/blog/page-${currentPage - 1}`} class="prev-page">
-			<i class="fas fa-chevron-left"></i> Previous
-		  </a>
-		): <span></span>}
-		<span class="current-page"><b>{currentPage}</b> / {maxPage}</span>
-		{currentPage < maxPage ? (
-		   <a href={`/MyPage/jp/blog/page-${currentPage + 1}`} class="next-page">
-			Next <i class="fas fa-chevron-right"></i>
-		  </a>
-		): <span></span>}
-	  </nav>
+	<BlogPagination current={currentPage} totalPages={maxPage} />
         <hr class="footer-line">
 		<div class="footer-content"> <p>© 2026 Shawn</p></div>
 	</footer>

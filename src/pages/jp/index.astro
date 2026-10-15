@@ -13,7 +13,6 @@ import ResearchInterests from '../../components/ResearchInterests.astro';
 
             <h1>平島詢也</h1>
             <p>Nanyang Technological University (NTU)🇸🇬 PhD Student<br>所属: School of Mathematical and Physical Sciences</p>
-			<p>複雑系・情報理論・AIに跨り、集団力学を研究しています。</p>
             <nav>
                 <a href="https://x.com/hsun_sghk" target="_blank" style="color: black;"><i class="fab fa-x-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/shunya-hirashima-612701204" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -141,7 +140,7 @@ import ResearchInterests from '../../components/ResearchInterests.astro';
         function setDetailsOpenState() {
             
     const isMobile = window.innerWidth <= 768;
-    const details = document.querySelectorAll('details');
+    const details = document.querySelectorAll('details.collapsible-mobile');
     
     details.forEach(detail => {
         if (!isMobile) {

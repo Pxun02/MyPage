@@ -1,0 +1,181 @@
+---
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
+const currentPath = Astro.url.pathname.replace(/\/$/, '');
+const items = [
+    { label: 'プロフィール', path: '/jp', section: '/jp' },
+    { label: 'ブログ', path: '/jp/blog/page-1', section: '/jp/blog' },
+    { label: 'NTU TIPS', path: '/jp/ntu_tips', section: '/jp/ntu_tips' },
+    { label: 'シンガポール生活TIPS', path: '/jp/tips', section: '/jp/tips' },
+    { label: '南洋豆花探訪記', path: '/jp/beancurd', section: '/jp/beancurd' },
+    { label: '年別ご飯ランキング', path: '/jp/gohan', section: '/jp/gohan' },
+    { label: '学部リーディングリスト', path: '/jp/rlist', section: '/jp/rlist' },
+].map((item) => {
+    const href = `${basePath}${item.path}`;
+    const section = `${basePath}${item.section}`;
+    const isSection = item.path !== '/jp' && currentPath.startsWith(`${section}/`);
+    const current: 'page' | 'location' | undefined = currentPath === href ? 'page' : isSection ? 'location' : undefined;
+    return { ...item, href, current };
+});
+---
+
+<ul class="menu">
+    {items.map((item) => (
+        <li><a href={item.href} aria-current={item.current}>{item.label}</a></li>
+    ))}
+</ul>
+
+<details class="mobile-navigation" data-mobile-navigation>
+    <summary>
+        メニュー
+        <svg class="menu-chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+            <path d="M2 8L6 4L10 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </summary>
+    <nav class="mobile-panel" aria-label="サイト内メニュー">
+        <ul>
+            {items.map((item) => (
+                <li><a href={item.href} aria-current={item.current}>{item.label}</a></li>
+            ))}
+        </ul>
+    </nav>
+</details>
+
+<script>
+    document.addEventListener('pointerdown', (event) => {
+        if (!(event.target instanceof Node)) return;
+        document.querySelectorAll<HTMLDetailsElement>('[data-mobile-navigation][open]').forEach((menu) => {
+            if (!menu.contains(event.target as Node)) menu.open = false;
+        });
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape') return;
+        document.querySelectorAll<HTMLDetailsElement>('[data-mobile-navigation][open]').forEach((menu) => {
+            menu.open = false;
+            menu.querySelector('summary')?.focus();
+        });
+    });
+</script>
+
+<style>
+    .mobile-navigation {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        :global(.ribbon .menu-line) {
+            min-height: 1.8rem;
+        }
+
+        .mobile-navigation {
+            display: block;
+            position: fixed;
+            left: 16px;
+            bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+            z-index: 1100;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .mobile-navigation > summary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 44px;
+            box-sizing: border-box;
+            padding: 0 14px;
+            border: 1px solid rgb(148 163 184 / 45%);
+            border-radius: 24px;
+            background: rgb(255 255 255 / 82%);
+            color: var(--accent);
+            box-shadow: 0 2px 12px rgb(15 23 42 / 12%);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            font-size: 0.85rem;
+            font-weight: 600;
+            line-height: 1.5;
+            list-style: none;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .mobile-navigation > summary::after {
+            content: none;
+        }
+
+        .mobile-navigation > summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .mobile-navigation[open] .menu-chevron {
+            transform: rotate(180deg);
+        }
+
+        .mobile-navigation .mobile-panel {
+            position: absolute;
+            left: 0;
+            bottom: calc(100% + 8px);
+            box-sizing: border-box;
+            width: min(18rem, calc(100vw - 32px));
+            max-height: 65vh;
+            max-height: calc(100dvh - 6rem - env(safe-area-inset-bottom, 0px));
+            overflow-y: auto;
+            overscroll-behavior: contain;
+            margin: 0;
+            padding: 6px;
+            border: 1px solid rgb(148 163 184 / 45%);
+            border-radius: 12px;
+            background: rgb(255 255 255 / 90%);
+            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(16px);
+            box-shadow: 0 4px 24px rgb(15 23 42 / 15%);
+            text-align: left;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .mobile-navigation:not([open]) .mobile-panel {
+            display: none;
+        }
+
+        .mobile-panel ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mobile-panel li {
+            margin: 0;
+        }
+
+        .mobile-panel a {
+            display: flex;
+            align-items: center;
+            min-height: 44px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 8px 12px;
+            border-radius: 7px;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-weight: 500;
+            line-height: 1.5;
+            text-decoration: none;
+        }
+
+        .mobile-panel a:hover,
+        .mobile-panel a[aria-current] {
+            background: var(--accent-light);
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .mobile-navigation > summary:focus-visible,
+        .mobile-panel a:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+    }
+</style>

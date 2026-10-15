@@ -1,0 +1,53 @@
+---
+import PageDropdown from './PageDropdown.astro';
+
+interface Props {
+    current: number;
+    totalPages: number;
+}
+
+const { current, totalPages } = Astro.props;
+const basePath = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/jp/blog`;
+const options = Array.from({ length: totalPages }, (_, index) => ({
+    label: String(index + 1),
+    href: `${basePath}/page-${index + 1}`,
+}));
+---
+
+<nav class="pagination blog-pagination" aria-label="ブログのページ切り替え">
+    {current > 1 ? (
+        <a href={`${basePath}/page-${current - 1}`} class="prev-page">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i> Previous
+        </a>
+    ) : <span aria-hidden="true"></span>}
+
+    <PageDropdown options={options} current={`${basePath}/page-${current}`} label="ブログのページを選択" />
+
+    {current < totalPages ? (
+        <a href={`${basePath}/page-${current + 1}`} class="next-page">
+            Next <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </a>
+    ) : <span aria-hidden="true"></span>}
+</nav>
+
+<style>
+    .blog-pagination {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        gap: 0.5rem;
+    }
+
+    .prev-page {
+        justify-self: start;
+    }
+
+    .next-page {
+        justify-self: end;
+    }
+
+    .blog-pagination a {
+        padding: 0.25rem 0.55rem;
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+</style>
